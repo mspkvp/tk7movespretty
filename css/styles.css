@@ -1,0 +1,490 @@
+/* ==========================================
+ * =    Mike Pinto                          =
+ * =    mspkvp@github.com                   =
+ * =    ©2017 tk7movespretty                =
+ * ========================================== */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Trump";
+    src: url("./assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
+}
+
+@font-face {
+    font-family: "CoreSans";
+    src: url("./assets/fonts/CoreSans/CoreSansG-Light.ttf");
+}
+
+body {
+    background-image: url('./assets/img/background.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Style scrollbar in webkit */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid hsla(193, 77%, 20%, 0.75);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: hsla(193, 77%, 20%, 0.75);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(193, 77%, 40%, 0.75);
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    max-width: 100vw;
+    max-height: 200px;
+}
+
+.header > img{
+	margin: 0;
+	max-width: 300px;
+	min-width: 150px;
+	height: auto;
+	flex-grow: 1.2;
+    flex-basis: 0;
+}
+
+.header > h3 {
+	margin: 0;
+    color: #ffffff;
+    font-family: "Trump";
+    font-size: 50px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-left: -15px;
+    align-self: flex-start;
+    flex-grow: 0.8;
+    flex-basis: 0;
+}
+
+@media only screen and (max-width: 801px) {
+    .header > h3 {
+        font-size: 45px;
+        margin-top: 8px;
+    }
+
+    .char-menu, .separator {
+        display: none;
+    }
+}
+
+
+.glow {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes glow {
+    from { text-shadow: 0 0 5px hsla(181, 92%, 50%, 1); }
+    to { text-shadow: 0 0 25px hsla(181, 92%, 50%, 1); }
+}
+
+.main-container {
+	width: 100vw;
+	height: 79vh;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+@media  only screen and (max-height: 800px){
+    .main-container {
+        height: 75vh;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #013a51;
+    height: 35px;
+    position: fixed;
+    left: 0px;
+    bottom: 15px;
+}
+
+.footer p {
+    color: #ffffff;
+    font-family: "CoreSans";
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.languages {
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    bottom: 45px;
+    font-family: "CoreSans";
+    left: 15px;
+    font-size: 15px;
+}
+
+.languages p {
+    margin: 0;
+}
+
+.languages p:hover {
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    cursor: pointer;
+}
+
+.languages p:not(:last-of-type):after {
+    margin-left: 5px;
+    margin-right: 5px;
+    content: "\2022";
+}
+
+.separator {
+	background-color: hsla(193, 77%, 40%, 0.5);
+	width: 2px;
+	height: 80vh;
+	margin-left: 5px;
+	margin-right: 5px; 
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    /*border-collapse: collapse;
+    overflow: hidden;*/
+}
+
+.char-menu {
+	width: 200px;
+	height: 100%;
+    margin-left: 5px;
+}
+
+.char-menu ::-webkit-scrollbar {
+    width: 0px;
+}
+
+.char-menu .head {
+    height: 7%;
+}
+
+.char-movelist {
+	width: 600px;
+	height: 100%;
+    margin-left: 3px;
+}
+
+.inner-table {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 93%;
+}
+
+.char-head {
+    color: #ffffff;
+    font-family: "Trump";
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    text-transform: uppercase;
+}
+
+.char-card {
+	max-width: 200px;
+	overflow: hidden;
+    position: relative;
+    display: block;
+    height: 100px;
+    border: 2px solid rgba(87,92,98,0.25);
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 3px;
+}
+
+.char-card:hover {
+    border: 2px solid hsla(193, 77%, 40%, 0.75);
+    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);
+    outline: none;
+    cursor: pointer;
+}
+
+.char-card img {
+	width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.char-card p {
+    color: #ffffff;
+    font-family: "CoreSans";
+    font-style: italic;
+    background-color: rgba(10,10,10,0.50);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 5px;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+    position: absolute;
+}
+
+.char-card .frame {
+    width: 188px;
+    height: 98px;
+    border: 2px solid rgba(0,0,0,1.0);
+    position: absolute;
+    margin: -1px;
+}
+
+.move-head {
+    color: #ffffff;
+    font-family: "Trump";
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px hsla(0, 100%, 47%, 1);
+}
+
+.move-table {
+    /*background-color: rgba(0,0,0,0.25);*/
+    border: 1px solid hsla(193, 77%, 40%, 0.25);
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+/* Move Cards CSS */
+
+.move-card {
+    color:  #ffffff;
+    font-family: "CoreSans";
+    border: 2px solid hsla(193, 77%, 20%, 0.75);
+    background-color: rgba(0,0,0,0.50);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100px;
+    border-radius: 1px;
+}
+
+.move-button, .move-arrow {
+    width: 40px;
+    height: auto;
+    padding: 1px;
+}
+
+.move-info {
+    position: relative;
+    width: 400px;
+}
+
+.move-number {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: hsla(193, 77%, 20%, 0.75);
+    left: 0;
+    top: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-bottom-right-radius: 20px;
+    font-size: 17px;
+    text-indent: -5px;
+}
+
+.move-hint {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.move-string {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    justify-content: flex-start;
+}
+
+.move-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.move-framestring, .move-dmgstring, .move-hitdmg, 
+.move-hitlvlstring, .move-startf, .move-blockf,
+.move-hitf, .move-dmg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.move-hitlvlstring {
+    margin: 3px 0 5px 50px;
+    width: 60%;
+}
+
+.mv-hitlvl {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.hithigh {
+    color:  #ffc6ff;
+}
+
+.hitmid {
+    color: #ffff79;
+}
+
+.hitlow {
+    color:  #9cd3fc;
+}
+
+.fa-chevron-right {
+    margin: 0 5px 0 5px;
+}
+
+.move-frames > div > p {
+    margin: 0;
+}
+
+.move-frames {
+    width: 100px;
+}
+
+.move-frames .mv-id {
+    text-transform: uppercase;
+    width: 60px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.move-frames .mv-frames {
+    width: 30px;
+    text-align: right;
+}
+
+.move-frames .negative {
+    color:  #ff0000;
+}
+
+.move-hits {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.move-hitamount {
+    width: 40%;
+    text-align: left;
+    color: #f19700;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.move-dmg {
+    margin-right: 5px;
+    justify-content: flex-end;
+    margin-top: 1px;
+}
+
+.move-dmg p {
+    margin: 0;
+    margin-right: 2px;
+    color: #dace00;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 17px;
+}
+
+.move-dmg .fa-arrow-right {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.move-extra {
+    height: 100%;
+    display: table;
+}
+
+.mv-section {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: center;
+}
+
+.move-special {
+    width: 100px;
+}
+
+.move-special p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 18px;
+}
+
+p.spin {
+    color:  #1a8000;
+}
+
+p.armor {
+    color:  #cb0000;
+}
+
+p.homing {
+    color:  #0079ff;
+}
+
