@@ -14,16 +14,16 @@ body {
 
 @font-face {
     font-family: "Trump";
-    src: url("./assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
+    src: url("./../assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
 }
 
 @font-face {
     font-family: "CoreSans";
-    src: url("./assets/fonts/CoreSans/CoreSansG-Light.ttf");
+    src: url("./../assets/fonts/CoreSans/CoreSansG-Light.ttf");
 }
 
 body {
-    background-image: url('./assets/img/background.jpg');
+    background-image: url('./../assets/img/background.jpg');
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
