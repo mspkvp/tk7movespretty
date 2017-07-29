@@ -208,7 +208,8 @@ table {
 }
 
 .char-movelist {
-    width: 600px;
+    /*width: 600px;*/
+    max-width: 88vw;
     height: 100%;
     margin-left: 3px;
 }
@@ -244,6 +245,11 @@ table {
     box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);
     outline: none;
     cursor: pointer;
+}
+
+.selected {
+    border: 2px solid hsla(193, 77%, 40%, 0.75);
+    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);   
 }
 
 .char-card img {
@@ -385,7 +391,7 @@ table {
     color:  #9cd3fc;
 }
 
-.fa-chevron-right {
+.fa-chevron-right, .fa-caret-right {
     margin: 0 5px 0 5px;
 }
 
@@ -484,6 +490,6 @@ p.armor {
     color:  #cb0000;
 }
 
-p.homing {
+p.track {
     color:  #0079ff;
 }

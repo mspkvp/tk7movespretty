@@ -1,0 +1,33 @@
+{
+  "name": "toolassisted-tekken7-movelist-pretty",
+  "version": "1.0.0",
+  "description": "A pretty visual representation of toolassisted@github Tekken 7 movelists",
+  "main": "./js/scripts.js",
+  "scripts": {
+    "start": "node ./other/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mspkvp/tk7movespretty.git"
+  },
+  "keywords": [
+    "tekken7",
+    "gaming",
+    "learning",
+    "html",
+    "css",
+    "js",
+    "design"
+  ],
+  "author": "Mike Pinto <mikepinto.msp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mspkvp/tk7movespretty/issues"
+  },
+  "homepage": "https://github.com/mspkvp/tk7movespretty#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^3.6.2",
+    "serve-static": "^1.12.3"
+  }
+}
