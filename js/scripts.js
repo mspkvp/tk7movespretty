@@ -164,8 +164,8 @@ var fetchmovelist = function fetchmovelist(index) {
 						try{
 							if( isLetter(ctrls_map[commands[c].charAt(m)])){
 								if(	ctrls_map[commands[c].charAt(m)] === ctrls_map[commands[c].charAt(m)].toLowerCase() || ctrls_map[commands[c].charAt(m)] === "N")
-									html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)]+".svg\">";
-								else html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)]+"p"+".svg\">";
+									html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)].toLowerCase()+".svg\">";
+								else html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)].toLowerCase()+"p"+".svg\">";
 							}
 							else if(!isNaN(ctrls_map[commands[c].charAt(m)].charAt(0)))
 								html_string += "<img class=\"move-button\" src=\"./assets/button/XBOX/"+ctrls_map[commands[c].charAt(m)]+".svg\">";

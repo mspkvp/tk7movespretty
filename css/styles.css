@@ -391,6 +391,14 @@ table {
     color:  #9cd3fc;
 }
 
+.hitsmid {
+    color: #00d56d;
+}
+
+.hitnoblk {
+    color: #0cc;
+}
+
 .fa-chevron-right, .fa-caret-right {
     margin: 0 5px 0 5px;
 }
