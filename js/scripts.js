@@ -57,6 +57,7 @@ var importdata = function importdata(){
 				}
 				var id_string = char_data[selected_char].c.split(" ");
 				d3.select("#"+id_string[0]).classed("selected", true);
+				d3.select("#selected-title").text(char_data[selected_char].n);
 				fetchmovelist(selected_char);
 			});
 		});
@@ -85,6 +86,7 @@ var fetchmovelist = function fetchmovelist(index) {
 		selected_char = index;
 		id_string = char_data[selected_char].c.split(" ");
 		d3.select("#"+id_string[0]).classed("selected", true);
+		d3.select("#selected-title").text(char_data[selected_char].n);
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name
 			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+(data.moves[i].number>0?data.moves[i].number:"&#9733;")+"</div>"+
