@@ -276,10 +276,11 @@ table {
 }
 
 .char-card img {
-    width: 100px;
+    width: auto;
     position: absolute;
     bottom: 0px;
     right: 0px;
+    height: 100%;
 }
 
 .char-card p {
