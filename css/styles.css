@@ -209,7 +209,7 @@ table {
 
 .char-movelist {
     /*width: 600px;*/
-    max-width: 88vw;
+    max-width: 970px;
     height: 100%;
     margin-left: 3px;
 }
@@ -218,6 +218,7 @@ table {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 93%;
+    max-width: 100%;
 }
 
 .char-head {
@@ -242,10 +243,26 @@ table {
 
 .char-card:hover {
     border: 2px solid hsla(193, 77%, 40%, 0.75);
-    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);
+    /*box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);*/
     outline: none;
     cursor: pointer;
+
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: char-card-glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-name: char-card-glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
 }
+
+@-webkit-keyframes char-card-glow {
+    from { box-shadow: inset 0 0 14px 5px hsla(193, 77%, 40%, 0.75);  }
+    to { box-shadow: inset 0 0 60px 4px hsla(193, 77%, 40%, 0.75); }
+}
+
 
 .selected {
     border: 2px solid hsla(193, 77%, 40%, 0.75);
@@ -296,6 +313,7 @@ table {
     border: 1px solid hsla(193, 77%, 40%, 0.25);
     margin-top: 2px;
     border-radius: 2px;
+    max-width: 100%;
 }
 
 /* Move Cards CSS */
@@ -309,6 +327,7 @@ table {
     flex-direction: row;
     align-items: flex-start;
     border-radius: 1px;
+    max-width: 100%;
 }
 
 .move-button, .move-arrow {
@@ -319,6 +338,7 @@ table {
 
 .move-info {
     position: relative;
+    max-width: 760px;
 }
 
 .move-title, .move-hit-dmg {
@@ -351,8 +371,13 @@ table {
     flex-direction: row;
     align-items: center;
     margin-left: 50px;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
+.move-string ::-webkit-scrollbar {
+    height: 8px;
+}
 .move-name {
     font-size: 20px;
     font-weight: bold;
@@ -367,6 +392,14 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.move-hitdmg-tooltip {
+    margin-left: 5px;
+}
+
+.move-hitdmg {
+    display: none;
 }
 
 .move-dmg::before{
@@ -419,6 +452,7 @@ table {
 
 .move-frames {
     width: 100px;
+    margin-left: 10px;
 }
 
 .move-frames .mv-id {
@@ -482,13 +516,12 @@ table {
 .mv-section {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    max-width: 185px;
     align-items: center;
 }
 
 .move-special {
     max-width: 100px;
-    margin-left: 10px;
 }
 
 .move-special p {
@@ -501,6 +534,7 @@ table {
     font-weight: bold;
     text-shadow: 0px 0px 5px #000000;
     font-size: 18px;
+    margin-left: 10px;
 }
 
 p.spin {

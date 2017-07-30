@@ -48,15 +48,6 @@ var importdata = function importdata(){
 					char_data[data[h].i] = {c: data[h].c, n: data[h].n};
 
 				for(let i=0; i<data.length; i++){
-					/*
-					<tr>
-						<td class="char-card">
-							<img src="./assets/chars/kazumi_thumbnail.png">
-							<p>Kazumi</p>
-							<div class="frame"></div>
-						</td>
-					</tr>
-					*/
 					var tname = data[i].c.split(" ");
 					if(data[i].i == "11")
 						tname = data[i].c.split("-");
@@ -73,62 +64,6 @@ var importdata = function importdata(){
 }
 
 var fetchmovelist = function fetchmovelist(index) {
-	/*<td class="move-card">
-		<div class="move-info">
-			<div class="move-number">1</div>
-			<div class="move-name">Move Name</div>
-			<div class="move-string">
-				<p class="move-hint">Move Status</p>
-				<img class="move-arrow" src="./assets/arrow/f.svg">
-				<img class="move-arrow" src="./assets/arrow/dfp.svg">
-				<img class="move-button" src="./assets/button/XBOX/1+2.svg">
-				<img class="move-button" src="./assets/button/XBOX/1+3.svg">
-				<img class="move-button" src="./assets/button/XBOX/1+2+3+4.svg">
-			</div>
-			<div class="move-hits">
-				<div class="move-hitlvlstring">	
-					<p class="mv-hitlvl hithigh">High</p>
-					<i class="fa fa-chevron-right" aria-hidden="true"></i>
-					<p class="mv-hitlvl hitmid">Mid</p>
-					<i class="fa fa-chevron-right" aria-hidden="true"></i>
-					<p class="mv-hitlvl hitlow">Low</p>
-				</div>
-				<div class="move-hitamount">3 Hit Combo</div>	
-			</div>
-
-		</div>
-		<div class="move-extra">
-			<div class="mv-section">
-				<div class="move-special">
-					<p class="spin">SPIN</p>
-					<p class="armor">ARMOR</p>
-					<p class="homing">HOMING</p>
-				</div>
-				<table class="move-frames">
-					<tr class="move-startf">
-						<td class="mv-id">Start</td>
-						<td class="mv-frames">13F</td>
-					</tr>
-					<tr class="move-blockf">
-						<td class="mv-id">Block</td>
-						<td class="mv-frames negative">-17</td>
-					</tr>
-					<tr class="move-hitf">
-						<td class="mv-id">Hit</td>
-						<td class="mv-frames">+20</td>
-					</tr>
-				</table>
-			</div>
-			<div class="move-dmg">
-				<p class="mv-frames">25</p>
-				<p class="mv-id">Damage</p>
-				<div class="move-hitdmg">
-					<i class="fa fa-arrow-right" aria-hidden="true"></i>7 + 8 + 12
-				</div>
-			</div>
-		</div>
-	</td>
-	*/
   	function toHexArr(str) {
 	    var result = [];
 	    for (var i=0; i<str.length; i++) {
@@ -152,7 +87,7 @@ var fetchmovelist = function fetchmovelist(index) {
 		d3.select("#"+id_string[0]).classed("selected", true);
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name
-			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+data.moves[i].number+"</div>"+
+			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+(data.moves[i].number>0?data.moves[i].number:"&#9733;")+"</div>"+
 			"<div class=\"move-title\"><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div>"+
 			"<div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div>"+
 			"<div class=\"move-string\">";
@@ -231,8 +166,8 @@ var fetchmovelist = function fetchmovelist(index) {
 				html_string += "<p class=\"mv-hitlvl\">"+data.moves[i].br[0].f + "F BREAK "+breakt+"</p>";
 			}
 			html_string += "</div>";
-						// Move Damage
-			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><div class=\"move-hitdmg\"><i class=\"fa fa-arrow-right\" aria-hidden=\"true\"></i>";
+			// Move Damage
+			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><i class=\"fa fa-plus-square move-hitdmg-tooltip\" aria-hidden=\"true\"></i><div class=\"move-hitdmg\">";
 			for( let d=0; d<data.moves[i].ds.length; d++){
 				html_string += data.moves[i].ds[d].d;
 				if( d+1 < data.moves[i].ds.length )
