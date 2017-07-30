@@ -205,6 +205,8 @@ table {
 
 .char-menu .head {
     height: 7%;
+    width: auto;
+    margin-left: 10px;
 }
 
 .char-movelist {
@@ -212,6 +214,10 @@ table {
     max-width: 970px;
     height: 100%;
     margin-left: 3px;
+}
+
+.char-movelist .head {
+    width: auto;
 }
 
 .inner-table {
@@ -314,6 +320,7 @@ table {
     margin-top: 2px;
     border-radius: 2px;
     max-width: 100%;
+    width: auto;
 }
 
 /* Move Cards CSS */
@@ -375,8 +382,8 @@ table {
     overflow-x: auto;
 }
 
-.move-string ::-webkit-scrollbar {
-    height: 8px;
+div.move-string::-webkit-scrollbar {
+    height: 8px !important;
 }
 .move-name {
     font-size: 20px;
@@ -453,6 +460,7 @@ table {
 .move-frames {
     width: 100px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .move-frames .mv-id {
