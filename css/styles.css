@@ -308,7 +308,6 @@ table {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    height: 100px;
     border-radius: 1px;
 }
 
@@ -320,7 +319,12 @@ table {
 
 .move-info {
     position: relative;
-    width: 400px;
+}
+
+.move-title, .move-hit-dmg {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .move-number {
@@ -333,7 +337,7 @@ table {
     margin-left: -1px;
     margin-top: -1px;
     border-bottom-right-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
     text-indent: -5px;
 }
 
@@ -346,16 +350,14 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
     margin-left: 50px;
-    justify-content: flex-start;
 }
 
 .move-name {
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
     margin-left: 50px;
+    margin-right: 10px;
     padding-top: 5px;
 }
 
@@ -367,9 +369,17 @@ table {
     align-items: center;
 }
 
+.move-dmg::before{
+    margin-left: 10px;
+    margin-right: 10px;
+    content: "\007C";
+    align-self: baseline;
+    font-weight: bold;
+    color: hsl(193, 77%, 20%);
+}
+
 .move-hitlvlstring {
     margin: 3px 0 5px 50px;
-    width: 60%;
 }
 
 .mv-hitlvl {
@@ -423,18 +433,19 @@ table {
     text-align: right;
 }
 
-.move-frames .negative {
+.move-frames .blknegative {
     color:  #ff0000;
 }
 
-.move-hits {
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
+.move-frames .blkpositive {
+    color:  #00ff00;
+}
+
+.move-frames .blkmild {
+    color:  #ffff00;
 }
 
 .move-hitamount {
-    width: 40%;
     text-align: left;
     color: #f19700;
     font-weight: bold;
@@ -454,7 +465,8 @@ table {
     margin-right: 2px;
     color: #dace00;
     text-shadow: 0px 0px 5px #000000;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .move-dmg .fa-arrow-right {
@@ -475,7 +487,8 @@ table {
 }
 
 .move-special {
-    width: 100px;
+    max-width: 100px;
+    margin-left: 10px;
 }
 
 .move-special p {

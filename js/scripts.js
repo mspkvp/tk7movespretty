@@ -152,7 +152,10 @@ var fetchmovelist = function fetchmovelist(index) {
 		d3.select("#"+id_string[0]).classed("selected", true);
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name
-			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+data.moves[i].number+"</div><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div><div class=\"move-string\">";
+			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+data.moves[i].number+"</div>"+
+			"<div class=\"move-title\"><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div>"+
+			"<div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div>"+
+			"<div class=\"move-string\">";
 
 			// Move String
 			let commands = data.moves[i].command[lang].split(" ");
@@ -188,7 +191,7 @@ var fetchmovelist = function fetchmovelist(index) {
 			}
 			
 			// Hit Levels
-			html_string += "</div><div class=\"move-hits\"><div class=\"move-hitlvlstring\">";
+			html_string += "</div><div class=\"move-hit-dmg\"><div class=\"move-hitlvlstring\">";
 			for( let h=0; h<data.moves[i].at.length;h++){
 				try{
 				html_string += "<p class=\"mv-hitlvl hit"+hits_map[data.moves[i].at[h].l].toLowerCase()+"\">"
@@ -227,7 +230,15 @@ var fetchmovelist = function fetchmovelist(index) {
 				html_string += "<i class=\"fa fa-caret-right\" aria-hidden=\"true\"></i>";
 				html_string += "<p class=\"mv-hitlvl\">"+data.moves[i].br[0].f + "F BREAK "+breakt+"</p>";
 			}
-			html_string += "</div><div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div></div>";
+			html_string += "</div>";
+						// Move Damage
+			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><div class=\"move-hitdmg\"><i class=\"fa fa-arrow-right\" aria-hidden=\"true\"></i>";
+			for( let d=0; d<data.moves[i].ds.length; d++){
+				html_string += data.moves[i].ds[d].d;
+				if( d+1 < data.moves[i].ds.length )
+					html_string += " + ";
+			}
+			html_string += "</div></div></div></div>";
 
 			// extra section
 			html_string += "<div class=\"move-extra\"><div class=\"mv-section\"><div class=\"move-special\">";
@@ -247,21 +258,14 @@ var fetchmovelist = function fetchmovelist(index) {
 				"<tr class=\"move-startf\"><td class=\"mv-id\">Start</td><td class=\"mv-frames\">"+
 				data.moves[i].s+"F</td></tr>";
 			// Block F
-			html_string += "<tr class=\"move-blockf\"><td class=\"mv-id\">Block</td><td class=\"mv-frames negative\">"+data.moves[i].blk+"</td></tr>";
+			html_string += "<tr class=\"move-blockf\"><td class=\"mv-id\">Block</td><td class=\"mv-frames "+(data.moves[i].blk>-1?"blkpositive\">+":data.moves[i].blk<-10?"blknegative\">":"blkmild\">")+data.moves[i].blk+"</td></tr>";
 			// Hit Adv F
 			html_string += "<tr class=\"move-hitf\"><td class=\"mv-id\">Hit</td>"+"<td class=\"mv-frames\">"
 				+(data.moves[i].adv>0?"+"+data.moves[i].adv:data.moves[i].adv)+"</td></tr></table>";
 			html_string += "</div>";
 			// ----- mv section
 
-			// Move Damage
-			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><div class=\"move-hitdmg\"><i class=\"fa fa-arrow-right\" aria-hidden=\"true\"></i>";
-			for( let d=0; d<data.moves[i].ds.length; d++){
-				html_string += data.moves[i].ds[d].d;
-				if( d+1 < data.moves[i].ds.length )
-					html_string += " + ";
-			}
-			html_string += "</div></div></div></td>";
+			html_string += "</div></td>";
 			
 			d3.select(".move-table").append("tr").html(html_string);
 		}
