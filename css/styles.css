@@ -76,7 +76,7 @@ body {
 .header > h3 {
     margin: 0;
     color: #ffffff;
-    font-family: "Trump";
+    font-family: "Trump", Arial, sans-serif;
     font-size: 50px;
     margin-top: 5px;
     font-style: italic;
@@ -124,7 +124,7 @@ body {
 
 .footer p {
     color: #ffffff;
-    font-family: "CoreSans";
+    font-family: "CoreSans", Arial, sans-serif;
     overflow-x: auto;
     white-space: nowrap;
     margin: 0;
@@ -145,7 +145,7 @@ body {
     flex-direction: row;
     color: #ffffff;
     bottom: 45px;
-    font-family: "CoreSans";
+    font-family: "CoreSans", Arial, sans-serif;
     left: 15px;
     font-size: 15px;
     align-items: baseline;
@@ -209,8 +209,6 @@ table {
     margin-left: 3px;
 }
 
-
-
 .char-movelist .head {
     margin-left: 25px;
     width: auto;
@@ -225,7 +223,7 @@ table {
 
 .char-head {
     color: #ffffff;
-    font-family: "Trump";
+    font-family: "Trump", Arial, sans-serif;
     font-size: 40px;
     font-style: italic;
     text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
@@ -272,15 +270,15 @@ table {
 
 .char-card img {
     width: 100%;
+    height: auto;
     position: absolute;
     bottom: 0px;
     right: 0px;
-    height: auto;
 }
 
 .char-card p {
     color: #ffffff;
-    font-family: "CoreSans";
+    font-family: "CoreSans", Arial, sans-serif;
     font-style: italic;
     background-color: rgba(10,10,10,0.50);
     font-size: 25px;
@@ -295,7 +293,7 @@ table {
 
 .move-head {
     color: #ffffff;
-    font-family: "Trump";
+    font-family: "Trump", Arial, sans-serif;
     font-size: 40px;
     font-style: italic;
     text-transform: uppercase;
@@ -315,7 +313,7 @@ table {
 
 .move-card {
     color:  #ffffff;
-    font-family: "CoreSans";
+    font-family: "CoreSans", Arial, sans-serif;
     border: 2px solid hsla(193, 77%, 20%, 0.75);
     background-color: rgba(0,0,0,0.50);
     display: flex;
