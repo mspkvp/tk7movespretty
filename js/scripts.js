@@ -52,7 +52,7 @@ var importdata = function importdata(){
 					if(data[i].i == "11")
 						tname = data[i].c.split("-");
 					d3.select(".char-menu > .inner-table > table").append("tr")
-						.html("<td class=\"char-card\" id=\""+data[i].c.split(" ")[0]+"\"><img src=\"./assets/chars/"+tname.join("").toLowerCase()+"_thumbnail.png\"><p>"+data[i].c+"</p><div class=\"frame\"></div></td>");
+						.html("<td class=\"char-card\" id=\""+data[i].c.split(" ")[0]+"\"><img src=\"./assets/chars/"+tname.join("").toLowerCase()+"_thumbnail.png\"><p>"+data[i].c+"</p></td>");
 					d3.select("#"+data[i].c.split(" ")[0]).on("click", function(){fetchmovelist(data[i].i)});
 				}
 				var id_string = char_data[selected_char].c.split(" ");
@@ -89,12 +89,21 @@ var fetchmovelist = function fetchmovelist(index) {
 		d3.select("#selected-title").text(char_data[selected_char].n);
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name
-			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+(data.moves[i].number>0?data.moves[i].number:"&#9733;")+"</div>"+
-			"<div class=\"move-title\"><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div>"+
-			"<div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div>"+
-			"<div class=\"move-string\">";
+			// Special 
+			if(!data.moves[i].number>0){
+				let html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">&#9733;</div>"+
+					"<div class=\"move-title\"><div class=\"move-name\" style=\"margin-bottom:5px;\">"+data.moves[i].name[jap?0:1]+"</div>"+
+					"</div></div></td>";
+				d3.select(".move-table").append("tr").html(html_string);
+				continue;
+			}
 
+			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+data.moves[i].number+"</div>"+
+			"<div class=\"move-title\"><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div>"+
+			"<div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div>";
+			
 			// Move String
+			html_string += "<div class=\"move-string\">";
 			let commands = data.moves[i].command[lang].split(" ");
 			for( let c=0; c<commands.length;c++){
 				if(/[a-z]/.test(commands[c].toLowerCase()))
@@ -203,7 +212,7 @@ var fetchmovelist = function fetchmovelist(index) {
 			// ----- mv section
 
 			html_string += "</div></td>";
-			
+
 			d3.select(".move-table").append("tr").html(html_string);
 		}
 	});

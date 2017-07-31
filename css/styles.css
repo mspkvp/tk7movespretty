@@ -86,18 +86,6 @@ body {
     flex-basis: 0;
 }
 
-@media only screen and (max-width: 801px) {
-    .header > h3 {
-        font-size: 45px;
-        margin-top: 8px;
-    }
-
-    .char-menu, .separator {
-        display: none;
-    }
-}
-
-
 .glow {
     -webkit-animation-duration: 2s;
     -webkit-animation-name: glow;
@@ -125,12 +113,6 @@ body {
     text-align: center;
 }
 
-@media  only screen and (max-height: 800px){
-    .main-container {
-        height: 75vh;
-    }
-}
-
 .footer {
     width: 100%;
     background-color: #013a51;
@@ -143,16 +125,21 @@ body {
 .footer p {
     color: #ffffff;
     font-family: "CoreSans";
-    overflow: hidden;
+    overflow-x: auto;
     white-space: nowrap;
     margin: 0;
     margin-left: 15px;
+    margin-right: 15px;
     margin-top: 7px;
+}
+
+.footer p::-webkit-scrollbar {
+    height: 0px !important;
 }
 
 .languages {
     height: 35px;
-    width: 100%;
+    width: calc(100vw - 30px);
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -161,6 +148,9 @@ body {
     font-family: "CoreSans";
     left: 15px;
     font-size: 15px;
+    align-items: baseline;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
 .languages p {
@@ -176,6 +166,10 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     content: "\2022";
+}
+
+.languages::-webkit-scrollbar {
+    height: 0px !important;
 }
 
 .separator {
@@ -215,6 +209,8 @@ table {
     margin-left: 3px;
 }
 
+
+
 .char-movelist .head {
     margin-left: 25px;
     width: auto;
@@ -223,7 +219,7 @@ table {
 .inner-table {
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 93%;
+   height: calc(100% - 40px);
     max-width: 100%;
 }
 
@@ -237,12 +233,11 @@ table {
 }
 
 .char-card {
-    max-width: 200px;
     overflow: hidden;
     position: relative;
     display: block;
     height: 100px;
-    border: 2px solid rgba(87,92,98,0.25);
+    border: 2px solid hsla(193, 77%, 20%, 0.75);
     background-color: rgba(0,0,0,0.50);
     border-radius: 3px;
 }
@@ -265,8 +260,8 @@ table {
 }
 
 @-webkit-keyframes char-card-glow {
-    from { box-shadow: inset 0 0 14px 5px hsla(193, 77%, 40%, 0.75);  }
-    to { box-shadow: inset 0 0 60px 4px hsla(193, 77%, 40%, 0.75); }
+    from { box-shadow: inset 0 0 100px 0px hsla(193, 77%, 40%, 0.75);  }
+    to { box-shadow: inset 0 0 150px 10px hsla(193, 77%, 40%, 0.75); }
 }
 
 
@@ -296,14 +291,6 @@ table {
     bottom: 0px;
     margin: 0;
     position: absolute;
-}
-
-.char-card .frame {
-    width: 188px;
-    height: 98px;
-    border: 2px solid rgba(0,0,0,1.0);
-    position: absolute;
-    margin: -1px;
 }
 
 .move-head {
@@ -336,6 +323,7 @@ table {
     align-items: flex-start;
     border-radius: 1px;
     max-width: 100%;
+    justify-content: space-between;
 }
 
 .move-button, .move-arrow {
@@ -556,4 +544,65 @@ p.armor {
 
 p.track {
     color:  #0079ff;
+}
+
+
+
+@media only screen and (max-height: 800px){
+    .main-container {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .char-movelist {
+        max-width: 80vw;
+    }
+
+    .move-info {
+        max-width: calc(100vw - 400px);
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    .header {
+        padding: 0;
+    }
+
+    .header > h3 {
+        font-size: 45px;
+        margin-top: 8px;
+    }
+
+    .move-head {
+        font-size: 35px;
+    }
+
+    .inner-table {
+        height: calc(100% - 45px);
+    }
+
+    .char-menu, .separator {
+        display: none;
+    }
+
+    .char-movelist {
+        max-width: 98vw;
+    }
+
+    .move-string, .move-hit-dmg *, .move-extra * {
+        font-size: 14px !important;
+    }
+
+    .move-info {
+        max-width: calc(100vw - 200px);
+    }
+
+    .move-button, .move-arrow {
+        width: 30px;
+    }
+
+    .move-title * {
+        font-size: 17px;
+    }
 }
