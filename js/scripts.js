@@ -6,8 +6,12 @@
 
 'use strict';
 
-var char_data = [], ctrls_map, hits_map = [],
-	selected_char = "32";
+var char_data = [], 
+	ctrls_map,
+	hits_map = [],
+	selected_char = "32",
+	lang = 1,
+	jap = false;
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
@@ -22,7 +26,7 @@ String.prototype.hexEncode = function(){
         result += ("000"+hex).slice(-4);
     }
 
-    return result
+    return result;
 }
 
 String.prototype.hexDecode = function(){
@@ -34,6 +38,18 @@ String.prototype.hexDecode = function(){
     }
 
     return back;
+}
+
+function setLang(index){
+	lang = index;
+
+	if(index === 0)
+		jap = true;
+
+	var id_string = char_data[selected_char].c.split(" ");
+	d3.select("#"+id_string[0]).classed("selected", true);
+	d3.select("#selected-title").text(char_data[selected_char].n);
+	fetchmovelist(selected_char);
 }
 
 var importdata = function importdata(){
@@ -60,6 +76,18 @@ var importdata = function importdata(){
 				d3.select("#selected-title").text(char_data[selected_char].n);
 				fetchmovelist(selected_char);
 			});
+
+			d3.select("#lang0").on("click", function(){setLang(0);});
+			d3.select("#lang1").on("click", function(){setLang(1);});
+			d3.select("#lang3").on("click", function(){setLang(3);});
+			d3.select("#lang4").on("click", function(){setLang(4);});
+			d3.select("#lang5").on("click", function(){setLang(5);});
+			d3.select("#lang6").on("click", function(){setLang(6);});
+			d3.select("#lang7").on("click", function(){setLang(7);});
+			d3.select("#lang8").on("click", function(){setLang(8);});
+			d3.select("#lang9").on("click", function(){setLang(9);});
+			d3.select("#lang10").on("click", function(){setLang(10);});
+			d3.select("#lang11").on("click", function(){setLang(11);});
 		});
 	});
 }
@@ -72,9 +100,6 @@ var fetchmovelist = function fetchmovelist(index) {
 	    }
 	    return result;
   	}
-
-	var lang = 1;
-	var jap = false;
 
 	d3.json("./assets/data/movelists/MOVELIST_"+index+".json", function(err, data) {
 		//remove other moves
