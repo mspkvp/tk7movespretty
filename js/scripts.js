@@ -110,6 +110,7 @@ var fetchmovelist = function fetchmovelist(index) {
 		id_string = char_data[selected_char].c.split(" ");
 		d3.select("#"+id_string[0]).classed("selected", true);
 		d3.select("#selected-title").text(char_data[selected_char].n);
+		var mov_count = 0;
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name
 			// Special 
@@ -120,7 +121,7 @@ var fetchmovelist = function fetchmovelist(index) {
 				d3.select(".move-table").append("tr").html(html_string);
 				continue;
 			}
-
+			mov_count++;
 			var html_string = "<td class=\"move-card\"><div class=\"move-info\"><div class=\"move-number\">"+data.moves[i].number+"</div>"+
 			"<div class=\"move-title\"><div class=\"move-name\">"+data.moves[i].name[jap?0:1]+"</div>"+
 			"<div class=\"move-hitamount\">"+data.moves[i].ds.length+(data.moves[i].ds.length>1?" Hits":" Hit")+"</div></div>";
@@ -201,13 +202,13 @@ var fetchmovelist = function fetchmovelist(index) {
 			}
 			html_string += "</div>";
 			// Move Damage
-			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><i class=\"fa fa-plus-square move-hitdmg-tooltip\" aria-hidden=\"true\"></i><div class=\"move-hitdmg\">";
+			html_string += "<div class=\"move-dmg\"><p class=\"mv-frames\">"+data.moves[i].d+"</p><p class=\"mv-id\">Damage</p><div class=\"move-hitdmg-section\"><i id=\"dmgmove"+data.moves[i].number+"\" class=\"fa fa-plus-square\" aria-hidden=\"true\"></i><div class=\"move-hitdmg\">";
 			for( let d=0; d<data.moves[i].ds.length; d++){
 				html_string += data.moves[i].ds[d].d;
 				if( d+1 < data.moves[i].ds.length )
-					html_string += " + ";
+					html_string += "+";
 			}
-			html_string += "</div></div></div></div>";
+			html_string += "</div></div></div></div></div>";
 
 			// extra section
 			html_string += "<div class=\"move-extra\"><div class=\"mv-section\"><div class=\"move-special\">";
@@ -237,6 +238,12 @@ var fetchmovelist = function fetchmovelist(index) {
 			html_string += "</div></td>";
 
 			d3.select(".move-table").append("tr").html(html_string);
+		}
+
+		for(var m=1; m<=mov_count; m++){
+			var moveid = m;
+			d3.select("#dmgmove"+moveid).on("mouseenter", function(){console.log("i#"+this.id+" + div.move-hitdmg"); d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
+			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 500);});
 		}
 	});
 }

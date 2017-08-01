@@ -212,14 +212,51 @@ table {
 .char-movelist .head {
     margin-left: 25px;
     width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.char-movelist .head p {
+    margin: 3px 15px 3px 0px;
+}
+
+.move-filter {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: hsla(193, 77%, 20%, 0.75);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-family: "CoreSans", Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    cursor: no-drop;
 }
 
 .inner-table {
     overflow-y: scroll;
     overflow-x: hidden;
-   height: calc(100% - 40px);
+    height: calc(100% - 40px);
     max-width: 100%;
 }
+/* Add fighter render to the right side of the table
+.char-movelist .inner-table::after {
+    content: "";
+    background-image: url(./../assets/chars/luckychloe.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right bottom;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+}*/
 
 .char-head {
     color: #ffffff;
@@ -367,6 +404,7 @@ table {
     margin-left: 50px;
     max-width: 100%;
     overflow-x: auto;
+    cursor: grab;
 }
 
 div.move-string::-webkit-scrollbar {
@@ -388,11 +426,30 @@ div.move-string::-webkit-scrollbar {
     align-items: center;
 }
 
-.move-hitdmg-tooltip {
+.move-hitdmg-section {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fa-plus-square {
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .move-hitdmg {
+    background-color: rgba(0,0,0,0.75);
+    border: 1px solid hsla(193, 77%, 20%, 0.75);
+    padding: 0px 10px 0 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    max-width: 100%;
+    font-size: 1.5vmin;
+    display: none;
+}
+
+.hidden {
     display: none;
 }
 
