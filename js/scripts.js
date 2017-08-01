@@ -49,12 +49,11 @@ var importdata = function importdata(){
 
 				for(let i=0; i<data.length; i++){
 					var tname = data[i].c.split(" ");
-					var char_id = data[i].i;
-					if(char_id == "11")
+					if(data[i].i == "11")
 						tname = data[i].c.split("-");
 					d3.select(".char-menu > .inner-table > table").append("tr")
 						.html("<td class=\"char-card\" id=\""+data[i].c.split(" ")[0]+"\"><img src=\"./assets/chars/"+tname.join("").toLowerCase()+"_thumbnail.png\"><p>"+data[i].c+"</p></td>");
-					d3.select("#"+data[i].c.split(" ")[0]).on("click", function(){fetchmovelist(char_id)});
+					d3.select("#"+data[i].c.split(" ")[0]).on("click", function(){fetchmovelist(data[i].i)});
 				}
 				var id_string = char_data[selected_char].c.split(" ");
 				d3.select("#"+id_string[0]).classed("selected", true);
