@@ -601,7 +601,11 @@ p.track {
     color:  #0079ff;
 }
 
-
+.move-startf-seg td {
+    background: linear-gradient(hsla(193, 77%, 20%, 0), hsla(193, 77%, 20%, 0.75));
+    border-radius: 5px;
+    font-size: 1.3vmin;
+}
 
 @media only screen and (max-height: 800px){
     .main-container {

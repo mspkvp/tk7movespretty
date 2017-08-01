@@ -227,6 +227,16 @@ var fetchmovelist = function fetchmovelist(index) {
 			html_string += "<table class=\"move-frames\">"+
 				"<tr class=\"move-startf\"><td class=\"mv-id\">Start</td><td class=\"mv-frames\">"+
 				data.moves[i].s+"F</td></tr>";
+			//Start Frames Segmented
+			if(data.moves[i].s > 0 ){
+				html_string += "<tr class=\"move-startf-seg\"><td>"+data.moves[i].s+"F = ";
+				for(var sfs=1; sfs<data.moves[i].ss.length; sfs++){
+					html_string += data.moves[i].ss[sfs].s;
+					if( sfs+1 < data.moves[i].ss.length )
+						html_string += "+";
+				}
+				html_string +="</td></tr>";
+			}
 			// Block F
 			html_string += "<tr class=\"move-blockf\"><td class=\"mv-id\">Block</td><td class=\"mv-frames "+(data.moves[i].blk>-1?"blkpositive\">+":data.moves[i].blk<-10?"blknegative\">":"blkmild\">")+data.moves[i].blk+"</td></tr>";
 			// Hit Adv F
@@ -243,7 +253,7 @@ var fetchmovelist = function fetchmovelist(index) {
 		for(var m=1; m<=mov_count; m++){
 			var moveid = m;
 			d3.select("#dmgmove"+moveid).on("mouseenter", function(){console.log("i#"+this.id+" + div.move-hitdmg"); d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
-			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 500);});
+			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 3000);});
 		}
 	});
 }
