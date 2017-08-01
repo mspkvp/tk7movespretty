@@ -47,9 +47,6 @@ function setLang(index){
 		jap = true;
 	else jap = false;
 
-	var id_string = char_data[selected_char].c.split(" ");
-	d3.select("#"+id_string[0]).classed("selected", true);
-	d3.select("#selected-title").text(char_data[selected_char].n);
 	fetchmovelist(selected_char);
 }
 
