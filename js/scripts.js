@@ -45,6 +45,7 @@ function setLang(index){
 
 	if(index === 0)
 		jap = true;
+	else jap = false;
 
 	var id_string = char_data[selected_char].c.split(" ");
 	d3.select("#"+id_string[0]).classed("selected", true);
