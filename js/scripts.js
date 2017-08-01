@@ -214,9 +214,9 @@ var fetchmovelist = function fetchmovelist(index) {
 			html_string += "<div class=\"move-extra\"><div class=\"mv-section\"><div class=\"move-special\">";
 
 			// special effects
-			if( data.moves[i].b8 )
-				html_string += "<p class=\"spin\">SPIN</p>";
 			if( data.moves[i].b9 )
+				html_string += "<p class=\"spin\">SPIN</p>";
+			if( data.moves[i].b8 )
 				html_string += "<p class=\"armor\">ARMOR</p>";
 			if( data.moves[i].bB )
 				html_string += "<p class=\"track\">TRACK</p>";
