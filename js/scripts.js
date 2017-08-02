@@ -13,7 +13,7 @@ var char_data = [],
 	lang = 1,
 	jap = false,
 	button_layouts = ["XBOX", "PS4"],
-	bl_choice = 1;
+	bl_choice = 0;
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
