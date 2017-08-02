@@ -194,7 +194,7 @@ table {
 }
 
 .char-menu ::-webkit-scrollbar {
-    width: 0px;
+    width: 8px;
 }
 
 .char-menu .head {
