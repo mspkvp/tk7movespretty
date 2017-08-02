@@ -11,7 +11,9 @@ var char_data = [],
 	hits_map = [],
 	selected_char = "32",
 	lang = 1,
-	jap = false;
+	jap = false,
+	button_layouts = ["XBOX", "PS4"],
+	bl_choice = 1;
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
@@ -141,7 +143,7 @@ var fetchmovelist = function fetchmovelist(index) {
 								else html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)].toLowerCase()+"p"+".svg\">";
 							}
 							else if(!isNaN(ctrls_map[commands[c].charAt(m)].charAt(0)))
-								html_string += "<img class=\"move-button\" src=\"./assets/button/XBOX/"+ctrls_map[commands[c].charAt(m)]+".svg\">";
+								html_string += "<img class=\"move-button\" src=\"./assets/button/"+button_layouts[bl_choice]+"/"+ctrls_map[commands[c].charAt(m)]+".svg\">";
 							else if( ctrls_map[commands[c].charAt(m)] === ">"){
 								html_string += "<p class=\"move-hint\" style=\"color:#37ff05;font-size:20px;\"><i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i></p>";
 							}
