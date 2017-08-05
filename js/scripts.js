@@ -52,6 +52,22 @@ function setLang(index){
 	fetchmovelist(selected_char);
 }
 
+function selectChar(index){
+	//remove other moves
+	d3.select(".move-table").remove();
+	d3.select(".char-movelist .inner-table").html("<table class=\"move-table\"></table>");
+	//de-select card
+	var id_string = char_data[selected_char].c.split(" ");
+	d3.select("#"+id_string[0]).classed("selected", false);
+	selected_char = index;
+	id_string = char_data[selected_char].c.split(" ");
+	d3.select("#"+id_string[0]).classed("selected", true);
+	d3.select("#selected-title").text(char_data[selected_char].n);
+	console.log(char_data[selected_char].c.replace(/\s+/g, ''));
+	//console.log(d3.select(".preferences-dialog"));
+	//d3.select(".preferences-dialog::after").style('background-image', 'url('+'./../assets/chars/'+char_data[selected_char].c.replace(/\s+/g, '').toLowerCase()+'.png'+')');
+}
+
 var importdata = function importdata(){
 	d3.json("./assets/data/map_hits.json", function(err, data) {
 		for(var h in data)
@@ -92,6 +108,8 @@ var importdata = function importdata(){
 	});
 }
 
+
+
 var fetchmovelist = function fetchmovelist(index) {
   	function toHexArr(str) {
 	    var result = [];
@@ -102,16 +120,9 @@ var fetchmovelist = function fetchmovelist(index) {
   	}
 
 	d3.json("./assets/data/movelists/MOVELIST_"+index+".json", function(err, data) {
-		//remove other moves
-		d3.select(".move-table").remove();
-		d3.select(".char-movelist .inner-table").html("<table class=\"move-table\"></table>");
-		//de-select card
-		var id_string = char_data[selected_char].c.split(" ");
-		d3.select("#"+id_string[0]).classed("selected", false);
-		selected_char = index;
-		id_string = char_data[selected_char].c.split(" ");
-		d3.select("#"+id_string[0]).classed("selected", true);
-		d3.select("#selected-title").text(char_data[selected_char].n);
+		
+		selectChar(index);
+
 		var mov_count = 0;
 		for(let i=0; i<data.moves.length; i++){
 			// Number + Move Name

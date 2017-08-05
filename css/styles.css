@@ -607,6 +607,29 @@ p.track {
     font-size: 1.3vmin;
 }
 
+.preferences-dialog {
+    position: absolute;
+    left: calc(50vw - 250px);
+    top: calc(50vh - 150px);
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.85);
+    border: 3px solid hsla(193, 77%, 20%, 0.85);
+    border-radius: 5px;
+    /*visibility: hidden;*/
+
+}
+
+.char-img {
+    background-image: url('./../assets/chars/akuma.png');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right bottom;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+}
+
 @media only screen and (max-height: 800px){
     .main-container {
         height: 75vh;
