@@ -46,9 +46,9 @@ String.prototype.hexDecode = function(){
 }
 
 function setLang(index){
-	lang = index;
+	lang = parseInt(index);
 
-	if(index === 0)
+	if(lang === 0)
 		jap = true;
 	else jap = false;
 
@@ -106,18 +106,6 @@ var importdata = function importdata(){
 				d3.select("#selected-title").text(char_data[selected_char].n);
 				fetchmovelist(selected_char);
 			});
-
-			d3.select("#lang0").on("click", function(){setLang(0);});
-			d3.select("#lang1").on("click", function(){setLang(1);});
-			d3.select("#lang3").on("click", function(){setLang(3);});
-			d3.select("#lang4").on("click", function(){setLang(4);});
-			d3.select("#lang5").on("click", function(){setLang(5);});
-			d3.select("#lang6").on("click", function(){setLang(6);});
-			d3.select("#lang7").on("click", function(){setLang(7);});
-			d3.select("#lang8").on("click", function(){setLang(8);});
-			d3.select("#lang9").on("click", function(){setLang(9);});
-			d3.select("#lang10").on("click", function(){setLang(10);});
-			d3.select("#lang11").on("click", function(){setLang(11);});
 		});
 	});
 };

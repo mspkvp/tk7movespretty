@@ -10,6 +10,8 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    position: relative;
+    min-height: 400px; 
 }
 
 @font-face {
@@ -47,6 +49,24 @@ body {
   background-color: hsla(193, 77%, 40%, 0.75);
 }
 
+#video-background {
+/*  making the video fullscreen  */
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+    opacity: 0.15;
+
+    @media only screen and (max-width: 400px) {
+        display: none;
+    }
+}
+
+
 .disable-select {
   -webkit-user-select: none;  
   -moz-user-select: none;    
@@ -60,30 +80,34 @@ body {
     align-items: center;
     padding: 15px;
     flex-direction: row;
-    max-width: 100vw;
-    max-height: 200px;
-}
-
-.header > img{
-    margin: 0;
-    max-width: 300px;
-    min-width: 150px;
-    height: auto;
-    flex-grow: 1.2;
-    flex-basis: 0;
-}
-
-.header > h3 {
-    margin: 0;
-    color: #ffffff;
-    font-family: "Trump", Arial, sans-serif;
-    font-size: 50px;
-    margin-top: 5px;
-    font-style: italic;
-    margin-left: -15px;
-    align-self: flex-start;
-    flex-grow: 0.8;
-    flex-basis: 0;
+    max-width: 100%;
+    max-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+ 
+    > img {
+        margin: 0;
+        max-width: 300px;
+        min-width: 150px;
+        height: auto;
+        flex-grow: 1.2;
+        flex-basis: 0;
+    }
+    
+    > h3 {
+        margin: 0;
+        color: #ffffff;
+        font-family: "Trump", Arial, sans-serif;
+        font-size: 50px;
+        margin-top: 5px;
+        font-style: italic;
+        margin-left: -15px;
+        align-self: flex-start;
+        flex-grow: 0.8;
+        flex-basis: 0;
+    }
 }
 
 .glow {
@@ -105,70 +129,46 @@ body {
 
 .main-container {
     width: 100vw;
-    height: 79vh;
+    height: calc(100vh - 180px);
     display: flex;
     flex-direction: row;
     align-content: flex-start;
     align-items: center;
     text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100px;
+
+    @media only screen and (max-width: 800px) {
+        top: 70px;
+    }
 }
 
 .footer {
     width: 100%;
     background-color: #013a51;
     height: 35px;
-    position: fixed;
+    position: absolute;
     left: 0px;
     bottom: 15px;
-}
+    
+    p {
+        color: #ffffff;
+        font-family: "CoreSans", Arial, sans-serif;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 7px;
 
-.footer p {
-    color: #ffffff;
-    font-family: "CoreSans", Arial, sans-serif;
-    overflow-x: auto;
-    white-space: nowrap;
-    margin: 0;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 7px;
+        @media only screen and (max-height: 800px){
+            //font-size: 15px;
+        }
+    }
 }
 
 .footer p::-webkit-scrollbar {
-    height: 0px !important;
-}
-
-.languages {
-    height: 35px;
-    width: calc(100vw - 30px);
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    color: #ffffff;
-    bottom: 45px;
-    font-family: "CoreSans", Arial, sans-serif;
-    left: 15px;
-    font-size: 15px;
-    align-items: baseline;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
-.languages p {
-    margin: 0;
-}
-
-.languages p:hover {
-    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
-    cursor: pointer;
-}
-
-.languages p:not(:last-of-type):after {
-    margin-left: 5px;
-    margin-right: 5px;
-    content: "\2022";
-}
-
-.languages::-webkit-scrollbar {
     height: 0px !important;
 }
 
@@ -244,6 +244,13 @@ table {
             text-transform: uppercase;
             text-shadow: 0 0 6px hsla(181, 92%, 50%, 1);
             cursor: pointer;
+
+            @media only screen and (max-height: 800px){
+                font-size: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
+                margin-right: 5px;
+            }
         }
     }
 }
@@ -360,7 +367,7 @@ table {
     margin-top: 2px;
     border-radius: 2px;
     max-width: 100%;
-    width: auto;
+    //width: auto;
 }
 
 /* Move Cards CSS */
@@ -675,12 +682,16 @@ p.track {
     }
 
     .pref-list {
-        .pref-platform {
-            display: block;
-            margin-left: 20px;
+        tr {
             margin-top: 10px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
             text-align: left;
             vertical-align: middle;
+            max-width: 350px;
         }
 
         .pref-id {
@@ -693,7 +704,6 @@ p.track {
         .pref-selection {
             display: inline-block;
             vertical-align: middle;
-            padding-left: 20px;
             select {
                 font-family: "CoreSans";
                 font-size: 20px;
@@ -711,6 +721,17 @@ p.track {
 
             select:focus {
                 outline: none;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            tr {
+                width: calc(100vw - 30px); 
+                margin-left: 10px;
+            }
+
+            .pref-id, .pref-selection > select {
+                font-size: 17px;
             }
         }
     }
