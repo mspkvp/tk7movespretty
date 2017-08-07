@@ -213,7 +213,7 @@ table {
       border-radius: 5px;
       font-family: "CoreSans", Arial, sans-serif;
       text-transform: uppercase;
-      text-shadow: 0 0 5px #0af1f5;
+      text-shadow: 0 0 6px #0af1f5;
       cursor: pointer; }
 
 .move-filter {
