@@ -4,7 +4,7 @@
   "description": "A pretty visual representation of toolassisted@github Tekken 7 movelists",
   "main": "./js/scripts.js",
   "scripts": {
-    "start": "node ./other/server.js"
+    "start": "cd other && gulp serve"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,11 @@
   "homepage": "https://github.com/mspkvp/tk7movespretty#readme",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "connect": "^3.6.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "sass": "^1.0.0-beta.2",
     "serve-static": "^1.12.3"
   }
 }

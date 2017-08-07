@@ -34,8 +34,11 @@
 		<div class="separator"></div>
 		<div class="char-movelist">
 		    <div class="head disable-select">
-				<p id="selected-title" class="move-head">Kazumi Mishima</p>
-				<p class="move-filter">Filter</p>
+				<div id="selected-title" class="move-head">Kazumi Mishima</div>
+				<div class="opt-buttons">
+					<div class="btn-preferences" onclick="togglePreferences()">Preferences</div>
+					<div class="btn-filter">Filter</div>
+				</div>
 		    </div>
 		    <div class="inner-table">
 				<table class="move-table">
@@ -115,7 +118,23 @@
 	<div class="footer disable-select">
 		<p><a href="https://github.com/mspkvp/tk7movespretty" target="_blank" style="text-decoration:none;color:#ffffff;"><i class="fa fa-github" aria-hidden="true"></i> mspkvp</a> &copy;2017 | Fanmade & based on TEKKEN&trade;7's GUI | All game images are under TEKKEN&trade;7 & &copy;2017 BANDAI NAMCO Entertainment, Inc. copyright protection.</p>
 	</div>
-	<div class="preferences-dialog char-img">
+	<div id="preferences" class="preferences-dialog">
+		<div class="pref-title">
+			Preferences
+		</div>
+		<table class="pref-list">
+			<tr class="pref-platform">
+				<td class="pref-id">Platform</td>
+				<td class="pref-selection">
+					<select onchange="changePlatform(this.selectedIndex)">
+					    <option value="Arcade">Arcade/Steam</option>
+					    <option value="PS4">Playstation</option>
+					    <option value="XBOX" selected="">Xbox</option>
+				  	</select>
+				</td>
+			</tr>
+		</table>
+		<div class="pref-close" onclick="togglePreferences()"><i class="fa fa-times" aria-hidden="true"></i></div>
 	</div>
 	<script src="./js/d3.min.js"></script>
 	<script src="./js/scripts.js"></script>

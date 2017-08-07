@@ -8,12 +8,15 @@
 
 var char_data = [], 
 	ctrls_map,
-	hits_map = [],
-	selected_char = "32",
+	hits_map = [];
+	
+/** States **/
+var selected_char = "32",
 	lang = 1,
 	jap = false,
-	button_layouts = ["XBOX", "PS4"],
-	bl_choice = 0;
+	prefDialog = false,
+	button_layouts = ["STEAM", "PS4","XBOX"],
+	bl_choice = 2;
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
@@ -63,10 +66,21 @@ function selectChar(index){
 	id_string = char_data[selected_char].c.split(" ");
 	d3.select("#"+id_string[0]).classed("selected", true);
 	d3.select("#selected-title").text(char_data[selected_char].n);
-	console.log(char_data[selected_char].c.replace(/\s+/g, ''));
-	//console.log(d3.select(".preferences-dialog"));
-	//d3.select(".preferences-dialog::after").style('background-image', 'url('+'./../assets/chars/'+char_data[selected_char].c.replace(/\s+/g, '').toLowerCase()+'.png'+')');
+	//console.log(char_data[selected_char].c.replace(/\s+/g, ''));
 }
+
+var togglePreferences = function() {
+	if(prefDialog) 
+		d3.select("#preferences").style('visibility', 'hidden');
+	else d3.select("#preferences").style('visibility', 'visible');
+
+	prefDialog = !prefDialog;
+};
+
+var changePlatform = function(index){
+	bl_choice = index;
+	fetchmovelist(selected_char);
+};
 
 var importdata = function importdata(){
 	d3.json("./assets/data/map_hits.json", function(err, data) {
@@ -106,9 +120,7 @@ var importdata = function importdata(){
 			d3.select("#lang11").on("click", function(){setLang(11);});
 		});
 	});
-}
-
-
+};
 
 var fetchmovelist = function fetchmovelist(index) {
   	function toHexArr(str) {
@@ -265,8 +277,8 @@ var fetchmovelist = function fetchmovelist(index) {
 
 		for(var m=1; m<=mov_count; m++){
 			var moveid = m;
-			d3.select("#dmgmove"+moveid).on("mouseenter", function(){console.log("i#"+this.id+" + div.move-hitdmg"); d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
+			d3.select("#dmgmove"+moveid).on("mouseenter", function(){d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
 			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 3000);});
 		}
 	});
-}
+};

@@ -1,0 +1,777 @@
+/* ==========================================
+ * =    Mike Pinto                          =
+ * =    mspkvp@github.com                   =
+ * =    ©2017 tk7movespretty                =
+ * ========================================== */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Trump";
+    src: url("./../assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
+}
+
+@font-face {
+    font-family: "CoreSans";
+    src: url("./../assets/fonts/CoreSans/CoreSansG-Light.ttf");
+}
+
+body {
+    background-image: url('./../assets/img/background.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Style scrollbar in webkit */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid hsla(193, 77%, 20%, 0.75);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: hsla(193, 77%, 20%, 0.75);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(193, 77%, 40%, 0.75);
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-direction: row;
+    max-width: 100vw;
+    max-height: 200px;
+}
+
+.header > img{
+    margin: 0;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
+    flex-grow: 1.2;
+    flex-basis: 0;
+}
+
+.header > h3 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Trump", Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+    font-style: italic;
+    margin-left: -15px;
+    align-self: flex-start;
+    flex-grow: 0.8;
+    flex-basis: 0;
+}
+
+.glow {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes glow {
+    from { text-shadow: 0 0 5px hsla(181, 92%, 50%, 1); }
+    to { text-shadow: 0 0 25px hsla(181, 92%, 50%, 1); }
+}
+
+.main-container {
+    width: 100vw;
+    height: 79vh;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: #013a51;
+    height: 35px;
+    position: fixed;
+    left: 0px;
+    bottom: 15px;
+}
+
+.footer p {
+    color: #ffffff;
+    font-family: "CoreSans", Arial, sans-serif;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.footer p::-webkit-scrollbar {
+    height: 0px !important;
+}
+
+.languages {
+    height: 35px;
+    width: calc(100vw - 30px);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    bottom: 45px;
+    font-family: "CoreSans", Arial, sans-serif;
+    left: 15px;
+    font-size: 15px;
+    align-items: baseline;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.languages p {
+    margin: 0;
+}
+
+.languages p:hover {
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    cursor: pointer;
+}
+
+.languages p:not(:last-of-type):after {
+    margin-left: 5px;
+    margin-right: 5px;
+    content: "\2022";
+}
+
+.languages::-webkit-scrollbar {
+    height: 0px !important;
+}
+
+.separator {
+    background-color: hsla(193, 77%, 40%, 0.5);
+    width: 2px;
+    height: 80vh;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    /*border-collapse: collapse;
+    overflow: hidden;*/
+}
+
+.char-menu {
+    width: 200px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.char-menu ::-webkit-scrollbar {
+    width: 8px;
+}
+
+.char-menu .head {
+    height: 7%;
+    width: 100%;
+}
+
+.char-movelist {
+    /*width: 600px;*/
+    max-width: 970px;
+    height: 100%;
+    margin-left: 3px;
+}
+
+.char-movelist .head {
+    margin-left: 25px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .move-head {
+        color: #ffffff;
+        font-family: "Trump", Arial, sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        text-transform: uppercase;
+        text-shadow: 0 0 6px hsla(0, 100%, 47%, 1);
+        margin: 3px 15px 3px 0px;
+    }
+
+    .opt-buttons {
+        display: block;
+        color: #ffffff;
+
+        .btn-preferences, .btn-filter {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: hsla(193, 77%, 20%, 0.75);
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: 5px;
+            border-radius: 5px;
+            font-family: "CoreSans", Arial, sans-serif;
+            text-transform: uppercase;
+            text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+            cursor: pointer;
+        }
+    }
+}
+
+.move-filter {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: hsla(193, 77%, 20%, 0.75);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-family: "CoreSans", Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    cursor: no-drop;
+}
+
+.inner-table {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100% - 40px);
+    max-width: 100%;
+}
+/* Add fighter render to the right side of the table
+.char-movelist .inner-table::after {
+    content: "";
+    background-image: url(./../assets/chars/luckychloe.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right bottom;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+}*/
+
+.char-head {
+    color: #ffffff;
+    font-family: "Trump", Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
+    text-transform: uppercase;
+}
+
+.char-card {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 100px;
+    border: 2px solid hsla(193, 77%, 20%, 0.75);
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 3px;
+}
+
+.char-card:hover {
+    border: 2px solid hsla(193, 77%, 40%, 0.75);
+    /*box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);*/
+    outline: none;
+    cursor: pointer;
+
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: char-card-glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-name: char-card-glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes char-card-glow {
+    from { box-shadow: inset 0 0 100px 0px hsla(193, 77%, 40%, 0.75);  }
+    to { box-shadow: inset 0 0 150px 10px hsla(193, 77%, 40%, 0.75); }
+}
+
+
+.selected {
+    border: 2px solid hsla(193, 77%, 40%, 0.75);
+    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);   
+}
+
+.char-card img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.char-card p {
+    color: #ffffff;
+    font-family: "CoreSans", Arial, sans-serif;
+    font-style: italic;
+    background-color: rgba(10,10,10,0.50);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 5px;
+    width: 100%;
+    bottom: 0px;
+    margin: 0 0 0 -1px;
+    position: absolute;
+}
+
+.move-table {
+    /*background-color: rgba(0,0,0,0.25);*/
+    border: 1px solid hsla(193, 77%, 40%, 0.25);
+    margin-top: 2px;
+    border-radius: 2px;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Move Cards CSS */
+
+.move-card {
+    color:  #ffffff;
+    font-family: "CoreSans", Arial, sans-serif;
+    border: 2px solid hsla(193, 77%, 20%, 0.75);
+    background-color: rgba(0,0,0,0.50);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 1px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.move-button, .move-arrow {
+    width: 40px;
+    height: auto;
+    padding: 1px;
+}
+
+.move-info {
+    position: relative;
+    max-width: 760px;
+}
+
+.move-title, .move-hit-dmg {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.move-number {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: hsla(193, 77%, 20%, 0.75);
+    left: 0;
+    top: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    text-indent: -5px;
+}
+
+.move-hint {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.move-string {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    max-width: 100%;
+    overflow-x: auto;
+    cursor: grab;
+}
+
+div.move-string::-webkit-scrollbar {
+    height: 8px !important;
+}
+.move-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.move-framestring, .move-dmgstring, .move-hitdmg, 
+.move-hitlvlstring, .move-startf, .move-blockf,
+.move-hitf, .move-dmg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.move-hitdmg-section {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fa-plus-square {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.move-hitdmg {
+    background-color: rgba(0,0,0,0.75);
+    border: 1px solid hsla(193, 77%, 20%, 0.75);
+    padding: 0px 10px 0 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    max-width: 100%;
+    font-size: 1.5vmin;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.move-dmg::before{
+    margin-left: 10px;
+    margin-right: 10px;
+    content: "\007C";
+    align-self: baseline;
+    font-weight: bold;
+    color: hsl(193, 77%, 20%);
+}
+
+.move-hitlvlstring {
+    margin: 3px 0 5px 50px;
+}
+
+.mv-hitlvl {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.hithigh {
+    color:  #ffc6ff;
+}
+
+.hitmid {
+    color: #ffff79;
+}
+
+.hitlow {
+    color:  #9cd3fc;
+}
+
+.hitsmid {
+    color: #00d56d;
+}
+
+.hitnoblk {
+    color: #0cc;
+}
+
+.fa-chevron-right, .fa-caret-right {
+    margin: 0 5px 0 5px;
+}
+
+.move-frames > div > p {
+    margin: 0;
+}
+
+.move-frames {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.move-frames .mv-id {
+    text-transform: uppercase;
+    width: 60px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.move-frames .mv-frames {
+    width: 30px;
+    text-align: right;
+}
+
+.move-frames .blknegative {
+    color:  #ff0000;
+}
+
+.move-frames .blkpositive {
+    color:  #00ff00;
+}
+
+.move-frames .blkmild {
+    color:  #ffff00;
+}
+
+.move-hitamount {
+    text-align: left;
+    color: #f19700;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.move-dmg {
+    margin-right: 5px;
+    justify-content: flex-end;
+    margin-top: 1px;
+}
+
+.move-dmg p {
+    margin: 0;
+    margin-right: 2px;
+    color: #dace00;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.move-dmg .fa-arrow-right {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.move-extra {
+    height: 100%;
+    display: table;
+}
+
+.mv-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 185px;
+    align-items: center;
+}
+
+.move-special {
+    max-width: 100px;
+}
+
+.move-special p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+p.spin {
+    color:  #1a8000;
+}
+
+p.armor {
+    color:  #cb0000;
+}
+
+p.track {
+    color:  #0079ff;
+}
+
+.move-startf-seg td {
+    background: linear-gradient(hsla(193, 77%, 20%, 0), hsla(193, 77%, 20%, 0.75));
+    border-radius: 5px;
+    font-size: 1.3vmin;
+}
+
+.preferences-dialog {
+    position: absolute;
+    left: calc(50vw - 400px);
+    top: calc(50vh - 300px);
+    width: 98vw;
+    height: 98vh;
+    max-width: 800px;
+    max-height: 600px;
+    background-color: rgba(0,0,0,0.85);
+    border: 3px solid hsla(193, 77%, 20%, 0.85);
+    border-radius: 5px;
+    visibility: hidden;
+    color: #ffffff;
+    font-family: "CoreSans"; 
+
+    @media only screen and (max-height: 800px) {
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .pref-title {
+        position: relative;
+        font-family: "Trump";
+        font-style: italic;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-shadow: 0 0 5px #0af1f5;
+        border-bottom: 2px solid rgba(12, 73, 90, 0.85);
+    }
+
+    .pref-close {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 30px;
+
+        cursor: pointer;
+        color: #ffffff;
+        z-index: 9999;
+
+        :hover {
+            text-shadow: 0 0 10px #0af1f5;
+        }
+    }
+
+    .pref-list {
+        .pref-platform {
+            display: block;
+            margin-left: 20px;
+            margin-top: 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .pref-id {
+            display: inline-block;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-shadow: 0 0 5px #0af1f5;
+        }
+
+        .pref-selection {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 20px;
+            select {
+                font-family: "CoreSans";
+                font-size: 20px;
+                text-transform: uppercase;
+                color: #ffffff;
+                background-color: rgba(0,0,0,0);
+                border: 2px solid rgba(12, 73, 90, 0.85);
+                border-radius: 5px;
+
+                option {
+                    background-color: rgba(0,0,0,1);
+                    color: #ffffff;
+                }
+            }
+
+            select:focus {
+                outline: none;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-height: 800px){
+    .main-container {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .char-movelist {
+        max-width: 80vw;
+    }
+
+    .move-info {
+        max-width: calc(100vw - 400px);
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    .header {
+        padding: 0;
+    }
+
+    .header > h3 {
+        font-size: 45px;
+        margin-top: 8px;
+    }
+
+    .move-head {
+        font-size: 35px;
+    }
+
+    .inner-table {
+        height: calc(100% - 45px);
+    }
+
+    .char-menu, .separator {
+        display: none;
+    }
+
+    .char-movelist {
+        max-width: 98vw;
+    }
+
+    .move-string, .move-hit-dmg *, .move-extra * {
+        font-size: 14px !important;
+    }
+
+    .move-info {
+        max-width: calc(100vw - 200px);
+    }
+
+    .move-button, .move-arrow {
+        width: 30px;
+    }
+
+    .move-title * {
+        font-size: 17px;
+    }
+}
