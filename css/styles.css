@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/* ==========================================
- * =    Mike Pinto                          =
- * =    mspkvp@github.com                   =
- * =    ©2017 tk7movespretty                =
- * ========================================== */
+/* ============================
+ * =    Mike Pinto            =
+ * =    mspkvp@github.com     =
+ * =    ©2017 tk7movespretty  =
+ * ============================ */
 html,
 body {
   width: 100%;
@@ -208,7 +208,8 @@ table {
       font-family: "CoreSans", Arial, sans-serif;
       text-transform: uppercase;
       text-shadow: 0 0 6px #0af1f5;
-      cursor: pointer; }
+      cursor: pointer;
+      vertical-align: middle; }
       @media only screen and (max-height: 800px) {
         .char-movelist .head .opt-buttons .btn-preferences, .char-movelist .head .opt-buttons .btn-filter {
           font-size: 15px;
