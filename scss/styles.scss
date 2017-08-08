@@ -272,7 +272,7 @@ table {
 .inner-table {
     overflow-y: scroll;
     overflow-x: hidden;
-    height: calc(100% - 40px);
+    height: calc(100% - 60px);
     max-width: 100%;
 }
 /* Add fighter render to the right side of the table
@@ -769,7 +769,7 @@ p.track {
     }
 
     .inner-table {
-        height: calc(100% - 45px);
+        height: calc(100% - 30px);
     }
 
     .char-menu, .separator {
