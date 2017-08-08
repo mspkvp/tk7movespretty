@@ -1,6 +1,6 @@
 # Tekken 7 Movelists
 
-Good learning resources seem to be scattered the web, so this project aims to build a nice reference to either newbies or veterans who wish to learn and improve their skill and game knowledge.
+Good learning resources seem to be \*scattered around the web\*, so this project aims to build a nice reference to either newbies or veterans who wish to learn and improve their skill and game knowledge.
 
 ---
 
