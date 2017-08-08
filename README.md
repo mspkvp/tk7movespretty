@@ -12,4 +12,4 @@ This is not possible without the help of very generous people within our Tekken 
 - [Humberto-Zayas@github](https://github.com/Humberto-Zayas) or [Humberto_zayas@twitter](https://twitter.com/Humberto_zayas)
 - [/r/Tekken](https://reddit.com/r/tekken)
 
-<img src="./assets/img/logo.png" width="300" align="right" />
+<img src="./assets/img/logo2.png" width="300" align="right" />
