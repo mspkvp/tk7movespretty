@@ -2,6 +2,8 @@
 
 Good learning resources seem to be \*scattered around the web\*, so this project aims to build a nice reference to either newbies or veterans who wish to learn and improve their skill and game knowledge.
 
+Access it here: [mspkvp.github.io/tk7movespretty/](https://mspkvp.github.io/tk7movespretty/)
+
 ---
 
 This is not possible without the help of very generous people within our Tekken community, for their feedback and contributions.
