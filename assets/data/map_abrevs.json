@@ -1,0 +1,22 @@
+{
+	"CD": "Crouch Dash",
+	"QCF": "Quarter Circle Forward",
+	"QCB": "Quarter Circle Back",
+	"SS": "Side Step",
+	"SSL": "Side Step Left",
+	"SSR": "Side Step Right",
+	"SW": "Side Walk",
+	"SWL": "Side Walk Left",
+	"SWR": "Side Walk Right",
+	"KND": "Knock Down",
+	"CS": "Crumble State",
+	"TJ": "Toggle Jump", 			//(jumping state)
+	"TC": "Toggle Crouch", 			//(couching state)
+	"JG": "Juggle",					//(combo after ward is possible)
+	"DFLIP": "Demon’s Flip",		//(one of Akuma’s move)
+	"WS": "While Standing",			// (while rising)
+	"HCB": "Half Circle Backward",
+	"FC": "Full Crouch",
+	"LCT": "Leg Cutter",
+	"WR": "While Running"
+}

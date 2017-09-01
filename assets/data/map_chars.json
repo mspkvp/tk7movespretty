@@ -1,150 +1,150 @@
 [
   {
     "c": "AKUMA", "n":"Akuma",
-    "i": "32"
+    "i": "32", "c_index": "akuma"
   },
   {
     "c": "ALISA", "n":"Alisa Bosconovitch",
-    "i": "19"
+    "i": "19", "c_index": "alisa"
   },
   {
     "c": "ASUKA", "n":"Asuka Kazama",
-    "i": "12"
+    "i": "12", "c_index": "asuka"
   },
   {
     "c": "BOB", "n":"Bob Richards",
-    "i": "31"
+    "i": "31", "c_index": "bob"
   },
   {
     "c": "BRYAN", "n":"Bryan Fury",
-    "i": "07"
+    "i": "07", "c_index": "bryan"
   },
   {
     "c": "LUCKY CHLOE", "n":"Lucky Chloe",
-    "i": "22"
+    "i": "22", "c_index": "chloe"
   },
   {
     "c": "CLAUDIO", "n":"Claudio Serafino",
-    "i": "20"
+    "i": "20", "c_index": "claudio"
   },
   {
     "c": "DEVIL JIN", "n":"Devil Jin",
-    "i": "13"
+    "i": "13", "c_index": "devil"
   },
   {
     "c": "DRAGUNOV", "n":"Sergei Dragunov",
-    "i": "16"
+    "i": "16", "c_index": "dragunov"
   },
   {
     "c": "EDDY", "n":"Eddy Gordo",
-    "i": "35"
+    "i": "35", "c_index": "eddy"
   },
   {
     "c": "ELIZA", "n":"Eliza",
-    "i": "36"
+    "i": "36", "c_index": "eliza"
   },
   {
     "c": "FENG", "n":"Feng Wei",
-    "i": "14"
+    "i": "14", "c_index": "feng"
   },
   {
     "c": "GIGAS", "n":"GIGAS",
-    "i": "25"
+    "i": "25", "c_index": "gigas"
   },
   {
     "c": "HEIHACHI", "n":"Heihachi Mishima",
-    "i": "08"
+    "i": "08", "c_index": "heihachi"
   },
   {
     "c": "HWOARANG", "n":"Hwoarang",
-    "i": "04"
+    "i": "04", "c_index": "hwoarang"
   },
   {
     "c": "JACK-7", "n":"JACK-7",
-    "i": "11"
+    "i": "11", "c_index": "jack7"
   },
   {
     "c": "JIN", "n":"Jin Kazama",
-    "i": "06"
+    "i": "06", "c_index": "jin"
   },
   {
     "c": "JOSIE", "n":"Josie Rizal",
-    "i": "24"
+    "i": "24", "c_index": "josie"
   },
   {
     "c": "KATARINA", "n":"Katarina Alves",
-    "i": "21"
+    "i": "21", "c_index": "katarina"
   },
   {
     "c": "KAZUMI", "n":"Kazumi Mishima",
-    "i": "26"
+    "i": "26", "c_index": "kazumi"
   },
   {
     "c": "KAZUYA", "n":"Kazuya Mishima",
-    "i": "09"
+    "i": "09", "c_index": "kazuya"
   },
   {
     "c": "KING", "n":"King",
-    "i": "02"
+    "i": "02", "c_index": "king"
   },
   {
     "c": "KUMA", "n":"Kuma",
-    "i": "33"
+    "i": "33", "c_index": "kuma"
   },
   {
     "c": "LARS", "n":"Lars Alexandersson",
-    "i": "18"
+    "i": "18", "c_index": "lars"
   },
   {
     "c": "LAW", "n":"Marshall Law",
-    "i": "01"
+    "i": "01", "c_index": "law"
   },
   {
     "c": "LEE", "n":"Lee Chaolan",
-    "i": "30"
+    "i": "30", "c_index": "lee"
   },
   {
     "c": "LEO", "n":"Leo Kliesen",
-    "i": "17"
+    "i": "17", "c_index": "leo"
   },
   {
     "c": "LILI", "n":"Lili Rochefort",
-    "i": "15"
+    "i": "15", "c_index": "lili"
   },
   {
     "c": "MIGUEL", "n":"Miguel Caballero Rojo",
-    "i": "37"
+    "i": "37", "c_index": "miguel"
   },
   {
     "c": "NINA", "n":"Nina Williams",
-    "i": "28"
+    "i": "28", "c_index": "nina"
   },
   {
     "c": "PANDA", "n":"Panda",
-    "i": "34"
+    "i": "34", "c_index": "panda"
   },
   {
     "c": "PAUL", "n":"Paul Phoenix",
-    "i": "00"
+    "i": "00", "c_index": "paul"
   },
   {
     "c": "RAVEN", "n":"Master Raven",
-    "i": "29"
+    "i": "29", "c_index": "raven"
   },
   {
     "c": "SHAHEEN", "n":"Shaheen",
-    "i": "23"
+    "i": "23", "c_index": "shaheen"
   },
   {
     "c": "STEVE", "n":"Steve Fox",
-    "i": "10"
+    "i": "10", "c_index": "steve"
   },
   {
     "c": "XIAOYU", "n":"Ling Xiaoyu",
-    "i": "05"
+    "i": "05", "c_index": "xiaoyu"
   },
   {
     "c": "YOSHIMITSU", "n":"Yoshimitsu",
-    "i": "03"
+    "i": "03", "c_index": "yoshimitsu"
   }
 ]
