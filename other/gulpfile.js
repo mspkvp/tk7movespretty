@@ -12,7 +12,7 @@ gulp.task('serve', ['minify-css', 'minify-js'], function() {
     });
 
     gulp.watch("./../src/scss/*.scss", ['minify-css']);
-    gulp.watch("./../src/js/*.js", ['minify-js']);
+    gulp.watch("./../src/js/**/*.js", ['minify-js']);
     gulp.watch("./../index.html").on('change', browserSync.reload);
 });
 
@@ -25,13 +25,15 @@ gulp.task('sass', function() {
 });
  
 gulp.task('minify-js', function() {
-  gulp.src('./../src/js/*.js')
+  gulp.src('./../src/js/**/*.js')
     .pipe(minify({
         ext:{
+            src:'.js',
             min:'.min.js'
         },
         ignoreFiles: ['*.min.js'],
-        preserveComments: 'all'
+        preserveComments: 'some',
+        noSource: true
     }))
     .pipe(gulp.dest('./../dist/js/'))
 });

@@ -1,8 +1,9 @@
-/* ==========================================
- * =	Mike Pinto							=
- * =	mspkvp@github.com					=
- * =	©2017 tk7movespretty				=
- * ========================================== */
+/*!
+ * =============================
+ * =	Mike Pinto             =
+ * =	mspkvp@github.com      =
+ * =	©2017 tk7movespretty   =
+ * ============================= */
 
 'use strict';
 
@@ -17,6 +18,28 @@ var selected_char = "32",
 	prefDialog = false,
 	button_layouts = ["STEAM", "PS4","XBOX"],
 	bl_choice = 2;
+
+function getCookie(){
+	if(typeof Cookies.get('tk7moves') != 'undefined'){
+		var vals = JSON.parse(Cookies.get('tk7moves'));
+		selected_char = vals.selected_char;
+		lang = vals.lang;
+		jap = vals.jap;
+		bl_choice = vals.bl_choice;
+	}
+	else {
+		setCookie();
+	}
+}
+
+function setCookie(){
+	Cookies.set('tk7moves',JSON.stringify({
+		selected_char: selected_char,
+		lang: lang,
+		jap: jap,
+		bl_choice: bl_choice
+	}), { expires: 30, path: '' });
+}
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
@@ -51,7 +74,7 @@ function setLang(index){
 	if(lang === 0)
 		jap = true;
 	else jap = false;
-
+	setCookie();
 	fetchmovelist(selected_char);
 }
 
@@ -67,6 +90,7 @@ function selectChar(index){
 	d3.select("#"+id_string[0]).classed("selected", true);
 	d3.select("#selected-title").text(char_data[selected_char].n);
 	//console.log(char_data[selected_char].c.replace(/\s+/g, ''));
+	setCookie();
 }
 
 var togglePreferences = function() {
@@ -79,10 +103,12 @@ var togglePreferences = function() {
 
 var changePlatform = function(index){
 	bl_choice = index;
+	setCookie();
 	fetchmovelist(selected_char);
 };
 
 var importdata = function importdata(){
+	getCookie();
 	d3.json("./assets/data/map_hits.json", function(err, data) {
 		for(var h in data)
 			hits_map[data[h].i] = data[h].h;
