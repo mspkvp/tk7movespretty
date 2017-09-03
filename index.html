@@ -113,8 +113,8 @@
 			<tr class="pref-language">
 				<td class="pref-id disable-select">Language</td>
 				<td class="pref-selection">
-					<select onchange="setLang(this.value)">
-						<option value="1">English</option>
+					<select id="lang-select" onchange="setLang(this.value)">
+						<option value="1" selected="">English</option>
 						<option value="6">Deutsch</option>
 						<option value="4">Français</option>
 						<option value="5">Italiano</option>
@@ -131,8 +131,8 @@
 			<tr class="pref-platform">
 				<td class="pref-id disable-select">Button Layout</td>
 				<td class="pref-selection">
-					<select onchange="changePlatform(this.selectedIndex)">
-					    <option value="Arcade">Arcade/Steam</option>
+					<select id="platf-select" onchange="changePlatform(this.selectedIndex)">
+					    <option value="STEAM">Arcade/Steam</option>
 					    <option value="PS4">Playstation</option>
 					    <option value="XBOX" selected="">Xbox</option>
 				  	</select>

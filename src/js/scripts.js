@@ -14,6 +14,7 @@ var char_data = [],
 /** States **/
 var selected_char = "32",
 	lang = 1,
+	lang_index = 0,
 	jap = false,
 	prefDialog = false,
 	button_layouts = ["STEAM", "PS4","XBOX"],
@@ -21,11 +22,19 @@ var selected_char = "32",
 
 function getCookie(){
 	if(typeof Cookies.get('tk7moves') != 'undefined'){
+		d3.select("#platf-select > option:nth-child("+(bl_choice+1)+")").attr("selected",false);
+		d3.select("#lang-select > option:nth-child("+(lang_index+1)+")").attr("selected",false);
+		
 		var vals = JSON.parse(Cookies.get('tk7moves'));
+		console.log(vals);
 		selected_char = vals.selected_char;
 		lang = vals.lang;
+		lang_index = vals.lang_index;
 		jap = vals.jap;
 		bl_choice = vals.bl_choice;
+
+		d3.select("#platf-select > option:nth-child("+(bl_choice+1)+")").attr("selected",true);
+		d3.select("#lang-select > option:nth-child("+(lang_index+1)+")").attr("selected",true);
 	}
 	else {
 		setCookie();
@@ -36,6 +45,7 @@ function setCookie(){
 	Cookies.set('tk7moves',JSON.stringify({
 		selected_char: selected_char,
 		lang: lang,
+		lang_index: lang_index,
 		jap: jap,
 		bl_choice: bl_choice
 	}), { expires: 30, path: '' });
@@ -68,12 +78,18 @@ String.prototype.hexDecode = function(){
     return back;
 }
 
-function setLang(index){
-	lang = parseInt(index);
+function setLang(val){
+	lang = parseInt(val);
 
 	if(lang === 0)
 		jap = true;
 	else jap = false;
+	
+	d3.select("#lang-select").selectAll("option").each(function(){
+		if(parseInt(this.value) === lang){
+			lang_index = this.index;
+		}
+	});
 	setCookie();
 	fetchmovelist(selected_char);
 }
@@ -89,7 +105,6 @@ function selectChar(index){
 	id_string = char_data[selected_char].c.split(" ");
 	d3.select("#"+id_string[0]).classed("selected", true);
 	d3.select("#selected-title").text(char_data[selected_char].n);
-	//console.log(char_data[selected_char].c.replace(/\s+/g, ''));
 	setCookie();
 }
 
