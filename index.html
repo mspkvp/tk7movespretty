@@ -10,8 +10,8 @@
 	-->
 	<title>Tekken 7 Pretty Movelist</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/fa/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./dist/css/styles.css">
+	<link rel="stylesheet" href="./dist/css/fa/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="./assets/img/favicon.ico" />
 </head>
 <body onload="importdata()">
@@ -40,8 +40,8 @@
 					<div class="btn-filter">Filter</div>
 				</div>
 		    </div>
-		    <div class="inner-table">
-				<table class="move-table">
+		    <div id="movelist_tab" class="inner-table">
+				<table class="move-table" >
 					<tr>
 					    <td class="move-card">
 					        <div class="move-info">
@@ -113,8 +113,8 @@
 			<tr class="pref-language">
 				<td class="pref-id disable-select">Language</td>
 				<td class="pref-selection">
-					<select onchange="setLang(this.value)">
-						<option value="1">English</option>
+					<select id="lang-select" onchange="setLang(this.value)">
+						<option value="1" selected="">English</option>
 						<option value="6">Deutsch</option>
 						<option value="4">Français</option>
 						<option value="5">Italiano</option>
@@ -131,8 +131,8 @@
 			<tr class="pref-platform">
 				<td class="pref-id disable-select">Button Layout</td>
 				<td class="pref-selection">
-					<select onchange="changePlatform(this.selectedIndex)">
-					    <option value="Arcade">Arcade/Steam</option>
+					<select id="platf-select" onchange="changePlatform(this.selectedIndex)">
+					    <option value="STEAM">Arcade/Steam</option>
 					    <option value="PS4">Playstation</option>
 					    <option value="XBOX" selected="">Xbox</option>
 				  	</select>
@@ -144,7 +144,8 @@
 	<video autoplay loop id="video-background" muted plays-inline>
   		<source src="./assets/video/background-smoke.mp4" type="video/mp4">
 	</video>
-	<script src="./js/d3.min.js"></script>
-	<script src="./js/scripts.js"></script>
+	<script src="./dist/js/lib/d3.min.js"></script>
+	<script src="./dist/js/lib/js.cookie.min.js"></script>
+	<script src="./dist/js/scripts.min.js"></script>
 </body>
 </html>

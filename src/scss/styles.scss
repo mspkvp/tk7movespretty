@@ -16,16 +16,16 @@ body {
 
 @font-face {
     font-family: "Trump";
-    src: url("./../assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
+    src: url("./../../assets/fonts/TrumpGothic/TrumpGothicEastBold.ttf");
 }
 
 @font-face {
-    font-family: "CoreSans";
-    src: url("./../assets/fonts/CoreSans/CoreSansG-Light.ttf");
+    font-family: "Core Sans G";
+    src: url("./../../assets/fonts/CoreSans/CoreSansG-Light.ttf");
 }
 
 body {
-    background-image: url('./../assets/img/background.jpg');
+    background-image: url('./../../assets/img/background.jpg');
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,11 +111,11 @@ body {
 }
 
 .glow {
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-name: glow;
     -webkit-animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: glow;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -154,7 +154,7 @@ body {
     
     p {
         color: #ffffff;
-        font-family: "CoreSans", Arial, sans-serif;
+        font-family: "Core Sans G", Arial, sans-serif;
         overflow-x: auto;
         white-space: nowrap;
         margin: 0;
@@ -240,17 +240,21 @@ table {
             padding-right: 15px;
             margin-right: 5px;
             border-radius: 5px;
-            font-family: "CoreSans", Arial, sans-serif;
+            font-family: "Core Sans G", Arial, sans-serif;
             text-transform: uppercase;
             text-shadow: 0 0 6px hsla(181, 92%, 50%, 1);
             cursor: pointer;
             vertical-align: middle;
-            
+            height: 25px;
+            line-height: 25px;
+
             @media only screen and (max-height: 800px){
+                height: 20px;
                 font-size: 15px;
                 padding-left: 5px;
                 padding-right: 5px;
                 margin-right: 5px;
+                line-height: 20px;
             }
         }
     }
@@ -264,7 +268,7 @@ table {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
-    font-family: "CoreSans", Arial, sans-serif;
+    font-family: "Core Sans G", Arial, sans-serif;
     text-transform: uppercase;
     text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
     cursor: no-drop;
@@ -349,7 +353,7 @@ table {
 
 .char-card p {
     color: #ffffff;
-    font-family: "CoreSans", Arial, sans-serif;
+    font-family: "Core Sans G", Arial, sans-serif;
     font-style: italic;
     background-color: rgba(10,10,10,0.50);
     font-size: 25px;
@@ -375,7 +379,7 @@ table {
 
 .move-card {
     color:  #ffffff;
-    font-family: "CoreSans", Arial, sans-serif;
+    font-family: "Core Sans G", Arial, sans-serif;
     border: 2px solid hsla(193, 77%, 20%, 0.75);
     background-color: rgba(0,0,0,0.50);
     display: flex;
@@ -645,7 +649,7 @@ p.track {
     border-radius: 5px;
     visibility: hidden;
     color: #ffffff;
-    font-family: "CoreSans"; 
+    font-family: "Core Sans G"; 
 
     @media only screen and (max-height: 800px) {
         left: 0;
@@ -706,7 +710,7 @@ p.track {
             display: inline-block;
             vertical-align: middle;
             select {
-                font-family: "CoreSans";
+                font-family: "Core Sans G";
                 font-size: 20px;
                 text-transform: uppercase;
                 color: #ffffff;

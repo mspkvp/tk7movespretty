@@ -1,8 +1,9 @@
-/* ==========================================
- * =	Mike Pinto							=
- * =	mspkvp@github.com					=
- * =	©2017 tk7movespretty				=
- * ========================================== */
+/*!
+ * =============================
+ * =	Mike Pinto             =
+ * =	mspkvp@github.com      =
+ * =	©2017 tk7movespretty   =
+ * ============================= */
 
 'use strict';
 
@@ -13,10 +14,41 @@ var char_data = [],
 /** States **/
 var selected_char = "32",
 	lang = 1,
+	lang_index = 0,
 	jap = false,
 	prefDialog = false,
 	button_layouts = ["STEAM", "PS4","XBOX"],
 	bl_choice = 2;
+
+function getCookie(){
+	if(typeof Cookies.get('tk7moves') != 'undefined'){
+		d3.select("#platf-select > option:nth-child("+(bl_choice+1)+")").attr("selected",false);
+		d3.select("#lang-select > option:nth-child("+(lang_index+1)+")").attr("selected",false);
+		
+		var vals = JSON.parse(Cookies.get('tk7moves'));
+		selected_char = vals.selected_char;
+		lang = vals.lang;
+		lang_index = vals.lang_index;
+		jap = vals.jap;
+		bl_choice = vals.bl_choice;
+
+		d3.select("#platf-select > option:nth-child("+(bl_choice+1)+")").attr("selected",true);
+		d3.select("#lang-select > option:nth-child("+(lang_index+1)+")").attr("selected",true);
+	}
+	else {
+		setCookie();
+	}
+}
+
+function setCookie(){
+	Cookies.set('tk7moves',JSON.stringify({
+		selected_char: selected_char,
+		lang: lang,
+		lang_index: lang_index,
+		jap: jap,
+		bl_choice: bl_choice
+	}), { expires: 30, path: '' });
+}
 
 function isLetter(c) {
   return c.toLowerCase() != c.toUpperCase();
@@ -45,13 +77,27 @@ String.prototype.hexDecode = function(){
     return back;
 }
 
-function setLang(index){
-	lang = parseInt(index);
+function toHexArr(str) {
+	var result = [];
+	for (var i=0; i<str.length; i++) {
+	  result.push("\\u"+str.charCodeAt(i).toString(16));
+	}
+	return result;
+}
+
+function setLang(val){
+	lang = parseInt(val);
 
 	if(lang === 0)
 		jap = true;
 	else jap = false;
-
+	
+	d3.select("#lang-select").selectAll("option").each(function(){
+		if(parseInt(this.value) === lang){
+			lang_index = this.index;
+		}
+	});
+	setCookie();
 	fetchmovelist(selected_char);
 }
 
@@ -66,7 +112,7 @@ function selectChar(index){
 	id_string = char_data[selected_char].c.split(" ");
 	d3.select("#"+id_string[0]).classed("selected", true);
 	d3.select("#selected-title").text(char_data[selected_char].n);
-	//console.log(char_data[selected_char].c.replace(/\s+/g, ''));
+	setCookie();
 }
 
 var togglePreferences = function() {
@@ -79,10 +125,12 @@ var togglePreferences = function() {
 
 var changePlatform = function(index){
 	bl_choice = index;
+	setCookie();
 	fetchmovelist(selected_char);
 };
 
 var importdata = function importdata(){
+	getCookie();
 	d3.json("./assets/data/map_hits.json", function(err, data) {
 		for(var h in data)
 			hits_map[data[h].i] = data[h].h;
@@ -111,14 +159,6 @@ var importdata = function importdata(){
 };
 
 var fetchmovelist = function fetchmovelist(index) {
-  	function toHexArr(str) {
-	    var result = [];
-	    for (var i=0; i<str.length; i++) {
-	      result.push("\\u"+str.charCodeAt(i).toString(16));
-	    }
-	    return result;
-  	}
-
 	d3.json("./assets/data/movelists/MOVELIST_"+index+".json", function(err, data) {
 		
 		selectChar(index);
@@ -268,5 +308,8 @@ var fetchmovelist = function fetchmovelist(index) {
 			d3.select("#dmgmove"+moveid).on("mouseenter", function(){d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
 			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 3000);});
 		}
+
+		// Scroll the list to the top
+		document.querySelector("#movelist_tab > table ").firstElementChild.scrollIntoView(true);
 	});
 };

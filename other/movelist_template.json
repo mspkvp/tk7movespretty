@@ -1,0 +1,27 @@
+{
+	"id": "0",
+	"name": "John",
+	"first_name": "John",
+	"last_name": "Doe",
+	"n_moves": 1,
+	"moves": [
+		{
+			"id": 0,
+			"number": 1,
+			"name": "",
+			"command": "1,2,1+2",
+			"n_hits": 3,
+			"hit_levels": "high,mid,high",
+			"damage": 0,
+			"damage_per_hit": "",
+			"special_props": "",
+			"frames": {
+				"startup": 0,
+				"speed_per_hit": "0+0",
+				"block": 0,
+				"hit": 0,
+				"counter_hit": 0
+			}
+		}
+	]
+}
