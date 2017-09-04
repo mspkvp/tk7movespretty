@@ -26,7 +26,6 @@ function getCookie(){
 		d3.select("#lang-select > option:nth-child("+(lang_index+1)+")").attr("selected",false);
 		
 		var vals = JSON.parse(Cookies.get('tk7moves'));
-		console.log(vals);
 		selected_char = vals.selected_char;
 		lang = vals.lang;
 		lang_index = vals.lang_index;
@@ -76,6 +75,14 @@ String.prototype.hexDecode = function(){
     }
 
     return back;
+}
+
+function toHexArr(str) {
+	var result = [];
+	for (var i=0; i<str.length; i++) {
+	  result.push("\\u"+str.charCodeAt(i).toString(16));
+	}
+	return result;
 }
 
 function setLang(val){
@@ -152,14 +159,6 @@ var importdata = function importdata(){
 };
 
 var fetchmovelist = function fetchmovelist(index) {
-  	function toHexArr(str) {
-	    var result = [];
-	    for (var i=0; i<str.length; i++) {
-	      result.push("\\u"+str.charCodeAt(i).toString(16));
-	    }
-	    return result;
-  	}
-
 	d3.json("./assets/data/movelists/MOVELIST_"+index+".json", function(err, data) {
 		
 		selectChar(index);
@@ -309,5 +308,8 @@ var fetchmovelist = function fetchmovelist(index) {
 			d3.select("#dmgmove"+moveid).on("mouseenter", function(){d3.select("i#"+this.id+" + div.move-hitdmg").style('display', 'initial');});
 			d3.select("#dmgmove"+m).on("mouseleave", function(){var tid=this.id; setTimeout(function(){d3.select("i#"+tid+" + div.move-hitdmg").style('display', 'none');}, 3000);});
 		}
+
+		// Scroll the list to the top
+		document.querySelector("#movelist_tab > table ").firstElementChild.scrollIntoView(true);
 	});
 };
