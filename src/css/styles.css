@@ -150,7 +150,7 @@ body {
 .separator {
   background-color: rgba(23, 147, 181, 0.5);
   width: 2px;
-  height: 80vh;
+  height: 100%;
   margin-left: 5px;
   margin-right: 5px; }
 
@@ -169,7 +169,6 @@ table {
   width: 8px; }
 
 .char-menu .head {
-  height: 7%;
   width: 100%; }
 
 .char-movelist {
