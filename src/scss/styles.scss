@@ -61,7 +61,7 @@ body {
     z-index: -100;
     opacity: 0.2;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 800px) {
         display: none;
     }
 }
@@ -82,7 +82,6 @@ body {
     flex-direction: row;
     max-width: 100%;
     max-height: 100px;
-    position: absolute;
     top: 0;
     left: 0;
     justify-content: flex-start;
@@ -151,6 +150,14 @@ body {
     position: absolute;
     left: 0px;
     bottom: 15px;
+    line-height: 30px;
+
+    @media only screen and (max-height: 800px){
+        font-size: 12px;
+        line-height: 20px;
+        height: 25px;
+        overflow-y: hidden; 
+    }
     
     p {
         color: #ffffff;
@@ -160,10 +167,11 @@ body {
         margin: 0;
         margin-left: 15px;
         margin-right: 15px;
-        margin-top: 7px;
+        margin-top: 3px;
 
         @media only screen and (max-height: 800px){
             //font-size: 15px;
+            overflow-y: hidden; 
         }
     }
 }
@@ -178,6 +186,10 @@ body {
     height: 100%;
     margin-left: 5px;
     margin-right: 5px; 
+
+    @media only screen and (max-width: 800px){
+        display: none;
+    }
 }
 
 table {
@@ -191,14 +203,78 @@ table {
     width: 200px;
     height: 100%;
     margin-left: 5px;
+
+    @media only screen and (max-width: 800px){
+        position: absolute;
+        background-color: rgba(0,0,0,0.85);
+        z-index: 10;
+        margin-left: 3px;
+        width: 155px;
+        border: 1px solid rgba(12,73,90,.75);
+        height: 100%;
+        border-radius: 5px;
+        display: none;
+    }
 }
 
 .char-menu ::-webkit-scrollbar {
     width: 8px;
+    @media only screen and (max-width: 800px){
+        width: 5px;
+    }
 }
 
 .char-menu .head {
     width: 100%;
+}
+
+.char-menu .inner-table {
+    @media only screen and (max-width: 800px){
+        height: calc(100% - 40px);
+    }
+}
+
+.char-menu-open {
+    width: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 6px #0af1f5;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 44px;
+    padding: 3px 0px 3px 0px;
+    border: 1px solid rgba(12,73,90,.75);
+    display: none;
+    cursor: pointer;
+
+    @media only screen and (max-width: 800px){
+        display: initial;
+    }
+
+}
+
+.char-menu-open:active {
+    background-color: rgba(7,44,54,.75);
+}
+
+.char-menu-close {
+    font-size: 25px;
+    width: 25px;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align: right;
+    padding: 3px 2px 2px 2px;
+    text-shadow: 0 0 10px #fd0106;
+    display: none;
+    cursor: pointer;
+
+    @media only screen and (max-width: 800px){
+        display: table-cell;
+    }
+}
+
+.char-menu-close:active {
+    text-shadow: 0 0 10px #fd0106;
 }
 
 .char-movelist {
@@ -216,6 +292,11 @@ table {
     justify-content: space-between;
     align-items: baseline;
 
+    @media only screen and (max-width: 800px) {
+        align-items: center;
+        margin-left: 5px;
+    }
+
     .move-head {
         color: #ffffff;
         font-family: "Trump", Arial, sans-serif;
@@ -224,6 +305,10 @@ table {
         text-transform: uppercase;
         text-shadow: 0 0 6px hsla(0, 100%, 47%, 1);
         margin: 3px 15px 3px 0px;
+
+        @media only screen and (max-width: 800px) {
+            font-size: 22px;
+        }
     }
 
     .opt-buttons {
@@ -256,6 +341,14 @@ table {
                 line-height: 20px;
             }
         }
+
+        *:hover {
+            background-color: hsla(193, 76%, 30%, 0.75);
+        }
+
+        *:active {
+            background-color: hsla(193, 77%, 12%, 0.75);
+        }
     }
 }
 
@@ -278,22 +371,15 @@ table {
     overflow-x: hidden;
     height: calc(100% - 60px);
     max-width: 100%;
+
+    @media only screen and (max-width: 800px) {
+        height: calc(100% - 30px);
+    }
+
+    @media only screen and (max-height: 500px) {
+        height: calc(100% - 80px);
+    }
 }
-/* Add fighter render to the right side of the table
-.char-movelist .inner-table::after {
-    content: "";
-    background-image: url(./../assets/chars/luckychloe.png);
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: right bottom;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    position: absolute;
-}*/
 
 .char-head {
     color: #ffffff;
@@ -302,6 +388,14 @@ table {
     font-style: italic;
     text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
     text-transform: uppercase;
+    text-align: center;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 25px;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 5px;
+    }
 }
 
 .char-card {
@@ -312,6 +406,12 @@ table {
     border: 2px solid hsla(193, 77%, 20%, 0.75);
     background-color: rgba(0,0,0,0.50);
     border-radius: 3px;
+
+    @media only screen and (max-width: 800px) {
+        border-width: 1px;
+        height: 75px;
+        width: 140px;
+    }
 }
 
 .char-card:hover {
@@ -363,6 +463,10 @@ table {
     bottom: 0px;
     margin: 0 0 0 -1px;
     position: absolute;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 15px;
+    }
 }
 
 .move-table {
@@ -398,6 +502,26 @@ table {
 .move-info {
     position: relative;
     max-width: 760px;
+
+    @media only screen and (max-width: 1130px) {
+        max-width: calc(100vw - 400px);
+    }
+
+    @media only screen and (max-width: 800px) {
+        max-width: calc(100vw - 135px);
+    }
+}
+
+.move-title * {
+    @media only screen and (max-width: 800px) {
+        font-size: 14px !important;
+    }
+}
+
+.move-hit-dmg * {
+    @media only screen and (max-width: 800px) {
+        font-size: 12px;
+    }
 }
 
 .move-title, .move-hit-dmg {
@@ -418,6 +542,12 @@ table {
     border-bottom-right-radius: 20px;
     font-size: 15px;
     text-indent: -5px;
+    
+    @media only screen and (max-width: 800px) {
+        font-size: 10px;
+        width: 25px;
+        height: 15px;
+    }
 }
 
 .move-hint {
@@ -433,10 +563,15 @@ table {
     max-width: 100%;
     overflow-x: auto;
     cursor: grab;
+
+    @media only screen and (max-width: 800px) {
+        margin-left: 25px;
+        font-size: 12px;
+    }
 }
 
 div.move-string::-webkit-scrollbar {
-    height: 8px !important;
+    height: 3px !important;
 }
 .move-name {
     font-size: 20px;
@@ -444,6 +579,11 @@ div.move-string::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 10px;
     padding-top: 5px;
+    
+    @media only screen and (max-width: 800px) {
+        margin-left: 25px;
+        margin-right: 5px;
+    }
 }
 
 .move-framestring, .move-dmgstring, .move-hitdmg, 
@@ -459,6 +599,10 @@ div.move-string::-webkit-scrollbar {
     flex-direction: initial;
     align-items: center;
     justify-content: flex-start;
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
 }
 
 .fa-plus-square {
@@ -492,6 +636,16 @@ div.move-string::-webkit-scrollbar {
 
 .move-hitlvlstring {
     margin: 3px 0 5px 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    @media only screen and (max-width: 800px) {
+        margin-left: 25px;
+    }
+}
+
+div.move-hitlvlstring::-webkit-scrollbar {
+    height: 3px !important;
 }
 
 .mv-hitlvl {
@@ -533,6 +687,13 @@ div.move-string::-webkit-scrollbar {
     width: 100px;
     margin-left: 5px;
     margin-right: 5px;
+    
+    @media only screen and (max-width: 800px) {
+        width: 75px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-size: 12px;
+    }
 }
 
 .move-frames .mv-id {
@@ -572,6 +733,10 @@ div.move-string::-webkit-scrollbar {
     margin-right: 5px;
     justify-content: flex-end;
     margin-top: 1px;
+
+    @media only screen and (max-width: 800px) {
+        margin: 0;
+    }
 }
 
 .move-dmg p {
@@ -581,6 +746,10 @@ div.move-string::-webkit-scrollbar {
     text-shadow: 0px 0px 5px #000000;
     font-size: 16px;
     font-weight: bold;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 12px;
+    }
 }
 
 .move-dmg .fa-arrow-right {
@@ -602,6 +771,10 @@ div.move-string::-webkit-scrollbar {
 
 .move-special {
     max-width: 100px;
+
+    @media only screen and (max-width: 800px) {
+        max-width: 50px;
+    }
 }
 
 .move-special p {
@@ -615,6 +788,12 @@ div.move-string::-webkit-scrollbar {
     text-shadow: 0px 0px 5px #000000;
     font-size: 18px;
     margin-left: 5px;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 10px;
+        margin-left: 1px;
+        text-shadow: 0px 0px 2px #000000;
+    }
 }
 
 p.spin {
@@ -633,6 +812,10 @@ p.track {
     background: linear-gradient(hsla(193, 77%, 20%, 0), hsla(193, 77%, 20%, 0.75));
     border-radius: 5px;
     font-size: 1.3vmin;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 10px;
+    }
 }
 
 .preferences-dialog {
@@ -744,17 +927,13 @@ p.track {
 
 @media only screen and (max-height: 800px){
     .main-container {
-        height: 75vh;
+        height: 80%;
     }
 }
 
 @media only screen and (max-width: 1130px) {
     .char-movelist {
         max-width: 80vw;
-    }
-
-    .move-info {
-        max-width: calc(100vw - 400px);
     }
 }
 
@@ -772,31 +951,11 @@ p.track {
         font-size: 35px;
     }
 
-    .inner-table {
-        height: calc(100% - 30px);
-    }
-
-    .char-menu, .separator {
-        display: none;
-    }
-
     .char-movelist {
         max-width: 98vw;
     }
 
-    .move-string, .move-hit-dmg *, .move-extra * {
-        font-size: 14px !important;
-    }
-
-    .move-info {
-        max-width: calc(100vw - 200px);
-    }
-
     .move-button, .move-arrow {
         width: 30px;
-    }
-
-    .move-title * {
-        font-size: 17px;
     }
 }

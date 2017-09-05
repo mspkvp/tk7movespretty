@@ -18,5 +18,6 @@
 	"HCB": "Half Circle Backward",
 	"FC": "Full Crouch",
 	"LCT": "Leg Cutter",
-	"WR": "While Running"
+	"WR": "While Running",
+	"*": "Hold"
 }

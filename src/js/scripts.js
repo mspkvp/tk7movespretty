@@ -17,6 +17,7 @@ var selected_char = "32",
 	lang_index = 0,
 	jap = false,
 	prefDialog = false,
+	charMenuDialog = false,
 	button_layouts = ["STEAM", "PS4","XBOX"],
 	bl_choice = 2;
 
@@ -113,6 +114,8 @@ function selectChar(index){
 	d3.select("#"+id_string[0]).classed("selected", true);
 	d3.select("#selected-title").text(char_data[selected_char].n);
 	setCookie();
+
+	if(charMenuDialog) toggleCharMenu();
 }
 
 var togglePreferences = function() {
@@ -121,6 +124,14 @@ var togglePreferences = function() {
 	else d3.select("#preferences").style('visibility', 'visible');
 
 	prefDialog = !prefDialog;
+};
+
+var toggleCharMenu = function(){
+	if(charMenuDialog) 
+		d3.select("#charmenu").style('display', 'none');
+	else d3.select("#charmenu").style('display', 'initial');
+
+	charMenuDialog = !charMenuDialog;
 };
 
 var changePlatform = function(index){
@@ -142,7 +153,7 @@ var importdata = function importdata(){
 					char_data[data[h].i] = {c: data[h].c, n: data[h].n};
 
 				for(let i=0; i<data.length; i++){
-					var tname = data[i].c.split(" ");
+					var tname = data[i].c_index.split(" ");
 					if(data[i].i == "11")
 						tname = data[i].c.split("-");
 					d3.select(".char-menu > .inner-table > table").append("tr")

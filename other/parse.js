@@ -7,11 +7,11 @@ function toTitleCase(str)
 }
 
 function isLetterString(arg) {
-	if(arg.length < 2)
+	if(arg.length < 3)
 		return false;
 
 	for(let l in arg){
-		if(!/[a-zA-Z()]/.test(arg.charAt(l)))
+		if(!/[a-zA-Z(),]/.test(arg.charAt(l)))
 			return false;
 	}
 	return true;
@@ -22,23 +22,24 @@ function isMoveInput(arg) {
 		return true;
 	else if( arg.indexOf("+") != -1 || arg.indexOf("/") != -1)
 		return true;
+	else if(!isNaN(arg))
+		return true;
 	//else if( arg.indexOf("*") != -1)
 
 	return false;
 }
 
-function splitMove(move_string, split_param) {
-	switch(split_param){
-		case '*':
-			let index = move_string.indexOf('*');
-			let split = move_string.split('*');
-			split.splice(index, 0, '*');
-			return split;
-		case '+':
-			return move_string.split('+');
-		default:
-			return [move_string];
-	}
+function splitMove(move_string) {
+	let spc_split = move_string.split(" ").map((item) => item.trim());
+	let comma_split = [];
+
+	spc_split.forEach(function(arg){
+		if(isLetterString(arg))
+			comma_split = comma_split.concat(arg);
+		else comma_split = comma_split.concat(arg.split(",").map((item) => item.trim()));
+	});
+
+	return comma_split.filter(function(e){return e});
 }
 
 let read_dir = './rbn_fd/html/';
@@ -58,22 +59,25 @@ let char_data_pms = new Promise(function(resolve, reject){
 });
 
 function process_move_command(move_string) {
-	let splits = move_string.split(" ");
+	console.log("Start --> "+move_string);
+	let splits = splitMove(move_string);
 	let words = [],
 		inputs = [];
-
+	console.log(splits);
+	return;
 	for(let i=0; i<splits.length; i++)
 		if(isLetterString(splits[i]))
 			words.push(splits[i]);
 		else if( isMoveInput(splits[i]) )
-			inputs.push(splits[i]);
-		else console.log("---- split: "+ splitMove(splits[i]));
+			inputs.push(splits[i]); 
+		else console.log("---- split: "+ ssplits[i]+" | length: "+splits[i].length);
 
 	console.log({
 		split: splits,
 		words: words,
 		inputs: inputs
 	});
+	console.log("==========");
 }
 
 Promise.all([char_data_pms]).then(function(values){
@@ -81,7 +85,7 @@ Promise.all([char_data_pms]).then(function(values){
 	//console.log(files);
 	const char_data = values[0];
 	
-	for(let f=0; f<files.length; f++){
+	for(let f=2; f<files.length; f++){
 		console.log(read_dir+files[f]);
 		let xml_string = fs.readFileSync(read_dir+files[f], 'utf8');
 		parseString(xml_string, function (err, result) {
@@ -105,8 +109,10 @@ Promise.all([char_data_pms]).then(function(values){
 				for(let i=1; i<array_src.length; i++){
 					let move = {id: move_counter, number: ++move_counter};
 					for( let j=0; j<array_src[i].td.length; j++){
-						if( fields[j] === "Command" )
+						if( fields[j] === "Command" ){
+							console.log("move id: "+move.id);
 							process_move_command(array_src[i].td[j]);
+						}
 						move[fields[j]] = array_src[i].td[j];
 					}
 					array_dest.push(move);

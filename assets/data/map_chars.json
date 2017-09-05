@@ -21,7 +21,7 @@
   },
   {
     "c": "LUCKY CHLOE", "n":"Lucky Chloe",
-    "i": "22", "c_index": "chloe"
+    "i": "22", "c_index": "luckychloe"
   },
   {
     "c": "CLAUDIO", "n":"Claudio Serafino",
@@ -29,7 +29,7 @@
   },
   {
     "c": "DEVIL JIN", "n":"Devil Jin",
-    "i": "13", "c_index": "devil"
+    "i": "13", "c_index": "deviljin"
   },
   {
     "c": "DRAGUNOV", "n":"Sergei Dragunov",
@@ -128,7 +128,7 @@
     "i": "00", "c_index": "paul"
   },
   {
-    "c": "RAVEN", "n":"Master Raven",
+    "c": "MASTER RAVEN", "n":"Master Raven",
     "i": "29", "c_index": "raven"
   },
   {

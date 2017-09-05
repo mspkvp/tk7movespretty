@@ -20,9 +20,12 @@
 		<h3 class="glow">MOVELIST</h3>
 	</div>
 	<div class="main-container">
-		<div class="char-menu disable-select">
+		<div id="charmenu" class="char-menu disable-select">
 		    <table class="head">
 				<tr>
+					<td class="char-menu-close" onclick="toggleCharMenu()">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</td>
 					<td class="char-head">CHARACTERS</td>
 				</tr>
 		    </table>
@@ -34,6 +37,9 @@
 		<div class="separator"></div>
 		<div class="char-movelist">
 		    <div class="head disable-select">
+		    	<div class="char-menu-open" onclick="toggleCharMenu()">
+		    		<i class="fa fa-exchange" aria-hidden="true"></i>
+		    	</div> 
 				<div id="selected-title" class="move-head">Kazumi Mishima</div>
 				<div class="opt-buttons">
 					<div class="btn-preferences" onclick="togglePreferences()">Preferences</div>
