@@ -1,0 +1,1808 @@
+{
+    "id": 23,
+    "id_name": "shaheen",
+    "name": "Shaheen",
+    "first_name": "Shaheen",
+    "last_name": "",
+    "n_moves": 65,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "1+2"
+            ],
+            "command_string": "During Rage 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+7+7+31",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "db",
+                "2",
+                "4",
+                "DF"
+            ],
+            "command_string": "During Rage db24DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 24,
+            "damage_per_hit": "12+12",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": 6,
+                "hit": 48,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Spica Gut Punch",
+            "command": [
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "122",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "7+9+14",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Spica Blinding Sands",
+            "command": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command_string": "123",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 34,
+            "damage_per_hit": "7+9+18",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "8+2",
+                "block": -8,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Spica Wheel Spin",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "7+9+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -13,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Cut In",
+            "command": [
+                "2",
+                "1"
+            ],
+            "command_string": "21",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "10+7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -6,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Blinding Sands",
+            "command": [
+                "3"
+            ],
+            "command_string": "3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -8,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Blinding Sands to Stealth Step",
+            "command": [
+                "3",
+                "DF"
+            ],
+            "command_string": "3DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -27,
+                "hit": -6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Hallux Kick to Algenib",
+            "command": [
+                "4",
+                "1"
+            ],
+            "command_string": "41",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "16+12",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -4,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Hallux Kick to High Slashing Kick",
+            "command": [
+                "4",
+                "3"
+            ],
+            "command_string": "43",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 37,
+            "damage_per_hit": "16+21",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -1,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Hallux Kick to Ra'd",
+            "command": [
+                "4",
+                "4"
+            ],
+            "command_string": "44",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 41,
+            "damage_per_hit": "16+25",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -13,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Silent Sting",
+            "command": [
+                "f",
+                "2",
+                "3"
+            ],
+            "command_string": "f23",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -12,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Silent Flow to Stealth Step",
+            "command": [
+                "f",
+                "2",
+                "4",
+                "DF"
+            ],
+            "command_string": "f24DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -43,
+                "hit": -32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Silent Flow",
+            "command": [
+                "f",
+                "2",
+                "4",
+                "4"
+            ],
+            "command_string": "f244",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low",
+                "High"
+            ],
+            "damage": 46,
+            "damage_per_hit": "12+13+21",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -3,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Crescent Moon",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Piercing Talon",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Skyline",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "14+14",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -11,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Skyline to Stealth Step",
+            "command": [
+                "f",
+                "3+4",
+                "DF"
+            ],
+            "command_string": "f3+4DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "14+14",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -25,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Rising Falcon",
+            "command": [
+                "df",
+                "2"
+            ],
+            "command_string": "df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -7,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Whirlwind Kick",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Stinging Kick",
+            "command": [
+                "df",
+                "4"
+            ],
+            "command_string": "df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Gut Impact",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -6,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Silent Rigel",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -16,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Silent Rigel to Stealth Step",
+            "command": [
+                "d",
+                "3",
+                "DF"
+            ],
+            "command_string": "d3DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -35,
+                "hit": -22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Vicious Stomp",
+            "command": [
+                "d",
+                "4"
+            ],
+            "command_string": "d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -12,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Rapid Strikes to Stealth Step",
+            "command": [
+                "db",
+                "2",
+                "DF"
+            ],
+            "command_string": "db2DF",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 11,
+            "damage_per_hit": "11",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -28,
+                "hit": -17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Rapid Strikes",
+            "command": [
+                "db",
+                "2",
+                "1"
+            ],
+            "command_string": "db21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -11,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Snake's Bite",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -20,
+                "hit": -6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Snake's Bite to Rising Scimitar",
+            "command": [
+                "db",
+                "3",
+                "4"
+            ],
+            "command_string": "db34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 45,
+            "damage_per_hit": "15+30",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -13,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Rising Scimitar",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -13,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Shaula",
+            "command": [
+                "db",
+                "1+2"
+            ],
+            "command_string": "db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "frames": {
+                "startup": 64,
+                "speed_per_hit": "64",
+                "block": -24,
+                "hit": 42,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Achernar",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -9,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Heel Strike",
+            "command": [
+                "b",
+                "3"
+            ],
+            "command_string": "b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": 1,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Broken Mirage",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -15,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Crescent Cleaver",
+            "command": [
+                "uf",
+                "3"
+            ],
+            "command_string": "uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -7,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Altair",
+            "command": [
+                "uf",
+                "4"
+            ],
+            "command_string": "uf4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Hunting Falcon Dive",
+            "command": [
+                "f",
+                "F",
+                "3",
+                "(or",
+                "f",
+                "f",
+                "f",
+                "3",
+                ")"
+            ],
+            "command_string": "f, F, 3, (or fff3)",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "13+5+5",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -12,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Elnath",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -11,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Hornet",
+            "command": [
+                "f",
+                "b",
+                "2"
+            ],
+            "command_string": "fb2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+45",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -4,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Stealth Step",
+            "command": [
+                "df",
+                "DF"
+            ],
+            "command_string": "dfDF",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -91,
+                "hit": -91,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Blinding Snake",
+            "command": [
+                "During",
+                "Stealth",
+                "Step",
+                "1"
+            ],
+            "command_string": "During Stealth Step 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 7,
+            "damage_per_hit": "7",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "12",
+                "block": 1,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Maelstrom",
+            "command": [
+                "During",
+                "Stealth",
+                "Step",
+                "2"
+            ],
+            "command_string": "During Stealth Step 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Hunting Falcon Dive",
+            "command": [
+                "During",
+                "Stealth",
+                "Step",
+                "3"
+            ],
+            "command_string": "During Stealth Step 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "13+5+5",
+            "special_props": [],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "20",
+                "block": -12,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Low Glide",
+            "command": [
+                "During",
+                "Stealth",
+                "Step",
+                "4"
+            ],
+            "command_string": "During Stealth Step 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 36,
+                "speed_per_hit": "26",
+                "block": -19,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Assault Tackle",
+            "command": [
+                "During",
+                "Stealth",
+                "Step",
+                "1+2"
+            ],
+            "command_string": "During Stealth Step 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 37,
+                "speed_per_hit": "27",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Albireo",
+            "command": [
+                "While",
+                "rising",
+                "1"
+            ],
+            "command_string": "While rising 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Hawk Edge",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -17,
+                "hit": 58,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Double Scorpion",
+            "command": [
+                "While",
+                "rising",
+                "3",
+                "3"
+            ],
+            "command_string": "While rising 33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "16+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -15,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Sand Storm",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "d",
+                "DF",
+                "3"
+            ],
+            "command_string": "While crouching dfdDF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -24,
+                "hit": -25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Reverse Edge",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "2"
+            ],
+            "command_string": "Back towards enemy 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -3,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "10 Hit Combo",
+            "command": [
+                "2",
+                "1",
+                "4",
+                "1",
+                "3",
+                "3",
+                "3",
+                "3+4",
+                "4"
+            ],
+            "command_string": "21413333+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 78,
+            "damage_per_hit": "10+7+8+6+7+7+5+4+10+14",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -18,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Desert Fang",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "7+10+18",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Desert Fang",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "7+10+18",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Aldebaran",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Aldebaran",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Chasm Drop",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Axel Spinner",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+10+10",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Silent Death",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 60,
+            "damage_per_hit": "60",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Wezen",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+4"
+            ],
+            "command_string": "Approach enemy df1+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "8+10+22",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Falcon Shield",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "punch",
+                "b",
+                "1+2"
+            ],
+            "command_string": "Time with enemy punch b1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "51+39",
+                "block": 7,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Sample Combo 1",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "df",
+                "1",
+                ">",
+                "df",
+                "3",
+                ">",
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "uf, 4, >, df, 1, >, df, 3, >, fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 48,
+            "damage_per_hit": "13+8+10+5+12",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -12,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Sample Combo 2",
+            "command": [
+                "4",
+                "(Counter",
+                "Hit)",
+                "1",
+                ">",
+                "f",
+                "2",
+                "4",
+                "4",
+                ">",
+                "db",
+                "3",
+                "4"
+            ],
+            "command_string": "4, (Counter Hit) 1, >, f, 2, 4, 4, >, db34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Low",
+                "High",
+                "Low",
+                "High"
+            ],
+            "damage": 57,
+            "damage_per_hit": "19+8+6+5+6+4+9",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": 57,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Sample Combo 3",
+            "command": [
+                "f",
+                "F",
+                "3",
+                ">",
+                "df",
+                "DF",
+                ">",
+                "During",
+                "Stealth",
+                "Step",
+                "2",
+                ">",
+                "4",
+                "3",
+                ">",
+                "db",
+                "2",
+                "DF",
+                ">",
+                "During",
+                "Stealth",
+                "Step",
+                "2"
+            ],
+            "command_string": "f, F, 3, >, df, DF, >, During Stealth Step 2, >, 4, 3, >, db, 2, DF, >, During Stealth Step 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 62,
+            "damage_per_hit": "13+5+5+14+8+8+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -13,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Sample Combo 4",
+            "command": [
+                "uf",
+                "3",
+                ">",
+                "d",
+                "2",
+                ">",
+                "4",
+                "1",
+                ">",
+                "f",
+                "2",
+                "4",
+                "4",
+                ">",
+                "During",
+                "Rage",
+                "1+2"
+            ],
+            "command_string": "uf, 3, >, d, 2, >, 4, 1, >, f, 2, 4, 4, >, During Rage 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Low",
+                "High",
+                "Mid"
+            ],
+            "damage": 86,
+            "damage_per_hit": "24+13+8+5+3+4+6+3+2+2+16",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Sample Combo 5",
+            "command": [
+                "During",
+                "Rage",
+                "db",
+                "2",
+                "4",
+                ">",
+                "3",
+                "DF",
+                "During",
+                "Stealth",
+                "Step",
+                "2",
+                ">",
+                "f",
+                "2",
+                "4",
+                "4",
+                ">",
+                "db",
+                "2",
+                "DF",
+                ">",
+                "During",
+                "Stealth",
+                "Step",
+                "3"
+            ],
+            "command_string": "During Rage db, 2, 4, >, 3, DF, During Stealth Step 2, >, f, 2, 4, 4, >, db, 2, DF, >, During Stealth Step 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "Low",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 76,
+            "damage_per_hit": "12+12+14+10+4+3+6+3+3+9",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

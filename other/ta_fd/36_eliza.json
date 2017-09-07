@@ -1,0 +1,2374 @@
+{
+    "id": 36,
+    "id_name": "eliza",
+    "name": "Eliza",
+    "first_name": "Eliza",
+    "last_name": "",
+    "n_moves": 83,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "b",
+                "3+4"
+            ],
+            "command_string": "During Rage b3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+2+3+3+3+3+2+3+3+3+3+17",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 2,
+            "name": "Dark Wave",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1"
+            ],
+            "command_string": "ddff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "28",
+                "block": 16,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 3,
+            "name": "Dark Wave",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "2"
+            ],
+            "command_string": "ddff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": 1,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 4,
+            "name": "Dark Blade",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "1"
+            ],
+            "command_string": "fddf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -22,
+                "hit": 52,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 5,
+            "name": "Dark Blade",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "fddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 24,
+            "damage_per_hit": "9+9+6",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -36,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 6,
+            "name": "Dark Storm",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "1"
+            ],
+            "command_string": "ddbb1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -14,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 7,
+            "name": "Dark Tempest",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "2"
+            ],
+            "command_string": "ddbb2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 8,
+            "name": "Dark Cannon",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "3"
+            ],
+            "command_string": "ddbb3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -9,
+                "hit": 50,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 9,
+            "name": "Dark Cannon",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "4"
+            ],
+            "command_string": "ddbb4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": 4,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 10,
+            "name": "Dazzling Wave",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "2",
+                "d",
+                "df",
+                "f",
+                "1",
+                "(or",
+                "2",
+                ")"
+            ],
+            "command_string": "f, F, 4, 2, d, df, f, 1, (or 2)",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Proj"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+10+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 16,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 11,
+            "name": "AirBorne Dark Cannon",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "3"
+            ],
+            "command_string": "During Jump ddbb3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "11+2",
+                "block": -9,
+                "hit": 50,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 12,
+            "name": "AirBorne Dark Cannon",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "4"
+            ],
+            "command_string": "During Jump ddbb4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "10+3",
+                "block": 1,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 13,
+            "name": "Dark Wave to Moon Glide",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1",
+                "(or",
+                "2",
+                ")",
+                "f",
+                "d",
+                "df",
+                "3+4"
+            ],
+            "command_string": "d, df, f, 1, (or 2, ) fddf3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "28",
+                "block": 10,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 14,
+            "name": "Dark Wave Chaos",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "ddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 34,
+            "damage_per_hit": "20+14",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": 28,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 15,
+            "name": "Dark Blade Chaos",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "1+2"
+            ],
+            "command_string": "fddf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 34,
+            "damage_per_hit": "5+5+9+9+6",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -34,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 16,
+            "name": "Dark Tempest Chaos",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "1+2"
+            ],
+            "command_string": "ddbb1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 17,
+            "name": "Dark Cannon Chaos",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "3+4"
+            ],
+            "command_string": "ddbb3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -13,
+                "hit": 58,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 18,
+            "name": "Dazzling Wave to Moon Glide",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "2",
+                "d",
+                "df",
+                "f",
+                "1",
+                "(or",
+                "2",
+                ")",
+                "f",
+                "d",
+                "df",
+                "3+4"
+            ],
+            "command_string": "f, F, 4, 2, d, df, f, 1, (or 2, ) fddf3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Proj"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+10+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 10,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 19,
+            "name": "Dazzling Wave Chaos",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "2",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "fF42ddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Proj"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+10+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 26,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 20,
+            "name": "AirBorne Dark Cannon Chaos",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "3+4"
+            ],
+            "command_string": "During Jump ddbb3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "8+2",
+                "block": -13,
+                "hit": 58,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 21,
+            "name": "Bloody Horn",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "ddffddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": 76,
+                "hit": 76,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 22,
+            "name": "Needle Jab",
+            "command": [
+                "1"
+            ],
+            "command_string": "1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 7,
+            "damage_per_hit": "7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 1,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 23,
+            "name": "Double Needle",
+            "command": [
+                "1",
+                "1"
+            ],
+            "command_string": "11",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 14,
+            "damage_per_hit": "7+7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -3,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 24,
+            "name": "Left Right Slap",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "7+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -1,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 25,
+            "name": "Left Right Moonrise",
+            "command": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command_string": "123",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "7+10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -22,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 26,
+            "name": "Left Right Arc Kick",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 37,
+            "damage_per_hit": "7+10+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -4,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 27,
+            "name": "Binary Star",
+            "command": [
+                "2",
+                "2"
+            ],
+            "command_string": "22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "9+15",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 28,
+            "name": "Arc Kick",
+            "command": [
+                "4"
+            ],
+            "command_string": "4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -5,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 29,
+            "name": "Meteor Burst",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -20,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 30,
+            "name": "Shadow Ring",
+            "command": [
+                "3+4"
+            ],
+            "command_string": "3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "33",
+                "block": -27,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 31,
+            "name": "Fierce Sting",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 32,
+            "name": "Moon Glide",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "50+30",
+                "block": -74,
+                "hit": -74,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 33,
+            "name": "Stardust",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "1",
+                "2"
+            ],
+            "command_string": "During Moon Glide 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "11+12",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "15+10",
+                "block": -8,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 34,
+            "name": "Stardust Break",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Moon Glide 121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 44,
+            "damage_per_hit": "11+12+21",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "15+10",
+                "block": -13,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 35,
+            "name": "Bloody Claw to Deadly Slumber",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "2",
+                "(must",
+                "hit)"
+            ],
+            "command_string": "During Moon Glide 2, (must hit) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 29,
+                "speed_per_hit": "15+14",
+                "block": -9,
+                "hit": -184,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 36,
+            "name": "Bloody Claw to Standing ",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "2",
+                "B"
+            ],
+            "command_string": "During Moon Glide 2B",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 29,
+                "speed_per_hit": "15+14",
+                "block": -32,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 37,
+            "name": "Helical Flow",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "3",
+                "4"
+            ],
+            "command_string": "During Moon Glide 34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "12+14",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 31,
+                "speed_per_hit": "15+16",
+                "block": -7,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 38,
+            "name": "Queen Needle",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "4"
+            ],
+            "command_string": "During Moon Glide 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "15+18",
+                "block": -24,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 39,
+            "name": "Death Impact",
+            "command": [
+                "During",
+                "Moon",
+                "Glide",
+                "1+2"
+            ],
+            "command_string": "During Moon Glide 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 66,
+                "speed_per_hit": "15+51",
+                "block": -33,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 40,
+            "name": "Broken Dream",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [
+                "armor",
+                "track"
+            ],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -13,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 41,
+            "name": "Moonlight",
+            "command": [
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 42,
+            "name": "Daylight",
+            "command": [
+                "df",
+                "1",
+                "4"
+            ],
+            "command_string": "df14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "12+14",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 43,
+            "name": "Rending Claw",
+            "command": [
+                "df",
+                "2",
+                "3"
+            ],
+            "command_string": "df23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -18,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 44,
+            "name": "Astral Shot",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -8,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 45,
+            "name": "Sitting Jab",
+            "command": [
+                "d",
+                "1"
+            ],
+            "command_string": "d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid"
+            ],
+            "damage": 5,
+            "damage_per_hit": "5",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 46,
+            "name": "Sitting Claw",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid"
+            ],
+            "damage": 8,
+            "damage_per_hit": "8",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -7,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 47,
+            "name": "Sweeping Scarlet",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 7,
+            "damage_per_hit": "7",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": -5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 48,
+            "name": "Horizon Ring",
+            "command": [
+                "d",
+                "4"
+            ],
+            "command_string": "d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -27,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 49,
+            "name": "Endless Sleep",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "50+178",
+                "block": -271,
+                "hit": -271,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 50,
+            "name": "Rising Chaos",
+            "command": [
+                "b",
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "b124",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 42,
+            "damage_per_hit": "13+13+16",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -13,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 51,
+            "name": "Leading Knee",
+            "command": [
+                "b",
+                "2",
+                "3"
+            ],
+            "command_string": "b23",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "10+15",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -9,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 52,
+            "name": "Dust Tail",
+            "command": [
+                "b",
+                "3",
+                "1"
+            ],
+            "command_string": "b31",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 34,
+            "damage_per_hit": "14+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 53,
+            "name": "Ion Tail",
+            "command": [
+                "b",
+                "3",
+                "4"
+            ],
+            "command_string": "b34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "14+20",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -14,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 54,
+            "name": "Flare Knee",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 55,
+            "name": "Burst Claw",
+            "command": [
+                "b",
+                "1+2"
+            ],
+            "command_string": "b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "5+20",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -18,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 56,
+            "name": "Splendid Edge",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "2"
+            ],
+            "command_string": "fF42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 57,
+            "name": "Assault Barrage",
+            "command": [
+                "f",
+                "F",
+                "1+2"
+            ],
+            "command_string": "fF1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Low"
+            ],
+            "damage": 31,
+            "damage_per_hit": "5+6+20",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -14,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 58,
+            "name": "Noble Execution",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "1"
+            ],
+            "command_string": "fff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -2,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 59,
+            "name": "Noble Slash",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": 0,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 60,
+            "name": "Stabbing Scarlet",
+            "command": [
+                "While",
+                "rising",
+                "1"
+            ],
+            "command_string": "While rising 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -7,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 61,
+            "name": "Rising Shadow",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -12,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 62,
+            "name": "Rose Thorn",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -22,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 63,
+            "name": "Deadly Slumber",
+            "command": [
+                "While",
+                "crouching",
+                "D",
+                "(",
+                "1",
+                "sec)"
+            ],
+            "command_string": "While crouching D, ( 1 sec) ",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -327,
+                "hit": -327,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 64,
+            "name": "Vampire Needle",
+            "command": [
+                "During",
+                "Jump",
+                "1"
+            ],
+            "command_string": "During Jump 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": 1,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 65,
+            "name": "Vampire Claw",
+            "command": [
+                "During",
+                "Jump",
+                "2"
+            ],
+            "command_string": "During Jump 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": 4,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 66,
+            "name": "Swan Shot",
+            "command": [
+                "During",
+                "Jump",
+                "3"
+            ],
+            "command_string": "During Jump 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": -4,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 67,
+            "name": "Poison Orbit",
+            "command": [
+                "During",
+                "Jump",
+                "4"
+            ],
+            "command_string": "During Jump 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": 3,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 68,
+            "name": "Endless Sleep",
+            "command": [
+                "While",
+                "down",
+                "(facing",
+                "up)",
+                "1+2"
+            ],
+            "command_string": "While down (facing up) 1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "25+179",
+                "block": -246,
+                "hit": -246,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 69,
+            "name": "Auger",
+            "command": [
+                "2+3+4"
+            ],
+            "command_string": "2+3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "99+30",
+                "block": -96,
+                "hit": -96,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 70,
+            "name": "10 Hit Combo",
+            "command": [
+                "3",
+                "1",
+                "4",
+                "1",
+                "2",
+                "2",
+                "4",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "3141224212",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Low",
+                "Mid",
+                "High",
+                "Mid",
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 93,
+            "damage_per_hit": "12+10+8+8+5+6+8+10+10+6+6+4",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -34,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 71,
+            "name": "Grave Digger",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+1+1+1+1+1+19",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -1,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 72,
+            "name": "Grave Digger",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+1+1+1+1+1+19",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -1,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 73,
+            "name": "Salamander",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+6+18",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 74,
+            "name": "Salamander",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+6+18",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 75,
+            "name": "Phantom Rave",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "8+8+12+12",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 76,
+            "name": "Phantom Rave",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "8+8+12+12",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 77,
+            "name": "Deep Shadow",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 45,
+            "damage_per_hit": "5+5+5+5+25",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -9,
+                "hit": -9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 78,
+            "name": "Phantom Rave",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "8+8+12+12",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 79,
+            "name": "Sample Combo 1",
+            "command": [
+                "During",
+                "Jump",
+                "4",
+                ">",
+                "1",
+                ">",
+                "f",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "During Jump 4, >, 1, >, fddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 46,
+            "damage_per_hit": "15+7+9+9+6",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": -36,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 80,
+            "name": "Sample Combo 2",
+            "command": [
+                "While",
+                "rising",
+                "3",
+                ">",
+                "1",
+                "2",
+                "4",
+                ">",
+                "d",
+                "3",
+                ">",
+                "d",
+                "db",
+                "b",
+                "2"
+            ],
+            "command_string": "While rising 3, >, 1, 2, 4, >, d, 3, >, ddbb2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Low",
+                "Proj"
+            ],
+            "damage": 46,
+            "damage_per_hit": "20+4+5+8+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 36,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 81,
+            "name": "Sample Combo 3",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                ">",
+                "f",
+                "d",
+                "df",
+                "1",
+                ">",
+                "b",
+                "2",
+                "3",
+                ">",
+                "2",
+                "2",
+                ">",
+                "d",
+                "db",
+                "b",
+                "1",
+                ">",
+                "f",
+                "4",
+                ">",
+                "During",
+                "Moon",
+                "Glide",
+                "2",
+                "(must",
+                "hit)"
+            ],
+            "command_string": "While rising 1, >, f, d, df, 1, >, b, 2, 3, >, 2, 2, >, d, db, b, 1, >, f, 4, >, During Moon Glide 2, (must hit) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj",
+                "High",
+                "Mid",
+                "High",
+                "Mid",
+                "Proj",
+                "Mid"
+            ],
+            "damage": 56,
+            "damage_per_hit": "10+12+7+7+3+4+6+7",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -9,
+                "hit": -17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 82,
+            "name": "Sample Combo 4",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "2",
+                "d",
+                "df",
+                "f",
+                "1",
+                "f",
+                "d",
+                "df",
+                "3+4",
+                ">",
+                "During",
+                "Moon",
+                "Glide",
+                "3",
+                "4",
+                ">",
+                "During",
+                "Jump",
+                "2",
+                ">",
+                "During",
+                "Rage",
+                "b",
+                "3+4"
+            ],
+            "command_string": "f, F, 4, 2, d, df, f, 1, f, d, df, 3+4, >, During Moon Glide 3, 4, >, During Jump 2, >, During Rage b3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Proj",
+                "High",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 79,
+            "damage_per_hit": "11+11+15+6+9+4+3+1+1+1+1+1+1+1+1+12",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -122,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 83,
+            "name": "Sample Combo 5",
+            "command": [
+                "During",
+                "Jump",
+                "2",
+                ">",
+                "b",
+                "4",
+                ">",
+                "d",
+                "df",
+                "f",
+                "d",
+                "df",
+                "f",
+                "1+2",
+                ">",
+                "f",
+                "f",
+                "f",
+                "1",
+                ">",
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "4",
+                ">",
+                "1",
+                ">",
+                "f",
+                "4",
+                ">",
+                "During",
+                "Moon",
+                "Glide",
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Jump 2, >, b, 4, >, d, df, f, d, df, f, 1+2, >, f, f, f, 1, >, During Jump d, db, b, 4, >, 1, >, f, 4, >, During Moon Glide 121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj",
+                "Proj",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 84,
+            "damage_per_hit": "15+12+15+21+7+2+3+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": -13,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1792 @@
+{
+    "id": 26,
+    "id_name": "kazumi",
+    "name": "Kazumi Mishima",
+    "first_name": "Kazumi",
+    "last_name": "Mishima",
+    "n_moves": 63,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "d",
+                "1+2"
+            ],
+            "command_string": "During Rage d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+7+3+4+3+4+24",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "f",
+                "F",
+                "1+2"
+            ],
+            "command_string": "During Rage fF1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -12,
+                "hit": 61,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Burst Punch Combo",
+            "command": [
+                "1",
+                "1",
+                "2"
+            ],
+            "command_string": "112",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "7+6+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -17,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Demon Hunter",
+            "command": [
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "122",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "7+8+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -12,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Binding Blows",
+            "command": [
+                "2",
+                "1"
+            ],
+            "command_string": "21",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -5,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Impaling Knee to Steel Slicer",
+            "command": [
+                "3",
+                "1"
+            ],
+            "command_string": "31",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "14+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Impaling Knee to Right Chop",
+            "command": [
+                "3",
+                "2"
+            ],
+            "command_string": "32",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 31,
+            "damage_per_hit": "14+17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -1,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Thunder Punch Combo",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Proj"
+            ],
+            "damage": 36,
+            "damage_per_hit": "8+8+20",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -14,
+                "hit": -11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Rolling Tiger",
+            "command": [
+                "1+4"
+            ],
+            "command_string": "1+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 35,
+                "speed_per_hit": "35",
+                "block": -19,
+                "hit": -19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Lunging Tiger",
+            "command": [
+                "2+3"
+            ],
+            "command_string": "2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -29,
+                "hit": -29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Soul Strike",
+            "command": [
+                "f",
+                "2"
+            ],
+            "command_string": "f2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Gut Crusher",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -6,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Gut Crusher to Fearless Warrior",
+            "command": [
+                "f",
+                "3",
+                "F"
+            ],
+            "command_string": "f3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -16,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Demon's Gate Kick",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Fearless Warrior",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "50+30",
+                "block": -78,
+                "hit": -78,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Lightning God's Rage",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "1"
+            ],
+            "command_string": "During Fearless Warrior 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 36,
+                "speed_per_hit": "17+19",
+                "block": -13,
+                "hit": 56,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Wind God's Fury",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "2"
+            ],
+            "command_string": "During Fearless Warrior 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 32,
+                "speed_per_hit": "17+15",
+                "block": -6,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Oroshi",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "3"
+            ],
+            "command_string": "During Fearless Warrior 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 40,
+                "speed_per_hit": "17+23",
+                "block": -7,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Hellfire Burst",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "4",
+                "2"
+            ],
+            "command_string": "During Fearless Warrior 42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "17+14",
+            "special_props": [],
+            "frames": {
+                "startup": 35,
+                "speed_per_hit": "17+13+5",
+                "block": -31,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Demon's Horn",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "1+2"
+            ],
+            "command_string": "During Fearless Warrior 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 39,
+                "speed_per_hit": "17+22",
+                "block": 2,
+                "hit": 42,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Bloody Demon's Horn",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "f",
+                "1+2"
+            ],
+            "command_string": "During Fearless Warrior f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 67,
+                "speed_per_hit": "17+50",
+                "block": -19,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Iron Side Strike",
+            "command": [
+                "During",
+                "Fearless",
+                "Warrior",
+                "b",
+                "1+2"
+            ],
+            "command_string": "During Fearless Warrior b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 63,
+                "speed_per_hit": "17+46",
+                "block": 8,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Crimson Dawn",
+            "command": [
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "10+21",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -13,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Tiger Wind Uppercut",
+            "command": [
+                "df",
+                "2"
+            ],
+            "command_string": "df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "20+9",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -24,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Heel Thrust",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Diamond Cleaver",
+            "command": [
+                "d",
+                "1",
+                "2"
+            ],
+            "command_string": "d12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "15+25",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -17,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Hellfire Spiral",
+            "command": [
+                "db",
+                "2",
+                "3",
+                "4"
+            ],
+            "command_string": "db234",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 39,
+            "damage_per_hit": "15+12+12",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -11,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Foot Breaker",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -14,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Rolling Thunder",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -12,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Deadly Crescent",
+            "command": [
+                "db",
+                "1+2"
+            ],
+            "command_string": "db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -4,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Dragon Slice",
+            "command": [
+                "b",
+                "1",
+                "2"
+            ],
+            "command_string": "b12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "13+20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -14,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Rajomon",
+            "command": [
+                "b",
+                "2"
+            ],
+            "command_string": "b2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Lightning Heel",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -13,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Last Warrior",
+            "command": [
+                "b",
+                "3+4"
+            ],
+            "command_string": "b3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "60+29",
+                "block": -93,
+                "hit": -93,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Lethal Chop",
+            "command": [
+                "uf",
+                "2"
+            ],
+            "command_string": "uf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Proj"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": -11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Hell Blade",
+            "command": [
+                "uf",
+                "3",
+                "4",
+                "1"
+            ],
+            "command_string": "uf341",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+8+12",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "12+16",
+                "block": -15,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Axle Kick",
+            "command": [
+                "uf",
+                "3",
+                "4",
+                "3"
+            ],
+            "command_string": "uf343",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "20+8+8",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "13+15",
+                "block": -16,
+                "hit": 55,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Crushing Knee",
+            "command": [
+                "uf",
+                "4"
+            ],
+            "command_string": "uf4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Diamond Tiger Strike",
+            "command": [
+                "f",
+                "F",
+                "2"
+            ],
+            "command_string": "fF2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -13,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Oroshi Heel",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -7,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Tiger Demon's Gate",
+            "command": [
+                "b",
+                "f",
+                "2",
+                "1",
+                "4"
+            ],
+            "command_string": "bf214",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 41,
+            "damage_per_hit": "12+9+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "10+5",
+                "block": -6,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Tiger Demon's Breath",
+            "command": [
+                "b",
+                "f",
+                "2",
+                "1",
+                "1+2"
+            ],
+            "command_string": "bf211+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 48,
+            "damage_per_hit": "12+9+13+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "12+3",
+                "block": -14,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Diamond Flash",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "2"
+            ],
+            "command_string": "fff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -4,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Diamond Cutter",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "2"
+            ],
+            "command_string": "While rising 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "12+23",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -13,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Demon Uppercut",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -12,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Demon's Gate Crasher",
+            "command": [
+                "While",
+                "rising",
+                "4",
+                "4"
+            ],
+            "command_string": "While rising 44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "13+16",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -6,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Divine Justice",
+            "command": [
+                "(While",
+                "enemy",
+                "is",
+                "down)",
+                "d",
+                "2"
+            ],
+            "command_string": "(While enemy is down) d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "1+16",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Taunt",
+            "command": [
+                "2+3+4"
+            ],
+            "command_string": "2+3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "139+30",
+                "block": -181,
+                "hit": -181,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "10 Hit Combo",
+            "command": [
+                "df",
+                "3",
+                "1",
+                "2",
+                "3",
+                "2",
+                "1",
+                "2",
+                "3",
+                "4",
+                "2"
+            ],
+            "command_string": "df3123212342",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low",
+                "Low",
+                "Low",
+                "Mid"
+            ],
+            "damage": 82,
+            "damage_per_hit": "14+7+8+6+7+7+5+5+5+11+7",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -38,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Priestess Double Kick",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Priestess Double Kick",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Side Circle Throw",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Side Circle Throw",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Slicing Shoulder Wheel",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "12+28",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Slicing Shoulder Wheel",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "12+28",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Reverse Circle Throw",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Lightning Wrath",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "4+4+4+4+4+4+4+12",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Divine Guardian",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "attack",
+                "b",
+                "1+2"
+            ],
+            "command_string": "Time with enemy attack b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 43,
+                "speed_per_hit": "11+32",
+                "block": 18,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Sample Combo 1",
+            "command": [
+                "df",
+                "2",
+                ">",
+                "b",
+                "2",
+                ">",
+                "uf",
+                "3",
+                "4",
+                "1"
+            ],
+            "command_string": "df, 2, >, b, 2, >, uf341",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 53,
+            "damage_per_hit": "20+9+6+8+3+7",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -15,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Sample Combo 2",
+            "command": [
+                "b",
+                "4",
+                "(Counter",
+                "Hit)",
+                ">",
+                "f",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Fearless",
+                "Warrior",
+                "2",
+                ">",
+                "df",
+                "1",
+                ">",
+                "3",
+                "1",
+                ">",
+                "f",
+                "3+4",
+                ">",
+                "During",
+                "Fearless",
+                "Warrior",
+                "4",
+                "2"
+            ],
+            "command_string": "b, 4, (Counter Hit) >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, 3, 1, >, f, 3+4, >, During Fearless Warrior 42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 68,
+            "damage_per_hit": "24+9+10+4+4+6+5+6",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -31,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Sample Combo 3",
+            "command": [
+                "f",
+                "F",
+                "4",
+                ">",
+                "f",
+                "4",
+                ">",
+                "f",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Fearless",
+                "Warrior",
+                "2",
+                ">",
+                "df",
+                "1",
+                ">",
+                "b",
+                "f",
+                "2",
+                "1",
+                "1+2"
+            ],
+            "command_string": "f, F, 4, >, f, 4, >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, bf211+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 66,
+            "damage_per_hit": "21+14+6+8+3+3+2+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -14,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Sample Combo 4",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "f",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Fearless",
+                "Warrior",
+                "2",
+                ">",
+                "df",
+                "1",
+                ">",
+                "b",
+                "f",
+                "2",
+                "1",
+                "4",
+                ">",
+                "During",
+                "Rage",
+                "d",
+                "1+2"
+            ],
+            "command_string": "uf, 4, >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, b, f, 2, 1, 4, >, During Rage d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 72,
+            "damage_per_hit": "14+9+11+4+3+2+6+3+2+1+1+1+1+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Sample Combo 5",
+            "command": [
+                "During",
+                "Rage",
+                "f",
+                "F",
+                "1+2",
+                ">",
+                "uf",
+                "3",
+                "4",
+                "3",
+                ">",
+                "uf",
+                "3",
+                "4",
+                "1"
+            ],
+            "command_string": "During Rage f, F, 1+2, >, uf, 3, 4, 3, >, uf341",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 79,
+            "damage_per_hit": "17+20+14+6+6+6+3+7",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -7,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

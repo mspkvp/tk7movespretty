@@ -1,0 +1,2565 @@
+{
+    "id": 17,
+    "id_name": "leo",
+    "name": "Leo Kliesen",
+    "first_name": "Leo",
+    "last_name": "Kliesen",
+    "n_moves": 90,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "df",
+                "1+2"
+            ],
+            "command_string": "During Rage df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+3+7+35",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "f",
+                "F",
+                "2",
+                "Hold"
+            ],
+            "command_string": "During Rage f, F, 2, Hold ",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "10+3",
+                "block": 6,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "He Zi Shou",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "7+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -1,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Liang Yi Zhou",
+            "command": [
+                "1",
+                "2",
+                "1",
+                "1"
+            ],
+            "command_string": "1211",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 54,
+            "damage_per_hit": "7+10+16+21",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Wai Bai Tui",
+            "command": [
+                "1",
+                "2",
+                "1",
+                "4"
+            ],
+            "command_string": "1214",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 63,
+            "damage_per_hit": "7+10+16+30",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -6,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Ye Chui",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Low"
+            ],
+            "damage": 32,
+            "damage_per_hit": "7+10+15",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Lian Tan",
+            "command": [
+                "1",
+                "4"
+            ],
+            "command_string": "14",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 24,
+            "damage_per_hit": "7+17",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -4,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Xiang Long Shi Chong Tian Zhang",
+            "command": [
+                "2",
+                "1"
+            ],
+            "command_string": "21",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "9+12",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -7,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Xiang Long Shi Ling Zhou",
+            "command": [
+                "2",
+                "2"
+            ],
+            "command_string": "22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "9+20",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -13,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Wu Dang Xuan Feng Jiao",
+            "command": [
+                "3",
+                "2",
+                "3"
+            ],
+            "command_string": "323",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 51,
+            "damage_per_hit": "15+10+26",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -7,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Wu Dang Jin Ji Du Li",
+            "command": [
+                "3",
+                "2",
+                "4"
+            ],
+            "command_string": "324",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "15+10+14",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -20,
+                "hit": -14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Dual Rising Fists",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -12,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Ye Kua",
+            "command": [
+                "2+3"
+            ],
+            "command_string": "2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "30",
+                "block": -8,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Heng Da Er Lang Dan Shan",
+            "command": [
+                "f",
+                "2",
+                "2"
+            ],
+            "command_string": "f22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Bai Tui",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 0,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Jin Ji Du Li",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -20,
+                "hit": -14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Bai She Tui Chuang",
+            "command": [
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "1",
+                "2"
+            ],
+            "command_string": "During Jin Ji Du Li 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "14+17",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -12,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Heng Quan",
+            "command": [
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "2"
+            ],
+            "command_string": "During Jin Ji Du Li 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "14+18",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -4,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Er Qi Jiao",
+            "command": [
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "3",
+                "4"
+            ],
+            "command_string": "During Jin Ji Du Li 34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "14+17+14",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -12,
+                "hit": -33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Cuo Ti Fu Ren",
+            "command": [
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "4"
+            ],
+            "command_string": "During Jin Ji Du Li 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 32,
+            "damage_per_hit": "14+18",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -12,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Bei Zhe Kao",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "32",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -17,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Xiang Chui",
+            "command": [
+                "f",
+                "2+3"
+            ],
+            "command_string": "f2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Shuang Huan Da",
+            "command": [
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 33,
+            "damage_per_hit": "13+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -6,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Sheng Pao",
+            "command": [
+                "df",
+                "2"
+            ],
+            "command_string": "df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Chuan Pao",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Gui Xi",
+            "command": [
+                "df",
+                "2+3"
+            ],
+            "command_string": "df2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -14,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Fu Hu",
+            "command": [
+                "d",
+                "1"
+            ],
+            "command_string": "d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -3,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Pi Zhong",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": 2,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Sao Tang Ti to Shang Bu Zhuang Zhang",
+            "command": [
+                "d",
+                "4",
+                "2"
+            ],
+            "command_string": "d42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 33,
+            "damage_per_hit": "10+23",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "12+4",
+                "block": -5,
+                "hit": -7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Fo Bu",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "20+14+10+40",
+                "block": -75,
+                "hit": -75,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Ya Sui Ying Quan",
+            "command": [
+                "During",
+                "Fo",
+                "Bu",
+                "1",
+                "2"
+            ],
+            "command_string": "During Fo Bu 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "14+20",
+            "special_props": [],
+            "frames": {
+                "startup": 34,
+                "speed_per_hit": "20+1+13",
+                "block": -14,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Fan Lan Chui",
+            "command": [
+                "During",
+                "Fo",
+                "Bu",
+                "2"
+            ],
+            "command_string": "During Fo Bu 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 40,
+                "speed_per_hit": "20+1+19",
+                "block": -9,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Startled Crane",
+            "command": [
+                "During",
+                "Fo",
+                "Bu",
+                "3"
+            ],
+            "command_string": "During Fo Bu 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 42,
+                "speed_per_hit": "20+1+21",
+                "block": 9,
+                "hit": 55,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Jin Ji Du Li",
+            "command": [
+                "During",
+                "Fo",
+                "Bu",
+                "4"
+            ],
+            "command_string": "During Fo Bu 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 41,
+                "speed_per_hit": "20+1+20",
+                "block": -19,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Tong Bei Shi",
+            "command": [
+                "During",
+                "Fo",
+                "Bu",
+                "1+2"
+            ],
+            "command_string": "During Fo Bu 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "26",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "20+1+26",
+                "block": -9,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Chong Tian Zhang to Fu Bo",
+            "command": [
+                "db",
+                "2",
+                "2"
+            ],
+            "command_string": "db22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "11+17",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -7,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Lie Huo Fan Jiao",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 31,
+                "speed_per_hit": "31",
+                "block": -8,
+                "hit": 38,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Qian Sao Lei Wang Quan",
+            "command": [
+                "db",
+                "4",
+                "1"
+            ],
+            "command_string": "db41",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "18+18",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "19+1",
+                "block": -31,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Ba Wang Zhe Jiang",
+            "command": [
+                "db",
+                "1+2",
+                "1"
+            ],
+            "command_string": "db1+21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -12,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Ding Zhou Jin Ji Du Li",
+            "command": [
+                "b",
+                "1",
+                "4"
+            ],
+            "command_string": "b14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "17+14",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "17+1",
+                "block": -20,
+                "hit": -14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Wu Hu Chu Dong",
+            "command": [
+                "b",
+                "2",
+                "1"
+            ],
+            "command_string": "b21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 22,
+            "damage_per_hit": "11+11",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Er Lang Dan Shan",
+            "command": [
+                "b",
+                "2",
+                "1+2"
+            ],
+            "command_string": "b21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "11+21",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Ying Mian Tui",
+            "command": [
+                "b",
+                "3",
+                "1"
+            ],
+            "command_string": "b31",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "15+16",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -7,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Dragon's Impact",
+            "command": [
+                "b",
+                "4",
+                "1+2"
+            ],
+            "command_string": "b41+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "15+21",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -9,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Tui Bu Jin Ji Du Li",
+            "command": [
+                "b",
+                "3+4"
+            ],
+            "command_string": "b3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "63+28",
+                "block": -99,
+                "hit": -99,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Cuo Zhang",
+            "command": [
+                "b",
+                "1+4"
+            ],
+            "command_string": "b1+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 22,
+            "damage_per_hit": "10+12",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Sky Vibration",
+            "command": [
+                "u",
+                "3+4"
+            ],
+            "command_string": "u3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "26",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -1,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Dragon Backfist",
+            "command": [
+                "uf",
+                "1",
+                "1"
+            ],
+            "command_string": "uf11",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "8+17",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -9,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Chuan Chong Quan",
+            "command": [
+                "uf",
+                "1",
+                "2"
+            ],
+            "command_string": "uf12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "8+21",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -14,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Yue Bu Si Quan",
+            "command": [
+                "uf",
+                "2",
+                "1"
+            ],
+            "command_string": "uf21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "15+9",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -8,
+                "hit": -27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Yi Qi Jiao",
+            "command": [
+                "uf",
+                "3"
+            ],
+            "command_string": "uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Yue Bu San Jing Ti",
+            "command": [
+                "uf",
+                "4"
+            ],
+            "command_string": "uf4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Shang Bu Zhuang Quan",
+            "command": [
+                "f",
+                "F",
+                "2"
+            ],
+            "command_string": "fF2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "1+13",
+                "block": -10,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Tiao Shan Fu Ren",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": -4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Tiao Shan Pu Bu",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "3",
+                "4"
+            ],
+            "command_string": "fF434",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Low"
+            ],
+            "damage": 28,
+            "damage_per_hit": "12+16",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "5+14",
+                "block": -12,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Xiao Jia Er Lu Liang Yi Zhou",
+            "command": [
+                "b",
+                "2+3"
+            ],
+            "command_string": "b2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 60,
+            "damage_per_hit": "60",
+            "special_props": [],
+            "frames": {
+                "startup": 70,
+                "speed_per_hit": "70",
+                "block": -22,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Jin Gang Hua Shan Tuo Tian Zhang",
+            "command": [
+                "b",
+                "f",
+                "1+2",
+                "1+2",
+                "2"
+            ],
+            "command_string": "bf1+21+22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 44,
+            "damage_per_hit": "13+11+20",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "11+6",
+                "block": -16,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Jin Bu",
+            "command": [
+                "d",
+                "df",
+                "f"
+            ],
+            "command_string": "ddff",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -66,
+                "hit": -66,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Lei Zhang",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1"
+            ],
+            "command_string": "ddff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Shang Bu Zhuang Zhang",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "2"
+            ],
+            "command_string": "ddff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Lightning Spear",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "2",
+                "1"
+            ],
+            "command_string": "ddff21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "14+17",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Swallow Step",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "3+4"
+            ],
+            "command_string": "ddff3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "6+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -6,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Tiao Shan Jiang Jiao",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 9,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Huo Da Ding Zhou",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "4",
+                "1"
+            ],
+            "command_string": "While rising 141",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "13+12+24",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Shang Bu Gua Shan",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -13,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Liang Yi Er Tui Ya Zhou",
+            "command": [
+                "While",
+                "rising",
+                "3",
+                "1",
+                "2"
+            ],
+            "command_string": "While rising 312",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "9+9+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "12+1",
+                "block": -18,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Rising Bei Zhe Kao",
+            "command": [
+                "While",
+                "rising",
+                "4",
+                "1+2"
+            ],
+            "command_string": "While rising 41+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "15+19",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -10,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Le Kua Kao",
+            "command": [
+                "While",
+                "rising",
+                "1+2"
+            ],
+            "command_string": "While rising 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -15,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Hou Sao Xuan",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "3"
+            ],
+            "command_string": "While crouching df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -26,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Da Kai",
+            "command": [
+                "During",
+                "sidestep",
+                "1+2"
+            ],
+            "command_string": "During sidestep 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -10,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Tui Bu Dan Yi",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "1+2"
+            ],
+            "command_string": "Back towards enemy 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -20,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "Zhen Jiao",
+            "command": [
+                "(While",
+                "enemy",
+                "is",
+                "down)",
+                "d",
+                "3+4"
+            ],
+            "command_string": "(While enemy is down) d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 19,
+            "damage_per_hit": "19",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "1+23",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "10 Hit Combo 1",
+            "command": [
+                "2",
+                "1",
+                "3",
+                "2",
+                "1",
+                "2",
+                "3",
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "2132123121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "Low",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 98,
+            "damage_per_hit": "9+12+6+12+8+7+6+5+12+21",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -25,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "10 Hit Combo 2",
+            "command": [
+                "2",
+                "1",
+                "3",
+                "2",
+                "1",
+                "3",
+                "2",
+                "4",
+                "2",
+                "1+2"
+            ],
+            "command_string": "2132132421+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Low",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 100,
+            "damage_per_hit": "9+12+6+12+8+7+5+8+12+21",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -23,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "Bao Hu Gui Shan",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "Bao Hu Gui Shan",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "Dan Yang Da",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "9+10+16",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "Dan Yang Da",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "9+10+16",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "Da Zhe Jiang",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "14+26",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "Chou Bie Zi",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+20",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Yang Di Tou",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "25+25",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -5,
+                "hit": -5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 82,
+            "name": "Shuang Pai Shou",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "F",
+                "1+2"
+            ],
+            "command_string": "Approach enemy fF1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "14+26",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 9,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 83,
+            "name": "Bao Zhou",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "high",
+                "punch",
+                "ub",
+                "1"
+            ],
+            "command_string": "Time with enemy high punch ub1",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "49+35",
+                "block": 6,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 84,
+            "name": "Shi Zi Xiao Zhang Kou",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "attack",
+                "b",
+                "1+2"
+            ],
+            "command_string": "Time with enemy attack b1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "47+47",
+                "block": 9,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 85,
+            "name": "Shi Zi Zhou",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "attack",
+                "b",
+                "1+3",
+                "(or",
+                "b",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Time with enemy attack b, 1+3, (or b2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "120",
+                "block": 28,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 86,
+            "name": "Sample Combo 1",
+            "command": [
+                "uf",
+                "2",
+                "1",
+                ">",
+                "d",
+                "4",
+                "2"
+            ],
+            "command_string": "uf, 2, 1, >, d42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Low",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "15+9+5+9",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -5,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 87,
+            "name": "Sample Combo 2",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "3",
+                ">",
+                "b",
+                "1",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "DF",
+                ">",
+                "While",
+                "rising",
+                "3",
+                "1",
+                "2"
+            ],
+            "command_string": "f, F, 4, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 312",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 51,
+            "damage_per_hit": "12+16+8+5+2+2+6",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "10+9",
+                "block": -18,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 88,
+            "name": "Sample Combo 3",
+            "command": [
+                "d",
+                "1+2",
+                ">",
+                "During",
+                "Fo",
+                "Bu",
+                "2",
+                ">",
+                "f",
+                "3",
+                ">",
+                "b",
+                "1",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "DF",
+                ">",
+                "uf",
+                "1",
+                "1",
+                ">",
+                "f",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "DF",
+                ">",
+                "While",
+                "rising",
+                "1+2"
+            ],
+            "command_string": "d, 1+2, >, During Fo Bu 2, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, uf, 1, 1, >, f, 4, >, During Jin Ji Du Li DF, >, While rising 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 68,
+            "damage_per_hit": "20+16+8+5+2+5+4+8",
+            "special_props": [],
+            "frames": {
+                "startup": 39,
+                "speed_per_hit": "20+19",
+                "block": -15,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 89,
+            "name": "Sample Combo 4",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "4",
+                ">",
+                "b",
+                "1",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "DF",
+                ">",
+                "While",
+                "rising",
+                "3",
+                ">",
+                "f",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "2",
+                ">",
+                "During",
+                "Rage",
+                "df",
+                "1+2"
+            ],
+            "command_string": "uf, 4, >, 4, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, During Rage df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 75,
+            "damage_per_hit": "14+12+9+6+2+4+5+3+1+2+17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -22,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 89,
+            "number": 90,
+            "name": "Sample Combo 5",
+            "command": [
+                "db",
+                "3",
+                ">",
+                "f",
+                "3",
+                ">",
+                "b",
+                "1",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "DF",
+                ">",
+                "While",
+                "rising",
+                "3",
+                ">",
+                "f",
+                "4",
+                ">",
+                "During",
+                "Jin",
+                "Ji",
+                "Du",
+                "Li",
+                "2",
+                ">",
+                "uf",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "f",
+                "F",
+                "2",
+                "Hold"
+            ],
+            "command_string": "db, 3, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, uf, 1, >, During Rage f, F, 2, Hold ",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 80,
+            "damage_per_hit": "25+17+9+6+2+4+5+2+10",
+            "special_props": [],
+            "frames": {
+                "startup": 31,
+                "speed_per_hit": "31",
+                "block": 6,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

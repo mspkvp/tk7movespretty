@@ -1,0 +1,2567 @@
+{
+    "id": 15,
+    "id_name": "lili",
+    "name": "Lili Rochefort",
+    "first_name": "Lili",
+    "last_name": "Rochefort",
+    "n_moves": 92,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "3+4"
+            ],
+            "command_string": "During Rage 3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+7+3+7+28",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": -4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "df",
+                "3+4",
+                "3"
+            ],
+            "command_string": "During Rage df3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "14+18",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "23+1",
+                "block": 9,
+                "hit": 60,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Left Right Back Strike",
+            "command": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command_string": "123",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Low"
+            ],
+            "damage": 29,
+            "damage_per_hit": "7+12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "5+5",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Left Right Piercing Thorn",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "7+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "5+5",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Sunrise Sunset",
+            "command": [
+                "2",
+                "3"
+            ],
+            "command_string": "23",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 18,
+            "damage_per_hit": "8+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Bed Time",
+            "command": [
+                "2",
+                "4"
+            ],
+            "command_string": "24",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "8+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -2,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Peacock Waltz",
+            "command": [
+                "3",
+                "1"
+            ],
+            "command_string": "31",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Peacock Jive",
+            "command": [
+                "3",
+                "2",
+                "3"
+            ],
+            "command_string": "323",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 42,
+            "damage_per_hit": "12+8+22",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Broken Heart",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "26",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -12,
+                "hit": 38,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Mars Sword",
+            "command": [
+                "f",
+                "2",
+                "3"
+            ],
+            "command_string": "f23",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -12,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Circle Knee",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "26",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -6,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Bélier Attaque",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Kitty Claws",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 19,
+            "damage_per_hit": "19",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -6,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Sundial",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "8+15",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -4,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Delayed Sundial",
+            "command": [
+                "f",
+                "3+4",
+                "3"
+            ],
+            "command_string": "f3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "8+14",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -8,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Garland Kick Combo",
+            "command": [
+                "f",
+                "3+4",
+                "3",
+                "4"
+            ],
+            "command_string": "f3+434",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "8+14+10",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -20,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Orleans Sword",
+            "command": [
+                "df",
+                "2"
+            ],
+            "command_string": "df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -11,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Submissive Heel",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 3,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Dominating Heel",
+            "command": [
+                "df",
+                "4",
+                "4"
+            ],
+            "command_string": "df44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -15,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Backflip Spinning Edge",
+            "command": [
+                "df",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "df3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "14+3+10",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -7,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Heavy Languish",
+            "command": [
+                "d",
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "d124",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High",
+                "Mid"
+            ],
+            "damage": 42,
+            "damage_per_hit": "10+8+24",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -9,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Bloody Masquerade Piton",
+            "command": [
+                "d",
+                "2",
+                "2",
+                "3"
+            ],
+            "command_string": "d223",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "16+10",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -3,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Bloody Masquerade Lance",
+            "command": [
+                "d",
+                "2",
+                "2",
+                "4"
+            ],
+            "command_string": "d224",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 50,
+            "damage_per_hit": "16+10+24",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -17,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Thorn Whip",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -12,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Matterhorn Ascension",
+            "command": [
+                "d",
+                "3+4"
+            ],
+            "command_string": "d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -21,
+                "hit": 45,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Twist of Fate",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -8,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Edelweiss",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "30",
+                "block": -24,
+                "hit": 50,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Freesia Thrust",
+            "command": [
+                "db",
+                "3+4"
+            ],
+            "command_string": "db3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -18,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Élysée Le Bras Allongé to Dew Glide",
+            "command": [
+                "b",
+                "1",
+                "F"
+            ],
+            "command_string": "b1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -15,
+                "hit": -7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Élysée Le Bras Allongé Caracole",
+            "command": [
+                "b",
+                "1",
+                "4"
+            ],
+            "command_string": "b14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "16+22",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -11,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Heliotrope",
+            "command": [
+                "b",
+                "2",
+                "1"
+            ],
+            "command_string": "b21",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "15+13",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Heliotrope Corsage",
+            "command": [
+                "b",
+                "2",
+                "1",
+                "1+2"
+            ],
+            "command_string": "b211+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "15+13+27",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -12,
+                "hit": 38,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Feisty Rabbit",
+            "command": [
+                "b",
+                "3",
+                "(or",
+                "b",
+                "4",
+                ")"
+            ],
+            "command_string": "b, 3, (or b4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "40+40",
+                "block": -79,
+                "hit": -79,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Feisty Rabbit to Dew Glide",
+            "command": [
+                "During",
+                "Feisty",
+                "Rabbit",
+                "F"
+            ],
+            "command_string": "During Feisty Rabbit F",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "25+34+30",
+                "block": -95,
+                "hit": -95,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Rabbit's Foot",
+            "command": [
+                "During",
+                "Feisty",
+                "Rabbit",
+                "3"
+            ],
+            "command_string": "During Feisty Rabbit 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 49,
+                "speed_per_hit": "25+24",
+                "block": -15,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Rabbit Thorn",
+            "command": [
+                "During",
+                "Feisty",
+                "Rabbit",
+                "4"
+            ],
+            "command_string": "During Feisty Rabbit 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 48,
+                "speed_per_hit": "25+23",
+                "block": -6,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Dendrobium",
+            "command": [
+                "b",
+                "1+2"
+            ],
+            "command_string": "b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -14,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Mirror Image",
+            "command": [
+                "b",
+                "3+4"
+            ],
+            "command_string": "b3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "20+40",
+                "block": -61,
+                "hit": -61,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Cancer Une-Deux",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "1",
+                "2"
+            ],
+            "command_string": "Back towards enemy 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "8+13",
+            "special_props": [],
+            "frames": {
+                "startup": 59,
+                "speed_per_hit": "20+31+8",
+                "block": -3,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Rompez Fleuret",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "2"
+            ],
+            "command_string": "Back towards enemy 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 65,
+                "speed_per_hit": "20+31+14",
+                "block": -5,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Shears to Spinning Edge",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "4",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy 43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 52,
+            "damage_per_hit": "10+20+8+14",
+            "special_props": [],
+            "frames": {
+                "startup": 77,
+                "speed_per_hit": "20+31+26",
+                "block": -10,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Tempest",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "1+2"
+            ],
+            "command_string": "Back towards enemy 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "5+20",
+            "special_props": [],
+            "frames": {
+                "startup": 64,
+                "speed_per_hit": "20+31+13",
+                "block": -10,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Twist Backflip Fleuret",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "3+4",
+                "2"
+            ],
+            "command_string": "Back towards enemy 3+42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "18+21",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 80,
+                "speed_per_hit": "20+31+29",
+                "block": -11,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Autumn Wind",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "d",
+                "3",
+                "4"
+            ],
+            "command_string": "Back towards enemy d34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "16+24",
+            "special_props": [],
+            "frames": {
+                "startup": 69,
+                "speed_per_hit": "20+32+17",
+                "block": -13,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Orchid Ring",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "d",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 74,
+                "speed_per_hit": "20+32+22",
+                "block": -26,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Piercing Thorn Fortissimo",
+            "command": [
+                "b",
+                "1+4"
+            ],
+            "command_string": "b1+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 63,
+                "speed_per_hit": "63",
+                "block": -13,
+                "hit": -7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Moonsault to Dew Glide",
+            "command": [
+                "u",
+                "3",
+                "F"
+            ],
+            "command_string": "u3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -38,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Moonsault Narcissus to Dew Glide",
+            "command": [
+                "u",
+                "3",
+                "3",
+                "F"
+            ],
+            "command_string": "u33F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "25+10",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -17,
+                "hit": -34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Moonsault Alstroemeria",
+            "command": [
+                "u",
+                "3",
+                "3",
+                "3+4"
+            ],
+            "command_string": "u333+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "25+10+2+8",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -8,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Divine Step",
+            "command": [
+                "u",
+                "3+4"
+            ],
+            "command_string": "u3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "18+5+5",
+            "special_props": [],
+            "frames": {
+                "startup": 36,
+                "speed_per_hit": "36",
+                "block": -8,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Stinging Nettle",
+            "command": [
+                "uf",
+                "2"
+            ],
+            "command_string": "uf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -12,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Capricorn Kick",
+            "command": [
+                "uf",
+                "3"
+            ],
+            "command_string": "uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Sunflower Lance",
+            "command": [
+                "uf",
+                "4",
+                "3"
+            ],
+            "command_string": "uf43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 41,
+            "damage_per_hit": "18+23",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "28",
+                "block": -9,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Angel Knee to Front Kick",
+            "command": [
+                "uf",
+                "3+4",
+                "3"
+            ],
+            "command_string": "uf3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 33,
+            "damage_per_hit": "15+18",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Angel Knee Ascension",
+            "command": [
+                "uf",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "uf3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "15+22",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -21,
+                "hit": 45,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Allonger Le Bras",
+            "command": [
+                "f",
+                "F",
+                "2"
+            ],
+            "command_string": "fF2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -17,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Narcissus to Dew Glide",
+            "command": [
+                "f",
+                "F",
+                "3",
+                "F"
+            ],
+            "command_string": "fF3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -17,
+                "hit": -5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Alstroemeria",
+            "command": [
+                "f",
+                "F",
+                "3",
+                "3+4"
+            ],
+            "command_string": "fF33+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "15+5+20",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "20+2",
+                "block": -8,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Root of Evil",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -12,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Lashing Iris",
+            "command": [
+                "f",
+                "F",
+                "1+2"
+            ],
+            "command_string": "fF1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "10+18",
+                "block": -9,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Lashing Iris",
+            "command": [
+                "f",
+                "F",
+                "1+2",
+                "Hold"
+            ],
+            "command_string": "f, F, 1+2, Hold ",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "9+23+24+17",
+                "block": -9,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Piercing Thorn",
+            "command": [
+                "f",
+                "F",
+                "3+4"
+            ],
+            "command_string": "fF3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -6,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Dew Glide",
+            "command": [
+                "d",
+                "df",
+                "f"
+            ],
+            "command_string": "ddff",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -66,
+                "hit": -66,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Rose Pique",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1",
+                "2"
+            ],
+            "command_string": "ddff12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "16+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Nocturne",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "2",
+                "1"
+            ],
+            "command_string": "ddff21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "13+20",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Cloisonne",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "3+4"
+            ],
+            "command_string": "ddff3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "6+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 6,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Sabre Slash",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 0,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Sullen Daisy",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "While rising 124",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Low"
+            ],
+            "damage": 51,
+            "damage_per_hit": "15+16+20",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -14,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Delicate Uprising",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -12,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Honeysuckle",
+            "command": [
+                "While",
+                "rising",
+                "3",
+                "4"
+            ],
+            "command_string": "While rising 34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "20+17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": 4,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Slashing Vine",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "1"
+            ],
+            "command_string": "While crouching df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "Horizon Slide",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "3"
+            ],
+            "command_string": "While crouching df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 19,
+            "damage_per_hit": "19",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -18,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "Stunning Toe Kick",
+            "command": [
+                "During",
+                "sidestep",
+                "3"
+            ],
+            "command_string": "During sidestep 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -9,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "Minuet",
+            "command": [
+                "During",
+                "sidestep",
+                "1+2"
+            ],
+            "command_string": "During sidestep 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -2,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "10 Hit Combo 1",
+            "command": [
+                "4",
+                "1",
+                "3",
+                "4",
+                "4",
+                "3",
+                "4",
+                "4",
+                "3+4"
+            ],
+            "command_string": "413443443+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 85,
+            "damage_per_hit": "16+7+10+7+9+5+7+8+6+3+7",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -27,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "10 Hit Combo 2",
+            "command": [
+                "4",
+                "1",
+                "3",
+                "3+4",
+                "3",
+                "4",
+                "3",
+                "1",
+                "3+4",
+                "4"
+            ],
+            "command_string": "4133+434313+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "NOBLK"
+            ],
+            "damage": 104,
+            "damage_per_hit": "16+7+10+8+12+8+7+6+10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -19,
+                "hit": -12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "10 Hit Combo 3",
+            "command": [
+                "4",
+                "1",
+                "3",
+                "3+4"
+            ],
+            "command_string": "4133+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 51,
+            "damage_per_hit": "16+7+10+8+10",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -22,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "Kiss of Devotion",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "Kiss of Devotion",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "Femme Fatale",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Femme Fatale",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 82,
+            "name": "Soleil",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 42,
+            "damage_per_hit": "14+28",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 83,
+            "name": "Monaco Mixer",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 43,
+            "damage_per_hit": "43",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 84,
+            "name": "Ravaging Beauty",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 60,
+            "damage_per_hit": "60",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 85,
+            "name": "Rafflesia",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 86,
+            "name": "Larkspur",
+            "command": [
+                "During",
+                "enemy",
+                "wall",
+                "stun",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "During enemy wall stun 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -1000,
+                "hit": -1000,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 87,
+            "name": "Attack Reversal",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "punch",
+                "b",
+                "1+3",
+                "(or",
+                "b",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Time with enemy punch b, 1+3, (or b2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "2+209",
+                "block": 27,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 88,
+            "name": "Sample Combo 1",
+            "command": [
+                "During",
+                "sidestep",
+                "3",
+                ">",
+                "f",
+                "4"
+            ],
+            "command_string": "During sidestep 3, >, f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "20+18",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": 41,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 89,
+            "name": "Sample Combo 2",
+            "command": [
+                "uf",
+                "3",
+                ">",
+                "df",
+                "2",
+                ">",
+                "2",
+                "4",
+                ">",
+                "3",
+                "2",
+                "3"
+            ],
+            "command_string": "uf, 3, >, df, 2, >, 2, 4, >, 323",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 47,
+            "damage_per_hit": "13+11+4+8+3+2+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 89,
+            "number": 90,
+            "name": "Sample Combo 3",
+            "command": [
+                "df",
+                "2",
+                ">",
+                "f",
+                "2",
+                "3",
+                ">",
+                "df",
+                "3+4",
+                ">",
+                "Back",
+                "towards",
+                "enemy",
+                "2",
+                ">",
+                "df",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "df, 2, >, f, 2, 3, >, df, 3+4, >, Back towards enemy 2, >, df3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "16+8+10+5+5+4+1+6",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -26,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 90,
+            "number": 91,
+            "name": "Sample Combo 4",
+            "command": [
+                "db",
+                "4",
+                ">",
+                "While",
+                "crouching",
+                "df",
+                "1",
+                ">",
+                "4",
+                "1",
+                ">",
+                "d",
+                "2",
+                "2",
+                "3",
+                ">",
+                "During",
+                "Rage",
+                "3+4"
+            ],
+            "command_string": "db, 4, >, While crouching df, 1, >, 4, 1, >, d, 2, 2, 3, >, During Rage 3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 88,
+            "damage_per_hit": "22+18+8+2+5+3+7+3+2+1+2+15",
+            "special_props": [],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "30",
+                "block": -22,
+                "hit": -4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 91,
+            "number": 92,
+            "name": "Sample Combo 5",
+            "command": [
+                "d",
+                "3+4",
+                ">",
+                "UF",
+                "4",
+                ">",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "df",
+                "3+4",
+                "3",
+                ">",
+                "d",
+                "df",
+                "f",
+                "3+4",
+                ">",
+                "f",
+                "F",
+                "3",
+                "F",
+                ">",
+                "1",
+                "2"
+            ],
+            "command_string": "d, 3+4, >, UF, 4, >, 1, >, During Rage df, 3+4, 3, >, d, df, f, 3+4, >, f, F, 3, F, >, 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 79,
+            "damage_per_hit": "25+18+3+5+7+1+6+4+4+6",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -14,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

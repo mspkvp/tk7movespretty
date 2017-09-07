@@ -1,0 +1,3411 @@
+{
+    "id": 37,
+    "id_name": "miguel",
+    "name": "Miguel Caballero Rojo",
+    "first_name": "Miguel",
+    "last_name": "Caballero",
+    "n_moves": 123,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+3+4+3+7+28",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "db",
+                "1+2"
+            ],
+            "command_string": "During Rage db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "10+7",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": 3,
+                "hit": 55,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Resorte",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 19,
+            "damage_per_hit": "7+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -1,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Up-stroke",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 19,
+            "damage_per_hit": "7+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 3,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Up-stroke to Savage Stance",
+            "command": [
+                "1",
+                "2",
+                "4",
+                "F"
+            ],
+            "command_string": "124F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 19,
+            "damage_per_hit": "7+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -105,
+                "hit": -100,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Martillo",
+            "command": [
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "7+12+30",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 4,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Bombo",
+            "command": [
+                "1",
+                "3"
+            ],
+            "command_string": "13",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 19,
+            "damage_per_hit": "7+12",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -12,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Gancho doble",
+            "command": [
+                "2",
+                "1"
+            ],
+            "command_string": "21",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "12+15",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Gancho doble to Savage Stance",
+            "command": [
+                "2",
+                "1",
+                "F"
+            ],
+            "command_string": "21F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "12+15",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -115,
+                "hit": -104,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Mariposa",
+            "command": [
+                "3",
+                "4"
+            ],
+            "command_string": "34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "16+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Martillo doble",
+            "command": [
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "1+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+20",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -15,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Telefonazo",
+            "command": [
+                "f",
+                "2"
+            ],
+            "command_string": "f2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -3,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Emblema",
+            "command": [
+                "f",
+                "3",
+                "4"
+            ],
+            "command_string": "f34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "13+12",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -12,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Ciclón",
+            "command": [
+                "f",
+                "4",
+                "2"
+            ],
+            "command_string": "f42",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "15+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -13,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Calambre",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -5,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Burla",
+            "command": [
+                "f",
+                "3+4",
+                "F"
+            ],
+            "command_string": "f3+4F",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 178,
+            "damage_per_hit": "178",
+            "special_props": [],
+            "frames": {
+                "startup": 190,
+                "speed_per_hit": "149+41",
+                "block": -45,
+                "hit": -20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Rude Charge",
+            "command": [
+                "f",
+                "2+3"
+            ],
+            "command_string": "f2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -7,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Flanco",
+            "command": [
+                "df",
+                "1"
+            ],
+            "command_string": "df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -2,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Flanco to Savage Stance",
+            "command": [
+                "df",
+                "1",
+                "F"
+            ],
+            "command_string": "df1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -109,
+                "hit": -102,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Double Choking",
+            "command": [
+                "df",
+                "1",
+                "1"
+            ],
+            "command_string": "df11",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -3,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Double Choking to Savage Stance",
+            "command": [
+                "df",
+                "1",
+                "1",
+                "F"
+            ],
+            "command_string": "df11F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -110,
+                "hit": -102,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Double Choking Body",
+            "command": [
+                "df",
+                "1",
+                "1",
+                "2"
+            ],
+            "command_string": "df112",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 43,
+            "damage_per_hit": "12+13+18",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -10,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Flanco y patada",
+            "command": [
+                "df",
+                "1",
+                "1",
+                "3"
+            ],
+            "command_string": "df113",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -11,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Flanco y patada to Savage Stance",
+            "command": [
+                "df",
+                "1",
+                "1",
+                "3",
+                "F"
+            ],
+            "command_string": "df113F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -120,
+                "hit": -106,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Uno-dos",
+            "command": [
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "12+18",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -12,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Campeón",
+            "command": [
+                "df",
+                "2",
+                "1"
+            ],
+            "command_string": "df21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -15,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Toro",
+            "command": [
+                "df",
+                "2",
+                "2"
+            ],
+            "command_string": "df22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "10+22",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -6,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Hachazo",
+            "command": [
+                "df",
+                "2",
+                "d",
+                "2"
+            ],
+            "command_string": "df2d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "10+22",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -4,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Tunda",
+            "command": [
+                "df",
+                "3",
+                "2"
+            ],
+            "command_string": "df32",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "11+14",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -6,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Espada",
+            "command": [
+                "df",
+                "4",
+                "1"
+            ],
+            "command_string": "df41",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "13+8",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Espada to Savage Stance",
+            "command": [
+                "df",
+                "4",
+                "1",
+                "F"
+            ],
+            "command_string": "df41F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 21,
+            "damage_per_hit": "13+8",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -114,
+                "hit": -103,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Sable",
+            "command": [
+                "df",
+                "4",
+                "1",
+                "1"
+            ],
+            "command_string": "df411",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "13+8+17",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -10,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Codazo",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -7,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Bajeza",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -12,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Bajeza con cabeza",
+            "command": [
+                "d",
+                "4",
+                "1+2"
+            ],
+            "command_string": "d41+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Bajeza con cabeza to Savage Stance",
+            "command": [
+                "d",
+                "4",
+                "1+2",
+                "F"
+            ],
+            "command_string": "d41+2F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -135,
+                "hit": -122,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Rompeolas",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -12,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Puntera de acero",
+            "command": [
+                "d",
+                "3+4"
+            ],
+            "command_string": "d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -12,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Tortura",
+            "command": [
+                "db",
+                "1"
+            ],
+            "command_string": "db1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -18,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Vamos",
+            "command": [
+                "db",
+                "2"
+            ],
+            "command_string": "db2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Zancadilla",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -12,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Zancadilla to Savage Stance",
+            "command": [
+                "db",
+                "3",
+                "F"
+            ],
+            "command_string": "db3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -134,
+                "hit": -119,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Paso de baile",
+            "command": [
+                "db",
+                "3",
+                "4"
+            ],
+            "command_string": "db34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "12+13",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -19,
+                "hit": -8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Segada",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -14,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Guantazo",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Guantazo to Savage Stance",
+            "command": [
+                "b",
+                "1",
+                "F"
+            ],
+            "command_string": "b1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -122,
+                "hit": -111,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Coraje",
+            "command": [
+                "b",
+                "2",
+                "2"
+            ],
+            "command_string": "b22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "15+22",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Oleaje",
+            "command": [
+                "b",
+                "3"
+            ],
+            "command_string": "b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "33",
+                "block": 7,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Oleaje to Savage Stance",
+            "command": [
+                "b",
+                "3",
+                "F"
+            ],
+            "command_string": "b3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "33",
+                "block": -103,
+                "hit": -103,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Bota en la cara",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -14,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Tambor",
+            "command": [
+                "ub",
+                "1"
+            ],
+            "command_string": "ub1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -5,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Tambor to Savage Stance",
+            "command": [
+                "ub",
+                "1",
+                "F"
+            ],
+            "command_string": "ub1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -121,
+                "hit": -119,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Tambor y platillos",
+            "command": [
+                "ub",
+                "1",
+                "4"
+            ],
+            "command_string": "ub14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 32,
+            "damage_per_hit": "15+17",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -3,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Obús",
+            "command": [
+                "uf",
+                "1"
+            ],
+            "command_string": "uf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": 3,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Obús to Savage Stance",
+            "command": [
+                "uf",
+                "1",
+                "F"
+            ],
+            "command_string": "uf1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -96,
+                "hit": -86,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Trinidad Slash",
+            "command": [
+                "uf",
+                "3",
+                "2",
+                "2"
+            ],
+            "command_string": "uf322",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 50,
+            "damage_per_hit": "17+8+25",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -6,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Patada atrás",
+            "command": [
+                "uf",
+                "4"
+            ],
+            "command_string": "uf4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Megawatt Uppercut",
+            "command": [
+                "f",
+                "F",
+                "2",
+                "1"
+            ],
+            "command_string": "fF21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 41,
+            "damage_per_hit": "14+27",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -5,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Megawatt Uppercut - Amplified",
+            "command": [
+                "f",
+                "F",
+                "2",
+                "2"
+            ],
+            "command_string": "fF22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "14+23",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -14,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Direct Drive",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 33,
+            "damage_per_hit": "33",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": 60,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Manotazo",
+            "command": [
+                "b",
+                "f",
+                "1"
+            ],
+            "command_string": "bf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -8,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Taconeo",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 9,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Rasgado",
+            "command": [
+                "While",
+                "rising",
+                "1"
+            ],
+            "command_string": "While rising 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -3,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Rasgado to Savage Stance",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "F"
+            ],
+            "command_string": "While rising 1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -116,
+                "hit": -105,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Trinidad",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                "2",
+                "2"
+            ],
+            "command_string": "While rising 222",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "10+5+12",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -6,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Distorsión",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                "4"
+            ],
+            "command_string": "While rising 24",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "10+17",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 53,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Cabriola",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -12,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Cejilla",
+            "command": [
+                "While",
+                "rising",
+                "1+2"
+            ],
+            "command_string": "While rising 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": 0,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Palmeo",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "2"
+            ],
+            "command_string": "While crouching df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -12,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Punteo",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "4"
+            ],
+            "command_string": "While crouching df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -26,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Pedaleo",
+            "command": [
+                "(While",
+                "enemy",
+                "is",
+                "down)",
+                "d",
+                "3"
+            ],
+            "command_string": "(While enemy is down) d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "1+19",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 72,
+            "name": "Savage Stance",
+            "command": [
+                "3+4"
+            ],
+            "command_string": "3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "30+59",
+                "block": -132,
+                "hit": -132,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 73,
+            "name": "Puño flecha",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1"
+            ],
+            "command_string": "During Savage Stance 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 9,
+            "damage_per_hit": "9",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -2,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 74,
+            "name": "Puño flecha to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "F"
+            ],
+            "command_string": "During Savage Stance 1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 9,
+            "damage_per_hit": "9",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -130,
+                "hit": -122,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 75,
+            "name": "Puños dobles",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "1"
+            ],
+            "command_string": "During Savage Stance 11",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "9+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -9,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 76,
+            "name": "Puños combinados",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "2"
+            ],
+            "command_string": "During Savage Stance 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "9+8",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -10,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 77,
+            "name": "Puños combinados to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "2",
+                "F"
+            ],
+            "command_string": "During Savage Stance 12F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "9+8",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -116,
+                "hit": -103,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 78,
+            "name": "Puños en secuencia",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "During Savage Stance 121",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "9+8+20",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -17,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 79,
+            "name": "Puños bomba",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "4"
+            ],
+            "command_string": "During Savage Stance 14",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "9+25",
+            "special_props": [],
+            "frames": {
+                "startup": 73,
+                "speed_per_hit": "30+31+12",
+                "block": -10,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 80,
+            "name": "Machaque",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "2"
+            ],
+            "command_string": "During Savage Stance 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 77,
+                "speed_per_hit": "30+31+16",
+                "block": -12,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 81,
+            "name": "Traste",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "3"
+            ],
+            "command_string": "During Savage Stance 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -5,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 82,
+            "name": "Traste to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "3",
+                "F"
+            ],
+            "command_string": "During Savage Stance 3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -113,
+                "hit": -107,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 83,
+            "name": "Traste doble",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "3",
+                "3"
+            ],
+            "command_string": "During Savage Stance 33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -9,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 84,
+            "name": "Traste doble to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "3",
+                "3",
+                "F"
+            ],
+            "command_string": "During Savage Stance 33F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -120,
+                "hit": -113,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 85,
+            "name": "Vuelta con ritmo",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "4"
+            ],
+            "command_string": "During Savage Stance 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -5,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 86,
+            "name": "Campana",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "1+2"
+            ],
+            "command_string": "During Savage Stance 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "20+5",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 87,
+                "speed_per_hit": "30+31+26",
+                "block": -21,
+                "hit": 73,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 87,
+            "name": "Bucking",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "f",
+                "1+2"
+            ],
+            "command_string": "During Savage Stance f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 77,
+                "speed_per_hit": "30+31+16",
+                "block": 5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 88,
+            "name": "Bucking to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "f",
+                "1+2",
+                "F"
+            ],
+            "command_string": "During Savage Stance f1+2F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 77,
+                "speed_per_hit": "30+31+16",
+                "block": -127,
+                "hit": -126,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 89,
+            "number": 89,
+            "name": "Flanqueo",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "df",
+                "1"
+            ],
+            "command_string": "During Savage Stance df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -2,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 90,
+            "number": 90,
+            "name": "Flanqueo to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "df",
+                "1",
+                "F"
+            ],
+            "command_string": "During Savage Stance df1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -108,
+                "hit": -98,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 91,
+            "number": 91,
+            "name": "Cumbre",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "df",
+                "2"
+            ],
+            "command_string": "During Savage Stance df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 80,
+                "speed_per_hit": "30+31+19",
+                "block": -17,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 92,
+            "number": 92,
+            "name": "Pateo",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "d",
+                "4"
+            ],
+            "command_string": "During Savage Stance d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 8,
+            "damage_per_hit": "8",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -17,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 93,
+            "number": 93,
+            "name": "Pateo to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "d",
+                "4",
+                "F"
+            ],
+            "command_string": "During Savage Stance d4F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 8,
+            "damage_per_hit": "8",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -121,
+                "hit": -107,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 94,
+            "number": 94,
+            "name": "Pisoteo",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "d",
+                "4",
+                "3"
+            ],
+            "command_string": "During Savage Stance d43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "8+12",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -15,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 95,
+            "number": 95,
+            "name": "Pisoteo to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "d",
+                "4",
+                "3",
+                "F"
+            ],
+            "command_string": "During Savage Stance d43F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "8+12",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -114,
+                "hit": -101,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 96,
+            "number": 96,
+            "name": "Segada",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "db",
+                "3"
+            ],
+            "command_string": "During Savage Stance db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 80,
+                "speed_per_hit": "30+31+19",
+                "block": -16,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 97,
+            "number": 97,
+            "name": "Segada to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "db",
+                "3",
+                "F"
+            ],
+            "command_string": "During Savage Stance db3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 80,
+                "speed_per_hit": "30+31+19",
+                "block": -125,
+                "hit": -104,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 98,
+            "number": 98,
+            "name": "Barrida",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "db",
+                "4"
+            ],
+            "command_string": "During Savage Stance db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 88,
+                "speed_per_hit": "30+31+27",
+                "block": -29,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 99,
+            "number": 99,
+            "name": "Garra",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "1"
+            ],
+            "command_string": "During Savage Stance b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -7,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 100,
+            "number": 100,
+            "name": "Garra to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "1",
+                "F"
+            ],
+            "command_string": "During Savage Stance b1F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -118,
+                "hit": -110,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 101,
+            "number": 101,
+            "name": "Choke Down",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "1",
+                "2"
+            ],
+            "command_string": "During Savage Stance b12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -18,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 102,
+            "number": 102,
+            "name": "Choke Up",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "1",
+                "4"
+            ],
+            "command_string": "During Savage Stance b14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "16+17",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "30+31+14",
+                "block": -10,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 103,
+            "number": 103,
+            "name": "Tornillo",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "2"
+            ],
+            "command_string": "During Savage Stance b2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 84,
+                "speed_per_hit": "30+31+23",
+                "block": -12,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 104,
+            "number": 104,
+            "name": "Explosión",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "3"
+            ],
+            "command_string": "During Savage Stance b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 78,
+                "speed_per_hit": "30+31+17",
+                "block": -9,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 105,
+            "number": 105,
+            "name": "Explosión to Savage Stance",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "3",
+                "F"
+            ],
+            "command_string": "During Savage Stance b3F",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 78,
+                "speed_per_hit": "30+31+17",
+                "block": -120,
+                "hit": -74,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 106,
+            "number": 106,
+            "name": "Crazy Skip",
+            "command": [
+                "During",
+                "Savage",
+                "Stance",
+                "uf",
+                "3"
+            ],
+            "command_string": "During Savage Stance uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "30+31+15",
+                "block": -9,
+                "hit": 26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 107,
+            "number": 107,
+            "name": "Chulería",
+            "command": [
+                "1+4"
+            ],
+            "command_string": "1+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "111+40",
+                "block": -71,
+                "hit": -71,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 108,
+            "number": 108,
+            "name": "10 Hit Combo",
+            "command": [
+                "While",
+                "rising",
+                "1+2",
+                "4",
+                "1",
+                "1",
+                "2",
+                "1",
+                "4",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "While rising 1+2411214121",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Low",
+                "Low",
+                "Mid",
+                "High"
+            ],
+            "damage": 116,
+            "damage_per_hit": "15+10+8+8+10+10+10+10+10+25",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -11,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 109,
+            "number": 109,
+            "name": "Paseo",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 110,
+            "number": 110,
+            "name": "Paseo",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 111,
+            "number": 111,
+            "name": "Masaje",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "25+10",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 112,
+            "number": 112,
+            "name": "Masaje",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "25+10",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 113,
+            "number": 113,
+            "name": "Caricia",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "10+10+10+10",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 114,
+            "number": 114,
+            "name": "Regalo",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+20",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 115,
+            "number": 115,
+            "name": "Detalle",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 60,
+            "damage_per_hit": "19+20+21",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 116,
+            "number": 116,
+            "name": "Exciter",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "4+5+5+26",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 5,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 117,
+            "number": 117,
+            "name": "Ultimate Tackle",
+            "command": [
+                "While",
+                "crouching",
+                "1+2"
+            ],
+            "command_string": "While crouching 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 5,
+            "damage_per_hit": "5",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": -23,
+                "hit": -23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 118,
+            "number": 118,
+            "name": "Ultimate Punch",
+            "command": [
+                "During",
+                "tackle",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "During tackle 2121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "5+5+5+5+15",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 119,
+            "number": 119,
+            "name": "Sample Combo 1",
+            "command": [
+                "b",
+                "1",
+                "(Counter",
+                "Hit)",
+                ">",
+                "f",
+                "4",
+                "2",
+                ">",
+                "uf",
+                "3",
+                "2",
+                "2"
+            ],
+            "command_string": "b, 1, (Counter Hit) >, f, 4, 2, >, uf322",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "20+10+10+6+2+7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -6,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 120,
+            "number": 120,
+            "name": "Sample Combo 2",
+            "command": [
+                "df",
+                "2",
+                "1",
+                ">",
+                "df",
+                "1",
+                "F",
+                ">",
+                "During",
+                "Savage",
+                "Stance",
+                "b",
+                "1",
+                "4",
+                ">",
+                "df",
+                "2",
+                "2",
+                ">",
+                "df",
+                "2",
+                "2"
+            ],
+            "command_string": "df, 2, 1, >, df, 1, F, >, During Savage Stance b, 1, 4, >, df, 2, 2, >, df22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 60,
+            "damage_per_hit": "10+10+8+8+6+3+6+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -6,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 121,
+            "number": 121,
+            "name": "Sample Combo 3",
+            "command": [
+                "3+4",
+                ">",
+                "During",
+                "Savage",
+                "Stance",
+                "1+2",
+                ">",
+                "f",
+                "F",
+                "3",
+                ">",
+                "3+4",
+                ">",
+                "During",
+                "Savage",
+                "Stance",
+                "uf",
+                "3",
+                ">",
+                "df",
+                "1",
+                ">",
+                "f",
+                "F",
+                "2",
+                "2"
+            ],
+            "command_string": "3+4, >, During Savage Stance 1+2, >, f, F, 3, >, 3+4, >, During Savage Stance uf, 3, >, df, 1, >, fF22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 74,
+            "damage_per_hit": "20+5+23+12+4+4+6",
+            "special_props": [],
+            "frames": {
+                "startup": 88,
+                "speed_per_hit": "30+31+27",
+                "block": -14,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 122,
+            "number": 122,
+            "name": "Sample Combo 4",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "db",
+                "2",
+                ">",
+                "df",
+                "1",
+                "F",
+                ">",
+                "During",
+                "Savage",
+                "Stance",
+                "df",
+                "1",
+                "F",
+                ">",
+                "During",
+                "Savage",
+                "Stance",
+                "1",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "uf, 4, >, db, 2, >, df, 1, F, >, During Savage Stance df, 1, F, >, During Savage Stance 1, 1, >, During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 74,
+            "damage_per_hit": "14+17+6+6+2+6+3+1+1+1+2+15",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 123,
+            "number": 123,
+            "name": "Sample Combo 5",
+            "command": [
+                "db",
+                "1",
+                ">",
+                "While",
+                "rising",
+                "4",
+                ">",
+                "During",
+                "Rage",
+                "db",
+                "1+2",
+                ">",
+                "db",
+                "2",
+                ">",
+                "df",
+                "1",
+                ">",
+                "f",
+                "F",
+                "2",
+                "1"
+            ],
+            "command_string": "db, 1, >, While rising 4, >, During Rage db, 1+2, >, db, 2, >, df, 1, >, fF21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 56,
+            "damage_per_hit": "13+13+5+4+6+3+4+8",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -5,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

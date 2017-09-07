@@ -1,0 +1,2301 @@
+{
+    "id": 6,
+    "id_name": "jin",
+    "name": "Jin Kazama",
+    "first_name": "Jin",
+    "last_name": "Kazama",
+    "n_moves": 81,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+1+1+1+1+1+1+1+1+1+1+35",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "7+2+4",
+                "block": -9,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "f",
+                "n",
+                "d",
+                "df",
+                "1+2",
+                "3",
+                "1"
+            ],
+            "command_string": "During Rage fnddf1+231",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 70,
+            "damage_per_hit": "25+24+12+9",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 9,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Left Right Axe Kick",
+            "command": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command_string": "123",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "7+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 0,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Left Right to Spinning Hook Kick",
+            "command": [
+                "1",
+                "2",
+                "4"
+            ],
+            "command_string": "124",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 49,
+            "damage_per_hit": "7+12+30",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -4,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Kazama Style 5 Hit Combo",
+            "command": [
+                "1",
+                "3",
+                "2",
+                "1",
+                "4"
+            ],
+            "command_string": "13214",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 47,
+            "damage_per_hit": "7+10+10+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Ni Rengeki",
+            "command": [
+                "1",
+                "3"
+            ],
+            "command_string": "13",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "7+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -6,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Feint Kick Combo",
+            "command": [
+                "1",
+                "【",
+                "3",
+                "3",
+                "】",
+                "df",
+                "3"
+            ],
+            "command_string": "1【33】df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "7+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -14,
+                "hit": -25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Left Jab to Double Low",
+            "command": [
+                "1",
+                "d",
+                "3",
+                "4"
+            ],
+            "command_string": "1d34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low",
+                "Low"
+            ],
+            "damage": 31,
+            "damage_per_hit": "7+7+17",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Double Thrust Roundhouse",
+            "command": [
+                "2",
+                "1",
+                "4"
+            ],
+            "command_string": "214",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "9+9+18",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Double Thrust Low Trick Kick",
+            "command": [
+                "2",
+                "1",
+                "【",
+                "4",
+                "4",
+                "】"
+            ],
+            "command_string": "21【44】",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Low"
+            ],
+            "damage": 38,
+            "damage_per_hit": "9+9+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -31,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Switch Blade",
+            "command": [
+                "2",
+                "4"
+            ],
+            "command_string": "24",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "9+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -9,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Kishin Rekko",
+            "command": [
+                "3",
+                "1",
+                "4"
+            ],
+            "command_string": "314",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Low"
+            ],
+            "damage": 44,
+            "damage_per_hit": "19+7+18",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "High Right Roundhouse",
+            "command": [
+                "4"
+            ],
+            "command_string": "4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -9,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Spinning Flare Kick",
+            "command": [
+                "【",
+                "4",
+                "3",
+                "】"
+            ],
+            "command_string": "【43】",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "2+24",
+                "block": -14,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Median Line Destruction",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "5+5+20",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -14,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Kazama Style Turning Leg Strike",
+            "command": [
+                "3+4"
+            ],
+            "command_string": "3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+24",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Left Roundhouse",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -8,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Heat Seeker",
+            "command": [
+                "f",
+                "【",
+                "3",
+                "3",
+                "】",
+                "df",
+                "3"
+            ],
+            "command_string": "f【33】df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 29,
+                "speed_per_hit": "6+23",
+                "block": -14,
+                "hit": -25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Front Thrust Kick",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Double Chamber Punch",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "14+24",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -9,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Mid Left Punch to High Roundhouse Kick",
+            "command": [
+                "df",
+                "1",
+                "4"
+            ],
+            "command_string": "df14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "10+18",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -9,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Mid Left Punch to Mid Sidekick",
+            "command": [
+                "df",
+                "1",
+                "【",
+                "4",
+                "4",
+                "】"
+            ],
+            "command_string": "df1【44】",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+24",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -11,
+                "hit": 58,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Left Sidekick to Stinger",
+            "command": [
+                "df",
+                "3",
+                "3"
+            ],
+            "command_string": "df33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 26,
+            "damage_per_hit": "12+14",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -8,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Right Spinning Axe Kick",
+            "command": [
+                "df",
+                "4"
+            ],
+            "command_string": "df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -3,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Suigetsu Strike",
+            "command": [
+                "df",
+                "1+2"
+            ],
+            "command_string": "df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -12,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Corpse Thrust",
+            "command": [
+                "d",
+                "1"
+            ],
+            "command_string": "d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -7,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Knee Popper to Sidekick",
+            "command": [
+                "d",
+                "3",
+                "3"
+            ],
+            "command_string": "d33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "7+10",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -16,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Right Sweep 1",
+            "command": [
+                "d",
+                "4"
+            ],
+            "command_string": "d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Zenshin",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "60+29",
+                "block": -86,
+                "hit": -86,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Double Lift Kick",
+            "command": [
+                "d",
+                "3+4"
+            ],
+            "command_string": "d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "5+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -19,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Savage Sword",
+            "command": [
+                "db",
+                "2",
+                "2",
+                "3"
+            ],
+            "command_string": "db223",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "12+11",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "15+1",
+                "block": -9,
+                "hit": 53,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Punch to Cascade Kick",
+            "command": [
+                "db",
+                "2",
+                "3"
+            ],
+            "command_string": "db23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "12+23",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "15+1",
+                "block": -8,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Left Spinning Back Kick",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -12,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Right Low Roundhouse ",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -13,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Power Stance",
+            "command": [
+                "db",
+                "1+2"
+            ],
+            "command_string": "db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -26,
+                "hit": -11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Mental Alertness 2",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "55+25",
+                "block": -96,
+                "hit": -96,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Spine Cracker",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "During Mental Alertness 2 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "31+16",
+                "block": -14,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Swaying Willow",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "2"
+            ],
+            "command_string": "During Mental Alertness 2 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 53,
+                "speed_per_hit": "31+22",
+                "block": -14,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Halberd Heel",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "3"
+            ],
+            "command_string": "During Mental Alertness 2 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 48,
+                "speed_per_hit": "31+17",
+                "block": -9,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Right Sweep 2",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "4"
+            ],
+            "command_string": "During Mental Alertness 2 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 56,
+                "speed_per_hit": "31+25",
+                "block": -26,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Joudan Tsukiage Niren",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Mental Alertness 2 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "8+20",
+            "special_props": [],
+            "frames": {
+                "startup": 34,
+                "speed_per_hit": "21+13",
+                "block": -13,
+                "hit": 38,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Leaping Side Kick",
+            "command": [
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "3+4"
+            ],
+            "command_string": "During Mental Alertness 2 3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 53,
+                "speed_per_hit": "31+22",
+                "block": 8,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Shun Masatsu",
+            "command": [
+                "b",
+                "2",
+                "1"
+            ],
+            "command_string": "b21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Left Knee",
+            "command": [
+                "b",
+                "3"
+            ],
+            "command_string": "b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -6,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Spinning Sidekick",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -7,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Avenger",
+            "command": [
+                "ub",
+                "1+2",
+                "(",
+                "b",
+                "b",
+                "to",
+                "cancel)"
+            ],
+            "command_string": "ub, 1+2, ( b, b, to cancel) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 70,
+            "damage_per_hit": "70",
+            "special_props": [],
+            "frames": {
+                "startup": 75,
+                "speed_per_hit": "75",
+                "block": -16,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Evading Middle Strike",
+            "command": [
+                "uf",
+                "2"
+            ],
+            "command_string": "uf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -7,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Left Spinning Jump Kick",
+            "command": [
+                "uf",
+                "3"
+            ],
+            "command_string": "uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -9,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Front Jump Kick",
+            "command": [
+                "uf",
+                "4"
+            ],
+            "command_string": "uf4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Demon's Paw",
+            "command": [
+                "f",
+                "F",
+                "2"
+            ],
+            "command_string": "fF2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -8,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Left Axe Kick",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 2,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Kazama Style 6 Hit Combo",
+            "command": [
+                "f",
+                "F",
+                "3",
+                "1",
+                "3",
+                "2",
+                "1",
+                "4"
+            ],
+            "command_string": "fF313214",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 28,
+            "damage_per_hit": "20+3+5",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -13,
+                "hit": -90,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Right Axe Kick",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 19,
+            "damage_per_hit": "19",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": 4,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Evil Intent",
+            "command": [
+                "b",
+                "f",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "bf212",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "15+10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "14+1",
+                "block": -5,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Keito",
+            "command": [
+                "b",
+                "f",
+                "2",
+                "3"
+            ],
+            "command_string": "bf23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "15+17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "14+1",
+                "block": -12,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Thrusting Uppercut",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "1"
+            ],
+            "command_string": "fnddf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -13,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Wind Hook Fist",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "fnddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -10,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Electric Wind Hook Fist",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "2",
+                "(Press",
+                "simultaneously)"
+            ],
+            "command_string": "f, n, d, df, 2, (Press simultaneously) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 5,
+                "hit": 70,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "L.L.R.K. to Spinning Flare Kick",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "4",
+                "3+4"
+            ],
+            "command_string": "fnddf43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "10+18",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "19+1",
+                "block": -31,
+                "hit": -4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Twin Lancer",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "2"
+            ],
+            "command_string": "While rising 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "10+16",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -8,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Crouching Uppercut",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -12,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Bamboo Splitter",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -9,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Black Out",
+            "command": [
+                "(While",
+                "enemy",
+                "is",
+                "down)",
+                "d",
+                "2"
+            ],
+            "command_string": "(While enemy is down) d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 19,
+            "damage_per_hit": "19",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "1+18",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Mental Alertness 1",
+            "command": [
+                "1+3+4"
+            ],
+            "command_string": "1+3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "60+39",
+                "block": -87,
+                "hit": -87,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "10 Hit Combo",
+            "command": [
+                "f",
+                "2",
+                "3",
+                "3",
+                "3",
+                "2",
+                "1",
+                "2",
+                "3",
+                "4",
+                "2"
+            ],
+            "command_string": "f2333212342",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Low",
+                "High"
+            ],
+            "damage": 105,
+            "damage_per_hit": "12+7+7+10+8+8+8+10+18+17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -14,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Double Face Kick",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 1,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Double Face Kick",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "11+24",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 1,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Over the Shoulder Reverse",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "5+9+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Over the Shoulder Reverse",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "5+9+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Shoulder Flip",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 43,
+            "damage_per_hit": "11+12+20",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Over the Limit",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "Pivoting Hip Throw",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "Shun Ren Dan",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "2+3"
+            ],
+            "command_string": "Approach enemy df2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "4+5+5+26",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -4,
+                "hit": -4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "Tidal Wave",
+            "command": [
+                "Approach",
+                "enemy",
+                "uf",
+                "1+2"
+            ],
+            "command_string": "Approach enemy uf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "2+2+2+2+4+28",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "Complicated Wire",
+            "command": [
+                "Approach",
+                "enemy",
+                "d",
+                "db",
+                "b",
+                "1+3"
+            ],
+            "command_string": "Approach enemy ddbb1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "Parry",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "attack",
+                "b",
+                "1+3",
+                "(or",
+                "b",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Time with enemy attack b, 1+3, (or b2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "8+30+37",
+                "block": 15,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "Sample Combo 1",
+            "command": [
+                "d",
+                "3+4",
+                ">",
+                "df",
+                "1",
+                "4",
+                ">",
+                "db",
+                "2",
+                "2",
+                "3"
+            ],
+            "command_string": "d, 3+4, >, df, 1, 4, >, db223",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 54,
+            "damage_per_hit": "5+20+7+9+4+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "Sample Combo 2",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "4",
+                ">",
+                "b",
+                "2",
+                "1",
+                ">",
+                "4",
+                ">",
+                "db",
+                "2",
+                "3"
+            ],
+            "command_string": "f, n, d, df, 4, >, b, 2, 1, >, 4, >, db23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "10+8+5+7+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -8,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "Sample Combo 3",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                ">",
+                "f",
+                "n",
+                "d",
+                "df",
+                "2",
+                "(Press",
+                "simultaneously)",
+                ">",
+                "4",
+                ">",
+                "d",
+                "1+2",
+                ">",
+                "During",
+                "Zenshin",
+                "3+4",
+                ">",
+                "b",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "While rising 2, >, f, n, d, df, 2, (Press simultaneously) >, 4, >, d, 1+2, >, During Zenshin 3+4, >, b, 3, F, >, During Mental Alertness 2 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 65,
+            "damage_per_hit": "14+17+9+10+5+4+6",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "Sample Combo 4",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "b",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "1",
+                ">",
+                "b",
+                "f",
+                "2",
+                "3",
+                "F",
+                ">",
+                "During",
+                "Mental",
+                "Alertness",
+                "2",
+                "3",
+                ">",
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "uf, 4, >, b, 3, F, >, During Mental Alertness 2 1, >, b, f, 2, 3, F, >, During Mental Alertness 2 3, >, During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 73,
+            "damage_per_hit": "14+12+7+6+5+6+3+1+1+1+17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Sample Combo 5",
+            "command": [
+                "f",
+                "n",
+                "d",
+                "df",
+                "2",
+                "(Press",
+                "simultaneously)",
+                ">",
+                "During",
+                "Rage",
+                "f",
+                "n",
+                "d",
+                "df",
+                "1+2",
+                "3",
+                "1"
+            ],
+            "command_string": "f, n, d, df, 2, (Press simultaneously) >, During Rage fnddf1+231",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 78,
+            "damage_per_hit": "27+17+17+10+7",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 9,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

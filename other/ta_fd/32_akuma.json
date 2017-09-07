@@ -1,0 +1,2354 @@
+{
+    "id": 32,
+    "id_name": "akuma",
+    "name": "Akuma",
+    "first_name": "Akuma",
+    "last_name": "",
+    "n_moves": 84,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Wrath of the Raging Demon",
+            "command": [
+                "During",
+                "Rage",
+                "1",
+                "1",
+                "f",
+                "3",
+                "2"
+            ],
+            "command_string": "During Rage 11f32",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "NOBLK Throw"
+            ],
+            "damage": 61,
+            "damage_per_hit": "7+1+2+1+1+2+1+1+2+1+1+2+1+1+2+1+1+2+1+2+1+1+2+1+1+12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "8+2",
+                "block": -10,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 2,
+            "name": "Gohadoken",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1"
+            ],
+            "command_string": "ddff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": 9,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 3,
+            "name": "Gohadoken",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "2"
+            ],
+            "command_string": "ddff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": 6,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 4,
+            "name": "Shakunetsu Hadoken",
+            "command": [
+                "f",
+                "df",
+                "d",
+                "db",
+                "b",
+                "1"
+            ],
+            "command_string": "fdfddbb1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "33",
+                "block": 59,
+                "hit": 59,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 5,
+            "name": "Shakunetsu Hadoken",
+            "command": [
+                "f",
+                "df",
+                "d",
+                "db",
+                "b",
+                "2"
+            ],
+            "command_string": "fdfddbb2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 19,
+            "damage_per_hit": "9+6+4",
+            "special_props": [],
+            "frames": {
+                "startup": 33,
+                "speed_per_hit": "33",
+                "block": 56,
+                "hit": 56,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 6,
+            "name": "Goshoryuken",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "1"
+            ],
+            "command_string": "fddf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -25,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 7,
+            "name": "Goshoryuken",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "fddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 26,
+            "damage_per_hit": "6+6+14",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -34,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 8,
+            "name": "Hyakkishu",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "3",
+                "(or",
+                "4",
+                ")"
+            ],
+            "command_string": "f, d, df, 3, (or 4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "37",
+                "block": -83,
+                "hit": -83,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 9,
+            "name": "Hyakkigozan",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "n"
+            ],
+            "command_string": "During Hyakkishu n",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 51,
+                "speed_per_hit": "39+8+4",
+                "block": -24,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 10,
+            "name": "Hyakkigosho",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "1"
+            ],
+            "command_string": "During Hyakkishu 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 38,
+                "speed_per_hit": "31+7",
+                "block": 2,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 11,
+            "name": "Hyakkigohasatsu",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "2"
+            ],
+            "command_string": "During Hyakkishu 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "31+16",
+                "block": -9,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 12,
+            "name": "Hyakkigosen",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "3"
+            ],
+            "command_string": "During Hyakkishu 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 45,
+                "speed_per_hit": "31+14",
+                "block": -6,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 13,
+            "name": "Hyakkigojin",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "4"
+            ],
+            "command_string": "During Hyakkishu 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 45,
+                "speed_per_hit": "31+14",
+                "block": 6,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 14,
+            "name": "Hyakkigosai",
+            "command": [
+                "During",
+                "Hyakkishu",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "During Hyakkishu 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 41,
+                "speed_per_hit": "36+5",
+                "block": -9,
+                "hit": -9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 15,
+            "name": "Tatsumaki Zankukyaku",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "3"
+            ],
+            "command_string": "ddbb3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -15,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 16,
+            "name": "Tatsumaki Zankukyaku",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "4"
+            ],
+            "command_string": "ddbb4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "High",
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "13+6+4",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -14,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 17,
+            "name": "Zanku Hadoken",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "df",
+                "f",
+                "1",
+                "(or",
+                "2",
+                ")"
+            ],
+            "command_string": "During Jump d, df, f, 1, (or 2)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "17+21+25+16",
+                "block": -6,
+                "hit": -6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 18,
+            "name": "AirBorne Tatsumaki Zankukyaku",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "3",
+                "(or",
+                "4",
+                ")"
+            ],
+            "command_string": "During Jump d, db, b, 3, (or 4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -5,
+                "hit": 59,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 19,
+            "name": "Ashura Senku",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "3+4",
+                "(or",
+                "b",
+                "d",
+                "db",
+                "3+4",
+                ")"
+            ],
+            "command_string": "f, d, df, 3+4, (or bddb3+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "38+42+29",
+                "block": -115,
+                "hit": -115,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 20,
+            "name": "EX Gohadoken",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "ddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": 63,
+                "hit": 63,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 21,
+            "name": "EX Shakunetsu Hadoken",
+            "command": [
+                "f",
+                "df",
+                "d",
+                "db",
+                "b",
+                "1+2"
+            ],
+            "command_string": "fdfddbb1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 26,
+            "damage_per_hit": "12+8+6",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "28",
+                "block": 65,
+                "hit": 65,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 22,
+            "name": "EX Goshoryuken",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "1+2"
+            ],
+            "command_string": "fddf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 28,
+            "damage_per_hit": "6+6+16",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -34,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 23,
+            "name": "Messatsu Goshoryu",
+            "command": [
+                "During",
+                "Counter",
+                "Hit",
+                "f",
+                "d",
+                "df",
+                "1+2"
+            ],
+            "command_string": "During Counter Hit fddf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 42,
+            "damage_per_hit": "7+8+9+9+9",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -34,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 24,
+            "name": "EX Tatsumaki Zankukyaku",
+            "command": [
+                "d",
+                "db",
+                "b",
+                "3+4"
+            ],
+            "command_string": "ddbb3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 26,
+            "damage_per_hit": "6+6+4+10",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -25,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 25,
+            "name": "EX Zanku Hadoken",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "During Jump ddff1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "17+21+13+64",
+                "block": 39,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 26,
+            "name": "EX AirBorne Tatsumaki Zankukyaku",
+            "command": [
+                "During",
+                "Jump",
+                "d",
+                "db",
+                "b",
+                "3+4"
+            ],
+            "command_string": "During Jump ddbb3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -2,
+                "hit": 52,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 27,
+            "name": "Hisenkyaku to EX Zanku Hadoken",
+            "command": [
+                "During",
+                "Hisenkyaku",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "During Hisenkyaku ddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+10+10",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": 6,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 28,
+            "name": "Hisenkyaku to EX AirBorne Tatsumaki Zankukyaku",
+            "command": [
+                "During",
+                "Hisenkyaku",
+                "d",
+                "db",
+                "b",
+                "3+4"
+            ],
+            "command_string": "During Hisenkyaku ddbb3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+6+4+10",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -25,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 29,
+            "name": "Messatsu Gohado",
+            "command": [
+                "d",
+                "df",
+                "f",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "ddffddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 58,
+            "damage_per_hit": "20+14+10+8+6",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 61,
+                "hit": 61,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 30,
+            "name": "Sengeki",
+            "command": [
+                "1"
+            ],
+            "command_string": "1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 7,
+            "damage_per_hit": "7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": 1,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 31,
+            "name": "Kimon Rendan",
+            "command": [
+                "1",
+                "1"
+            ],
+            "command_string": "11",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 14,
+            "damage_per_hit": "7+7",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -3,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 32,
+            "name": "Kimon Rentotsu",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "7+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -17,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 33,
+            "name": "Roppu Tubushi",
+            "command": [
+                "2"
+            ],
+            "command_string": "2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 34,
+            "name": "Kikoku Renzan",
+            "command": [
+                "4",
+                "3"
+            ],
+            "command_string": "43",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "13+1",
+                "block": -5,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 35,
+            "name": "Focus Attack",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 31,
+                "speed_per_hit": "20+11",
+                "block": -20,
+                "hit": -8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 36,
+            "name": "Focus Attack",
+            "command": [
+                "1+2",
+                "Hold"
+            ],
+            "command_string": "1+2, Hold ",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 65,
+                "speed_per_hit": "65",
+                "block": -16,
+                "hit": 46,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 37,
+            "name": "Ryujinkyaku",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -9,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 38,
+            "name": "Onikubigari",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 39,
+            "name": "Zugaihasatsu",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "5+15",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -8,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 40,
+            "name": "Hisenkyaku",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 41,
+            "name": "Gokumonsyo",
+            "command": [
+                "df",
+                "1",
+                "1"
+            ],
+            "command_string": "df11",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "10+7",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "10+3",
+                "block": -3,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 42,
+            "name": "Zugaigohasatsu",
+            "command": [
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+5+15",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "11+2",
+                "block": -13,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 43,
+            "name": "Dohatsu Tensho",
+            "command": [
+                "df",
+                "2",
+                "1"
+            ],
+            "command_string": "df21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "12+4",
+                "block": -18,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 44,
+            "name": "Gokusatsu Gotenshu",
+            "command": [
+                "df",
+                "2",
+                "4",
+                "3"
+            ],
+            "command_string": "df243",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 46,
+            "damage_per_hit": "10+13+23",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "13+3",
+                "block": -17,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 45,
+            "name": "Yokogeri",
+            "command": [
+                "df",
+                "3"
+            ],
+            "command_string": "df3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -9,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 46,
+            "name": "Kitotsukyaku",
+            "command": [
+                "df",
+                "4"
+            ],
+            "command_string": "df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -16,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 47,
+            "name": "Fukusengeki",
+            "command": [
+                "d",
+                "1"
+            ],
+            "command_string": "d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid"
+            ],
+            "damage": 5,
+            "damage_per_hit": "5",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 48,
+            "name": "Fkusenshotei",
+            "command": [
+                "d",
+                "1",
+                "2"
+            ],
+            "command_string": "d12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid",
+                "Smid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "5+8",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 49,
+            "name": "Shotei",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid"
+            ],
+            "damage": 6,
+            "damage_per_hit": "6",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 50,
+            "name": "Kurubushi Kick",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 7,
+            "damage_per_hit": "7",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 51,
+            "name": "Ashibarai",
+            "command": [
+                "d",
+                "4"
+            ],
+            "command_string": "d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -23,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 52,
+            "name": "Gaikaiken",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 53,
+            "name": "Danretto",
+            "command": [
+                "b",
+                "2"
+            ],
+            "command_string": "b2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -9,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 54,
+            "name": "Taizankyaku",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -13,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 55,
+            "name": "Shakunetsu Messho",
+            "command": [
+                "f",
+                "F",
+                "2",
+                "during",
+                "hit",
+                "1"
+            ],
+            "command_string": "f, F, 2, during hit 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "14+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 56,
+            "name": "Ganretsuzan",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 0,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 57,
+            "name": "Shunjinkaida",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "1"
+            ],
+            "command_string": "fff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": 1,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 58,
+            "name": "Tenmakuretsukyaku",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": 4,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 59,
+            "name": "Shunjingozan",
+            "command": [
+                "Run",
+                "more",
+                "than",
+                "3",
+                "steps",
+                "4"
+            ],
+            "command_string": "Run more than 3 steps 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -24,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 60,
+            "name": "Hijiuchi",
+            "command": [
+                "While",
+                "rising",
+                "1"
+            ],
+            "command_string": "While rising 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -5,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 61,
+            "name": "Sotensho",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -15,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 62,
+            "name": "Totsuhizageri",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -7,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 63,
+            "name": "Shizan",
+            "command": [
+                "While",
+                "rising",
+                "4",
+                "4"
+            ],
+            "command_string": "While rising 44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "10+20",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -15,
+                "hit": -5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 64,
+            "name": "Hijiotoshi",
+            "command": [
+                "During",
+                "Vertical",
+                "Jump",
+                "1"
+            ],
+            "command_string": "During Vertical Jump 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": -3,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 65,
+            "name": "Gokusengeki",
+            "command": [
+                "During",
+                "Vertical",
+                "Jump",
+                "2"
+            ],
+            "command_string": "During Vertical Jump 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": 5,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 66,
+            "name": "Maegeri",
+            "command": [
+                "During",
+                "Vertical",
+                "Jump",
+                "3"
+            ],
+            "command_string": "During Vertical Jump 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": -3,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 67,
+            "name": "Onikubigiri",
+            "command": [
+                "During",
+                "Vertical",
+                "Jump",
+                "4"
+            ],
+            "command_string": "During Vertical Jump 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": 4,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 68,
+            "name": "Gokuken",
+            "command": [
+                "During",
+                "Forward",
+                "Jump",
+                "1"
+            ],
+            "command_string": "During Forward Jump 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": -4,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 69,
+            "name": "Gokugeki",
+            "command": [
+                "During",
+                "Forward",
+                "Jump",
+                "2"
+            ],
+            "command_string": "During Forward Jump 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": 1,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 70,
+            "name": "Rakusaishu",
+            "command": [
+                "During",
+                "Forward",
+                "Jump",
+                "3"
+            ],
+            "command_string": "During Forward Jump 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": -3,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 71,
+            "name": "Tobisokuto",
+            "command": [
+                "During",
+                "Forward",
+                "Jump",
+                "4"
+            ],
+            "command_string": "During Forward Jump 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 7,
+                "speed_per_hit": "7",
+                "block": -2,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 72,
+            "name": "Tenmakujinkyaku",
+            "command": [
+                "Forward",
+                "Jump",
+                "peak",
+                "d",
+                "3"
+            ],
+            "command_string": "Forward Jump peak d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "9+4",
+                "block": 4,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 73,
+            "name": "Goshoha",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 74,
+            "name": "Goshoha",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 75,
+            "name": "Syuretto",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 76,
+            "name": "Syuretto",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 77,
+            "name": "Syuretto",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -1,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 78,
+            "name": "Goshoha",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 79,
+            "name": "Goshoha",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 10,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 80,
+            "name": "Sample Combo 1",
+            "command": [
+                "d",
+                "3",
+                "(Clean",
+                "Hit)",
+                ">",
+                "d",
+                "db",
+                "b",
+                "3",
+                ">",
+                "f",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "d, 3, (Clean Hit) >, d, db, b, 3, >, fddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High",
+                "Proj",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 35,
+            "damage_per_hit": "10+10+4+3+8",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -34,
+                "hit": 37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 81,
+            "name": "Sample Combo 2",
+            "command": [
+                "df",
+                "2",
+                "1",
+                ">",
+                "3",
+                ">",
+                "df",
+                "1",
+                ">",
+                "4",
+                "3",
+                ">",
+                "2",
+                ">",
+                "d",
+                "df",
+                "f",
+                "2"
+            ],
+            "command_string": "df, 2, 1, >, 3, >, df, 1, >, 4, 3, >, 2, >, ddff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Proj",
+                "Proj"
+            ],
+            "damage": 51,
+            "damage_per_hit": "10+10+9+5+4+5+4+4",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "11+5",
+                "block": -13,
+                "hit": 42,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 82,
+            "name": "Sample Combo 3",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                ">",
+                "f",
+                "d",
+                "df",
+                "4",
+                ">",
+                "During",
+                "Hyakkishu",
+                "4",
+                ">",
+                "f",
+                "4",
+                ">",
+                "1+2",
+                "f",
+                "f",
+                ">",
+                "df",
+                "2",
+                "4",
+                "3"
+            ],
+            "command_string": "While rising 2, >, f, d, df, 4, >, During Hyakkishu 4, >, f, 4, >, 1+2, f, f, >, df243",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Proj",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 54,
+            "damage_per_hit": "17+10+10+5+3+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -17,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 83,
+            "name": "Sample Combo 4",
+            "command": [
+                "1+2",
+                "Hold",
+                "f",
+                "f",
+                ">",
+                "During",
+                "Rage",
+                "1",
+                "1",
+                "f",
+                "3",
+                "2"
+            ],
+            "command_string": "1+2, Hold f, f, >, During Rage 11f32",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "NOBLK Throw"
+            ],
+            "damage": 77,
+            "damage_per_hit": "22+1+1+2+1+1+2+1+1+2+1+1+2+1+1+2+1+1+2+1+2+1+1+2+1+1+12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 37,
+                "speed_per_hit": "26+11",
+                "block": -10,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 84,
+            "name": "Sample Combo 5",
+            "command": [
+                "f",
+                "d",
+                "df",
+                "3",
+                ">",
+                "During",
+                "Hyakkishu",
+                "4",
+                ">",
+                "b",
+                "1",
+                ">",
+                "f",
+                "d",
+                "df",
+                "4",
+                ">",
+                "During",
+                "Hyakkishu",
+                "3",
+                ">",
+                "During",
+                "Forward",
+                "Jump",
+                "4",
+                ">",
+                "1+2",
+                "f",
+                "f",
+                ">",
+                "b",
+                "1",
+                ">",
+                "d",
+                "df",
+                "f",
+                "d",
+                "df",
+                "f",
+                "1+2"
+            ],
+            "command_string": "f, d, df, 3, >, During Hyakkishu 4, >, b, 1, >, f, d, df, 4, >, During Hyakkishu 3, >, During Forward Jump 4, >, 1+2, f, f, >, b, 1, >, ddffddff1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Proj",
+                "High",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Proj"
+            ],
+            "damage": 95,
+            "damage_per_hit": "15+17+16+7+5+5+6+6+6+6+6",
+            "special_props": [],
+            "frames": {
+                "startup": 44,
+                "speed_per_hit": "30+14",
+                "block": 2,
+                "hit": 53,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

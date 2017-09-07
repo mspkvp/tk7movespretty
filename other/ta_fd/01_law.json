@@ -1,0 +1,3297 @@
+{
+    "id": 1,
+    "id_name": "law",
+    "name": "Marshall Law",
+    "first_name": "Marshall",
+    "last_name": "Law",
+    "n_moves": 117,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "1+2"
+            ],
+            "command_string": "During Rage 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+3+4+3+7+28",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -26,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "db",
+                "4",
+                "3+4"
+            ],
+            "command_string": "During Rage db43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 48,
+            "damage_per_hit": "20+28",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "25+1",
+                "block": -11,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Machine Gun Arrow",
+            "command": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            "command_string": "11111",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 12,
+            "damage_per_hit": "7+5",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -7,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Left Right Combo",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 15,
+            "damage_per_hit": "7+8",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "9+1",
+                "block": -1,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Left Right Dragon Fist Combo",
+            "command": [
+                "1",
+                "2",
+                "2",
+                "2"
+            ],
+            "command_string": "1222",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "High"
+            ],
+            "damage": 35,
+            "damage_per_hit": "7+8+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "4+6",
+                "block": -9,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Left Right Blazing Fist Combo",
+            "command": [
+                "1",
+                "2",
+                "2",
+                "1+2"
+            ],
+            "command_string": "1221+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 46,
+            "damage_per_hit": "7+8+10+21",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "6+4",
+                "block": -13,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Left Right to Knee",
+            "command": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command_string": "123",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "7+8+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "5+5",
+                "block": -6,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Left Right Combo to Somersault Feint",
+            "command": [
+                "1",
+                "2",
+                "uf",
+                "3",
+                "4"
+            ],
+            "command_string": "12uf34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "7+8+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "7+3",
+                "block": -9,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Rave War Combo",
+            "command": [
+                "2",
+                "2",
+                "2"
+            ],
+            "command_string": "222",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "8+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -9,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Blazing Fist Combo",
+            "command": [
+                "2",
+                "2",
+                "1+2"
+            ],
+            "command_string": "221+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "8+10+21",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -13,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Rage Dragon Combo",
+            "command": [
+                "2",
+                "b",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "2b212",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "8+8+8+21",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -3,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Feint to Middle Kick",
+            "command": [
+                "3",
+                "3"
+            ],
+            "command_string": "33",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -14,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "High Kick to Bloody Cleaver",
+            "command": [
+                "3",
+                "4"
+            ],
+            "command_string": "34",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -10,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Shaolin Spin Kicks",
+            "command": [
+                "4",
+                "3",
+                "4"
+            ],
+            "command_string": "434",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 40,
+            "damage_per_hit": "14+12+14",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -6,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Crescent Kick Combo",
+            "command": [
+                "4",
+                "u",
+                "3"
+            ],
+            "command_string": "4u3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "14+23",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "9+2",
+                "block": -1,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Pressing Kick Combo",
+            "command": [
+                "3+4",
+                "4"
+            ],
+            "command_string": "3+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "5+12+11",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "10+4",
+                "block": -13,
+                "hit": 56,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Poison Arrow",
+            "command": [
+                "f",
+                "【",
+                "2",
+                "1",
+                "】"
+            ],
+            "command_string": "f【21】",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "32",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "2+19",
+                "block": 5,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Dragon Hammer",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 3,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Dragon Killer",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -2,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Spinning Dragon Blow",
+            "command": [
+                "f",
+                "1+4"
+            ],
+            "command_string": "f1+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -14,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Step in Combo",
+            "command": [
+                "df",
+                "3",
+                "3",
+                "3"
+            ],
+            "command_string": "df333",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "High"
+            ],
+            "damage": 40,
+            "damage_per_hit": "18+8+14",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "14+3",
+                "block": -8,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Mid Kick Combo to Somersault Kick",
+            "command": [
+                "df",
+                "3",
+                "3",
+                "4"
+            ],
+            "command_string": "df334",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "18+8+23",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "8+9",
+                "block": -17,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Right Middle Kick to Somersault Kick",
+            "command": [
+                "df",
+                "4",
+                "3"
+            ],
+            "command_string": "df43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "15+23",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "11+2",
+                "block": -17,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Banana Peel",
+            "command": [
+                "df",
+                "3+4"
+            ],
+            "command_string": "df3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -15,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Low Backhand to High Kick",
+            "command": [
+                "d",
+                "1",
+                "3"
+            ],
+            "command_string": "d13",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "15+21",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -11,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Body Blow to Dragon Lift",
+            "command": [
+                "d",
+                "2",
+                "3"
+            ],
+            "command_string": "d23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid",
+                "Mid"
+            ],
+            "damage": 29,
+            "damage_per_hit": "8+21",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -15,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Dragon Low Kick",
+            "command": [
+                "d",
+                "3"
+            ],
+            "command_string": "d3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 8,
+            "damage_per_hit": "8",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -14,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Dragon Low to Hook Kick",
+            "command": [
+                "d",
+                "3",
+                "3"
+            ],
+            "command_string": "d33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "8+17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Construct Kick",
+            "command": [
+                "d",
+                "4",
+                "3"
+            ],
+            "command_string": "d43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High"
+            ],
+            "damage": 19,
+            "damage_per_hit": "7+12",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -12,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Dragon Charge",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "52+39",
+                "block": -94,
+                "hit": -94,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Dragon Knuckle",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "1"
+            ],
+            "command_string": "During Dragon Charge 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "35+12",
+                "block": -11,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Dragon Knuckle Combo",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "1",
+                "f",
+                "1"
+            ],
+            "command_string": "During Dragon Charge 1f1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "14+17",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "35+12",
+                "block": -14,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Dragon Knuckle Flight",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "1",
+                "4"
+            ],
+            "command_string": "During Dragon Charge 14",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "35+12",
+                "block": 4,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Cloud Gates",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "2"
+            ],
+            "command_string": "During Dragon Charge 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 49,
+                "speed_per_hit": "35+14",
+                "block": -4,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Dragon Spin Kick",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "3"
+            ],
+            "command_string": "During Dragon Charge 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 57,
+                "speed_per_hit": "35+22",
+                "block": -3,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Dragon Charge Kick",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "4"
+            ],
+            "command_string": "During Dragon Charge 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 59,
+                "speed_per_hit": "35+24",
+                "block": -14,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Quick Hook",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "1+2"
+            ],
+            "command_string": "During Dragon Charge 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 54,
+                "speed_per_hit": "35+19",
+                "block": -10,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Dragon's Fire",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "1+3"
+            ],
+            "command_string": "During Dragon Charge 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "8+27",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "35+12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Facelift",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "2+4"
+            ],
+            "command_string": "During Dragon Charge 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "8+9+18",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "35+12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Dragon Roar",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "f",
+                "1"
+            ],
+            "command_string": "During Dragon Charge f1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 52,
+                "speed_per_hit": "35+17",
+                "block": -14,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Dragon Cannon",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "f",
+                "3"
+            ],
+            "command_string": "During Dragon Charge f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "45",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 57,
+                "speed_per_hit": "37+20",
+                "block": -17,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Dragon's Flight",
+            "command": [
+                "During",
+                "Dragon",
+                "Charge",
+                "f",
+                "4"
+            ],
+            "command_string": "During Dragon Charge f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "frames": {
+                "startup": 55,
+                "speed_per_hit": "35+1+19",
+                "block": 4,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Low Kick to Somersault",
+            "command": [
+                "d",
+                "3+4",
+                "3"
+            ],
+            "command_string": "d3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "7+23",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -17,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Elbow Spring Kick",
+            "command": [
+                "db",
+                "2",
+                "4"
+            ],
+            "command_string": "db24",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "15+25",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Shin Crusher",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -15,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Dragon's Tail to Somersault Kick",
+            "command": [
+                "db",
+                "4",
+                "4"
+            ],
+            "command_string": "db44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "20+18",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "25+1",
+                "block": -37,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Charge Power Punch",
+            "command": [
+                "db",
+                "1+2",
+                "(",
+                "u",
+                "u",
+                "to",
+                "cancel)"
+            ],
+            "command_string": "db, 1+2, ( u, u, to cancel) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 90,
+            "damage_per_hit": "90",
+            "special_props": [],
+            "frames": {
+                "startup": 78,
+                "speed_per_hit": "61+17",
+                "block": -28,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Frogman",
+            "command": [
+                "db",
+                "3+4"
+            ],
+            "command_string": "db3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -40,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Dragon Storm",
+            "command": [
+                "b",
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "b122",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 46,
+            "damage_per_hit": "12+12+22",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "6+8",
+                "block": -14,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Knuckle Back Blow",
+            "command": [
+                "b",
+                "2",
+                "1"
+            ],
+            "command_string": "b21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "12+15",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -1,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Knuckle Rush",
+            "command": [
+                "b",
+                "2",
+                "2"
+            ],
+            "command_string": "b22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 22,
+            "damage_per_hit": "12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -9,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Junkyard Kick",
+            "command": [
+                "b",
+                "2",
+                "3",
+                "4"
+            ],
+            "command_string": "b234",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "12+10+23",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 36,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Dragon Rush Combo",
+            "command": [
+                "b",
+                "2",
+                "3",
+                "d",
+                "4"
+            ],
+            "command_string": "b23d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Low"
+            ],
+            "damage": 22,
+            "damage_per_hit": "12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -37,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Dragon Spin Kick",
+            "command": [
+                "b",
+                "3"
+            ],
+            "command_string": "b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -12,
+                "hit": 17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Tiger Fang",
+            "command": [
+                "b",
+                "4",
+                "3"
+            ],
+            "command_string": "b43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 34,
+            "damage_per_hit": "13+21",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "9+5",
+                "block": -5,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Fake Step",
+            "command": [
+                "b",
+                "1+2"
+            ],
+            "command_string": "b1+2",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "204+19",
+                "block": -149,
+                "hit": -149,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Tricky Trap",
+            "command": [
+                "After",
+                "Fake",
+                "Step",
+                "succeeds",
+                "1"
+            ],
+            "command_string": "After Fake Step succeeds 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 54,
+                "speed_per_hit": "25+29",
+                "block": -12,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Tricky Fist",
+            "command": [
+                "After",
+                "Fake",
+                "Step",
+                "succeeds",
+                "2"
+            ],
+            "command_string": "After Fake Step succeeds 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 47,
+                "speed_per_hit": "25+22",
+                "block": -9,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Tricky Mid Kick",
+            "command": [
+                "After",
+                "Fake",
+                "Step",
+                "succeeds",
+                "3"
+            ],
+            "command_string": "After Fake Step succeeds 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 70,
+                "speed_per_hit": "45+25",
+                "block": 15,
+                "hit": 36,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Tricky Low Kick",
+            "command": [
+                "After",
+                "Fake",
+                "Step",
+                "succeeds",
+                "4"
+            ],
+            "command_string": "After Fake Step succeeds 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 63,
+                "speed_per_hit": "40+23",
+                "block": -13,
+                "hit": 41,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Dragon Knuckle",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "1"
+            ],
+            "command_string": "During Fake Step 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 159,
+                "speed_per_hit": "147+12",
+                "block": -11,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Dragon Knuckle Combo",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "1",
+                "f",
+                "1"
+            ],
+            "command_string": "During Fake Step 1f1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 31,
+            "damage_per_hit": "14+17",
+            "special_props": [],
+            "frames": {
+                "startup": 159,
+                "speed_per_hit": "147+12",
+                "block": -14,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Dragon Knuckle Flight",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "1",
+                "4"
+            ],
+            "command_string": "During Fake Step 14",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 35,
+            "damage_per_hit": "14+21",
+            "special_props": [],
+            "frames": {
+                "startup": 159,
+                "speed_per_hit": "147+12",
+                "block": 4,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Fake Step Uppercut",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "2"
+            ],
+            "command_string": "During Fake Step 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [],
+            "frames": {
+                "startup": 163,
+                "speed_per_hit": "147+16",
+                "block": -20,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Dragon Spin Kick",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "3"
+            ],
+            "command_string": "During Fake Step 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 169,
+                "speed_per_hit": "147+22",
+                "block": -3,
+                "hit": 22,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Dragon Charge Kick",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "4"
+            ],
+            "command_string": "During Fake Step 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 171,
+                "speed_per_hit": "147+24",
+                "block": -14,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Quick Hook",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "1+2"
+            ],
+            "command_string": "During Fake Step 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 166,
+                "speed_per_hit": "147+19",
+                "block": -10,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Dragon Roar",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "f",
+                "1"
+            ],
+            "command_string": "During Fake Step f1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 164,
+                "speed_per_hit": "147+17",
+                "block": -14,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Dragon Cannon",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "f",
+                "3"
+            ],
+            "command_string": "During Fake Step f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 167,
+                "speed_per_hit": "147+20",
+                "block": -17,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Dragon's Flight",
+            "command": [
+                "During",
+                "Fake",
+                "Step",
+                "f",
+                "4"
+            ],
+            "command_string": "During Fake Step f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "frames": {
+                "startup": 167,
+                "speed_per_hit": "147+1+19",
+                "block": 4,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Dragon Arrow",
+            "command": [
+                "b",
+                "3+4"
+            ],
+            "command_string": "b3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -18,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "Blackout Muggin'",
+            "command": [
+                "uf",
+                "1",
+                "3",
+                "(or",
+                "during",
+                "Charge",
+                "Power",
+                "Punch",
+                "1",
+                "3",
+                ")"
+            ],
+            "command_string": "uf, 1, 3, (or during Charge Power Punch 13)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -12,
+                "hit": -1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "Jumping Kick to Somersault",
+            "command": [
+                "uf",
+                "3",
+                "4"
+            ],
+            "command_string": "uf34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -17,
+                "hit": -19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "Dragon's Descent",
+            "command": [
+                "uf",
+                "3+4"
+            ],
+            "command_string": "uf3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "30",
+                "block": -24,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "Somersault",
+            "command": [
+                "UF",
+                "3"
+            ],
+            "command_string": "UF3",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "8+27+1+10+29",
+                "block": -87,
+                "hit": -87,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "Somersault Fake",
+            "command": [
+                "UF",
+                "3",
+                "4"
+            ],
+            "command_string": "UF34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 44,
+                "speed_per_hit": "8+26+10",
+                "block": -9,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "Somersault Kick",
+            "command": [
+                "UF",
+                "4"
+            ],
+            "command_string": "UF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "8+10",
+                "block": -17,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "Backflipper",
+            "command": [
+                "UF",
+                "4",
+                "3"
+            ],
+            "command_string": "UF43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "23+16",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "8+10",
+                "block": -18,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "Dragon Strike Combo",
+            "command": [
+                "f",
+                "F",
+                "2",
+                "1",
+                "3"
+            ],
+            "command_string": "fF213",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 47,
+            "damage_per_hit": "12+12+23",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "10+4",
+                "block": -13,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "Dragon Dagger",
+            "command": [
+                "f",
+                "F",
+                "2",
+                "3"
+            ],
+            "command_string": "fF23",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -17,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Dragon Cannon",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "45",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -17,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 82,
+            "name": "Sun and Moon",
+            "command": [
+                "f",
+                "F",
+                "4",
+                "3"
+            ],
+            "command_string": "fF43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -14,
+                "hit": 48,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 83,
+            "name": "Fury Fist Rush",
+            "command": [
+                "d",
+                "df",
+                "F",
+                "1",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "ddfF1212",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "4+4+4+12",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "6+6",
+                "block": -16,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 84,
+            "name": "Running Side Kick",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 7,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 85,
+            "name": "Flash Fist",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "2"
+            ],
+            "command_string": "While rising 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "13+25",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -9,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 86,
+            "name": "Dragon Uppercut",
+            "command": [
+                "While",
+                "rising",
+                "2"
+            ],
+            "command_string": "While rising 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -18,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 87,
+            "name": "Side Kick",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 16,
+            "damage_per_hit": "16",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -29,
+                "hit": -27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 88,
+            "name": "Front Kick Somersault Variation",
+            "command": [
+                "While",
+                "rising",
+                "4",
+                "3"
+            ],
+            "command_string": "While rising 43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "12+23",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "10+1",
+                "block": -17,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 89,
+            "name": "Double Impact",
+            "command": [
+                "While",
+                "crouching",
+                "3",
+                "4"
+            ],
+            "command_string": "While crouching 34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "12+23",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -17,
+                "hit": 28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 89,
+            "number": 90,
+            "name": "Catapult Kick",
+            "command": [
+                "While",
+                "crouching",
+                "UF",
+                "4"
+            ],
+            "command_string": "While crouching UF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -21,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 90,
+            "number": 91,
+            "name": "Rainbow Kick",
+            "command": [
+                "While",
+                "crouching",
+                "UF",
+                "3+4"
+            ],
+            "command_string": "While crouching UF3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 46,
+                "speed_per_hit": "46",
+                "block": -4,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 91,
+            "number": 92,
+            "name": "Slide Kick",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "d",
+                "DF",
+                "3"
+            ],
+            "command_string": "While crouching dfdDF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -24,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 92,
+            "number": 93,
+            "name": "Dragon Judgement",
+            "command": [
+                "During",
+                "sidestep",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "During sidestep 2121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 43,
+            "damage_per_hit": "5+6+7+25",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -20,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 93,
+            "number": 94,
+            "name": "Double Dragon",
+            "command": [
+                "During",
+                "sidestep",
+                "3+4"
+            ],
+            "command_string": "During sidestep 3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "9+21",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -10,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 94,
+            "number": 95,
+            "name": "Blind Elbow Combo",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "2",
+                "2"
+            ],
+            "command_string": "Back towards enemy 22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "10+5",
+                "block": -17,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 95,
+            "number": 96,
+            "name": "Wolf Fang",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "4",
+                "3"
+            ],
+            "command_string": "Back towards enemy 43",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "14+24",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -12,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 96,
+            "number": 97,
+            "name": "Dragon Back Blow",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "1+2"
+            ],
+            "command_string": "Back towards enemy 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -1,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 97,
+            "number": 98,
+            "name": "Reverse Low",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "d",
+                "4"
+            ],
+            "command_string": "Back towards enemy d4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 12,
+            "damage_per_hit": "12",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -18,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 98,
+            "number": 99,
+            "name": "10 Hit Combo 1",
+            "command": [
+                "df",
+                "1",
+                "2",
+                "2",
+                "1",
+                "3",
+                "3",
+                "3",
+                "4",
+                "3",
+                "4"
+            ],
+            "command_string": "df1221333434",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "High",
+                "Low",
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 88,
+            "damage_per_hit": "10+5+6+5+7+6+7+7+10+25",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -20,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 99,
+            "number": 100,
+            "name": "10 Hit Combo 2",
+            "command": [
+                "df",
+                "1",
+                "3",
+                "2",
+                "2",
+                "3",
+                "3",
+                "3",
+                "4",
+                "4",
+                "4"
+            ],
+            "command_string": "df1322333444",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Mid",
+                "High",
+                "Mid",
+                "Low",
+                "Mid",
+                "High",
+                "Low",
+                "Mid"
+            ],
+            "damage": 88,
+            "damage_per_hit": "10+6+6+8+6+6+6+8+15+17",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -37,
+                "hit": -31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 100,
+            "number": 101,
+            "name": "Dragon's Fire",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "8+27",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 101,
+            "number": 102,
+            "name": "Dragon's Fire",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "8+27",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 102,
+            "number": 103,
+            "name": "Hopping Frog",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 103,
+            "number": 104,
+            "name": "Hopping Frog",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 104,
+            "number": 105,
+            "name": "Headlock Kick",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 105,
+            "number": 106,
+            "name": "Ball Breaker",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 42,
+            "damage_per_hit": "42",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 6,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 106,
+            "number": 107,
+            "name": "Dragon Bites",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 107,
+            "number": 108,
+            "name": "Run Up to Drop",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+3"
+            ],
+            "command_string": "Approach enemy f2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -66,
+                "hit": -66,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 108,
+            "number": 109,
+            "name": "Headlock Punch",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 3,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 109,
+            "number": 110,
+            "name": "Headlock Drop",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2",
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -6,
+                "hit": -6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 110,
+            "number": 111,
+            "name": "Knee Lift",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "F",
+                "3+4"
+            ],
+            "command_string": "Approach enemy fF3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 10,
+            "damage_per_hit": "10",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 56,
+                "hit": 56,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 111,
+            "number": 112,
+            "name": "Parry",
+            "command": [
+                "Time",
+                "with",
+                "enemy",
+                "attack",
+                "b",
+                "1+3",
+                "(or",
+                "b",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Time with enemy attack b, 1+3, (or b2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "1+43+29",
+                "block": 6,
+                "hit": 6,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 112,
+            "number": 113,
+            "name": "Sample Combo 1",
+            "command": [
+                "UF",
+                "4",
+                "3",
+                ">",
+                "b",
+                "4",
+                "3",
+                ">",
+                "f",
+                "F",
+                "2",
+                "1",
+                "3"
+            ],
+            "command_string": "UF, 4, 3, >, b, 4, 3, >, fF213",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 65,
+            "damage_per_hit": "23+16+6+8+3+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "8+10",
+                "block": -13,
+                "hit": -91,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 113,
+            "number": 114,
+            "name": "Sample Combo 2",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "F",
+                "3+4",
+                ">",
+                "f",
+                "3",
+                "4",
+                ">",
+                "4",
+                "3",
+                "b",
+                "f",
+                ">",
+                "During",
+                "Dragon",
+                "Charge",
+                "f",
+                "3"
+            ],
+            "command_string": "Approach enemy f, F, 3+4, >, f, 3, 4, >, 4, 3, b, f, >, During Dragon Charge f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw",
+                "High",
+                "High",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 48,
+            "damage_per_hit": "10+11+10+5+3+9",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -176,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 114,
+            "number": 115,
+            "name": "Sample Combo 3",
+            "command": [
+                "3+4",
+                "4",
+                ">",
+                "b",
+                "2",
+                "3",
+                "4",
+                "b",
+                "f",
+                ">",
+                "During",
+                "Dragon",
+                "Charge",
+                "f",
+                "4"
+            ],
+            "command_string": "3+4, 4, >, b, 2, 3, 4, b, f, >, During Dragon Charge f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High",
+                "Mid",
+                "Low",
+                "Mid",
+                "High"
+            ],
+            "damage": 56,
+            "damage_per_hit": "5+12+11+6+4+6+12",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "13+1",
+                "block": 4,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 115,
+            "number": 116,
+            "name": "Sample Combo 4",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                ">",
+                "4",
+                "u",
+                "3",
+                ">",
+                "1",
+                "2",
+                "3",
+                ">",
+                "b",
+                "2",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "1+2"
+            ],
+            "command_string": "While rising 2, >, 4, u, 3, >, 1, 2, 3, >, b, 2, 1, >, During Rage 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 81,
+            "damage_per_hit": "22+10+12+2+2+3+3+4+3+1+1+1+2+15",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -26,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 116,
+            "number": 117,
+            "name": "Sample Combo 5",
+            "command": [
+                "UF",
+                "4",
+                ">",
+                "uf",
+                "1",
+                ">",
+                "4",
+                "u",
+                "3",
+                ">",
+                "b",
+                "2",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "db",
+                "4",
+                "3+4"
+            ],
+            "command_string": "UF, 4, >, uf, 1, >, 4, u, 3, >, b, 2, 1, >, During Rage db43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "High",
+                "Low",
+                "High"
+            ],
+            "damage": 74,
+            "damage_per_hit": "25+7+7+10+3+4+6+12",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "8+10",
+                "block": -11,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

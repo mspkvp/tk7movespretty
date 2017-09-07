@@ -1,0 +1,3050 @@
+{
+    "id": 11,
+    "id_name": "jack7",
+    "name": "JACK-7",
+    "first_name": "JACK-7",
+    "last_name": "",
+    "n_moves": 106,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "10+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+4+7+18",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -32,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive",
+            "command": [
+                "During",
+                "Rage",
+                "b",
+                "db",
+                "d",
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "During Rage bdbddf12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 44,
+            "damage_per_hit": "20+24",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "23+1",
+                "block": -9,
+                "hit": -9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Jab to Jackhammer",
+            "command": [
+                "1",
+                "1"
+            ],
+            "command_string": "11",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 42,
+            "damage_per_hit": "14+28",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -12,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Jab to Stunning Hook",
+            "command": [
+                "1",
+                "2"
+            ],
+            "command_string": "12",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "14+24",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -2,
+                "hit": 30,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Jab Elbow Smash",
+            "command": [
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "212",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "10+12",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -12,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Tornado Punch",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 33,
+            "damage_per_hit": "15+18",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 53,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Giant Foot Stomp",
+            "command": [
+                "3+4",
+                "(",
+                "3+4",
+                "3+4",
+                "3+4",
+                "3+4",
+                "increases",
+                "distance)"
+            ],
+            "command_string": "3+4, ( 3+4, 3+4, 3+4, 3+4, increases distance) ",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "frames": {
+                "startup": 93,
+                "speed_per_hit": "93",
+                "block": -17,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Pivot Gun",
+            "command": [
+                "f",
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "f122",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid"
+            ],
+            "damage": 26,
+            "damage_per_hit": "13+13",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": 6,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Pinpoint Assault",
+            "command": [
+                "f",
+                "2"
+            ],
+            "command_string": "f2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -12,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Machine Press",
+            "command": [
+                "f",
+                "3",
+                "1+2"
+            ],
+            "command_string": "f31+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "17+22",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "16+4",
+                "block": -13,
+                "hit": 46,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "Dark Greeting",
+            "command": [
+                "f",
+                "【",
+                "4",
+                "1",
+                "】"
+            ],
+            "command_string": "f【41】",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 80,
+            "damage_per_hit": "80",
+            "special_props": [],
+            "frames": {
+                "startup": 68,
+                "speed_per_hit": "3+65",
+                "block": -11,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "Sudden Elbow",
+            "command": [
+                "f",
+                "【",
+                "4",
+                "1",
+                "】",
+                "2"
+            ],
+            "command_string": "f【41】2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 68,
+                "speed_per_hit": "3+50+15",
+                "block": 8,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "Tyulpan Blast",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 22,
+            "damage_per_hit": "22",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -19,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Atomic Shoulder Tackle",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 28,
+            "damage_per_hit": "28",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -12,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Overclocking",
+            "command": [
+                "df",
+                "1",
+                "1"
+            ],
+            "command_string": "df11",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -10,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Overdrive",
+            "command": [
+                "df",
+                "1",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "df1212",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 23,
+            "damage_per_hit": "12+2+1+8",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -18,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Savage Uppercut",
+            "command": [
+                "df",
+                "2"
+            ],
+            "command_string": "df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 13,
+            "damage_per_hit": "13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": 31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Rushing Uppercut High",
+            "command": [
+                "df",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "df2121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 38,
+            "damage_per_hit": "13+10+6+9",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -4,
+                "hit": 64,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Rushing Uppercut Mid",
+            "command": [
+                "df",
+                "2",
+                "1",
+                "2",
+                "df",
+                "1"
+            ],
+            "command_string": "df212df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "13+10+6+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": -77,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "Rushing Uppercut Low",
+            "command": [
+                "df",
+                "2",
+                "1",
+                "2",
+                "d",
+                "1"
+            ],
+            "command_string": "df212d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 29,
+            "damage_per_hit": "13+10+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": -82,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "Combine Harvester",
+            "command": [
+                "df",
+                "3",
+                "2"
+            ],
+            "command_string": "df32",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 36,
+            "damage_per_hit": "16+20",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -7,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Megaton Earthquake",
+            "command": [
+                "df",
+                "1+2"
+            ],
+            "command_string": "df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low"
+            ],
+            "damage": 29,
+            "damage_per_hit": "8+21",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -60,
+                "hit": -4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Dumptruck",
+            "command": [
+                "df",
+                "3+4"
+            ],
+            "command_string": "df3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": -23,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Double Axe",
+            "command": [
+                "d",
+                "1+2"
+            ],
+            "command_string": "d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "28+5",
+            "special_props": [],
+            "frames": {
+                "startup": 30,
+                "speed_per_hit": "30",
+                "block": -18,
+                "hit": 72,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Sit",
+            "command": [
+                "d",
+                "3+4"
+            ],
+            "command_string": "d3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "15+71+35",
+                "block": -123,
+                "hit": -123,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "Sit Pancake Press",
+            "command": [
+                "d",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "d3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "frames": {
+                "startup": 81,
+                "speed_per_hit": "15+12+54",
+                "block": -33,
+                "hit": -25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Sit Punches 1",
+            "command": [
+                "During",
+                "Sit",
+                "1",
+                "2",
+                "1",
+                "2"
+            ],
+            "command_string": "During Sit 1212",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 40,
+            "damage_per_hit": "10+10+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 49,
+                "speed_per_hit": "15+15+19",
+                "block": -47,
+                "hit": -36,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "Sit Punches 2",
+            "command": [
+                "During",
+                "Sit",
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "During Sit 2121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 40,
+            "damage_per_hit": "10+10+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 49,
+                "speed_per_hit": "15+15+19",
+                "block": -43,
+                "hit": -32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "Ground Assault",
+            "command": [
+                "During",
+                "Sit",
+                "1+2"
+            ],
+            "command_string": "During Sit 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 54,
+                "speed_per_hit": "15+15+24",
+                "block": -44,
+                "hit": -12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Machinegun Blast",
+            "command": [
+                "db",
+                "1",
+                "1",
+                "1",
+                "2"
+            ],
+            "command_string": "db1112",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "13+21",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -11,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Power Shovel",
+            "command": [
+                "db",
+                "2"
+            ],
+            "command_string": "db2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -18,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Cossack Kicks",
+            "command": [
+                "db",
+                "3",
+                "4",
+                "3",
+                "4",
+                "3",
+                "4"
+            ],
+            "command_string": "db343434",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 75,
+            "damage_per_hit": "15+12+12+12+12+12",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -16,
+                "hit": -5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Cossack Smash",
+            "command": [
+                "During",
+                "Cossack",
+                "Kicks",
+                "1+2"
+            ],
+            "command_string": "During Cossack Kicks 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "High"
+            ],
+            "damage": 75,
+            "damage_per_hit": "15+12+12+12+12+12",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": 14,
+                "hit": 43,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Cossack Compactor",
+            "command": [
+                "During",
+                "Cossack",
+                "Kicks",
+                "approach",
+                "(crouching",
+                "enemy)",
+                "d",
+                "1+2"
+            ],
+            "command_string": "During Cossack Kicks approach (crouching enemy) d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Mid Throw"
+            ],
+            "damage": 45,
+            "damage_per_hit": "4+5+5+5+5+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": 25,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "Big Boot",
+            "command": [
+                "db",
+                "4"
+            ],
+            "command_string": "db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "Piston Gun",
+            "command": [
+                "db",
+                "1+2"
+            ],
+            "command_string": "db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 34,
+            "damage_per_hit": "5+3+3+3+20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -4,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "Excavator",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -10,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Piston Gun Assault",
+            "command": [
+                "b",
+                "2"
+            ],
+            "command_string": "b2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "17+2",
+                "block": 5,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Mad Dozer",
+            "command": [
+                "b",
+                "3",
+                "2",
+                "2"
+            ],
+            "command_string": "b322",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 27,
+            "damage_per_hit": "14+13",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -9,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Sherman Stomp",
+            "command": [
+                "b",
+                "4",
+                "4"
+            ],
+            "command_string": "b44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "12+21",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Barrel Jacket Hammer",
+            "command": [
+                "ub",
+                "1+2"
+            ],
+            "command_string": "ub1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [
+                "spin",
+                "armor",
+                "track"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": 23,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Patriot Fist",
+            "command": [
+                "u",
+                "1+2"
+            ],
+            "command_string": "u1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -15,
+                "hit": 47,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Sky Sweeper",
+            "command": [
+                "uf",
+                "1"
+            ],
+            "command_string": "uf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "AA"
+            ],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -92,
+                "hit": -92,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Reactor Elbow",
+            "command": [
+                "uf",
+                "2"
+            ],
+            "command_string": "uf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": 4,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Pancake Press",
+            "command": [
+                "uf",
+                "3+4"
+            ],
+            "command_string": "uf3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 34,
+                "speed_per_hit": "34",
+                "block": -39,
+                "hit": -31,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Double Pancake Press",
+            "command": [
+                "uf",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "uf3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 51,
+            "damage_per_hit": "23+28",
+            "special_props": [],
+            "frames": {
+                "startup": 34,
+                "speed_per_hit": "34",
+                "block": -33,
+                "hit": -32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Jackhammer",
+            "command": [
+                "f",
+                "F",
+                "1"
+            ],
+            "command_string": "fF1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -6,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Rocket Uppercut",
+            "command": [
+                "f",
+                "F",
+                "2"
+            ],
+            "command_string": "fF2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -16,
+                "hit": 53,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Granite Stomping",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": 4,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Rocket Kick",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -9,
+                "hit": 34,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Cross Cut Blast",
+            "command": [
+                "f",
+                "F",
+                "1+2",
+                "2"
+            ],
+            "command_string": "fF1+22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "20+16",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "High and Low Cross Cut",
+            "command": [
+                "f",
+                "F",
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "fF1+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 34,
+            "damage_per_hit": "20+14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -19,
+                "hit": -37,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Sliding Attack",
+            "command": [
+                "f",
+                "F",
+                "3+4"
+            ],
+            "command_string": "fF3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -82,
+                "hit": -87,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Debugger",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "1"
+            ],
+            "command_string": "bdbddf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [
+                "track"
+            ],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "24",
+                "block": -41,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Megaton Blast",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "bdbddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 42,
+            "damage_per_hit": "42",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -11,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Gigaton Punch",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "F",
+                "1"
+            ],
+            "command_string": "bdbddfF1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 40,
+                "speed_per_hit": "17",
+                "block": 21,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "Gigaton Punch",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "f",
+                "(followed",
+                "by",
+                "lever",
+                "spin)",
+                "1"
+            ],
+            "command_string": "b, db, d, df, f, (followed by lever spin) 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK",
+                "NOBLK",
+                "NOBLK",
+                "NOBLK"
+            ],
+            "damage": 199,
+            "damage_per_hit": "199",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -19,
+                "hit": 70,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Windup Uppercut",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "f",
+                "df",
+                "1"
+            ],
+            "command_string": "bdbddffdf1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "20",
+                "block": -17,
+                "hit": 52,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Cemaho Chop",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "2"
+            ],
+            "command_string": "fff2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": 7,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Killing Uppercut",
+            "command": [
+                "While",
+                "rising",
+                "1"
+            ],
+            "command_string": "While rising 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 33,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "V-Twin",
+            "command": [
+                "While",
+                "rising",
+                "2",
+                "1"
+            ],
+            "command_string": "While rising 21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "10+17",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -14,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Double Hammer Thrash",
+            "command": [
+                "While",
+                "rising",
+                "1+2",
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "While rising 1+21+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 24,
+            "damage_per_hit": "14+10",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -23,
+                "hit": -12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Short Hammer Rush High",
+            "command": [
+                "While",
+                "rising",
+                "f",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "While rising f121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 50,
+            "damage_per_hit": "15+12+23",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -4,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Short Hammer Rush Mid",
+            "command": [
+                "While",
+                "rising",
+                "f",
+                "1",
+                "2",
+                "df",
+                "1"
+            ],
+            "command_string": "While rising f12df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 42,
+            "damage_per_hit": "15+12+15",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -2,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Short Hammer Rush Low",
+            "command": [
+                "While",
+                "rising",
+                "f",
+                "1",
+                "2",
+                "d",
+                "1"
+            ],
+            "command_string": "While rising f12d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 35,
+            "damage_per_hit": "15+12+8",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Hammer Rush High",
+            "command": [
+                "While",
+                "crouching",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "While crouching 11121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 57,
+            "damage_per_hit": "10+12+12+23",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -4,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "Hammer Rush Mid",
+            "command": [
+                "While",
+                "crouching",
+                "1",
+                "1",
+                "1",
+                "2",
+                "df",
+                "1"
+            ],
+            "command_string": "While crouching 1112df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "10+12+12+15",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -2,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Hammer Rush Low",
+            "command": [
+                "While",
+                "crouching",
+                "1",
+                "1",
+                "1",
+                "2",
+                "d",
+                "1"
+            ],
+            "command_string": "While crouching 1112d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 42,
+            "damage_per_hit": "10+12+12+8",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Megaton Strike",
+            "command": [
+                "While",
+                "crouching",
+                "1",
+                "2"
+            ],
+            "command_string": "While crouching 12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 34,
+            "damage_per_hit": "10+24",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -11,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "Windmill Punches",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "1",
+                "2",
+                "1",
+                "1"
+            ],
+            "command_string": "While crouching df1211",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 24,
+            "damage_per_hit": "5+8+11",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "23+2",
+                "block": 21,
+                "hit": -16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Hammer Rush 3 High",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "2",
+                "1"
+            ],
+            "command_string": "While crouching df21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High"
+            ],
+            "damage": 35,
+            "damage_per_hit": "12+23",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -4,
+                "hit": 32,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "Swing R Knuckle",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "2",
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "While crouching df2df12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "17+1",
+                "block": -8,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "Hammer Rush 3 Low",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "2",
+                "d",
+                "1"
+            ],
+            "command_string": "While crouching df2d1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "12+8",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "Low Cross Combo",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "While crouching df1+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "21+16",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "15+9",
+                "block": -18,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "Machinegun Knuckle",
+            "command": [
+                "While",
+                "crouching",
+                "db",
+                "1",
+                "1",
+                "1",
+                "2"
+            ],
+            "command_string": "While crouching db1112",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Mid"
+            ],
+            "damage": 45,
+            "damage_per_hit": "15+30",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -11,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "Discharger",
+            "command": [
+                "During",
+                "sidestep",
+                "1"
+            ],
+            "command_string": "During sidestep 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 32,
+                "speed_per_hit": "32",
+                "block": 5,
+                "hit": 59,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "Piston Gun Snipe",
+            "command": [
+                "During",
+                "sidestep",
+                "2"
+            ],
+            "command_string": "During sidestep 2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": 9,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "Get Up Punch",
+            "command": [
+                "While",
+                "down",
+                "(facing",
+                "up)",
+                "d",
+                "1+2"
+            ],
+            "command_string": "While down (facing up) d1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "28",
+                "block": -19,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "10 Hit Combo 1",
+            "command": [
+                "d",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "d211121211+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid",
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 99,
+            "damage_per_hit": "8+6+5+7+7+6+6+8+21+25",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -26,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "10 Hit Combo 2",
+            "command": [
+                "d",
+                "2",
+                "1",
+                "1",
+                "1",
+                "2",
+                "1",
+                "2",
+                "1",
+                "d",
+                "1+2",
+                "1+2"
+            ],
+            "command_string": "d21112121d1+21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Smid",
+                "Low",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 89,
+            "damage_per_hit": "8+6+5+7+7+6+6+8+12+24",
+            "special_props": [],
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -37,
+                "hit": -11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Rotary Catapult",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 82,
+            "name": "Rotary Catapult",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 83,
+            "name": "Piston Gun Back Breaker",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -3,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 84,
+            "name": "Piston Gun Back Breaker",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -3,
+                "hit": -3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 85,
+            "name": "Side Left Bomb",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 86,
+            "name": "Hanging Neck Throw",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 87,
+            "name": "Spinal Crush",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "f",
+                "1+3",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or f1+3)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 70,
+            "damage_per_hit": "29+41",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 88,
+            "name": "Throw Away",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "2+4",
+                "(or",
+                "f",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 2+4, (or f2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 70,
+            "damage_per_hit": "70",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 16,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 89,
+            "name": "Body Press",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+3"
+            ],
+            "command_string": "Approach enemy df1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 3,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 89,
+            "number": 90,
+            "name": "Body Press Hammer",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+3",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+31+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "25+10",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": 3,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 90,
+            "number": 91,
+            "name": "Volcano",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "2+4"
+            ],
+            "command_string": "Approach enemy df2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 15,
+            "damage_per_hit": "5+5+5",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 35,
+                "hit": 35,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 91,
+            "number": 92,
+            "name": "Volcano Blaster",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "DF",
+                "2+4"
+            ],
+            "command_string": "Approach enemy dfDF2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 20,
+            "damage_per_hit": "3+3+4+5+5",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 56,
+                "hit": 56,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 92,
+            "number": 93,
+            "name": "Body Smash",
+            "command": [
+                "Approach",
+                "enemy",
+                "db",
+                "2+3"
+            ],
+            "command_string": "Approach enemy db2+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 24,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 93,
+            "number": 94,
+            "name": "Ground Zero",
+            "command": [
+                "Approach",
+                "enemy",
+                "uf",
+                "1+2"
+            ],
+            "command_string": "Approach enemy uf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "3+4+4+4+4+4+12",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -10,
+                "hit": -10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 94,
+            "number": 95,
+            "name": "Lift Up Megaton Hit",
+            "command": [
+                "Approach",
+                "enemy",
+                "uf",
+                "1+2",
+                "d",
+                "df",
+                "2"
+            ],
+            "command_string": "Approach enemy uf1+2ddf2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -19,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 95,
+            "number": 96,
+            "name": "Pile Driver",
+            "command": [
+                "Approach",
+                "enemy",
+                "db",
+                "f",
+                "1+2"
+            ],
+            "command_string": "Approach enemy dbf1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -2,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 96,
+            "number": 97,
+            "name": "Pyramid Driver",
+            "command": [
+                "Approach",
+                "enemy",
+                "d",
+                "df",
+                "f",
+                "1"
+            ],
+            "command_string": "Approach enemy ddff1",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "20F BREAK 1",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": -29,
+                "hit": -29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 97,
+            "number": 98,
+            "name": "Back Breaker",
+            "command": [
+                "Approach",
+                "enemy",
+                "d",
+                "db",
+                "b",
+                "2"
+            ],
+            "command_string": "Approach enemy ddbb2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 45,
+            "damage_per_hit": "45",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 11,
+                "speed_per_hit": "11",
+                "block": 10,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 98,
+            "number": 99,
+            "name": "Gun Bomb",
+            "command": [
+                "Approach",
+                "(crouching",
+                "enemy)",
+                "d",
+                "1+3"
+            ],
+            "command_string": "Approach (crouching enemy) d1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 45,
+            "damage_per_hit": "45",
+            "special_props": [],
+            "throw_break": "20F BREAK 1",
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": 25,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 99,
+            "number": 100,
+            "name": "Iron Gunman",
+            "command": [
+                "Approach",
+                "(crouching",
+                "enemy)",
+                "d",
+                "2+4"
+            ],
+            "command_string": "Approach (crouching enemy) d2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid Throw"
+            ],
+            "damage": 45,
+            "damage_per_hit": "4+5+5+5+5+21",
+            "special_props": [],
+            "throw_break": "20F BREAK 2",
+            "frames": {
+                "startup": 13,
+                "speed_per_hit": "13",
+                "block": 25,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 100,
+            "number": 101,
+            "name": "Twin Drivers",
+            "command": [
+                "During",
+                "enemy",
+                "wall",
+                "stun",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "During enemy wall stun 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "",
+                "block": -1000,
+                "hit": -1000,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 101,
+            "number": 102,
+            "name": "Sample Combo 1",
+            "command": [
+                "f",
+                "2",
+                "(Counter",
+                "Hit)",
+                ">",
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "f, 2, (Counter Hit) >, fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid"
+            ],
+            "damage": 48,
+            "damage_per_hit": "20+28",
+            "special_props": [],
+            "frames": {
+                "startup": 9,
+                "speed_per_hit": "9",
+                "block": -9,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 102,
+            "number": 103,
+            "name": "Sample Combo 2",
+            "command": [
+                "1+2",
+                ">",
+                "4",
+                ">",
+                "b",
+                "3",
+                "2",
+                "2"
+            ],
+            "command_string": "1+2, >, 4, >, b322",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 57,
+            "damage_per_hit": "15+18+10+5+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -9,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 103,
+            "number": 104,
+            "name": "Sample Combo 3",
+            "command": [
+                "df",
+                "2",
+                ">",
+                "2",
+                ">",
+                "df",
+                "3",
+                "2",
+                ">",
+                "f",
+                "F",
+                "1+2",
+                "2"
+            ],
+            "command_string": "df, 2, >, 2, >, df, 3, 2, >, fF1+22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "13+7+8+8+6+7",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 104,
+            "number": 105,
+            "name": "Sample Combo 4",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                ">",
+                "f",
+                "4",
+                ">",
+                "b",
+                "1",
+                ">",
+                "df",
+                "1",
+                "1",
+                ">",
+                "During",
+                "Rage",
+                "b",
+                "1+2"
+            ],
+            "command_string": "While rising 1, >, f, 4, >, b, 1, >, df, 1, 1, >, During Rage b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 77,
+            "damage_per_hit": "15+17+11+5+6+3+1+1+1+1+1+2+13",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -32,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 105,
+            "number": 106,
+            "name": "Sample Combo 5",
+            "command": [
+                "b",
+                "db",
+                "d",
+                "df",
+                "f",
+                "df",
+                "1",
+                ">",
+                "u",
+                "1+2",
+                ">",
+                "1+2",
+                ">",
+                "During",
+                "Rage",
+                "b",
+                "db",
+                "d",
+                "df",
+                "1",
+                "2"
+            ],
+            "command_string": "b, db, d, df, f, df, 1, >, u, 1+2, >, 1+2, >, During Rage bdbddf12",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "Low",
+                "Mid"
+            ],
+            "damage": 77,
+            "damage_per_hit": "27+15+8+11+6+10",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "20",
+                "block": -9,
+                "hit": -12,
+                "counter_hit": 0
+            }
+        }
+    ]
+}

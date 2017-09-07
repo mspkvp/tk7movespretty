@@ -1,0 +1,2587 @@
+{
+    "id": 22,
+    "id_name": "luckychloe",
+    "name": "Lucky Chloe",
+    "first_name": "Lucky",
+    "last_name": "Chloe",
+    "n_moves": 89,
+    "moves": [
+        {
+            "id": 0,
+            "number": 1,
+            "name": "Rage Art",
+            "command": [
+                "During",
+                "Rage",
+                "3+4"
+            ],
+            "command_string": "During Rage 3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 50,
+            "damage_per_hit": "10+4+5+4+5+12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "7+5+8",
+                "block": -22,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "name": "Rage Drive 1",
+            "command": [
+                "During",
+                "Rage",
+                "df",
+                "3+4",
+                "during",
+                "hit",
+                "1+2"
+            ],
+            "command_string": "During Rage df, 3+4, during hit 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 78,
+            "damage_per_hit": "12+12+17+37",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -2,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "name": "Rage Drive 2",
+            "command": [
+                "During",
+                "Rage",
+                "While",
+                "crouching",
+                "df",
+                "3+4",
+                "during",
+                "hit",
+                "1+2"
+            ],
+            "command_string": "During Rage While crouching df, 3+4, during hit 1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High"
+            ],
+            "damage": 78,
+            "damage_per_hit": "12+12+17+37",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -2,
+                "hit": 40,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 3,
+            "number": 4,
+            "name": "Left Point to C Uprock Hit",
+            "command": [
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "121",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "7+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -11,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 4,
+            "number": 5,
+            "name": "Left Point to C Uprock Clap",
+            "command": [
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "122",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 39,
+            "damage_per_hit": "7+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -4,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 5,
+            "number": 6,
+            "name": "Left Point to C Uprock Swing",
+            "command": [
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 51,
+            "damage_per_hit": "7+12+12+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 10,
+                "speed_per_hit": "10",
+                "block": -2,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 6,
+            "number": 7,
+            "name": "Right Point to High Five",
+            "command": [
+                "2",
+                "2"
+            ],
+            "command_string": "22",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 29,
+            "damage_per_hit": "12+17",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -12,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 7,
+            "number": 8,
+            "name": "Right Point to Left Twist",
+            "command": [
+                "2",
+                "in",
+                "time",
+                "with",
+                "the",
+                "rhythm",
+                "3"
+            ],
+            "command_string": "2, in time with the rhythm 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "Low"
+            ],
+            "damage": 22,
+            "damage_per_hit": "12+10",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": -32,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 8,
+            "number": 9,
+            "name": "Right Middle Shift",
+            "command": [
+                "3",
+                "4"
+            ],
+            "command_string": "34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 33,
+            "damage_per_hit": "17+16",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -14,
+                "hit": 27,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 9,
+            "number": 10,
+            "name": "Double Swing",
+            "command": [
+                "1+2"
+            ],
+            "command_string": "1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -2,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 10,
+            "number": 11,
+            "name": "C Uprock Hit",
+            "command": [
+                "f",
+                "2",
+                "1"
+            ],
+            "command_string": "f21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -11,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 11,
+            "number": 12,
+            "name": "C Uprock Clap",
+            "command": [
+                "f",
+                "2",
+                "2"
+            ],
+            "command_string": "f22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 32,
+            "damage_per_hit": "12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -4,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 12,
+            "number": 13,
+            "name": "C Uprock Swing",
+            "command": [
+                "f",
+                "2",
+                "1+2"
+            ],
+            "command_string": "f21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 44,
+            "damage_per_hit": "12+12+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -2,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 13,
+            "number": 14,
+            "name": "Hopping",
+            "command": [
+                "f",
+                "3"
+            ],
+            "command_string": "f3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -11,
+                "hit": 5,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 14,
+            "number": 15,
+            "name": "Axe Aerial",
+            "command": [
+                "f",
+                "4"
+            ],
+            "command_string": "f4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -4,
+                "hit": 9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 15,
+            "number": 16,
+            "name": "Double Axe Aerial",
+            "command": [
+                "f",
+                "4",
+                "4"
+            ],
+            "command_string": "f44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "14+10",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "16+11",
+                "block": -13,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 16,
+            "number": 17,
+            "name": "Elbow Beat",
+            "command": [
+                "f",
+                "1+2"
+            ],
+            "command_string": "f1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High"
+            ],
+            "damage": 32,
+            "damage_per_hit": "32",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -5,
+                "hit": 36,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 17,
+            "number": 18,
+            "name": "Touchdown Raiz",
+            "command": [
+                "f",
+                "3+4"
+            ],
+            "command_string": "f3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 25,
+            "damage_per_hit": "14+11",
+            "special_props": [],
+            "frames": {
+                "startup": 29,
+                "speed_per_hit": "29",
+                "block": -11,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 18,
+            "number": 19,
+            "name": "Touchdown Raiz to Buffalo",
+            "command": [
+                "f",
+                "3+4",
+                "3"
+            ],
+            "command_string": "f3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "14+11",
+            "special_props": [],
+            "frames": {
+                "startup": 29,
+                "speed_per_hit": "17+12",
+                "block": -17,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 19,
+            "number": 20,
+            "name": "C Krump",
+            "command": [
+                "df",
+                "2",
+                "(or",
+                "while",
+                "rising",
+                "2",
+                ")"
+            ],
+            "command_string": "df, 2, (or while rising 2)",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 14,
+            "damage_per_hit": "14",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 20,
+            "number": 21,
+            "name": "C Krump Special",
+            "command": [
+                "df",
+                "2",
+                "(or",
+                "while",
+                "rising",
+                "2",
+                ")",
+                "during",
+                "hit",
+                "4",
+                "during",
+                "hit",
+                "3",
+                "during",
+                "hit",
+                "1"
+            ],
+            "command_string": "df, 2, (or while rising 2, ) during hit 4, during hit 3, during hit 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 43,
+            "damage_per_hit": "14+14+5+10",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "14+1",
+                "block": 28,
+                "hit": 60,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 21,
+            "number": 22,
+            "name": "Punking Twirl",
+            "command": [
+                "df",
+                "3",
+                "2"
+            ],
+            "command_string": "df32",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "15+21",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 22,
+            "number": 23,
+            "name": "Punking Marionette",
+            "command": [
+                "df",
+                "3",
+                "3"
+            ],
+            "command_string": "df33",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "15+15",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -13,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 23,
+            "number": 24,
+            "name": "Down Step",
+            "command": [
+                "df",
+                "4"
+            ],
+            "command_string": "df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 23,
+            "damage_per_hit": "23",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -12,
+                "hit": 7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 24,
+            "number": 25,
+            "name": "Waacking",
+            "command": [
+                "d",
+                "2"
+            ],
+            "command_string": "d2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": 2,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 25,
+            "number": 26,
+            "name": "C Windmill",
+            "command": [
+                "d",
+                "3+4"
+            ],
+            "command_string": "d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+5+5",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -13,
+                "hit": -2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 26,
+            "number": 27,
+            "name": "Double C Windmill",
+            "command": [
+                "d",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "d3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 27,
+            "damage_per_hit": "10+5+5+7",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "16+7",
+                "block": -17,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 27,
+            "number": 28,
+            "name": "C Windmill to Air Tracks",
+            "command": [
+                "d",
+                "3+4",
+                "in",
+                "time",
+                "with",
+                "the",
+                "rhythm",
+                "d",
+                "3+4"
+            ],
+            "command_string": "d, 3+4, in time with the rhythm d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "High",
+                "Mid",
+                "Low"
+            ],
+            "damage": 41,
+            "damage_per_hit": "10+5+5+7+7+7",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -38,
+                "hit": -21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 28,
+            "number": 29,
+            "name": "C Windmill to Air Tracks to Chair",
+            "command": [
+                "d",
+                "3+4",
+                "in",
+                "time",
+                "with",
+                "the",
+                "rhythm",
+                "d",
+                "3+4",
+                "F"
+            ],
+            "command_string": "d, 3+4, in time with the rhythm d3+4F",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low",
+                "High",
+                "Mid",
+                "Low"
+            ],
+            "damage": 41,
+            "damage_per_hit": "10+5+5+7+7+7",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -61,
+                "hit": -44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 29,
+            "number": 30,
+            "name": "Left Twist",
+            "command": [
+                "db",
+                "3"
+            ],
+            "command_string": "db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -32,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 30,
+            "number": 31,
+            "name": "Double Twist",
+            "command": [
+                "db",
+                "3",
+                "4"
+            ],
+            "command_string": "db34",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low"
+            ],
+            "damage": 29,
+            "damage_per_hit": "17+12",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "14+1",
+                "block": -19,
+                "hit": -8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 31,
+            "number": 32,
+            "name": "Left Point to C Uprock Hit",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "1",
+                "2",
+                "1"
+            ],
+            "command_string": "During Left Twist 121",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "17+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 32,
+            "number": 33,
+            "name": "Left Point to C Uprock Clap",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "1",
+                "2",
+                "2"
+            ],
+            "command_string": "During Left Twist 122",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 49,
+            "damage_per_hit": "17+12+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -4,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 33,
+            "number": 34,
+            "name": "Left Point to C Uprock Swing",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "1",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Left Twist 121+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "High",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 61,
+            "damage_per_hit": "17+12+12+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 34,
+            "number": 35,
+            "name": "C Uprock Hit",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "2",
+                "1"
+            ],
+            "command_string": "During Left Twist 21",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 12,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 35,
+            "number": 36,
+            "name": "C Uprock Clap",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "2",
+                "2"
+            ],
+            "command_string": "During Left Twist 22",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -4,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 36,
+            "number": 37,
+            "name": "C Uprock Swing",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Left Twist 21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 49,
+            "damage_per_hit": "17+12+20",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 37,
+            "number": 38,
+            "name": "Left Twist to Axe Heel",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "3"
+            ],
+            "command_string": "During Left Twist 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 4,
+                "hit": 18,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 38,
+            "number": 39,
+            "name": "Left Twist to Scoot",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "4"
+            ],
+            "command_string": "During Left Twist 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "17+21",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -18,
+                "hit": -7,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 39,
+            "number": 40,
+            "name": "Coffee Grinder to Scoot",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "db",
+                "4",
+                "4"
+            ],
+            "command_string": "During Left Twist db44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -1,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 40,
+            "number": 41,
+            "name": "Left Twist to Right Twist",
+            "command": [
+                "During",
+                "Left",
+                "Twist",
+                "in",
+                "time",
+                "with",
+                "the",
+                "rhythm",
+                "db",
+                "4"
+            ],
+            "command_string": "During Left Twist in time with the rhythm db4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low"
+            ],
+            "damage": 36,
+            "damage_per_hit": "17+19",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -21,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 41,
+            "number": 42,
+            "name": "Right Twist to Left Twist",
+            "command": [
+                "During",
+                "Right",
+                "Twist",
+                "in",
+                "time",
+                "with",
+                "the",
+                "rhythm",
+                "db",
+                "3"
+            ],
+            "command_string": "During Right Twist in time with the rhythm db3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Low",
+                "Low"
+            ],
+            "damage": 36,
+            "damage_per_hit": "17+19",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -32,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 42,
+            "number": 43,
+            "name": "Coffee Grinder to Scoot",
+            "command": [
+                "db",
+                "4",
+                "4"
+            ],
+            "command_string": "db44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -1,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 43,
+            "number": 44,
+            "name": "Aerial Arc",
+            "command": [
+                "db",
+                "1+2"
+            ],
+            "command_string": "db1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "20",
+            "special_props": [],
+            "frames": {
+                "startup": 25,
+                "speed_per_hit": "25",
+                "block": -16,
+                "hit": 29,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 44,
+            "number": 45,
+            "name": "Hands Up",
+            "command": [
+                "b",
+                "1"
+            ],
+            "command_string": "b1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -13,
+                "hit": 13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 45,
+            "number": 46,
+            "name": "Circle Clap",
+            "command": [
+                "b",
+                "2"
+            ],
+            "command_string": "b2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": -4,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 46,
+            "number": 47,
+            "name": "Graceful Turn",
+            "command": [
+                "b",
+                "3"
+            ],
+            "command_string": "b3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [
+                "spin",
+                "track"
+            ],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -11,
+                "hit": 10,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 47,
+            "number": 48,
+            "name": "Walking Knee",
+            "command": [
+                "b",
+                "4"
+            ],
+            "command_string": "b4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -8,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 48,
+            "number": 49,
+            "name": "Happy Swing",
+            "command": [
+                "b",
+                "1+2"
+            ],
+            "command_string": "b1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High",
+                "High",
+                "High",
+                "High"
+            ],
+            "damage": 30,
+            "damage_per_hit": "5+5+5+15",
+            "special_props": [
+                "armor"
+            ],
+            "frames": {
+                "startup": 20,
+                "speed_per_hit": "20",
+                "block": -8,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 49,
+            "number": 50,
+            "name": "Lucky Corkscrew",
+            "command": [
+                "ub",
+                "4"
+            ],
+            "command_string": "ub4",
+            "n_hits": 0,
+            "hit_levels": [
+                "NOBLK"
+            ],
+            "damage": 60,
+            "damage_per_hit": "60",
+            "special_props": [],
+            "frames": {
+                "startup": 76,
+                "speed_per_hit": "76",
+                "block": -22,
+                "hit": 44,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 50,
+            "number": 51,
+            "name": "Surprise Hop",
+            "command": [
+                "uf",
+                "3"
+            ],
+            "command_string": "uf3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -17,
+                "hit": 24,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 51,
+            "number": 52,
+            "name": "Double Leg to Left Twist",
+            "command": [
+                "uf",
+                "3+4",
+                "3"
+            ],
+            "command_string": "uf3+43",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low"
+            ],
+            "damage": 32,
+            "damage_per_hit": "15+17",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -32,
+                "hit": -13,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 52,
+            "number": 53,
+            "name": "Double Leg to C Backflip Combo",
+            "command": [
+                "uf",
+                "3+4",
+                "3+4",
+                "4"
+            ],
+            "command_string": "uf3+43+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 35,
+            "damage_per_hit": "15+20",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "27",
+                "block": -16,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 53,
+            "number": 54,
+            "name": "Cat Stamp",
+            "command": [
+                "f",
+                "F",
+                "3"
+            ],
+            "command_string": "fF3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -6,
+                "hit": 20,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 54,
+            "number": 55,
+            "name": "Scoot",
+            "command": [
+                "f",
+                "F",
+                "4"
+            ],
+            "command_string": "fF4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 21,
+            "damage_per_hit": "21",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": -1,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 55,
+            "number": 56,
+            "name": "Double Corkscrew",
+            "command": [
+                "During",
+                "Scoot",
+                "4",
+                "4"
+            ],
+            "command_string": "During Scoot 44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 38,
+            "damage_per_hit": "21+17",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": 4,
+                "hit": -28,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 56,
+            "number": 57,
+            "name": "C Backflip Combo",
+            "command": [
+                "During",
+                "Scoot",
+                "3+4",
+                "4"
+            ],
+            "command_string": "During Scoot 3+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 41,
+            "damage_per_hit": "21+20",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": -16,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 57,
+            "number": 58,
+            "name": "Coffee Grinder to Scoot",
+            "command": [
+                "During",
+                "Scoot",
+                "db",
+                "4",
+                "4"
+            ],
+            "command_string": "During Scoot db44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Low",
+                "Mid"
+            ],
+            "damage": 36,
+            "damage_per_hit": "21+15",
+            "special_props": [],
+            "frames": {
+                "startup": 26,
+                "speed_per_hit": "26",
+                "block": -1,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 58,
+            "number": 59,
+            "name": "Air Drop Heel",
+            "command": [
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 27,
+            "damage_per_hit": "27",
+            "special_props": [],
+            "frames": {
+                "startup": 22,
+                "speed_per_hit": "22",
+                "block": 6,
+                "hit": 19,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 59,
+            "number": 60,
+            "name": "Right Cross Shift",
+            "command": [
+                "While",
+                "rising",
+                "1",
+                "4"
+            ],
+            "command_string": "While rising 14",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 20,
+            "damage_per_hit": "10+10",
+            "special_props": [],
+            "frames": {
+                "startup": 14,
+                "speed_per_hit": "14",
+                "block": -16,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 60,
+            "number": 61,
+            "name": "Left Cross Shift",
+            "command": [
+                "While",
+                "rising",
+                "3"
+            ],
+            "command_string": "While rising 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 25,
+            "damage_per_hit": "25",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -12,
+                "hit": 14,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 61,
+            "number": 62,
+            "name": "Hand Snap",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "1"
+            ],
+            "command_string": "While crouching df1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 18,
+                "speed_per_hit": "18",
+                "block": -14,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 62,
+            "number": 63,
+            "name": "Spin and Roll",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "2"
+            ],
+            "command_string": "While crouching df2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 15,
+            "damage_per_hit": "15",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -7,
+                "hit": 15,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 63,
+            "number": 64,
+            "name": "Step Up",
+            "command": [
+                "While",
+                "crouching",
+                "df",
+                "4"
+            ],
+            "command_string": "While crouching df4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 24,
+            "damage_per_hit": "24",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "17",
+                "block": -17,
+                "hit": 55,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 64,
+            "number": 65,
+            "name": "Cat Tail",
+            "command": [
+                "During",
+                "sidestep",
+                "4"
+            ],
+            "command_string": "During sidestep 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 17,
+            "damage_per_hit": "17",
+            "special_props": [],
+            "frames": {
+                "startup": 21,
+                "speed_per_hit": "21",
+                "block": -9,
+                "hit": 2,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 65,
+            "number": 66,
+            "name": "Donkey Kick",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "3",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy 33+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "20+17",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -6,
+                "hit": 16,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 66,
+            "number": 67,
+            "name": "C Backflip",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "4"
+            ],
+            "command_string": "Back towards enemy 4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid"
+            ],
+            "damage": 30,
+            "damage_per_hit": "30",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -10,
+                "hit": 11,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 67,
+            "number": 68,
+            "name": "Turning Coffee Grinder to Scoot",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "d",
+                "4",
+                "4"
+            ],
+            "command_string": "Back towards enemy d44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low",
+                "Mid"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 19,
+                "speed_per_hit": "19",
+                "block": -1,
+                "hit": 3,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 68,
+            "number": 69,
+            "name": "Cat Slide",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "d",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy d3+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Low"
+            ],
+            "damage": 18,
+            "damage_per_hit": "18",
+            "special_props": [],
+            "frames": {
+                "startup": 23,
+                "speed_per_hit": "23",
+                "block": -12,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 69,
+            "number": 70,
+            "name": "C Backflip Combo",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "3+4",
+                "4"
+            ],
+            "command_string": "Back towards enemy 3+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 40,
+            "damage_per_hit": "20+20",
+            "special_props": [],
+            "frames": {
+                "startup": 28,
+                "speed_per_hit": "6+22",
+                "block": -15,
+                "hit": 4,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 70,
+            "number": 71,
+            "name": "Rollback",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "f",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy f3+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "18+12+10+52",
+                "block": -71,
+                "hit": -71,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 71,
+            "number": 72,
+            "name": "C Freeze to Chair",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "f",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy f3+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid"
+            ],
+            "damage": 37,
+            "damage_per_hit": "17+20",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "18+6",
+                "block": -45,
+                "hit": -9,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 72,
+            "number": 73,
+            "name": "Kick Up",
+            "command": [
+                "Back",
+                "towards",
+                "enemy",
+                "f",
+                "3+4",
+                "3+4",
+                "3+4"
+            ],
+            "command_string": "Back towards enemy f3+43+43+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 58,
+            "damage_per_hit": "17+20+21",
+            "special_props": [],
+            "frames": {
+                "startup": 24,
+                "speed_per_hit": "18+6",
+                "block": -8,
+                "hit": -26,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 73,
+            "number": 74,
+            "name": "Taunt 1",
+            "command": [
+                "1+2+3"
+            ],
+            "command_string": "1+2+3",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "149+71",
+                "block": -192,
+                "hit": -192,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 74,
+            "number": 75,
+            "name": "Taunt 2",
+            "command": [
+                "1+2+4"
+            ],
+            "command_string": "1+2+4",
+            "n_hits": 0,
+            "hit_levels": [],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "frames": {
+                "startup": -1,
+                "speed_per_hit": "149+72",
+                "block": -192,
+                "hit": -192,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 75,
+            "number": 76,
+            "name": "10 Hit Combo",
+            "command": [
+                "f",
+                "3",
+                "1",
+                "2",
+                "1+2",
+                "3",
+                "2",
+                "during",
+                "hit",
+                "4",
+                "during",
+                "hit",
+                "3",
+                "during",
+                "hit",
+                "1"
+            ],
+            "command_string": "f, 3, 1, 2, 1+2, 3, 2, during hit 4, during hit 3, during hit 1",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Low",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 82,
+            "damage_per_hit": "15+7+8+5+10+5+12+7+5+8",
+            "special_props": [
+                "spin"
+            ],
+            "frames": {
+                "startup": 16,
+                "speed_per_hit": "16",
+                "block": -26,
+                "hit": 39,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 76,
+            "number": 77,
+            "name": "C Drill",
+            "command": [
+                "Approach",
+                "enemy",
+                "1+3"
+            ],
+            "command_string": "Approach enemy 1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 77,
+            "number": 78,
+            "name": "C Drill",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "1+3"
+            ],
+            "command_string": "Approach enemy f1+3",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 78,
+            "number": 79,
+            "name": "Donkey Flip",
+            "command": [
+                "Approach",
+                "enemy",
+                "2+4"
+            ],
+            "command_string": "Approach enemy 2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 1,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 79,
+            "number": 80,
+            "name": "Donkey Flip",
+            "command": [
+                "Approach",
+                "enemy",
+                "f",
+                "2+4"
+            ],
+            "command_string": "Approach enemy f2+4",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 35,
+            "damage_per_hit": "35",
+            "special_props": [],
+            "throw_break": "20F BREAK 1/2",
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": 1,
+                "hit": 1,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 80,
+            "number": 81,
+            "name": "Rolling Beat",
+            "command": [
+                "Approach",
+                "from",
+                "left",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 1",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 81,
+            "number": 82,
+            "name": "Rolling Toss",
+            "command": [
+                "Approach",
+                "from",
+                "right",
+                "side",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 40,
+            "damage_per_hit": "40",
+            "special_props": [],
+            "throw_break": "14F BREAK 2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 82,
+            "number": 83,
+            "name": "Aerial Acrobat",
+            "command": [
+                "Approach",
+                "from",
+                "behind",
+                "1+3",
+                "(or",
+                "2+4",
+                ")"
+            ],
+            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 50,
+            "damage_per_hit": "50",
+            "special_props": [],
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 0,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 83,
+            "number": 84,
+            "name": "Lollipop",
+            "command": [
+                "Approach",
+                "enemy",
+                "df",
+                "1+2"
+            ],
+            "command_string": "Approach enemy df1+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "High Throw"
+            ],
+            "damage": 0,
+            "damage_per_hit": "",
+            "special_props": [],
+            "throw_break": "20F BREAK 1+2",
+            "frames": {
+                "startup": 12,
+                "speed_per_hit": "12",
+                "block": 8,
+                "hit": 8,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 84,
+            "number": 85,
+            "name": "Sample Combo 1",
+            "command": [
+                "uf",
+                "3",
+                ">",
+                "1",
+                "2",
+                "1+2",
+                ">",
+                "f",
+                "2",
+                "1+2"
+            ],
+            "command_string": "uf, 3, >, 1, 2, 1+2, >, f21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "High",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 50,
+            "damage_per_hit": "18+4+6+4+6+3+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -2,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 85,
+            "number": 86,
+            "name": "Sample Combo 2",
+            "command": [
+                "df",
+                "2",
+                ">",
+                "df",
+                "1",
+                ">",
+                "f",
+                "2",
+                "1+2",
+                ">",
+                "f",
+                "F",
+                "4",
+                "3+4",
+                "4"
+            ],
+            "command_string": "df, 2, >, df, 1, >, f, 2, 1+2, >, fF43+44",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid",
+                "Mid",
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "14+9+6+4+6+6+4+6",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -16,
+                "hit": -17,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 86,
+            "number": 87,
+            "name": "Sample Combo 3",
+            "command": [
+                "uf",
+                "4",
+                ">",
+                "b",
+                "4",
+                ">",
+                "df",
+                "1",
+                ">",
+                "df",
+                "1",
+                ">",
+                "f",
+                "2",
+                "1+2",
+                ">",
+                "f",
+                "f",
+                "f",
+                "3"
+            ],
+            "command_string": "uf, 4, >, b, 4, >, df, 1, >, df, 1, >, f, 2, 1+2, >, fff3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "High",
+                "Mid"
+            ],
+            "damage": 55,
+            "damage_per_hit": "13+11+6+5+3+3+6+8",
+            "special_props": [],
+            "frames": {
+                "startup": 15,
+                "speed_per_hit": "15",
+                "block": -11,
+                "hit": 25,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 87,
+            "number": 88,
+            "name": "Sample Combo 4",
+            "command": [
+                "f",
+                "4",
+                "4",
+                "B",
+                ">",
+                "Back",
+                "towards",
+                "enemy",
+                "f",
+                "3+4",
+                "3+4",
+                "3+4",
+                ">",
+                "df",
+                "3",
+                "3",
+                ">",
+                "During",
+                "Rage",
+                "3+4",
+                "during",
+                "hit",
+                "3"
+            ],
+            "command_string": "f, 4, 4, B, >, Back towards enemy f, 3+4, 3+4, 3+4, >, df, 3, 3, >, During Rage 3+4, during hit 3",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Low"
+            ],
+            "damage": 96,
+            "damage_per_hit": "15+11+12+11+13+4+4+3+1+1+2+1+4+14",
+            "special_props": [],
+            "frames": {
+                "startup": 27,
+                "speed_per_hit": "25+2",
+                "block": -7,
+                "hit": 0,
+                "counter_hit": 0
+            }
+        },
+        {
+            "id": 88,
+            "number": 89,
+            "name": "Sample Combo 5",
+            "command": [
+                "During",
+                "Rage",
+                "df",
+                "3+4",
+                "B",
+                ">",
+                "df",
+                "2",
+                "during",
+                "hit",
+                "4",
+                "during",
+                "hit",
+                "3",
+                "during",
+                "hit",
+                "1",
+                ">",
+                "f",
+                "2",
+                "1+2"
+            ],
+            "command_string": "During Rage df, 3+4, B, >, df, 2, during hit 4, during hit 3, during hit 1, >, f21+2",
+            "n_hits": 0,
+            "hit_levels": [
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "Mid",
+                "High",
+                "High"
+            ],
+            "damage": 78,
+            "damage_per_hit": "12+12+17+7+8+3+7+3+3+6",
+            "special_props": [],
+            "frames": {
+                "startup": 17,
+                "speed_per_hit": "16+1",
+                "block": -2,
+                "hit": 21,
+                "counter_hit": 0
+            }
+        }
+    ]
+}
