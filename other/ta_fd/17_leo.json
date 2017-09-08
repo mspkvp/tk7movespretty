@@ -13,10 +13,10 @@
             "command": [
                 "During",
                 "Rage",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "During Rage df1+2",
+            "command_string": "During Rage d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -68,7 +68,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "12",
+            "command_string": "1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -95,7 +95,7 @@
                 "1",
                 "1"
             ],
-            "command_string": "1211",
+            "command_string": "1, 2, 1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -124,7 +124,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "1214",
+            "command_string": "1, 2, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -152,7 +152,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "124",
+            "command_string": "1, 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -178,7 +178,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "14",
+            "command_string": "1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -203,7 +203,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "21",
+            "command_string": "2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -228,7 +228,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "22",
+            "command_string": "2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -254,7 +254,7 @@
                 "2",
                 "3"
             ],
-            "command_string": "323",
+            "command_string": "3, 2, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -281,7 +281,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "324",
+            "command_string": "3, 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -356,7 +356,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "f22",
+            "command_string": "f, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -381,7 +381,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "f3",
+            "command_string": "f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -405,7 +405,7 @@
                 "f",
                 "4"
             ],
-            "command_string": "f4",
+            "command_string": "f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -434,7 +434,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "During Jin Ji Du Li 12",
+            "command_string": "During Jin Ji Du Li 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -496,7 +496,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "During Jin Ji Du Li 34",
+            "command_string": "During Jin Ji Du Li 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -551,7 +551,7 @@
                 "f",
                 "1+2"
             ],
-            "command_string": "f1+2",
+            "command_string": "f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -575,7 +575,7 @@
                 "f",
                 "2+3"
             ],
-            "command_string": "f2+3",
+            "command_string": "f, 2+3",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -596,11 +596,11 @@
             "number": 23,
             "name": "Shuang Huan Da",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "2"
             ],
-            "command_string": "df12",
+            "command_string": "d/f, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -622,10 +622,10 @@
             "number": 24,
             "name": "Sheng Pao",
             "command": [
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "df2",
+            "command_string": "d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -646,10 +646,10 @@
             "number": 25,
             "name": "Chuan Pao",
             "command": [
-                "df",
+                "d/f",
                 "3"
             ],
-            "command_string": "df3",
+            "command_string": "d/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -673,10 +673,10 @@
             "number": 26,
             "name": "Gui Xi",
             "command": [
-                "df",
+                "d/f",
                 "2+3"
             ],
-            "command_string": "df2+3",
+            "command_string": "d/f, 2+3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -700,7 +700,7 @@
                 "d",
                 "1"
             ],
-            "command_string": "d1",
+            "command_string": "d, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -724,7 +724,7 @@
                 "d",
                 "2"
             ],
-            "command_string": "d2",
+            "command_string": "d, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -749,7 +749,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "d42",
+            "command_string": "d, 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -774,7 +774,7 @@
                 "d",
                 "1+2"
             ],
-            "command_string": "d1+2",
+            "command_string": "d, 1+2",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -799,7 +799,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "During Fo Bu 12",
+            "command_string": "During Fo Bu 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -930,11 +930,11 @@
             "number": 36,
             "name": "Chong Tian Zhang to Fu Bo",
             "command": [
-                "db",
+                "d/b",
                 "2",
                 "2"
             ],
-            "command_string": "db22",
+            "command_string": "d/b, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -956,10 +956,10 @@
             "number": 37,
             "name": "Lie Huo Fan Jiao",
             "command": [
-                "db",
+                "d/b",
                 "3"
             ],
-            "command_string": "db3",
+            "command_string": "d/b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -980,11 +980,11 @@
             "number": 38,
             "name": "Qian Sao Lei Wang Quan",
             "command": [
-                "db",
+                "d/b",
                 "4",
                 "1"
             ],
-            "command_string": "db41",
+            "command_string": "d/b, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -1006,11 +1006,11 @@
             "number": 39,
             "name": "Ba Wang Zhe Jiang",
             "command": [
-                "db",
+                "d/b",
                 "1+2",
                 "1"
             ],
-            "command_string": "db1+21",
+            "command_string": "d/b, 1+2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1036,7 +1036,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "b14",
+            "command_string": "b, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1062,7 +1062,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "b21",
+            "command_string": "b, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1088,7 +1088,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "b21+2",
+            "command_string": "b, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1114,7 +1114,7 @@
                 "3",
                 "1"
             ],
-            "command_string": "b31",
+            "command_string": "b, 3, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1140,7 +1140,7 @@
                 "4",
                 "1+2"
             ],
-            "command_string": "b41+2",
+            "command_string": "b, 4, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1165,7 +1165,7 @@
                 "b",
                 "3+4"
             ],
-            "command_string": "b3+4",
+            "command_string": "b, 3+4",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -1187,7 +1187,7 @@
                 "b",
                 "1+4"
             ],
-            "command_string": "b1+4",
+            "command_string": "b, 1+4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1212,7 +1212,7 @@
                 "u",
                 "3+4"
             ],
-            "command_string": "u3+4",
+            "command_string": "u, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1233,11 +1233,11 @@
             "number": 48,
             "name": "Dragon Backfist",
             "command": [
-                "uf",
+                "u/f",
                 "1",
                 "1"
             ],
-            "command_string": "uf11",
+            "command_string": "u/f, 1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1261,11 +1261,11 @@
             "number": 49,
             "name": "Chuan Chong Quan",
             "command": [
-                "uf",
+                "u/f",
                 "1",
                 "2"
             ],
-            "command_string": "uf12",
+            "command_string": "u/f, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1287,11 +1287,11 @@
             "number": 50,
             "name": "Yue Bu Si Quan",
             "command": [
-                "uf",
+                "u/f",
                 "2",
                 "1"
             ],
-            "command_string": "uf21",
+            "command_string": "u/f, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1313,10 +1313,10 @@
             "number": 51,
             "name": "Yi Qi Jiao",
             "command": [
-                "uf",
+                "u/f",
                 "3"
             ],
-            "command_string": "uf3",
+            "command_string": "u/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1337,10 +1337,10 @@
             "number": 52,
             "name": "Yue Bu San Jing Ti",
             "command": [
-                "uf",
+                "u/f",
                 "4"
             ],
-            "command_string": "uf4",
+            "command_string": "u/f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1365,7 +1365,7 @@
                 "F",
                 "2"
             ],
-            "command_string": "fF2",
+            "command_string": "f, F, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1390,7 +1390,7 @@
                 "F",
                 "3"
             ],
-            "command_string": "fF3",
+            "command_string": "f, F, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1417,7 +1417,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "fF434",
+            "command_string": "f, F, 4, 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1445,7 +1445,7 @@
                 "b",
                 "2+3"
             ],
-            "command_string": "b2+3",
+            "command_string": "b, 2+3",
             "n_hits": 0,
             "hit_levels": [
                 "NOBLK"
@@ -1472,7 +1472,7 @@
                 "1+2",
                 "2"
             ],
-            "command_string": "bf1+21+22",
+            "command_string": "b, f, 1+2, 1+2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1496,10 +1496,10 @@
             "name": "Jin Bu",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f"
             ],
-            "command_string": "ddff",
+            "command_string": "d, d/f, f",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -1519,11 +1519,11 @@
             "name": "Lei Zhang",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1"
             ],
-            "command_string": "ddff1",
+            "command_string": "d, d/f, f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1545,11 +1545,11 @@
             "name": "Shang Bu Zhuang Zhang",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "2"
             ],
-            "command_string": "ddff2",
+            "command_string": "d, d/f, f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1571,12 +1571,12 @@
             "name": "Lightning Spear",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "2",
                 "1"
             ],
-            "command_string": "ddff21",
+            "command_string": "d, d/f, f, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1599,11 +1599,11 @@
             "name": "Swallow Step",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "3+4"
             ],
-            "command_string": "ddff3+4",
+            "command_string": "d, d/f, f, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1633,7 +1633,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "fff3",
+            "command_string": "f, f, f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1660,7 +1660,7 @@
                 "4",
                 "1"
             ],
-            "command_string": "While rising 141",
+            "command_string": "While rising 1, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1714,7 +1714,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "While rising 312",
+            "command_string": "While rising 3, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1742,7 +1742,7 @@
                 "4",
                 "1+2"
             ],
-            "command_string": "While rising 41+2",
+            "command_string": "While rising 4, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1791,10 +1791,10 @@
             "command": [
                 "While",
                 "crouching",
-                "df",
+                "d/f",
                 "3"
             ],
-            "command_string": "While crouching df3",
+            "command_string": "While crouching d/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1873,7 +1873,7 @@
                 "d",
                 "3+4"
             ],
-            "command_string": "(While enemy is down) d3+4",
+            "command_string": "(While enemy is down) d, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1905,7 +1905,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "2132123121+2",
+            "command_string": "2, 1, 3, 2, 1, 2, 3, 1, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1946,7 +1946,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "2132132421+2",
+            "command_string": "2, 1, 3, 2, 1, 3, 2, 4, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -2007,7 +2007,7 @@
                 "f",
                 "1+3"
             ],
-            "command_string": "Approach enemy f1+3",
+            "command_string": "Approach enemy f, 1+3",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2060,7 +2060,7 @@
                 "f",
                 "2+4"
             ],
-            "command_string": "Approach enemy f2+4",
+            "command_string": "Approach enemy f, 2+4",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2091,7 +2091,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "command_string": "Approach from left side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2122,7 +2122,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "command_string": "Approach from right side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2152,7 +2152,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "command_string": "Approach from behind 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2179,7 +2179,7 @@
                 "F",
                 "1+2"
             ],
-            "command_string": "Approach enemy fF1+2",
+            "command_string": "Approach enemy f, F, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2206,10 +2206,10 @@
                 "enemy",
                 "high",
                 "punch",
-                "ub",
+                "u/b",
                 "1"
             ],
-            "command_string": "Time with enemy high punch ub1",
+            "command_string": "Time with enemy high punch u/b, 1",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -2235,7 +2235,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "Time with enemy attack b1+2",
+            "command_string": "Time with enemy attack b, 1+2",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -2265,7 +2265,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Time with enemy attack b, 1+3, (or b2+4)",
+            "command_string": "Time with enemy attack b, 1+3, (or b, 2+4, )",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 25,
@@ -2284,7 +2284,7 @@
             "number": 86,
             "name": "Sample Combo 1",
             "command": [
-                "uf",
+                "u/f",
                 "2",
                 "1",
                 ">",
@@ -2292,7 +2292,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "uf, 2, 1, >, d42",
+            "command_string": "u/f, 2, 1, >, d, 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2330,7 +2330,7 @@
                 "Ji",
                 "Du",
                 "Li",
-                "DF",
+                "D/F",
                 ">",
                 "While",
                 "rising",
@@ -2338,7 +2338,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "f, F, 4, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 312",
+            "command_string": "f, F, 4, 3, >, b, 1, 4, >, During Jin Ji Du Li D/F, >, While rising 3, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2385,9 +2385,9 @@
                 "Ji",
                 "Du",
                 "Li",
-                "DF",
+                "D/F",
                 ">",
-                "uf",
+                "u/f",
                 "1",
                 "1",
                 ">",
@@ -2399,13 +2399,13 @@
                 "Ji",
                 "Du",
                 "Li",
-                "DF",
+                "D/F",
                 ">",
                 "While",
                 "rising",
                 "1+2"
             ],
-            "command_string": "d, 1+2, >, During Fo Bu 2, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, uf, 1, 1, >, f, 4, >, During Jin Ji Du Li DF, >, While rising 1+2",
+            "command_string": "d, 1+2, >, During Fo Bu 2, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li D/F, >, u/f, 1, 1, >, f, 4, >, During Jin Ji Du Li D/F, >, While rising 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2433,7 +2433,7 @@
             "number": 89,
             "name": "Sample Combo 4",
             "command": [
-                "uf",
+                "u/f",
                 "4",
                 ">",
                 "4",
@@ -2447,7 +2447,7 @@
                 "Ji",
                 "Du",
                 "Li",
-                "DF",
+                "D/F",
                 ">",
                 "While",
                 "rising",
@@ -2465,10 +2465,10 @@
                 ">",
                 "During",
                 "Rage",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "uf, 4, >, 4, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, During Rage df1+2",
+            "command_string": "u/f, 4, >, 4, >, b, 1, 4, >, During Jin Ji Du Li D/F, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, During Rage d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2496,7 +2496,7 @@
             "number": 90,
             "name": "Sample Combo 5",
             "command": [
-                "db",
+                "d/b",
                 "3",
                 ">",
                 "f",
@@ -2511,7 +2511,7 @@
                 "Ji",
                 "Du",
                 "Li",
-                "DF",
+                "D/F",
                 ">",
                 "While",
                 "rising",
@@ -2527,7 +2527,7 @@
                 "Li",
                 "2",
                 ">",
-                "uf",
+                "u/f",
                 "1",
                 ">",
                 "During",
@@ -2537,7 +2537,7 @@
                 "2",
                 "Hold"
             ],
-            "command_string": "db, 3, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li DF, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, uf, 1, >, During Rage f, F, 2, Hold ",
+            "command_string": "d/b, 3, >, f, 3, >, b, 1, 4, >, During Jin Ji Du Li D/F, >, While rising 3, >, f, 4, >, During Jin Ji Du Li 2, >, u/f, 1, >, During Rage f, F, 2, Hold ",
             "n_hits": 0,
             "hit_levels": [
                 "High",

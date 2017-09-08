@@ -16,7 +16,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "During Rage b1+2",
+            "command_string": "During Rage b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -39,10 +39,10 @@
             "command": [
                 "During",
                 "Rage",
-                "db",
+                "d/b",
                 "1+2"
             ],
-            "command_string": "During Rage db1+2",
+            "command_string": "During Rage d/b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -69,7 +69,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "12",
+            "command_string": "1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -95,7 +95,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "124",
+            "command_string": "1, 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -123,7 +123,7 @@
                 "4",
                 "F"
             ],
-            "command_string": "124F",
+            "command_string": "1, 2, 4, F",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -150,7 +150,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "121+2",
+            "command_string": "1, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -176,7 +176,7 @@
                 "1",
                 "3"
             ],
-            "command_string": "13",
+            "command_string": "1, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -201,7 +201,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "21",
+            "command_string": "2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -227,7 +227,7 @@
                 "1",
                 "F"
             ],
-            "command_string": "21F",
+            "command_string": "2, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -252,7 +252,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "34",
+            "command_string": "3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -279,7 +279,7 @@
                 "1+2",
                 "1+2"
             ],
-            "command_string": "1+21+2",
+            "command_string": "1+2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -304,7 +304,7 @@
                 "f",
                 "2"
             ],
-            "command_string": "f2",
+            "command_string": "f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -329,7 +329,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "f34",
+            "command_string": "f, 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -355,7 +355,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "f42",
+            "command_string": "f, 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -383,7 +383,7 @@
                 "f",
                 "1+2"
             ],
-            "command_string": "f1+2",
+            "command_string": "f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -408,7 +408,7 @@
                 "3+4",
                 "F"
             ],
-            "command_string": "f3+4F",
+            "command_string": "f, 3+4, F",
             "n_hits": 0,
             "hit_levels": [
                 "NOBLK"
@@ -432,7 +432,7 @@
                 "f",
                 "2+3"
             ],
-            "command_string": "f2+3",
+            "command_string": "f, 2+3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -453,10 +453,10 @@
             "number": 18,
             "name": "Flanco",
             "command": [
-                "df",
+                "d/f",
                 "1"
             ],
-            "command_string": "df1",
+            "command_string": "d/f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -477,11 +477,11 @@
             "number": 19,
             "name": "Flanco to Savage Stance",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "F"
             ],
-            "command_string": "df1F",
+            "command_string": "d/f, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -502,11 +502,11 @@
             "number": 20,
             "name": "Double Choking",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "1"
             ],
-            "command_string": "df11",
+            "command_string": "d/f, 1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -528,12 +528,12 @@
             "number": 21,
             "name": "Double Choking to Savage Stance",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "1",
                 "F"
             ],
-            "command_string": "df11F",
+            "command_string": "d/f, 1, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -555,12 +555,12 @@
             "number": 22,
             "name": "Double Choking Body",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "1",
                 "2"
             ],
-            "command_string": "df112",
+            "command_string": "d/f, 1, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -583,12 +583,12 @@
             "number": 23,
             "name": "Flanco y patada",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "1",
                 "3"
             ],
-            "command_string": "df113",
+            "command_string": "d/f, 1, 1, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -611,13 +611,13 @@
             "number": 24,
             "name": "Flanco y patada to Savage Stance",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "1",
                 "3",
                 "F"
             ],
-            "command_string": "df113F",
+            "command_string": "d/f, 1, 1, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -640,11 +640,11 @@
             "number": 25,
             "name": "Uno-dos",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "2"
             ],
-            "command_string": "df12",
+            "command_string": "d/f, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -666,11 +666,11 @@
             "number": 26,
             "name": "Campeón",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 "1"
             ],
-            "command_string": "df21",
+            "command_string": "d/f, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -692,11 +692,11 @@
             "number": 27,
             "name": "Toro",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 "2"
             ],
-            "command_string": "df22",
+            "command_string": "d/f, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -720,12 +720,12 @@
             "number": 28,
             "name": "Hachazo",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 "d",
                 "2"
             ],
-            "command_string": "df2d2",
+            "command_string": "d/f, 2, d, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -747,11 +747,11 @@
             "number": 29,
             "name": "Tunda",
             "command": [
-                "df",
+                "d/f",
                 "3",
                 "2"
             ],
-            "command_string": "df32",
+            "command_string": "d/f, 3, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -773,11 +773,11 @@
             "number": 30,
             "name": "Espada",
             "command": [
-                "df",
+                "d/f",
                 "4",
                 "1"
             ],
-            "command_string": "df41",
+            "command_string": "d/f, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -799,12 +799,12 @@
             "number": 31,
             "name": "Espada to Savage Stance",
             "command": [
-                "df",
+                "d/f",
                 "4",
                 "1",
                 "F"
             ],
-            "command_string": "df41F",
+            "command_string": "d/f, 4, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -826,12 +826,12 @@
             "number": 32,
             "name": "Sable",
             "command": [
-                "df",
+                "d/f",
                 "4",
                 "1",
                 "1"
             ],
-            "command_string": "df411",
+            "command_string": "d/f, 4, 1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -857,7 +857,7 @@
                 "d",
                 "2"
             ],
-            "command_string": "d2",
+            "command_string": "d, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -881,7 +881,7 @@
                 "d",
                 "3"
             ],
-            "command_string": "d3",
+            "command_string": "d, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -906,7 +906,7 @@
                 "4",
                 "1+2"
             ],
-            "command_string": "d41+2",
+            "command_string": "d, 4, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -933,7 +933,7 @@
                 "1+2",
                 "F"
             ],
-            "command_string": "d41+2F",
+            "command_string": "d, 4, 1+2, F",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -958,7 +958,7 @@
                 "d",
                 "1+2"
             ],
-            "command_string": "d1+2",
+            "command_string": "d, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -982,7 +982,7 @@
                 "d",
                 "3+4"
             ],
-            "command_string": "d3+4",
+            "command_string": "d, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1003,10 +1003,10 @@
             "number": 39,
             "name": "Tortura",
             "command": [
-                "db",
+                "d/b",
                 "1"
             ],
-            "command_string": "db1",
+            "command_string": "d/b, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1027,10 +1027,10 @@
             "number": 40,
             "name": "Vamos",
             "command": [
-                "db",
+                "d/b",
                 "2"
             ],
-            "command_string": "db2",
+            "command_string": "d/b, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1051,10 +1051,10 @@
             "number": 41,
             "name": "Zancadilla",
             "command": [
-                "db",
+                "d/b",
                 "3"
             ],
-            "command_string": "db3",
+            "command_string": "d/b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1075,11 +1075,11 @@
             "number": 42,
             "name": "Zancadilla to Savage Stance",
             "command": [
-                "db",
+                "d/b",
                 "3",
                 "F"
             ],
-            "command_string": "db3F",
+            "command_string": "d/b, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1100,11 +1100,11 @@
             "number": 43,
             "name": "Paso de baile",
             "command": [
-                "db",
+                "d/b",
                 "3",
                 "4"
             ],
-            "command_string": "db34",
+            "command_string": "d/b, 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -1126,10 +1126,10 @@
             "number": 44,
             "name": "Segada",
             "command": [
-                "db",
+                "d/b",
                 "4"
             ],
-            "command_string": "db4",
+            "command_string": "d/b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1153,7 +1153,7 @@
                 "b",
                 "1"
             ],
-            "command_string": "b1",
+            "command_string": "b, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1178,7 +1178,7 @@
                 "1",
                 "F"
             ],
-            "command_string": "b1F",
+            "command_string": "b, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1203,7 +1203,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "b22",
+            "command_string": "b, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1228,7 +1228,7 @@
                 "b",
                 "3"
             ],
-            "command_string": "b3",
+            "command_string": "b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1253,7 +1253,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "b3F",
+            "command_string": "b, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1277,7 +1277,7 @@
                 "b",
                 "4"
             ],
-            "command_string": "b4",
+            "command_string": "b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1300,10 +1300,10 @@
             "number": 51,
             "name": "Tambor",
             "command": [
-                "ub",
+                "u/b",
                 "1"
             ],
-            "command_string": "ub1",
+            "command_string": "u/b, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1324,11 +1324,11 @@
             "number": 52,
             "name": "Tambor to Savage Stance",
             "command": [
-                "ub",
+                "u/b",
                 "1",
                 "F"
             ],
-            "command_string": "ub1F",
+            "command_string": "u/b, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1349,11 +1349,11 @@
             "number": 53,
             "name": "Tambor y platillos",
             "command": [
-                "ub",
+                "u/b",
                 "1",
                 "4"
             ],
-            "command_string": "ub14",
+            "command_string": "u/b, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1375,10 +1375,10 @@
             "number": 54,
             "name": "Obús",
             "command": [
-                "uf",
+                "u/f",
                 "1"
             ],
-            "command_string": "uf1",
+            "command_string": "u/f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1399,11 +1399,11 @@
             "number": 55,
             "name": "Obús to Savage Stance",
             "command": [
-                "uf",
+                "u/f",
                 "1",
                 "F"
             ],
-            "command_string": "uf1F",
+            "command_string": "u/f, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1424,12 +1424,12 @@
             "number": 56,
             "name": "Trinidad Slash",
             "command": [
-                "uf",
+                "u/f",
                 "3",
                 "2",
                 "2"
             ],
-            "command_string": "uf322",
+            "command_string": "u/f, 3, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1452,10 +1452,10 @@
             "number": 57,
             "name": "Patada atrás",
             "command": [
-                "uf",
+                "u/f",
                 "4"
             ],
-            "command_string": "uf4",
+            "command_string": "u/f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1481,7 +1481,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "fF21",
+            "command_string": "f, F, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1508,7 +1508,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "fF22",
+            "command_string": "f, F, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1534,7 +1534,7 @@
                 "F",
                 "3"
             ],
-            "command_string": "fF3",
+            "command_string": "f, F, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1562,7 +1562,7 @@
                 "f",
                 "1"
             ],
-            "command_string": "bf1",
+            "command_string": "b, f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1588,7 +1588,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "fff3",
+            "command_string": "f, f, f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1639,7 +1639,7 @@
                 "1",
                 "F"
             ],
-            "command_string": "While rising 1F",
+            "command_string": "While rising 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1666,7 +1666,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "While rising 222",
+            "command_string": "While rising 2, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1694,7 +1694,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "While rising 24",
+            "command_string": "While rising 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1770,10 +1770,10 @@
             "command": [
                 "While",
                 "crouching",
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "While crouching df2",
+            "command_string": "While crouching d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1796,10 +1796,10 @@
             "command": [
                 "While",
                 "crouching",
-                "df",
+                "d/f",
                 "4"
             ],
-            "command_string": "While crouching df4",
+            "command_string": "While crouching d/f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1827,7 +1827,7 @@
                 "d",
                 "3"
             ],
-            "command_string": "(While enemy is down) d3",
+            "command_string": "(While enemy is down) d, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1901,7 +1901,7 @@
                 "1",
                 "F"
             ],
-            "command_string": "During Savage Stance 1F",
+            "command_string": "During Savage Stance 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1928,7 +1928,7 @@
                 "1",
                 "1"
             ],
-            "command_string": "During Savage Stance 11",
+            "command_string": "During Savage Stance 1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1958,7 +1958,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "During Savage Stance 12",
+            "command_string": "During Savage Stance 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1987,7 +1987,7 @@
                 "2",
                 "F"
             ],
-            "command_string": "During Savage Stance 12F",
+            "command_string": "During Savage Stance 1, 2, F",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -2016,7 +2016,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "During Savage Stance 121",
+            "command_string": "During Savage Stance 1, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -2045,7 +2045,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "During Savage Stance 14",
+            "command_string": "During Savage Stance 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -2125,7 +2125,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "During Savage Stance 3F",
+            "command_string": "During Savage Stance 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2152,7 +2152,7 @@
                 "3",
                 "3"
             ],
-            "command_string": "During Savage Stance 33",
+            "command_string": "During Savage Stance 3, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2181,7 +2181,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "During Savage Stance 33F",
+            "command_string": "During Savage Stance 3, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2266,7 +2266,7 @@
                 "f",
                 "1+2"
             ],
-            "command_string": "During Savage Stance f1+2",
+            "command_string": "During Savage Stance f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -2294,7 +2294,7 @@
                 "1+2",
                 "F"
             ],
-            "command_string": "During Savage Stance f1+2F",
+            "command_string": "During Savage Stance f, 1+2, F",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -2318,10 +2318,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "df",
+                "d/f",
                 "1"
             ],
-            "command_string": "During Savage Stance df1",
+            "command_string": "During Savage Stance d/f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2345,11 +2345,11 @@
                 "During",
                 "Savage",
                 "Stance",
-                "df",
+                "d/f",
                 "1",
                 "F"
             ],
-            "command_string": "During Savage Stance df1F",
+            "command_string": "During Savage Stance d/f, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2373,10 +2373,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "During Savage Stance df2",
+            "command_string": "During Savage Stance d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2403,7 +2403,7 @@
                 "d",
                 "4"
             ],
-            "command_string": "During Savage Stance d4",
+            "command_string": "During Savage Stance d, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -2431,7 +2431,7 @@
                 "4",
                 "F"
             ],
-            "command_string": "During Savage Stance d4F",
+            "command_string": "During Savage Stance d, 4, F",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -2459,7 +2459,7 @@
                 "4",
                 "3"
             ],
-            "command_string": "During Savage Stance d43",
+            "command_string": "During Savage Stance d, 4, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -2489,7 +2489,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "During Savage Stance d43F",
+            "command_string": "During Savage Stance d, 4, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -2514,10 +2514,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "db",
+                "d/b",
                 "3"
             ],
-            "command_string": "During Savage Stance db3",
+            "command_string": "During Savage Stance d/b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -2541,11 +2541,11 @@
                 "During",
                 "Savage",
                 "Stance",
-                "db",
+                "d/b",
                 "3",
                 "F"
             ],
-            "command_string": "During Savage Stance db3F",
+            "command_string": "During Savage Stance d/b, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -2569,10 +2569,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "db",
+                "d/b",
                 "4"
             ],
-            "command_string": "During Savage Stance db4",
+            "command_string": "During Savage Stance d/b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -2599,7 +2599,7 @@
                 "b",
                 "1"
             ],
-            "command_string": "During Savage Stance b1",
+            "command_string": "During Savage Stance b, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2627,7 +2627,7 @@
                 "1",
                 "F"
             ],
-            "command_string": "During Savage Stance b1F",
+            "command_string": "During Savage Stance b, 1, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2655,7 +2655,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "During Savage Stance b12",
+            "command_string": "During Savage Stance b, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2684,7 +2684,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "During Savage Stance b14",
+            "command_string": "During Savage Stance b, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2712,7 +2712,7 @@
                 "b",
                 "2"
             ],
-            "command_string": "During Savage Stance b2",
+            "command_string": "During Savage Stance b, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2739,7 +2739,7 @@
                 "b",
                 "3"
             ],
-            "command_string": "During Savage Stance b3",
+            "command_string": "During Savage Stance b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -2769,7 +2769,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "During Savage Stance b3F",
+            "command_string": "During Savage Stance b, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -2795,10 +2795,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "uf",
+                "u/f",
                 "3"
             ],
-            "command_string": "During Savage Stance uf3",
+            "command_string": "During Savage Stance u/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -2853,7 +2853,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "While rising 1+2411214121",
+            "command_string": "While rising 1+2, 4, 1, 1, 2, 1, 4, 1, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -2914,7 +2914,7 @@
                 "f",
                 "1+3"
             ],
-            "command_string": "Approach enemy f1+3",
+            "command_string": "Approach enemy f, 1+3",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2967,7 +2967,7 @@
                 "f",
                 "2+4"
             ],
-            "command_string": "Approach enemy f2+4",
+            "command_string": "Approach enemy f, 2+4",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2998,7 +2998,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "command_string": "Approach from left side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -3029,7 +3029,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "command_string": "Approach from right side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -3059,7 +3059,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "command_string": "Approach from behind 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -3082,10 +3082,10 @@
             "command": [
                 "Approach",
                 "enemy",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "Approach enemy df1+2",
+            "command_string": "Approach enemy d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -3139,7 +3139,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "During tackle 2121",
+            "command_string": "During tackle 2, 1, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid Throw"
@@ -3170,12 +3170,12 @@
                 "4",
                 "2",
                 ">",
-                "uf",
+                "u/f",
                 "3",
                 "2",
                 "2"
             ],
-            "command_string": "b, 1, (Counter Hit) >, f, 4, 2, >, uf322",
+            "command_string": "b, 1, (Counter Hit) >, f, 4, 2, >, u/f, 3, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -3201,11 +3201,11 @@
             "number": 120,
             "name": "Sample Combo 2",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 "1",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 "F",
                 ">",
@@ -3216,15 +3216,15 @@
                 "1",
                 "4",
                 ">",
-                "df",
+                "d/f",
                 "2",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "2",
                 "2"
             ],
-            "command_string": "df, 2, 1, >, df, 1, F, >, During Savage Stance b, 1, 4, >, df, 2, 2, >, df22",
+            "command_string": "d/f, 2, 1, >, d/f, 1, F, >, During Savage Stance b, 1, 4, >, d/f, 2, 2, >, d/f, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -3269,10 +3269,10 @@
                 "During",
                 "Savage",
                 "Stance",
-                "uf",
+                "u/f",
                 "3",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "f",
@@ -3280,7 +3280,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "3+4, >, During Savage Stance 1+2, >, f, F, 3, >, 3+4, >, During Savage Stance uf, 3, >, df, 1, >, fF22",
+            "command_string": "3+4, >, During Savage Stance 1+2, >, f, F, 3, >, 3+4, >, During Savage Stance u/f, 3, >, d/f, 1, >, f, F, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -3306,20 +3306,20 @@
             "number": 122,
             "name": "Sample Combo 4",
             "command": [
-                "uf",
+                "u/f",
                 "4",
                 ">",
-                "db",
+                "d/b",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 "F",
                 ">",
                 "During",
                 "Savage",
                 "Stance",
-                "df",
+                "d/f",
                 "1",
                 "F",
                 ">",
@@ -3334,7 +3334,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "uf, 4, >, db, 2, >, df, 1, F, >, During Savage Stance df, 1, F, >, During Savage Stance 1, 1, >, During Rage b1+2",
+            "command_string": "u/f, 4, >, d/b, 2, >, d/f, 1, F, >, During Savage Stance d/f, 1, F, >, During Savage Stance 1, 1, >, During Rage b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -3361,7 +3361,7 @@
             "number": 123,
             "name": "Sample Combo 5",
             "command": [
-                "db",
+                "d/b",
                 "1",
                 ">",
                 "While",
@@ -3370,13 +3370,13 @@
                 ">",
                 "During",
                 "Rage",
-                "db",
+                "d/b",
                 "1+2",
                 ">",
-                "db",
+                "d/b",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "f",
@@ -3384,7 +3384,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "db, 1, >, While rising 4, >, During Rage db, 1+2, >, db, 2, >, df, 1, >, fF21",
+            "command_string": "d/b, 1, >, While rising 4, >, During Rage d/b, 1+2, >, d/b, 2, >, d/f, 1, >, f, F, 2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Low",

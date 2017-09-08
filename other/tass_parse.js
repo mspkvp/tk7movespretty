@@ -84,7 +84,7 @@ for( let f=0; f<movelists.length; f++){
 				} else {
 					let x;
 					function last(){
-						return ((c+1) === commands.length);
+						return (x+1) === commands[c].length && (c+1) >= commands.length;
 					}
 					for(x=0; x<commands[c].length; x++){
 						try{
@@ -105,10 +105,6 @@ for( let f=0; f<movelists.length; f++){
 							else if( hex2cmd_index[commands[c].charAt(x)] === ">"){
 								move.command_string += ">, ";
 								move.command.push(">");
-							}
-							else {
-								 console.log("1. Not added: "+commands[c].charAt(x));
-								 console.log("2. Not added map: "+hex2cmd_index[commands[c].charAt(x)]);
 							}
 						} catch (e) {
 							if( commands[c].charAt(x) === "(" || commands[c].charAt(x) === ")") {
@@ -189,5 +185,4 @@ for( let f=0; f<movelists.length; f++){
 
 		fs.writeFileSync(write_dir+name.i+"_"+char_info.id_name+'.json', JSON.stringify(char_info, null, 4), 'utf8');
 	});
-
 }

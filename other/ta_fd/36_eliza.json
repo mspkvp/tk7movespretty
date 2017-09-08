@@ -16,7 +16,7 @@
                 "b",
                 "3+4"
             ],
-            "command_string": "During Rage b3+4",
+            "command_string": "During Rage b, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -38,11 +38,11 @@
             "name": "Dark Wave",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1"
             ],
-            "command_string": "ddff1",
+            "command_string": "d, d/f, f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -64,11 +64,11 @@
             "name": "Dark Wave",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "2"
             ],
-            "command_string": "ddff2",
+            "command_string": "d, d/f, f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -91,10 +91,10 @@
             "command": [
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "1"
             ],
-            "command_string": "fddf1",
+            "command_string": "f, d, d/f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -117,10 +117,10 @@
             "command": [
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "fddf2",
+            "command_string": "f, d, d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj",
@@ -144,11 +144,11 @@
             "name": "Dark Storm",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "1"
             ],
-            "command_string": "ddbb1",
+            "command_string": "d, d/b, b, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -172,11 +172,11 @@
             "name": "Dark Tempest",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "2"
             ],
-            "command_string": "ddbb2",
+            "command_string": "d, d/b, b, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -198,11 +198,11 @@
             "name": "Dark Cannon",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "3"
             ],
-            "command_string": "ddbb3",
+            "command_string": "d, d/b, b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -224,11 +224,11 @@
             "name": "Dark Cannon",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "4"
             ],
-            "command_string": "ddbb4",
+            "command_string": "d, d/b, b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -254,14 +254,14 @@
                 "4",
                 "2",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1",
                 "(or",
                 "2",
                 ")"
             ],
-            "command_string": "f, F, 4, 2, d, df, f, 1, (or 2)",
+            "command_string": "f, F, 4, 2, d, d/f, f, 1, (or 2, )",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -287,11 +287,11 @@
                 "During",
                 "Jump",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "3"
             ],
-            "command_string": "During Jump ddbb3",
+            "command_string": "During Jump d, d/b, b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -315,11 +315,11 @@
                 "During",
                 "Jump",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "4"
             ],
-            "command_string": "During Jump ddbb4",
+            "command_string": "During Jump d, d/b, b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -341,7 +341,7 @@
             "name": "Dark Wave to Moon Glide",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1",
                 "(or",
@@ -349,10 +349,10 @@
                 ")",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "3+4"
             ],
-            "command_string": "d, df, f, 1, (or 2, ) fddf3+4",
+            "command_string": "d, d/f, f, 1, (or 2, ) f, d, d/f, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -374,11 +374,11 @@
             "name": "Dark Wave Chaos",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1+2"
             ],
-            "command_string": "ddff1+2",
+            "command_string": "d, d/f, f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -401,10 +401,10 @@
             "command": [
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "fddf1+2",
+            "command_string": "f, d, d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj",
@@ -430,11 +430,11 @@
             "name": "Dark Tempest Chaos",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "1+2"
             ],
-            "command_string": "ddbb1+2",
+            "command_string": "d, d/b, b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj",
@@ -459,11 +459,11 @@
             "name": "Dark Cannon Chaos",
             "command": [
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "3+4"
             ],
-            "command_string": "ddbb3+4",
+            "command_string": "d, d/b, b, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -492,7 +492,7 @@
                 "4",
                 "2",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1",
                 "(or",
@@ -500,10 +500,10 @@
                 ")",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "3+4"
             ],
-            "command_string": "f, F, 4, 2, d, df, f, 1, (or 2, ) fddf3+4",
+            "command_string": "f, F, 4, 2, d, d/f, f, 1, (or 2, ) f, d, d/f, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -531,11 +531,11 @@
                 "4",
                 "2",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1+2"
             ],
-            "command_string": "fF42ddff1+2",
+            "command_string": "f, F, 4, 2, d, d/f, f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -561,11 +561,11 @@
                 "During",
                 "Jump",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "3+4"
             ],
-            "command_string": "During Jump ddbb3+4",
+            "command_string": "During Jump d, d/b, b, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -590,14 +590,14 @@
             "name": "Bloody Horn",
             "command": [
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1+2"
             ],
-            "command_string": "ddffddff1+2",
+            "command_string": "d, d/f, f, d, d/f, f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -644,7 +644,7 @@
                 "1",
                 "1"
             ],
-            "command_string": "11",
+            "command_string": "1, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -669,7 +669,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "12",
+            "command_string": "1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -695,7 +695,7 @@
                 "2",
                 "3"
             ],
-            "command_string": "123",
+            "command_string": "1, 2, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -722,7 +722,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "124",
+            "command_string": "1, 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -750,7 +750,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "22",
+            "command_string": "2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -849,7 +849,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "f3",
+            "command_string": "f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -873,7 +873,7 @@
                 "f",
                 "4"
             ],
-            "command_string": "f4",
+            "command_string": "f, 4",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -898,7 +898,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "During Moon Glide 12",
+            "command_string": "During Moon Glide 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -927,7 +927,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "During Moon Glide 121+2",
+            "command_string": "During Moon Glide 1, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -984,7 +984,7 @@
                 "2",
                 "B"
             ],
-            "command_string": "During Moon Glide 2B",
+            "command_string": "During Moon Glide 2, B",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1011,7 +1011,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "During Moon Glide 34",
+            "command_string": "During Moon Glide 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1090,7 +1090,7 @@
                 "f",
                 "1+2"
             ],
-            "command_string": "f1+2",
+            "command_string": "f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1114,11 +1114,11 @@
             "number": 41,
             "name": "Moonlight",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "2"
             ],
-            "command_string": "df12",
+            "command_string": "d/f, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1140,11 +1140,11 @@
             "number": 42,
             "name": "Daylight",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "4"
             ],
-            "command_string": "df14",
+            "command_string": "d/f, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1166,11 +1166,11 @@
             "number": 43,
             "name": "Rending Claw",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 "3"
             ],
-            "command_string": "df23",
+            "command_string": "d/f, 2, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1192,10 +1192,10 @@
             "number": 44,
             "name": "Astral Shot",
             "command": [
-                "df",
+                "d/f",
                 "3"
             ],
-            "command_string": "df3",
+            "command_string": "d/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1221,7 +1221,7 @@
                 "d",
                 "1"
             ],
-            "command_string": "d1",
+            "command_string": "d, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Smid"
@@ -1245,7 +1245,7 @@
                 "d",
                 "2"
             ],
-            "command_string": "d2",
+            "command_string": "d, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Smid"
@@ -1269,7 +1269,7 @@
                 "d",
                 "3"
             ],
-            "command_string": "d3",
+            "command_string": "d, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1293,7 +1293,7 @@
                 "d",
                 "4"
             ],
-            "command_string": "d4",
+            "command_string": "d, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1317,7 +1317,7 @@
                 "d",
                 "1+2"
             ],
-            "command_string": "d1+2",
+            "command_string": "d, 1+2",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -1341,7 +1341,7 @@
                 "2",
                 "4"
             ],
-            "command_string": "b124",
+            "command_string": "b, 1, 2, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1368,7 +1368,7 @@
                 "2",
                 "3"
             ],
-            "command_string": "b23",
+            "command_string": "b, 2, 3",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1394,7 +1394,7 @@
                 "3",
                 "1"
             ],
-            "command_string": "b31",
+            "command_string": "b, 3, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1422,7 +1422,7 @@
                 "3",
                 "4"
             ],
-            "command_string": "b34",
+            "command_string": "b, 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1447,7 +1447,7 @@
                 "b",
                 "4"
             ],
-            "command_string": "b4",
+            "command_string": "b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Proj"
@@ -1471,7 +1471,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "b1+2",
+            "command_string": "b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1498,7 +1498,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "fF42",
+            "command_string": "f, F, 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1524,7 +1524,7 @@
                 "F",
                 "1+2"
             ],
-            "command_string": "fF1+2",
+            "command_string": "f, F, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1552,7 +1552,7 @@
                 "f",
                 "1"
             ],
-            "command_string": "fff1",
+            "command_string": "f, f, f, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -1580,7 +1580,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "fff3",
+            "command_string": "f, f, f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1859,7 +1859,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "3141224212",
+            "command_string": "3, 1, 4, 1, 2, 2, 4, 2, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -1922,7 +1922,7 @@
                 "f",
                 "1+3"
             ],
-            "command_string": "Approach enemy f1+3",
+            "command_string": "Approach enemy f, 1+3",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1975,7 +1975,7 @@
                 "f",
                 "2+4"
             ],
-            "command_string": "Approach enemy f2+4",
+            "command_string": "Approach enemy f, 2+4",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2006,7 +2006,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "command_string": "Approach from left side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2037,7 +2037,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "command_string": "Approach from right side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2067,7 +2067,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "command_string": "Approach from behind 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2090,10 +2090,10 @@
             "command": [
                 "Approach",
                 "enemy",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "Approach enemy df1+2",
+            "command_string": "Approach enemy d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -2123,10 +2123,10 @@
                 ">",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "During Jump 4, >, 1, >, fddf2",
+            "command_string": "During Jump 4, >, 1, >, f, d, d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2163,11 +2163,11 @@
                 "3",
                 ">",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "2"
             ],
-            "command_string": "While rising 3, >, 1, 2, 4, >, d, 3, >, ddbb2",
+            "command_string": "While rising 3, >, 1, 2, 4, >, d, 3, >, d, d/b, b, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2199,7 +2199,7 @@
                 ">",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "b",
@@ -2210,7 +2210,7 @@
                 "2",
                 ">",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "1",
                 ">",
@@ -2224,7 +2224,7 @@
                 "(must",
                 "hit)"
             ],
-            "command_string": "While rising 1, >, f, d, df, 1, >, b, 2, 3, >, 2, 2, >, d, db, b, 1, >, f, 4, >, During Moon Glide 2, (must hit) ",
+            "command_string": "While rising 1, >, f, d, d/f, 1, >, b, 2, 3, >, 2, 2, >, d, d/b, b, 1, >, f, 4, >, During Moon Glide 2, (must hit) ",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2257,12 +2257,12 @@
                 "4",
                 "2",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "3+4",
                 ">",
                 "During",
@@ -2280,7 +2280,7 @@
                 "b",
                 "3+4"
             ],
-            "command_string": "f, F, 4, 2, d, df, f, 1, f, d, df, 3+4, >, During Moon Glide 3, 4, >, During Jump 2, >, During Rage b3+4",
+            "command_string": "f, F, 4, 2, d, d/f, f, 1, f, d, d/f, 3+4, >, During Moon Glide 3, 4, >, During Jump 2, >, During Rage b, 3+4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -2315,10 +2315,10 @@
                 "4",
                 ">",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "d",
-                "df",
+                "d/f",
                 "f",
                 "1+2",
                 ">",
@@ -2330,7 +2330,7 @@
                 "During",
                 "Jump",
                 "d",
-                "db",
+                "d/b",
                 "b",
                 "4",
                 ">",
@@ -2346,7 +2346,7 @@
                 "2",
                 "1+2"
             ],
-            "command_string": "During Jump 2, >, b, 4, >, d, df, f, d, df, f, 1+2, >, f, f, f, 1, >, During Jump d, db, b, 4, >, 1, >, f, 4, >, During Moon Glide 121+2",
+            "command_string": "During Jump 2, >, b, 4, >, d, d/f, f, d, d/f, f, 1+2, >, f, f, f, 1, >, During Jump d, d/b, b, 4, >, 1, >, f, 4, >, During Moon Glide 1, 2, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",

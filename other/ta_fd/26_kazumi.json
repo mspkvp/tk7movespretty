@@ -16,7 +16,7 @@
                 "d",
                 "1+2"
             ],
-            "command_string": "During Rage d1+2",
+            "command_string": "During Rage d, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -43,7 +43,7 @@
                 "F",
                 "1+2"
             ],
-            "command_string": "During Rage fF1+2",
+            "command_string": "During Rage f, F, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -69,7 +69,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "112",
+            "command_string": "1, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -96,7 +96,7 @@
                 "2",
                 "2"
             ],
-            "command_string": "122",
+            "command_string": "1, 2, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -122,7 +122,7 @@
                 "2",
                 "1"
             ],
-            "command_string": "21",
+            "command_string": "2, 1",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -147,7 +147,7 @@
                 "3",
                 "1"
             ],
-            "command_string": "31",
+            "command_string": "3, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -174,7 +174,7 @@
                 "3",
                 "2"
             ],
-            "command_string": "32",
+            "command_string": "3, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -270,7 +270,7 @@
                 "f",
                 "2"
             ],
-            "command_string": "f2",
+            "command_string": "f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -296,7 +296,7 @@
                 "f",
                 "3"
             ],
-            "command_string": "f3",
+            "command_string": "f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -321,7 +321,7 @@
                 "3",
                 "F"
             ],
-            "command_string": "f3F",
+            "command_string": "f, 3, F",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -345,7 +345,7 @@
                 "f",
                 "4"
             ],
-            "command_string": "f4",
+            "command_string": "f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "High"
@@ -372,7 +372,7 @@
                 "f",
                 "3+4"
             ],
-            "command_string": "f3+4",
+            "command_string": "f, 3+4",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -475,7 +475,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "During Fearless Warrior 42",
+            "command_string": "During Fearless Warrior 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -529,7 +529,7 @@
                 "f",
                 "1+2"
             ],
-            "command_string": "During Fearless Warrior f1+2",
+            "command_string": "During Fearless Warrior f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "NOBLK"
@@ -556,7 +556,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "During Fearless Warrior b1+2",
+            "command_string": "During Fearless Warrior b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid Throw"
@@ -577,11 +577,11 @@
             "number": 23,
             "name": "Crimson Dawn",
             "command": [
-                "df",
+                "d/f",
                 "1",
                 "2"
             ],
-            "command_string": "df12",
+            "command_string": "d/f, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -603,10 +603,10 @@
             "number": 24,
             "name": "Tiger Wind Uppercut",
             "command": [
-                "df",
+                "d/f",
                 "2"
             ],
-            "command_string": "df2",
+            "command_string": "d/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -627,10 +627,10 @@
             "number": 25,
             "name": "Heel Thrust",
             "command": [
-                "df",
+                "d/f",
                 "3"
             ],
-            "command_string": "df3",
+            "command_string": "d/f, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -655,7 +655,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "d12",
+            "command_string": "d, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -677,12 +677,12 @@
             "number": 27,
             "name": "Hellfire Spiral",
             "command": [
-                "db",
+                "d/b",
                 "2",
                 "3",
                 "4"
             ],
-            "command_string": "db234",
+            "command_string": "d/b, 2, 3, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low",
@@ -705,10 +705,10 @@
             "number": 28,
             "name": "Foot Breaker",
             "command": [
-                "db",
+                "d/b",
                 "3"
             ],
-            "command_string": "db3",
+            "command_string": "d/b, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -729,10 +729,10 @@
             "number": 29,
             "name": "Rolling Thunder",
             "command": [
-                "db",
+                "d/b",
                 "4"
             ],
-            "command_string": "db4",
+            "command_string": "d/b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -753,10 +753,10 @@
             "number": 30,
             "name": "Deadly Crescent",
             "command": [
-                "db",
+                "d/b",
                 "1+2"
             ],
-            "command_string": "db1+2",
+            "command_string": "d/b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -781,7 +781,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "b12",
+            "command_string": "b, 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -806,7 +806,7 @@
                 "b",
                 "2"
             ],
-            "command_string": "b2",
+            "command_string": "b, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -833,7 +833,7 @@
                 "b",
                 "4"
             ],
-            "command_string": "b4",
+            "command_string": "b, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -857,7 +857,7 @@
                 "b",
                 "3+4"
             ],
-            "command_string": "b3+4",
+            "command_string": "b, 3+4",
             "n_hits": 0,
             "hit_levels": [],
             "damage": 0,
@@ -876,10 +876,10 @@
             "number": 35,
             "name": "Lethal Chop",
             "command": [
-                "uf",
+                "u/f",
                 "2"
             ],
-            "command_string": "uf2",
+            "command_string": "u/f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "High",
@@ -901,12 +901,12 @@
             "number": 36,
             "name": "Hell Blade",
             "command": [
-                "uf",
+                "u/f",
                 "3",
                 "4",
                 "1"
             ],
-            "command_string": "uf341",
+            "command_string": "u/f, 3, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -929,12 +929,12 @@
             "number": 37,
             "name": "Axle Kick",
             "command": [
-                "uf",
+                "u/f",
                 "3",
                 "4",
                 "3"
             ],
-            "command_string": "uf343",
+            "command_string": "u/f, 3, 4, 3",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -959,10 +959,10 @@
             "number": 38,
             "name": "Crushing Knee",
             "command": [
-                "uf",
+                "u/f",
                 "4"
             ],
-            "command_string": "uf4",
+            "command_string": "u/f, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -987,7 +987,7 @@
                 "F",
                 "2"
             ],
-            "command_string": "fF2",
+            "command_string": "f, F, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1014,7 +1014,7 @@
                 "F",
                 "4"
             ],
-            "command_string": "fF4",
+            "command_string": "f, F, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1041,7 +1041,7 @@
                 "1",
                 "4"
             ],
-            "command_string": "bf214",
+            "command_string": "b, f, 2, 1, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1073,7 +1073,7 @@
                 "1",
                 "1+2"
             ],
-            "command_string": "bf211+2",
+            "command_string": "b, f, 2, 1, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1101,7 +1101,7 @@
                 "f",
                 "2"
             ],
-            "command_string": "fff2",
+            "command_string": "f, f, f, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1127,7 +1127,7 @@
                 "1",
                 "2"
             ],
-            "command_string": "While rising 12",
+            "command_string": "While rising 1, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1179,7 +1179,7 @@
                 "4",
                 "4"
             ],
-            "command_string": "While rising 44",
+            "command_string": "While rising 4, 4",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1211,7 +1211,7 @@
                 "d",
                 "2"
             ],
-            "command_string": "(While enemy is down) d2",
+            "command_string": "(While enemy is down) d, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Low"
@@ -1253,7 +1253,7 @@
             "number": 49,
             "name": "10 Hit Combo",
             "command": [
-                "df",
+                "d/f",
                 "3",
                 "1",
                 "2",
@@ -1265,7 +1265,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "df3123212342",
+            "command_string": "d/f, 3, 1, 2, 3, 2, 1, 2, 3, 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1326,7 +1326,7 @@
                 "f",
                 "1+3"
             ],
-            "command_string": "Approach enemy f1+3",
+            "command_string": "Approach enemy f, 1+3",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1379,7 +1379,7 @@
                 "f",
                 "2+4"
             ],
-            "command_string": "Approach enemy f2+4",
+            "command_string": "Approach enemy f, 2+4",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1410,7 +1410,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from left side 1+3, (or 2+4)",
+            "command_string": "Approach from left side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1441,7 +1441,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from right side 1+3, (or 2+4)",
+            "command_string": "Approach from right side 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1471,7 +1471,7 @@
                 "2+4",
                 ")"
             ],
-            "command_string": "Approach from behind 1+3, (or 2+4)",
+            "command_string": "Approach from behind 1+3, (or 2+4, )",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1494,10 +1494,10 @@
             "command": [
                 "Approach",
                 "enemy",
-                "df",
+                "d/f",
                 "1+2"
             ],
-            "command_string": "Approach enemy df1+2",
+            "command_string": "Approach enemy d/f, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "High Throw"
@@ -1526,7 +1526,7 @@
                 "b",
                 "1+2"
             ],
-            "command_string": "Time with enemy attack b1+2",
+            "command_string": "Time with enemy attack b, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid"
@@ -1549,18 +1549,18 @@
             "number": 59,
             "name": "Sample Combo 1",
             "command": [
-                "df",
+                "d/f",
                 "2",
                 ">",
                 "b",
                 "2",
                 ">",
-                "uf",
+                "u/f",
                 "3",
                 "4",
                 "1"
             ],
-            "command_string": "df, 2, >, b, 2, >, uf341",
+            "command_string": "d/f, 2, >, b, 2, >, u/f, 3, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1599,7 +1599,7 @@
                 "Warrior",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "3",
@@ -1614,7 +1614,7 @@
                 "4",
                 "2"
             ],
-            "command_string": "b, 4, (Counter Hit) >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, 3, 1, >, f, 3+4, >, During Fearless Warrior 42",
+            "command_string": "b, 4, (Counter Hit) >, f, 3, F, >, During Fearless Warrior 2, >, d/f, 1, >, 3, 1, >, f, 3+4, >, During Fearless Warrior 4, 2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1658,7 +1658,7 @@
                 "Warrior",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "b",
@@ -1667,7 +1667,7 @@
                 "1",
                 "1+2"
             ],
-            "command_string": "f, F, 4, >, f, 4, >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, bf211+2",
+            "command_string": "f, F, 4, >, f, 4, >, f, 3, F, >, During Fearless Warrior 2, >, d/f, 1, >, b, f, 2, 1, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1695,7 +1695,7 @@
             "number": 62,
             "name": "Sample Combo 4",
             "command": [
-                "uf",
+                "u/f",
                 "4",
                 ">",
                 "f",
@@ -1707,7 +1707,7 @@
                 "Warrior",
                 "2",
                 ">",
-                "df",
+                "d/f",
                 "1",
                 ">",
                 "b",
@@ -1721,7 +1721,7 @@
                 "d",
                 "1+2"
             ],
-            "command_string": "uf, 4, >, f, 3, F, >, During Fearless Warrior 2, >, df, 1, >, b, f, 2, 1, 4, >, During Rage d1+2",
+            "command_string": "u/f, 4, >, f, 3, F, >, During Fearless Warrior 2, >, d/f, 1, >, b, f, 2, 1, 4, >, During Rage d, 1+2",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
@@ -1755,17 +1755,17 @@
                 "F",
                 "1+2",
                 ">",
-                "uf",
+                "u/f",
                 "3",
                 "4",
                 "3",
                 ">",
-                "uf",
+                "u/f",
                 "3",
                 "4",
                 "1"
             ],
-            "command_string": "During Rage f, F, 1+2, >, uf, 3, 4, 3, >, uf341",
+            "command_string": "During Rage f, F, 1+2, >, u/f, 3, 4, 3, >, u/f, 3, 4, 1",
             "n_hits": 0,
             "hit_levels": [
                 "Mid",
