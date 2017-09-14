@@ -281,7 +281,6 @@ table {
     /*width: 600px;*/
     max-width: 970px;
     height: 100%;
-    margin-left: 3px;
 }
 
 .char-movelist .head {
@@ -354,16 +353,65 @@ table {
 
 .move-filter {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: hsla(193, 77%, 20%, 0.75);
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
     font-family: "Core Sans G", Arial, sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px hsla(181, 92%, 50%, 1);
-    cursor: no-drop;
+    z-index: 10;
+    height: 35px;
+    width: 99%;
+    background-color: rgba(0,0,0,0.75);
+    border: 1px solid rgba(12,73,90,.85);
+    padding: 0;
+    border-radius: 5px;
+    
+    div.filter-search {
+        text-align: left;
+        line-height: 35px;
+        margin-left: 15px;
+        font-family: "Core Sans G",Arial,sans-serif;
+
+        i {
+            margin-right: 10px;
+            text-shadow: 0 0 10px #0af1f5;
+        }
+
+        input[type="search"] {
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            border-bottom: 1px solid rgb(12,73,90);
+            color: white;
+            font-family: "Core Sans G",Arial,sans-serif;
+            font-size: 16px;
+            width: 80px;
+            -webkit-transition: width 0.25s;
+            transition: width 0.25s;
+
+            &:focus {
+                outline: 0;
+                box-shadow: 0 8px 14px -10px #0af1f5;
+                border-bottom: 1px solid #0af1f5;
+                width: 160px;
+            }
+
+            &::-webkit-input-placeholder { 
+                font-style: italic;
+                font-size: 18px;
+            }
+
+            &:-ms-input-placeholder {
+                font-style: italic;
+                font-size: 18px;
+            }
+
+            &::-moz-placeholder {
+                font-style: italic;
+                font-size: 18px;
+            }
+
+            &:-moz-placeholder {
+                font-style: italic;
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 .inner-table {

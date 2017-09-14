@@ -200,9 +200,14 @@ var fetchmovelist = function fetchmovelist(index) {
 					for( let m=0; m<commands[c].length; m++){
 						try{
 							if( isLetter(ctrls_map[commands[c].charAt(m)])){
+								var cmd_string = ctrls_map[commands[c].charAt(m)];
+								if(ctrls_map[commands[c].charAt(m)].indexOf("/") != -1){
+									cmd_string = ctrls_map[commands[c].charAt(m)].split("/").join('');
+								}
+
 								if(	ctrls_map[commands[c].charAt(m)] === ctrls_map[commands[c].charAt(m)].toLowerCase() || ctrls_map[commands[c].charAt(m)] === "N")
-									html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)].toLowerCase()+".svg\">";
-								else html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+ctrls_map[commands[c].charAt(m)].toLowerCase()+"p"+".svg\">";
+									html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+cmd_string.toLowerCase()+".svg\">";
+								else html_string += "<img class=\"move-arrow\" src=\"./assets/arrow/"+cmd_string.toLowerCase()+"p"+".svg\">";
 							}
 							else if(!isNaN(ctrls_map[commands[c].charAt(m)].charAt(0)))
 								html_string += "<img class=\"move-button\" src=\"./assets/button/"+button_layouts[bl_choice]+"/"+ctrls_map[commands[c].charAt(m)]+".svg\">";
@@ -321,6 +326,6 @@ var fetchmovelist = function fetchmovelist(index) {
 		}
 
 		// Scroll the list to the top
-		document.querySelector("#movelist_tab > table ").firstElementChild.scrollIntoView(true);
+		document.querySelector("#movelist_tab > table ").firstElementChild.scrollIntoView(false);
 	});
 };
