@@ -745,7 +745,7 @@ p.track {
   .preferences-dialog .pref-list .pref-selection {
     display: inline-block;
     vertical-align: middle; }
-    .preferences-dialog .pref-list .pref-selection select {
+    .preferences-dialog .pref-list .pref-selection select, .preferences-dialog .pref-list .pref-selection input {
       font-family: "Core Sans G";
       font-size: 20px;
       text-transform: uppercase;
@@ -753,10 +753,10 @@ p.track {
       background-color: transparent;
       border: 2px solid rgba(12, 73, 90, 0.85);
       border-radius: 5px; }
-      .preferences-dialog .pref-list .pref-selection select option {
+      .preferences-dialog .pref-list .pref-selection select option, .preferences-dialog .pref-list .pref-selection input option {
         background-color: black;
         color: #ffffff; }
-    .preferences-dialog .pref-list .pref-selection select:focus {
+    .preferences-dialog .pref-list .pref-selection select:focus, .preferences-dialog .pref-list .pref-selection input:focus {
       outline: none; }
   @media only screen and (max-width: 400px) {
     .preferences-dialog .pref-list tr {

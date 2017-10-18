@@ -11,7 +11,7 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
-    min-height: 400px; 
+    min-height: 400px;
 }
 
 @font-face {
@@ -52,11 +52,11 @@ body {
 #video-background {
 /*  making the video fullscreen  */
     position: fixed;
-    right: 0; 
+    right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
-    width: auto; 
+    width: auto;
     height: auto;
     z-index: -100;
     opacity: 0.2;
@@ -68,9 +68,9 @@ body {
 
 
 .disable-select {
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -85,7 +85,7 @@ body {
     top: 0;
     left: 0;
     justify-content: flex-start;
- 
+
     > img {
         margin: 0;
         max-width: 300px;
@@ -94,7 +94,7 @@ body {
         flex-grow: 1.2;
         flex-basis: 0;
     }
-    
+
     > h3 {
         margin: 0;
         color: #ffffff;
@@ -156,9 +156,9 @@ body {
         font-size: 12px;
         line-height: 20px;
         height: 25px;
-        overflow-y: hidden; 
+        overflow-y: hidden;
     }
-    
+
     p {
         color: #ffffff;
         font-family: "Core Sans G", Arial, sans-serif;
@@ -171,7 +171,7 @@ body {
 
         @media only screen and (max-height: 800px){
             //font-size: 15px;
-            overflow-y: hidden; 
+            overflow-y: hidden;
         }
     }
 }
@@ -185,7 +185,7 @@ body {
     width: 2px;
     height: 100%;
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 5px;
 
     @media only screen and (max-width: 800px){
         display: none;
@@ -439,7 +439,7 @@ table {
 
 .selected {
     border: 2px solid hsla(193, 77%, 40%, 0.75);
-    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);   
+    box-shadow: inset 0 0 14px 4px hsla(193, 77%, 40%, 0.75);
 }
 
 .char-card img {
@@ -542,7 +542,7 @@ table {
     border-bottom-right-radius: 20px;
     font-size: 15px;
     text-indent: -5px;
-    
+
     @media only screen and (max-width: 800px) {
         font-size: 10px;
         width: 25px;
@@ -579,14 +579,14 @@ div.move-string::-webkit-scrollbar {
     margin-left: 50px;
     margin-right: 10px;
     padding-top: 5px;
-    
+
     @media only screen and (max-width: 800px) {
         margin-left: 25px;
         margin-right: 5px;
     }
 }
 
-.move-framestring, .move-dmgstring, .move-hitdmg, 
+.move-framestring, .move-dmgstring, .move-hitdmg,
 .move-hitlvlstring, .move-startf, .move-blockf,
 .move-hitf, .move-dmg {
     display: flex;
@@ -687,7 +687,7 @@ div.move-hitlvlstring::-webkit-scrollbar {
     width: 100px;
     margin-left: 5px;
     margin-right: 5px;
-    
+
     @media only screen and (max-width: 800px) {
         width: 75px;
         margin-left: 1px;
@@ -831,7 +831,7 @@ p.track {
     border-radius: 5px;
     visibility: hidden;
     color: #ffffff;
-    font-family: "Core Sans G"; 
+    font-family: "Core Sans G";
 
     @media only screen and (max-height: 800px) {
         left: 0;
@@ -891,7 +891,7 @@ p.track {
         .pref-selection {
             display: inline-block;
             vertical-align: middle;
-            select {
+            select, input {
                 font-family: "Core Sans G";
                 font-size: 20px;
                 text-transform: uppercase;
@@ -906,14 +906,14 @@ p.track {
                 }
             }
 
-            select:focus {
+            select:focus, input:focus {
                 outline: none;
             }
         }
 
         @media only screen and (max-width: 400px) {
             tr {
-                width: calc(100vw - 30px); 
+                width: calc(100vw - 30px);
                 margin-left: 10px;
             }
 
