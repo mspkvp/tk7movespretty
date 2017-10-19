@@ -11,13 +11,28 @@ module.exports = {
             {
                 test: /\.html$/,
                 exclude: /node_modules/,
-                use: {loader: 'html-loader'}
+                use: {
+                    loader: 'html-loader',
+                }
+            },
+            {
+                test: /\.vue$/,
+                use: {
+                    loader: 'vue-loader',
+                }
+            },
+            {
+                test: /\.(jpg|png|svg)$/,
+                use: {
+                    loader: 'file-loader',
+                }
             }
         ]
     },
     externals: {
       fetch: 'fetch',
       cookies: 'Cookies',
+      vue: 'Vue',
     },
     plugins: [
     //new UglifyJsPlugin({/*minimize: true*/})

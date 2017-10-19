@@ -12,7 +12,7 @@ gulp.task('serve', ['minify-css', 'minify-js'], function() {
     });
 
     gulp.watch("./../src/scss/*.scss", ['minify-css']);
-    gulp.watch("./../src/js/**/*.js", ['minify-js']);
+    gulp.watch(["./../src/js/**/*.js", "./../src/components/*.vue"], ['minify-js']);
     gulp.watch("./../index.html").on('change', browserSync.reload);
 });
 

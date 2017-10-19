@@ -10,8 +10,30 @@ import { loadJson } from './utils.js';
 import State from './state.js';
 import Character from './character.js';
 import Move from './move.js';
+import Vue from 'vue';
+import CharacterList from './../components/character-list.vue';
+import AppHeader from './../components/app-header.vue';
+import MoveList from './../components/move-list.vue';
+import AppFooter from './../components/app-footer.vue';
+import PreferencesDialog from './../components/preferences-dialog.vue';
+import FiltersDialog from './../components/filters-dialog.vue';
 
 (function(exports) {
+
+let app = new Vue({
+    el: '#app',
+    data: {
+        message: 'hello world',
+    },
+    components: {
+        AppHeader,
+        CharacterList,
+        MoveList,
+        AppFooter,
+        PreferencesDialog,
+        FiltersDialog,
+    }
+});
 
 'use strict';
 
