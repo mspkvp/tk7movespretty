@@ -52,7 +52,14 @@ let char_data_pms = new Promise(function(resolve, reject){
 		let char_data_raw = JSON.parse(data), char_data = {};
 		for(let c in char_data_raw){
 			let names = char_data_raw[c].n.split(' ');
-			char_data[char_data_raw[c].c_index] = {id_s: char_data_raw[c].i,id: parseInt(char_data_raw[c].i), first_name: toTitleCase(names[0]), last_name: names.length>1?toTitleCase(names[1]):"", title: char_data_raw[c].c.split(" ")[0].toLowerCase()};
+			char_data[char_data_raw[c].c_index] = {
+				id_s: char_data_raw[c].i,
+				id: parseInt(char_data_raw[c].i),
+				id_name: char_data_raw[c].c_index,
+				first_name: toTitleCase(names[0]),
+				last_name: names.length>1?toTitleCase(names[1]):"",
+				title: char_data_raw[c].c.split(" ")[0].toLowerCase()
+			};
 		}
 		resolve(char_data);
 	});
@@ -126,6 +133,7 @@ Promise.all([char_data_pms]).then(function(values){
 			let char_key = files[f].split("_")[0];
 			let char = {
 				id: char_data[char_key].id,
+				id_name: char_data[char_key].id_name,
 				name: char_data[char_key].first_name + ' ' + char_data[char_key].last_name,
 				first_name: char_data[char_key].first_name,
 				last_name: char_data[char_key].last_name,
