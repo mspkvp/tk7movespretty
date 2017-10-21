@@ -25,11 +25,13 @@
     			</td>
     		</tr>
     	</table>
-    	<div class="pref-close disable-select" v-on:click="toggle()"><i class="fa fa-times" aria-hidden="true"></i></div>
+    	<div class="pref-close disable-select" v-on:click="hide()"><i class="fa fa-times" aria-hidden="true"></i></div>
     </div>
 </template>
 
 <script>
+import { mutations, actions } from './../js/store.js';
+
 export default {
     data() {
         return {
@@ -39,15 +41,23 @@ export default {
     },
 
     methods: {
-        toggle() {
-            this.$store.commit('togglePreferencesDialog');
+        hide() {
+            this.$store.commit(mutations.TOGGLE_PREFERENCES_DIALOG);
         },
 
         updatePreferences() {
-            this.$store.commit('updatePreferences', {
+            let previousLanguage = this.$store.state.preferences.language;
+
+            this.$store.commit(mutations.UPDATE_PREFERENCES, {
                 buttonLayout: this.buttonLayout,
                 language: this.language,
             });
+
+            if (previousLanguage != this.language) {
+                this.$store.dispatch(actions.FETCH_MOVE_LIST, {
+                    characterId : this.$store.state.selectedCharacter,
+                });
+            }
         }
     },
 
@@ -64,5 +74,5 @@ export default {
             return this.$store.state.preferences.languages;
         }
     }
-}
+};
 </script>

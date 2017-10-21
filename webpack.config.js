@@ -30,12 +30,13 @@ module.exports = {
         ]
     },
     externals: {
-      fetch: 'fetch',
-      cookies: 'Cookies',
-      vue: 'Vue',
-      vuex: 'Vuex',
+      'fetch': 'fetch',
+      'cookies': 'Cookies',
+      'vue': 'Vue',
+      'vuex': 'Vuex',
+      'vue-router': 'VueRouter',
     },
     plugins: [
-    //new UglifyJsPlugin({/*minimize: true*/})
+        new UglifyJsPlugin()
     ]
 };

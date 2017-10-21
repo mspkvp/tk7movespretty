@@ -5,13 +5,13 @@
             <div class="move-title">
                 <div class="move-name">{{ move.getName() }}</div>
                 <div class="move-hitamount">
-                	{{ move.getTotalHits() }} {{ move.getHits().length ? " Hits" : " Hit" }}
+                	{{ move.getTotalHits() }} {{ move.getHits().length == 1 ? " Hit" : " Hits" }}
             	</div>
             </div>
             <div class="move-string">
-            	<span v-for="command in move.getCommands()">
-            		<p v-if="command.hasLetter()" class="move-hint">{{ command.getSymbol() || '' }}</p>
-            		<span v-else v-for="input in command.getInputs()">
+            	<template v-for="command in move.getCommands()">
+            		<span v-if="command.hasLetter()" class="move-hint">{{ command.getSymbol() || '' }}</span>
+            		<template v-else v-for="input in command.getInputs()">
             			<img v-if="input.isMovement() && input.isHeld() && !input.isNeutral()" class="move-arrow" :src="getHeldDirectionalImage(input)">
 
             			<img v-else-if="input.isMovement() || input.isNeutral()" class="move-arrow" :src="getDirectionalImage(input)">
@@ -23,22 +23,22 @@
 			            </p>
 
 			            <p v-else class="move-hint">{{ input.getSymbol() }}</p>
-            		</span>
-            	</span>
+            		</template>
+            	</template>
             </div>
             <div class="move-hit-dmg">
                 <div class="move-hitlvlstring">
-                	<span v-for="(hit, index) in getHitsWithChevrons(move.getHits())">
+                	<template v-for="(hit, index) in getHitsWithChevrons(move.getHits())">
                 		<move-hit-level v-if="!hit.isChevron" :key="index" :hit="hit" :index="index"></move-hit-level>
         				<i v-else class="fa fa-chevron-right" aria-hidden="true"></i>
-            		</span>
+            		</template>
 
-                	<span v-if="move.hasThrow()">
+                	<template v-if="move.hasThrow()">
 	                	<i class="fa fa-caret-right" aria-hidden="true"></i>
 					    <p class="mv-hitlvl">
 					        {{ move.getThrowBreakFrames() }}F BREAK {{ move.getThrowBreak() }}
 					    </p>
-				    </span>
+				    </template>
                 </div>
                 <move-damage :move="move"></move-damage>
             </div>
@@ -95,5 +95,5 @@ export default {
     	MoveDamage,
     	MoveExtra,
     }
-}
+};
 </script>

@@ -4,187 +4,41 @@
  * =	mspkvp@github.com      =
  * =	©2017 tk7movespretty   =
  * ============================= */
-import * as View from './view.js';
-import * as filters from './filters.js';
-import * as Utils from './utils.js';
-import State from './state.js';
-import Character from './character.js';
-import Move from './move.js';
 import Vue from 'vue';
 import Vuex from 'vuex';
+import VueRouter from 'vue-router';
 import CharacterList from './../components/character-list.vue';
 import AppHeader from './../components/app-header.vue';
 import MoveList from './../components/move-list.vue';
 import AppFooter from './../components/app-footer.vue';
 import PreferencesDialog from './../components/preferences-dialog.vue';
 import FiltersDialog from './../components/filters-dialog.vue';
+import { store, actions } from './store.js';
+import router from './router.js';
 
 (function(exports) {
 
-let store = new Vuex.Store({
-    state: {
-        selectedCharacter: 32,
-        characterList: [],
-        language: 1,
-        hitsMap: {},
-        controlsMap: {},
-        moveList: [],
-        preferences: {
-            languages: {
-                1:  'English',
-    			6:  'Deutsch',
-    			4:  'Français',
-    			5:  'Italiano',
-    			11: '한국어',
-				7:  'Español',
-				10: '繁體中文',
-				8:  'русский',
-				0:  '日本語',
-				9:  'العر',
-				3:  'Português-Brasil',
-            },
-
-            langauge: 1,
-
-            buttonLayouts: [
-                {
-                    value: "STEAM",
-                    text: "Arcade/Steam"
-                },
-                {
-                    value: "PS4",
-                    text: "Playstation"
-                },
-                {
-                    value: "XBOX",
-                    text: "Xbox"
-                },
-            ],
-
-            buttonLayout: "PS4",
-
-            showDialog: false,
-        },
-        filters: {
-            moveName: '',
-
-            moveString: '',
-
-            specialProperties: {
-                spin: false,
-                armor: false,
-                track: false,
-            },
-
-            frameProperties: {
-                start: {
-                    value: false,
-                    comparison: null,
-                },
-                block: {
-                    value: false,
-                    comparison: null,
-                },
-                hit: {
-                    value: false,
-                    comparison: null,
-                },
-            },
-
-            spin: false,
-
-            showDialog: false,
-        }
-    },
-    mutations: {
-        togglePreferencesDialog(state) {
-            state.preferences.showDialog = !state.preferences.showDialog;
-        },
-
-        updatePreferences(state, preferences) {
-            state.preferences.buttonLayout = preferences.buttonLayout;
-            state.preferences.language = preferences.langauge;
-        },
-
-        toggleFiltersDialog(state) {
-            state.filters.showDialog = !state.filters.showDialog;
-        },
-
-        updateFilters(state, filters) {
-            state.filters.moveString = filters.moveString;
-            state.filters.moveName = filters.moveName;
-            state.filters.frameProperties = filters.frameProperties;
-            state.filters.specialProperties = filters.specialProperties;
-        },
-
-        loadHitsMap(state, { hitsMap }) {
-            state.hitsMap = hitsMap;
-        },
-
-        loadControlsMap(state, { controlsMap }) {
-            state.controlsMap = controlsMap;
-        },
-
-        loadMoveList(state, { moveList }) {
-            state.moveList = moveList;
-        },
-
-        loadCharacterList(state, { characterList }) {
-            state.characterList = characterList;
-        },
-
-        selectCharacter(state, { characterId }) {
-            state.selectedCharacter = characterId;
-        }
-    },
-
-    actions: {
-        initialize({ dispatch, state }) {
-            dispatch('fetchCharacterList');
-
-            return dispatch('fetchHitsMap')
-                .then(() => dispatch('fetchControlsMap'))
-                .then(() => dispatch('selectCharacter', { characterId: state.selectedCharacter }));
-        },
-
-        fetchHitsMap({ commit, state }) {
-            return Utils.loadHitsMap()
-                .then((hitsMap) => commit('loadHitsMap', { hitsMap }));
-        },
-
-        fetchControlsMap({ commit, state }) {
-            return Utils.loadControlsMap()
-                .then((controlsMap) => commit('loadControlsMap', { controlsMap }));
-        },
-
-        fetchMoveList({ commit, state }, { characterId }) {
-            return Utils.loadMoveList(characterId, state.language, state.controlsMap, state.hitsMap)
-                .then((moves) => commit('loadMoveList', { moveList: moves }));
-        },
-
-        fetchCharacterList({ commit }) {
-            return Utils.loadCharacterList()
-                .then((characters) => commit('loadCharacterList', { characterList: characters }));
-        },
-
-        selectCharacter({ commit, dispatch }, { characterId }) {
-            commit('selectCharacter', { characterId });
-            dispatch('fetchMoveList', { characterId });
-        }
-    }
-});
-
-let app = new Vue({
+new Vue({
     el: '#app',
-    data: {
-    },
-    store,
-    methods: {
 
-    },
+    store: new Vuex.Store(store),
+
+    router: new VueRouter(router),
+
     created() {
-        this.$store.dispatch('initialize');
+        let store = this.$store;
+        let route = this.$route;
+
+        store.dispatch(actions.INITIALIZE_APP)
+            .then(() => {
+                if (route.name == 'character') {
+                    store.dispatch(actions.SELECT_CHARACTER_BY_SLUG, {
+                        slug: route.params.characterSlug
+                    });
+                }
+            });
     },
+
     components: {
         AppHeader,
         CharacterList,
@@ -194,250 +48,5 @@ let app = new Vue({
         FiltersDialog,
     }
 });
-
-'use strict';
-
-let state = new State();
-
-function setLang(selectedLanguage) {
-    state.set('lang', parseInt(selectedLanguage));
-    state.save();
-    fetchMoveList(state.get('selectedCharacter'));
-}
-
-function changePlatform(platform) {
-    state.set('buttonLayout', platform);
-    state.save();
-    fetchMoveList(state.get('selectedCharacter'));
-}
-
-function togglePreferences() {
-    toggleDialog('#preferences', 'showPrefDialog');
-}
-
-function toggleFilter() {
-    toggleDialog('#filter', 'showFilterDialog');
-}
-
-function toggleDialog(selector, stateProperty) {
-    let value = state.get(stateProperty);
-
-    if (value) {
-        showDialog(selector);
-    } else {
-        hideDialog(selector);
-    }
-
-    state.set(stateProperty, !value);
-}
-
-function showDialog(selector) {
-    document.querySelector(selector).style.visibility = 'hidden';
-}
-
-function hideDialog(selector) {
-    document.querySelector(selector).style.visibility = 'visible';
-}
-
-function toggleCharMenu() {
-    let showCharMenuDialog = state.get('showCharMenuDialog');
-
-    if (showCharMenuDialog) {
-        document.querySelector('#charmenu').style.display = 'none';
-    } else {
-        document.querySelector('#charmenu').style.display = 'initial';
-    }
-
-    state.set('showCharMenuDialog', !showCharMenuDialog);
-}
-
-function importData() {
-    state.load();
-
-    loadHitsMap()
-    .then(() => loadControlsMap())
-    .then(() => loadCharacterList())
-    .then(() => fetchMoveList(state.get('selectedCharacter')));
-}
-
-function loadHitsMap() {
-    return Utils.loadJson("./assets/data/map_hits.json")
-    .then((data) => {
-        let hitsMap = {};
-
-        for (var h in data) {
-            hitsMap[data[h].i] = data[h].h;
-        }
-
-        state.set('hitsMap', hitsMap);
-
-        return hitsMap;
-    });
-}
-
-function loadControlsMap() {
-    return Utils.loadJson("./assets/data/map_ctrls.json")
-    .then((ctrlsMap) => {
-        state.set('ctrlsMap', ctrlsMap);
-        return ctrlsMap;
-    });
-}
-
-function loadCharacterList() {
-    return Utils.loadJson("./assets/data/map_chars.json")
-    .then((data) => {
-        let characterData = [];
-
-        for (let h in data) {
-            let character = data[h];
-            characterData[character.i] = new Character(character);
-        }
-
-        state.set('characterData', characterData);
-
-        return characterData;
-    });
-}
-
-function sortCharacterList(characterList) {
-    let sortedList = [];
-
-    // This accomodates for characters with leading zeros for IDs
-    for (let h in characterList) {
-        sortedList[parseInt(h)] = characterList[h];
-    }
-
-    return sortedList.sort((characterA, characterB) => {
-        return characterA.getIndex().localeCompare(characterB.getIndex());
-    });
-}
-
-function loadMoveList(characterIndex) {
-    return Utils.loadJson("./assets/data/movelists/MOVELIST_" + characterIndex + ".json")
-        .then(parseMoveList);
-}
-
-function parseMoveList(data) {
-    let hitsMap  = state.get('hitsMap');
-    let lang     = state.get('lang');
-    let ctrlsMap = state.get('ctrlsMap');
-
-    return data.moves.map((move) => {
-        return new Move(move, lang, ctrlsMap, hitsMap);
-    });
-}
-
-function fetchMoveList(characterIndex) {
-    return loadMoveList(characterIndex)
-    .then((moves) => {
-        state.set('selectedCharacter', characterIndex);
-        state.set('currentMoveList', moves);
-        state.save();
-
-        let characterList      = state.get('characterData');
-        let character          = characterList[characterIndex];
-        let characterTitleHtml = character.getFullName();
-        let characterListHtml  = View.renderCharacterList(sortCharacterList(characterList), characterIndex);
-        let moveListHtml       = View.renderMoveList(moves, state.get('buttonLayout'));
-
-        setCharacterTitleHtml(characterTitleHtml);
-        setCharacterListHtml(characterListHtml);
-        setMoveListTableHtml(moveListHtml);
-        scrollMoveListToTop();
-    }).catch((error) => {
-        console.log(
-            `Failed to render movelist for character ${characterIndex}`,
-            error
-        );
-    });
-}
-
-function filterMoveList() {
-    let filteredMoveList = filters.filterMoveList(state.get('currentMoveList'), getFilters());
-    let moveListHtml     = View.renderMoveList(filteredMoveList, state.get('buttonLayout'));
-
-    setMoveListTableHtml(moveListHtml);
-    scrollMoveListToTop();
-}
-
-function getFilters() {
-    let moveName = document.querySelector('#move-name-filter').value;
-    let moveString = document.querySelector('#move-string-filter').value;
-    let specialProperties = {
-        spin: document.querySelector('#move-property-spin-filter').checked,
-        track: document.querySelector('#move-property-track-filter').checked,
-        armor: document.querySelector('#move-property-armor-filter').checked,
-    };
-
-    let frameProperties = {
-        start: {
-            value: document.querySelector('#frame-property-start-filter').value,
-            comparison: document.querySelector('#frame-property-start-comparison-filter').value,
-        },
-        block: {
-            value: document.querySelector('#frame-property-block-filter').value,
-            comparison: document.querySelector('#frame-property-block-comparison-filter').value,
-        },
-        hit: {
-            value: document.querySelector('#frame-property-hit-filter').value,
-            comparison: document.querySelector('#frame-property-hit-comparison-filter').value,
-        }
-    };
-
-    frameProperties.start.value = parseInt(frameProperties.start.value);
-    frameProperties.block.value = parseInt(frameProperties.block.value);
-    frameProperties.hit.value   = parseInt(frameProperties.hit.value);
-
-    return {
-        moveName: moveName,
-        moveString: moveString,
-        specialProperties: specialProperties,
-        frameProperties: frameProperties,
-    };
-}
-
-function setMoveListTableHtml(moveListHtml) {
-    document.querySelector('.move-table').innerHTML = moveListHtml;
-}
-
-function setCharacterTitleHtml(characterTitleHtml) {
-    document.querySelector('#selected-title').innerHTML = characterTitleHtml;
-}
-
-function setCharacterListHtml(characterListHtml) {
-    document.querySelector('.char-menu > .inner-table > table').innerHTML = characterListHtml;
-}
-
-function scrollMoveListToTop() {
-    let table = document.querySelector('#movelist_tab > table');
-    let firstElementChild = table.firstElementChild;
-
-    if (firstElementChild) {
-        firstElementChild.scrollIntoView(true);
-    }
-}
-
-function showHitDamage(moveId) {
-    let hitDamage = document.querySelector(`#dmgmove${moveId} + div.move-hitdmg`);
-
-    hitDamage.style.display = 'initial';
-}
-
-function hideHitDamage(moveId) {
-    let hitDamage = document.querySelector(`#dmgmove${moveId} + div.move-hitdmg`);
-
-    setTimeout(() => hitDamage.style.display = 'none', 3000);
-}
-
-exports.importData        = importData;
-exports.toggleCharMenu    = toggleCharMenu;
-exports.togglePreferences = togglePreferences;
-exports.toggleFilter	  = toggleFilter;
-exports.filterMoveList    = filterMoveList;
-exports.setLang           = setLang;
-exports.changePlatform    = changePlatform;
-exports.fetchMoveList     = fetchMoveList;
-exports.showHitDamage     = showHitDamage;
-exports.hideHitDamage     = hideHitDamage;
 
 })(window);
