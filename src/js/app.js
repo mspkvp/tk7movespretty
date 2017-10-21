@@ -6,11 +6,12 @@
  * ============================= */
 import * as View from './view.js';
 import * as filters from './filters.js';
-import { loadJson } from './utils.js';
+import * as Utils from './utils.js';
 import State from './state.js';
 import Character from './character.js';
 import Move from './move.js';
 import Vue from 'vue';
+import Vuex from 'vuex';
 import CharacterList from './../components/character-list.vue';
 import AppHeader from './../components/app-header.vue';
 import MoveList from './../components/move-list.vue';
@@ -20,10 +21,169 @@ import FiltersDialog from './../components/filters-dialog.vue';
 
 (function(exports) {
 
+let store = new Vuex.Store({
+    state: {
+        selectedCharacter: 32,
+        characterList: [],
+        language: 1,
+        hitsMap: {},
+        controlsMap: {},
+        moveList: [],
+        preferences: {
+            languages: {
+                1:  'English',
+    			6:  'Deutsch',
+    			4:  'Français',
+    			5:  'Italiano',
+    			11: '한국어',
+				7:  'Español',
+				10: '繁體中文',
+				8:  'русский',
+				0:  '日本語',
+				9:  'العر',
+				3:  'Português-Brasil',
+            },
+
+            langauge: 1,
+
+            buttonLayouts: [
+                {
+                    value: "STEAM",
+                    text: "Arcade/Steam"
+                },
+                {
+                    value: "PS4",
+                    text: "Playstation"
+                },
+                {
+                    value: "XBOX",
+                    text: "Xbox"
+                },
+            ],
+
+            buttonLayout: "PS4",
+
+            showDialog: false,
+        },
+        filters: {
+            moveName: '',
+
+            moveString: '',
+
+            specialProperties: {
+                spin: false,
+                armor: false,
+                track: false,
+            },
+
+            frameProperties: {
+                start: {
+                    value: false,
+                    comparison: null,
+                },
+                block: {
+                    value: false,
+                    comparison: null,
+                },
+                hit: {
+                    value: false,
+                    comparison: null,
+                },
+            },
+
+            spin: false,
+
+            showDialog: false,
+        }
+    },
+    mutations: {
+        togglePreferencesDialog(state) {
+            state.preferences.showDialog = !state.preferences.showDialog;
+        },
+
+        updatePreferences(state, preferences) {
+            state.preferences.buttonLayout = preferences.buttonLayout;
+            state.preferences.language = preferences.langauge;
+        },
+
+        toggleFiltersDialog(state) {
+            state.filters.showDialog = !state.filters.showDialog;
+        },
+
+        updateFilters(state, filters) {
+            state.filters.moveString = filters.moveString;
+            state.filters.moveName = filters.moveName;
+            state.filters.frameProperties = filters.frameProperties;
+            state.filters.specialProperties = filters.specialProperties;
+        },
+
+        loadHitsMap(state, { hitsMap }) {
+            state.hitsMap = hitsMap;
+        },
+
+        loadControlsMap(state, { controlsMap }) {
+            state.controlsMap = controlsMap;
+        },
+
+        loadMoveList(state, { moveList }) {
+            state.moveList = moveList;
+        },
+
+        loadCharacterList(state, { characterList }) {
+            state.characterList = characterList;
+        },
+
+        selectCharacter(state, { characterId }) {
+            state.selectedCharacter = characterId;
+        }
+    },
+
+    actions: {
+        initialize({ dispatch, state }) {
+            dispatch('fetchCharacterList');
+
+            return dispatch('fetchHitsMap')
+                .then(() => dispatch('fetchControlsMap'))
+                .then(() => dispatch('selectCharacter', { characterId: state.selectedCharacter }));
+        },
+
+        fetchHitsMap({ commit, state }) {
+            return Utils.loadHitsMap()
+                .then((hitsMap) => commit('loadHitsMap', { hitsMap }));
+        },
+
+        fetchControlsMap({ commit, state }) {
+            return Utils.loadControlsMap()
+                .then((controlsMap) => commit('loadControlsMap', { controlsMap }));
+        },
+
+        fetchMoveList({ commit, state }, { characterId }) {
+            return Utils.loadMoveList(characterId, state.language, state.controlsMap, state.hitsMap)
+                .then((moves) => commit('loadMoveList', { moveList: moves }));
+        },
+
+        fetchCharacterList({ commit }) {
+            return Utils.loadCharacterList()
+                .then((characters) => commit('loadCharacterList', { characterList: characters }));
+        },
+
+        selectCharacter({ commit, dispatch }, { characterId }) {
+            commit('selectCharacter', { characterId });
+            dispatch('fetchMoveList', { characterId });
+        }
+    }
+});
+
 let app = new Vue({
     el: '#app',
     data: {
-        message: 'hello world',
+    },
+    store,
+    methods: {
+
+    },
+    created() {
+        this.$store.dispatch('initialize');
     },
     components: {
         AppHeader,
@@ -101,7 +261,7 @@ function importData() {
 }
 
 function loadHitsMap() {
-    return loadJson("./assets/data/map_hits.json")
+    return Utils.loadJson("./assets/data/map_hits.json")
     .then((data) => {
         let hitsMap = {};
 
@@ -116,7 +276,7 @@ function loadHitsMap() {
 }
 
 function loadControlsMap() {
-    return loadJson("./assets/data/map_ctrls.json")
+    return Utils.loadJson("./assets/data/map_ctrls.json")
     .then((ctrlsMap) => {
         state.set('ctrlsMap', ctrlsMap);
         return ctrlsMap;
@@ -124,7 +284,7 @@ function loadControlsMap() {
 }
 
 function loadCharacterList() {
-    return loadJson("./assets/data/map_chars.json")
+    return Utils.loadJson("./assets/data/map_chars.json")
     .then((data) => {
         let characterData = [];
 
@@ -153,7 +313,7 @@ function sortCharacterList(characterList) {
 }
 
 function loadMoveList(characterIndex) {
-    return loadJson("./assets/data/movelists/MOVELIST_" + characterIndex + ".json")
+    return Utils.loadJson("./assets/data/movelists/MOVELIST_" + characterIndex + ".json")
         .then(parseMoveList);
 }
 

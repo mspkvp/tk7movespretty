@@ -14,14 +14,14 @@
 	<link rel="stylesheet" href="./dist/css/fa/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="./assets/img/favicon.ico" />
 </head>
-<body onload="importData()">
+<body>
 	<div id="app">
 		<app-header></app-header>
-			<div class="main-container">
-				<character-list></character-list>
-				<div class="separator"></div>
-				<move-list></move-list>
-			</div>
+		<div class="main-container">
+			<character-list></character-list>
+			<div class="separator"></div>
+			<move-list></move-list>
+		</div>
 		<app-footer></app-footer>
 		<preferences-dialog></preferences-dialog>
 		<filters-dialog></filters-dialog>
@@ -29,7 +29,8 @@
 	  		<source src="./assets/video/background-smoke.mp4" type="video/mp4">
 		</video>
 	</div>
-	<script src="./bower_components/vue/dist/vue.min.js"></script>
+	<script src="./bower_components/vue/dist/vue.js"></script>
+	<script src="./bower_components/vuex/dist/vuex.js"></script>
 	<script src="./dist/js/lib/js.cookie.min.js"></script>
 	<script src="./dist/js/app.min.js"></script>
 </body>

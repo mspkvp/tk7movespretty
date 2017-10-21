@@ -4,9 +4,8 @@
  * @return {Move[]}
  */
 export function filterMoveList(moves, filters) {
-    return moves.filter(function(move) {
-        let moveString = move.getString();
-        console.log(moveString);
+    return moves.filter((move) => {
+        let moveString  = move.getString();
         let includeMove = true;
 
         if (filters.moveName) {
@@ -29,7 +28,7 @@ export function filterMoveList(moves, filters) {
             includeMove = includeMove && move.hasTracking();
         }
 
-        if (!isNaN(filters.frameProperties.start.value)) {
+        if (filters.frameProperties.start.value.trim().length) {
             includeMove = includeMove && compare(
                 move.getStartUpFrames(),
                 filters.frameProperties.start.value,
@@ -37,7 +36,7 @@ export function filterMoveList(moves, filters) {
             );
         }
 
-        if (!isNaN(filters.frameProperties.block.value)) {
+        if (filters.frameProperties.block.value.trim().length) {
             includeMove = includeMove && compare(
                 move.getBlockFrames(),
                 filters.frameProperties.block.value,
@@ -45,7 +44,7 @@ export function filterMoveList(moves, filters) {
             );
         }
 
-        if (!isNaN(filters.frameProperties.hit.value)) {
+        if (filters.frameProperties.hit.value.trim().length) {
             includeMove = includeMove && compare(
                 move.getAdvantageFrames(),
                 filters.frameProperties.hit.value,

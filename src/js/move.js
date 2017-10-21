@@ -19,6 +19,10 @@ export default class Move {
         return this._moveData.number;
     }
 
+    isSpecial() {
+        return this.getNumber() === 0;
+    }
+
     getTotalHits() {
         return this._moveData.ds.length;
     }

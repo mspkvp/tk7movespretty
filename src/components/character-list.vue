@@ -10,6 +10,12 @@
 	    </table>
 	    <div class="inner-table">
 		    <table>
+		        <tr v-for="(character, index) in characters">
+		            <td class="char-card" :class="{ selected: selected == character.getId() }" :id="character.getSlug()" v-on:click="selectCharacter(character.getId())">
+                        <img :src="getThumbnail(character)">
+                        <p>{{ character.getName() }}</p>
+                    </td>
+                </tr>
 			</table>
 	    </div>
 	</div>
@@ -17,12 +23,28 @@
 
 <script>
 export default {
-    data: {
-    },
     methods: {
         toggleCharMenu() {
             console.log("toggle");
+        },
+
+        getThumbnail(character) {
+            return `/assets/chars/${character.getThumbnailName()}_thumbnail.png`;
+        },
+
+        selectCharacter(characterId) {
+            this.$store.dispatch('selectCharacter', {characterId: characterId });
+        },
+    },
+
+    computed: {
+        characters() {
+            return this.$store.state.characterList;
+        },
+
+        selected() {
+            return this.$store.state.selectedCharacter;
         }
     }
-}
+};
 </script>

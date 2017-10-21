@@ -33,6 +33,7 @@ module.exports = {
       fetch: 'fetch',
       cookies: 'Cookies',
       vue: 'Vue',
+      vuex: 'Vuex',
     },
     plugins: [
     //new UglifyJsPlugin({/*minimize: true*/})
