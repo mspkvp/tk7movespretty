@@ -15,14 +15,21 @@ import FiltersDialog from './../components/filters-dialog.vue';
 import { store, actions } from './store.js';
 import router from './router.js';
 
-(function(exports) {
-
-new Vue({
+(() => new Vue({
     el: '#app',
 
     store: new Vuex.Store(store),
 
     router: new VueRouter(router),
+
+    watch: {
+        '$route' (to, from) {
+            // Ensure character is loaded when coming from index page
+            if (from.name != 'character' && to.name == 'character') {
+                this.selectCharacterFromRoute(to);
+            }
+        },
+    },
 
     created() {
         let store = this.$store;
@@ -31,11 +38,17 @@ new Vue({
         store.dispatch(actions.INITIALIZE_APP)
             .then(() => {
                 if (route.name == 'character') {
-                    store.dispatch(actions.SELECT_CHARACTER_BY_SLUG, {
-                        slug: route.params.characterSlug
-                    });
+                    this.selectCharacterFromRoute(route);
                 }
             });
+    },
+
+    methods: {
+        selectCharacterFromRoute(route) {
+            this.$store.dispatch(actions.SELECT_CHARACTER_BY_SLUG, {
+                slug: route.params.characterSlug
+            });
+        }
     },
 
     components: {
@@ -45,6 +58,4 @@ new Vue({
         PreferencesDialog,
         FiltersDialog,
     }
-});
-
-})(window);
+}))();
