@@ -1,0 +1,30 @@
+{
+  "name": "vuex",
+  "main": "dist/vuex.js",
+  "description": "state management for Vue.js",
+  "authors": "Evan You",
+  "license": "MIT",
+  "ignore": [
+    "examples",
+    "test",
+    "docs",
+    ".gitignore",
+    ".eslintrc",
+    ".babelrc",
+    "*.json",
+    "*.md",
+    "*.yml"
+  ],
+  "homepage": "https://github.com/vuejs/vuex",
+  "version": "3.0.0",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "5a0f6ed48b139eb91cae739dd93ace01603a1032"
+  },
+  "_source": "https://github.com/vuejs/vuex.git",
+  "_target": "^3.0.0",
+  "_originalSource": "vuex",
+  "_direct": true
+}
