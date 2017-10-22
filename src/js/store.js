@@ -32,13 +32,19 @@ export const mutations = {
 export const store = {
     state: {
         selectedCharacter: 32,
+
         characterList: [],
-        language: 1,
+
         hitsMap: {},
+
         controlsMap: {},
+
         moveList: [],
+
         showCharacterList: true,
+
         loadingMoveList: false,
+
         preferences: {
             languages: {
                 1:  'English',
@@ -75,6 +81,7 @@ export const store = {
 
             showDialog: false,
         },
+
         filters: {
             moveName: '',
 
@@ -101,8 +108,6 @@ export const store = {
                 },
             },
 
-            spin: false,
-
             showDialog: false,
         }
     },
@@ -115,41 +120,41 @@ export const store = {
             state.showCharacterList = !state.showCharacterList;
         },
 
-        updatePreferences(state, { buttonLayout, language }) {
+        [mutations.UPDATE_PREFERENCES] (state, { buttonLayout, language }) {
             Cookies.set('buttonLayout', buttonLayout);
             Cookies.set('language', language);
             state.preferences.buttonLayout = buttonLayout;
             state.preferences.language = language;
         },
 
-        toggleFiltersDialog(state) {
+        [mutations.TOGGLE_FILTERS_DIALOG] (state) {
             state.filters.showDialog = !state.filters.showDialog;
         },
 
-        updateFilters(state, filters) {
+        [mutations.UPDATE_FILTERS] (state, filters) {
             state.filters.moveString = filters.moveString;
             state.filters.moveName = filters.moveName;
             state.filters.frameProperties = filters.frameProperties;
             state.filters.specialProperties = filters.specialProperties;
         },
 
-        loadHitsMap(state, { hitsMap }) {
+        [mutations.SET_HITS_MAP] (state, { hitsMap }) {
             state.hitsMap = hitsMap;
         },
 
-        loadControlsMap(state, { controlsMap }) {
+        [mutations.SET_CONTROLS_MAP] (state, { controlsMap }) {
             state.controlsMap = controlsMap;
         },
 
-        loadMoveList(state, { moveList }) {
+        [mutations.SET_MOVELIST] (state, { moveList }) {
             state.moveList = moveList;
         },
 
-        loadCharacterList(state, { characterList }) {
+        [mutations.SET_CHARACTER_LIST] (state, { characterList }) {
             state.characterList = characterList;
         },
 
-        selectCharacter(state, { characterId }) {
+        [mutations.SELECT_CHARACTER] (state, { characterId }) {
             state.selectedCharacter = characterId;
         },
 
@@ -159,7 +164,7 @@ export const store = {
     },
 
     actions: {
-        initialize({ dispatch, commit }) {
+        [actions.INITIALIZE_APP] ({ dispatch, commit }) {
             let language = Cookies.get('language');
             let buttonLayout = Cookies.get('buttonLayout');
 
@@ -175,35 +180,35 @@ export const store = {
                 .then(() => dispatch('fetchControlsMap'));
         },
 
-        fetchHitsMap({ commit, state }) {
+        [actions.FETCH_HITS_MAP] ({ commit, state }) {
             return Utils.loadHitsMap()
                 .then((hitsMap) => commit('loadHitsMap', { hitsMap }));
         },
 
-        fetchControlsMap({ commit, state }) {
+        [actions.FETCH_CONTROLS_MAP] ({ commit, state }) {
             return Utils.loadControlsMap()
                 .then((controlsMap) => commit('loadControlsMap', { controlsMap }));
         },
 
-        fetchMoveList({ commit, state }, { characterId }) {
+        [actions.FETCH_MOVE_LIST] ({ commit, state }, { characterId }) {
             commit(mutations.SET_LOADING_MOVE_LIST, { loading: true });
 
-            return Utils.loadMoveList(characterId, state.language, state.controlsMap, state.hitsMap)
+            return Utils.loadMoveList(characterId, state.preferences.language, state.controlsMap, state.hitsMap)
                 .then((moves) => commit(mutations.SET_MOVELIST, { moveList: moves }))
                 .then(() => commit(mutations.SET_LOADING_MOVE_LIST, { loading: false }));
         },
 
-        fetchCharacterList({ commit }) {
+        [actions.FETCH_CHARACTER_LIST] ({ commit }) {
             return Utils.loadCharacterList()
                 .then((characters) => commit('loadCharacterList', { characterList: characters }));
         },
 
-        selectCharacter({ commit, dispatch }, { characterId }) {
+        [actions.SELECT_CHARACTER] ({ commit, dispatch }, { characterId }) {
             commit('selectCharacter', { characterId });
             dispatch('fetchMoveList', { characterId });
         },
 
-        selectCharacterBySlug({ commit, dispatch, state }, { slug }) {
+        [actions.SELECT_CHARACTER_BY_SLUG] ({ commit, dispatch, state }, { slug }) {
             let character = state.characterList.find((character) => {
                 return character.getSlug().toLowerCase() == slug;
             });

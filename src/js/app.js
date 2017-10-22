@@ -7,9 +7,8 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import VueRouter from 'vue-router';
-import CharacterList from './../components/character-list.vue';
 import AppHeader from './../components/app-header.vue';
-import MoveList from './../components/move-list.vue';
+import AppBody from './../components/app-body.vue';
 import AppFooter from './../components/app-footer.vue';
 import PreferencesDialog from './../components/preferences-dialog.vue';
 import FiltersDialog from './../components/filters-dialog.vue';
@@ -41,8 +40,7 @@ new Vue({
 
     components: {
         AppHeader,
-        CharacterList,
-        MoveList,
+        AppBody,
         AppFooter,
         PreferencesDialog,
         FiltersDialog,
