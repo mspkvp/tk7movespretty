@@ -17,7 +17,7 @@
                 "3+4"
             ],
             "command_string": "During Rage b, 3+4",
-            "n_hits": 0,
+            "n_hits": 12,
             "hit_levels": [
                 "Mid"
             ],
@@ -43,7 +43,7 @@
                 "1"
             ],
             "command_string": "d, d/f, f, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -69,7 +69,7 @@
                 "2"
             ],
             "command_string": "d, d/f, f, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -95,7 +95,7 @@
                 "1"
             ],
             "command_string": "f, d, d/f, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -121,7 +121,7 @@
                 "2"
             ],
             "command_string": "f, d, d/f, 2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Proj",
                 "Proj",
@@ -149,7 +149,7 @@
                 "1"
             ],
             "command_string": "d, d/b, b, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -177,7 +177,7 @@
                 "2"
             ],
             "command_string": "d, d/b, b, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -203,7 +203,7 @@
                 "3"
             ],
             "command_string": "d, d/b, b, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -229,7 +229,7 @@
                 "4"
             ],
             "command_string": "d, d/b, b, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -262,7 +262,7 @@
                 ")"
             ],
             "command_string": "f, F, 4, 2, d, d/f, f, 1, (or 2, )",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -292,7 +292,7 @@
                 "3"
             ],
             "command_string": "During Jump d, d/b, b, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -320,7 +320,7 @@
                 "4"
             ],
             "command_string": "During Jump d, d/b, b, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -353,7 +353,7 @@
                 "3+4"
             ],
             "command_string": "d, d/f, f, 1, (or 2, ) f, d, d/f, 3+4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -379,7 +379,7 @@
                 "1+2"
             ],
             "command_string": "d, d/f, f, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Proj"
             ],
@@ -405,7 +405,7 @@
                 "1+2"
             ],
             "command_string": "f, d, d/f, 1+2",
-            "n_hits": 0,
+            "n_hits": 5,
             "hit_levels": [
                 "Proj",
                 "Proj",
@@ -435,7 +435,7 @@
                 "1+2"
             ],
             "command_string": "d, d/b, b, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Proj",
                 "Proj"
@@ -464,7 +464,7 @@
                 "3+4"
             ],
             "command_string": "d, d/b, b, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -504,7 +504,7 @@
                 "3+4"
             ],
             "command_string": "f, F, 4, 2, d, d/f, f, 1, (or 2, ) f, d, d/f, 3+4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -536,7 +536,7 @@
                 "1+2"
             ],
             "command_string": "f, F, 4, 2, d, d/f, f, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -566,7 +566,7 @@
                 "3+4"
             ],
             "command_string": "During Jump d, d/b, b, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -598,7 +598,7 @@
                 "1+2"
             ],
             "command_string": "d, d/f, f, d, d/f, f, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -621,7 +621,7 @@
                 "1"
             ],
             "command_string": "1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -645,7 +645,7 @@
                 "1"
             ],
             "command_string": "1, 1",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -670,7 +670,7 @@
                 "2"
             ],
             "command_string": "1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -696,7 +696,7 @@
                 "3"
             ],
             "command_string": "1, 2, 3",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "High",
@@ -723,7 +723,7 @@
                 "4"
             ],
             "command_string": "1, 2, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "High",
@@ -751,7 +751,7 @@
                 "2"
             ],
             "command_string": "2, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -775,7 +775,7 @@
                 "4"
             ],
             "command_string": "4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -801,7 +801,7 @@
                 "1+2"
             ],
             "command_string": "1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -824,7 +824,7 @@
                 "3+4"
             ],
             "command_string": "3+4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -850,7 +850,7 @@
                 "3"
             ],
             "command_string": "f, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -899,7 +899,7 @@
                 "2"
             ],
             "command_string": "During Moon Glide 1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -928,7 +928,7 @@
                 "1+2"
             ],
             "command_string": "During Moon Glide 1, 2, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "High",
@@ -958,7 +958,7 @@
                 "hit)"
             ],
             "command_string": "During Moon Glide 2, (must hit) ",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -985,7 +985,7 @@
                 "B"
             ],
             "command_string": "During Moon Glide 2, B",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1012,7 +1012,7 @@
                 "4"
             ],
             "command_string": "During Moon Glide 3, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -1041,7 +1041,7 @@
                 "4"
             ],
             "command_string": "During Moon Glide 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -1067,7 +1067,7 @@
                 "1+2"
             ],
             "command_string": "During Moon Glide 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "NOBLK"
             ],
@@ -1091,7 +1091,7 @@
                 "1+2"
             ],
             "command_string": "f, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1119,7 +1119,7 @@
                 "2"
             ],
             "command_string": "d/f, 1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1145,7 +1145,7 @@
                 "4"
             ],
             "command_string": "d/f, 1, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -1171,7 +1171,7 @@
                 "3"
             ],
             "command_string": "d/f, 2, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1196,7 +1196,7 @@
                 "3"
             ],
             "command_string": "d/f, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1222,7 +1222,7 @@
                 "1"
             ],
             "command_string": "d, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Smid"
             ],
@@ -1246,7 +1246,7 @@
                 "2"
             ],
             "command_string": "d, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Smid"
             ],
@@ -1270,7 +1270,7 @@
                 "3"
             ],
             "command_string": "d, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -1294,7 +1294,7 @@
                 "4"
             ],
             "command_string": "d, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -1342,7 +1342,7 @@
                 "4"
             ],
             "command_string": "b, 1, 2, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -1369,7 +1369,7 @@
                 "3"
             ],
             "command_string": "b, 2, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -1395,7 +1395,7 @@
                 "1"
             ],
             "command_string": "b, 3, 1",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -1423,7 +1423,7 @@
                 "4"
             ],
             "command_string": "b, 3, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -1448,7 +1448,7 @@
                 "4"
             ],
             "command_string": "b, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Proj"
             ],
@@ -1472,7 +1472,7 @@
                 "1+2"
             ],
             "command_string": "b, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -1499,7 +1499,7 @@
                 "2"
             ],
             "command_string": "f, F, 4, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1525,7 +1525,7 @@
                 "1+2"
             ],
             "command_string": "f, F, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -1553,7 +1553,7 @@
                 "1"
             ],
             "command_string": "f, f, f, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -1581,7 +1581,7 @@
                 "3"
             ],
             "command_string": "f, f, f, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1606,7 +1606,7 @@
                 "1"
             ],
             "command_string": "While rising 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1631,7 +1631,7 @@
                 "2"
             ],
             "command_string": "While rising 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1656,7 +1656,7 @@
                 "3"
             ],
             "command_string": "While rising 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1707,7 +1707,7 @@
                 "1"
             ],
             "command_string": "During Jump 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1732,7 +1732,7 @@
                 "2"
             ],
             "command_string": "During Jump 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1757,7 +1757,7 @@
                 "3"
             ],
             "command_string": "During Jump 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1782,7 +1782,7 @@
                 "4"
             ],
             "command_string": "During Jump 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1860,7 +1860,7 @@
                 "2"
             ],
             "command_string": "3, 1, 4, 1, 2, 2, 4, 2, 1, 2",
-            "n_hits": 0,
+            "n_hits": 12,
             "hit_levels": [
                 "High",
                 "Mid",
@@ -1896,7 +1896,7 @@
                 "1+3"
             ],
             "command_string": "Approach enemy 1+3",
-            "n_hits": 0,
+            "n_hits": 7,
             "hit_levels": [
                 "High Throw"
             ],
@@ -1923,7 +1923,7 @@
                 "1+3"
             ],
             "command_string": "Approach enemy f, 1+3",
-            "n_hits": 0,
+            "n_hits": 7,
             "hit_levels": [
                 "High Throw"
             ],
@@ -1949,7 +1949,7 @@
                 "2+4"
             ],
             "command_string": "Approach enemy 2+4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High Throw"
             ],
@@ -1976,7 +1976,7 @@
                 "2+4"
             ],
             "command_string": "Approach enemy f, 2+4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2007,7 +2007,7 @@
                 ")"
             ],
             "command_string": "Approach from left side 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2038,7 +2038,7 @@
                 ")"
             ],
             "command_string": "Approach from right side 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2068,7 +2068,7 @@
                 ")"
             ],
             "command_string": "Approach from behind 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 5,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2094,7 +2094,7 @@
                 "1+2"
             ],
             "command_string": "Approach enemy d/f, 1+2",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2127,7 +2127,7 @@
                 "2"
             ],
             "command_string": "During Jump 4, >, 1, >, f, d, d/f, 2",
-            "n_hits": 0,
+            "n_hits": 5,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -2168,7 +2168,7 @@
                 "2"
             ],
             "command_string": "While rising 3, >, 1, 2, 4, >, d, 3, >, d, d/b, b, 2",
-            "n_hits": 0,
+            "n_hits": 6,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -2225,7 +2225,7 @@
                 "hit)"
             ],
             "command_string": "While rising 1, >, f, d, d/f, 1, >, b, 2, 3, >, 2, 2, >, d, d/b, b, 1, >, f, 4, >, During Moon Glide 2, (must hit) ",
-            "n_hits": 0,
+            "n_hits": 8,
             "hit_levels": [
                 "Mid",
                 "Proj",
@@ -2281,7 +2281,7 @@
                 "3+4"
             ],
             "command_string": "f, F, 4, 2, d, d/f, f, 1, f, d, d/f, 3+4, >, During Moon Glide 3, 4, >, During Jump 2, >, During Rage b, 3+4",
-            "n_hits": 0,
+            "n_hits": 16,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -2347,7 +2347,7 @@
                 "1+2"
             ],
             "command_string": "During Jump 2, >, b, 4, >, d, d/f, f, d, d/f, f, 1+2, >, f, f, f, 1, >, During Jump d, d/b, b, 4, >, 1, >, f, 4, >, During Moon Glide 1, 2, 1+2",
-            "n_hits": 0,
+            "n_hits": 9,
             "hit_levels": [
                 "Mid",
                 "Proj",

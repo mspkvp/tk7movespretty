@@ -17,7 +17,7 @@
                 "1+2"
             ],
             "command_string": "During Rage d/f, 1+2",
-            "n_hits": 0,
+            "n_hits": 7,
             "hit_levels": [
                 "Mid"
             ],
@@ -47,7 +47,7 @@
                 "F"
             ],
             "command_string": "During Rage f, f, f, 3+4, Hold F",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -73,7 +73,7 @@
                 "2"
             ],
             "command_string": "1, 1, 2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "High",
@@ -99,7 +99,7 @@
                 "2"
             ],
             "command_string": "1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -125,7 +125,7 @@
                 "1+2"
             ],
             "command_string": "1, 2, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "High",
@@ -154,7 +154,7 @@
                 "3"
             ],
             "command_string": "1, 3, 3",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "Low",
@@ -180,7 +180,7 @@
                 "4"
             ],
             "command_string": "1, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "High"
@@ -206,7 +206,7 @@
                 "4"
             ],
             "command_string": "1, d, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Low"
@@ -232,7 +232,7 @@
                 "4"
             ],
             "command_string": "2, 1, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "High",
                 "Mid",
@@ -258,7 +258,7 @@
                 "4"
             ],
             "command_string": "3, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -284,7 +284,7 @@
                 "3+4"
             ],
             "command_string": "4, 3, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid",
@@ -310,7 +310,7 @@
                 "1+2"
             ],
             "command_string": "1+2, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -336,7 +336,7 @@
                 "3"
             ],
             "command_string": "f, 2, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -362,7 +362,7 @@
                 "4"
             ],
             "command_string": "f, 3, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -387,7 +387,7 @@
                 "4"
             ],
             "command_string": "f, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -414,7 +414,7 @@
                 "1+2"
             ],
             "command_string": "f, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -464,7 +464,7 @@
                 "1"
             ],
             "command_string": "During Spinner Ball 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -490,7 +490,7 @@
                 "2"
             ],
             "command_string": "During Spinner Ball 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -519,7 +519,7 @@
                 "3"
             ],
             "command_string": "During Spinner Ball 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -545,7 +545,7 @@
                 "4"
             ],
             "command_string": "During Spinner Ball 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -571,7 +571,7 @@
                 "3+4"
             ],
             "command_string": "During Spinner Ball 3+4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -596,7 +596,7 @@
                 "2"
             ],
             "command_string": "d/f, 1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -621,7 +621,7 @@
                 "2"
             ],
             "command_string": "d/f, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -647,7 +647,7 @@
                 "1"
             ],
             "command_string": "d/f, 3, 1, 1",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -674,7 +674,7 @@
                 "2"
             ],
             "command_string": "d/f, 3, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -701,7 +701,7 @@
                 "4"
             ],
             "command_string": "d/f, 3, 4, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Low",
@@ -728,7 +728,7 @@
                 "4"
             ],
             "command_string": "d/f, 3+4, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -756,7 +756,7 @@
                 "1"
             ],
             "command_string": "d, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -783,7 +783,7 @@
                 "2"
             ],
             "command_string": "d, 2, 1, 2, 2",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -811,7 +811,7 @@
                 "3"
             ],
             "command_string": "d, 2, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -837,7 +837,7 @@
                 "4"
             ],
             "command_string": "d, 2, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -863,7 +863,7 @@
                 "4"
             ],
             "command_string": "d, 3, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Low",
                 "High"
@@ -892,7 +892,7 @@
                 "4"
             ],
             "command_string": "d, 4, 3, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Low",
                 "High",
@@ -920,7 +920,7 @@
                 "1"
             ],
             "command_string": "d, 1+2, 2, 1",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High",
                 "High",
@@ -947,7 +947,7 @@
                 "3+4"
             ],
             "command_string": "d, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -972,7 +972,7 @@
                 "2"
             ],
             "command_string": "d/b, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -996,7 +996,7 @@
                 "3"
             ],
             "command_string": "d/b, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Low"
             ],
@@ -1023,7 +1023,7 @@
                 "3"
             ],
             "command_string": "d/b, 4, 4, 3, 3",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "Low",
                 "Mid",
@@ -1052,7 +1052,7 @@
                 "4"
             ],
             "command_string": "d/b, 4, 4, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Low",
                 "Mid",
@@ -1078,7 +1078,7 @@
                 "1+2"
             ],
             "command_string": "d/b, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1103,7 +1103,7 @@
                 "4"
             ],
             "command_string": "d/b, 3+4, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Low",
                 "Low"
@@ -1129,7 +1129,7 @@
                 "2"
             ],
             "command_string": "b, 1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1157,7 +1157,7 @@
                 "4"
             ],
             "command_string": "b, 2, 2, 4, 4",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -1186,7 +1186,7 @@
                 "3"
             ],
             "command_string": "b, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1211,7 +1211,7 @@
                 "1"
             ],
             "command_string": "b, 4, 1",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1237,7 +1237,7 @@
                 "4"
             ],
             "command_string": "b, 4, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -1266,7 +1266,7 @@
                 "2"
             ],
             "command_string": "b, 1+2, 1, 2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -1314,7 +1314,7 @@
                 "3"
             ],
             "command_string": "u/b, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1362,7 +1362,7 @@
                 "1"
             ],
             "command_string": "u, 1+2, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1386,7 +1386,7 @@
                 "3+4"
             ],
             "command_string": "u, 3+4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1410,7 +1410,7 @@
                 "3"
             ],
             "command_string": "u/f, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1435,7 +1435,7 @@
                 "4"
             ],
             "command_string": "u/f, 4, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1461,7 +1461,7 @@
                 "4"
             ],
             "command_string": "u/f, 1+2, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -1489,7 +1489,7 @@
                 "1+2"
             ],
             "command_string": "u/f, 1+2, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1515,7 +1515,7 @@
                 "4"
             ],
             "command_string": "u/f, 3+4, 4",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Low",
                 "High",
@@ -1544,7 +1544,7 @@
                 "2"
             ],
             "command_string": "f, F, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1569,7 +1569,7 @@
                 "3"
             ],
             "command_string": "f, F, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1595,7 +1595,7 @@
                 "4"
             ],
             "command_string": "f, F, 4, 4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1623,7 +1623,7 @@
                 "3+4"
             ],
             "command_string": "f, F, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -1649,7 +1649,7 @@
                 "1"
             ],
             "command_string": "b, f, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1674,7 +1674,7 @@
                 "4"
             ],
             "command_string": "b, B, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1703,7 +1703,7 @@
                 "cancel)"
             ],
             "command_string": "b, B, 3+4, ( D/B, to cancel) ",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "NOBLK"
             ],
@@ -1729,7 +1729,7 @@
                 "2"
             ],
             "command_string": "b, B, 3+4, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1754,7 +1754,7 @@
                 "2+3"
             ],
             "command_string": "b, B, 2+3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "NOBLK"
             ],
@@ -1781,7 +1781,7 @@
                 "1"
             ],
             "command_string": "f, n, d, d/f, 1",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High"
             ],
@@ -1810,7 +1810,7 @@
                 "2"
             ],
             "command_string": "f, n, d, d/f, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid"
             ],
@@ -1838,7 +1838,7 @@
                 "2"
             ],
             "command_string": "f, n, d, d/f, 3, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -1867,7 +1867,7 @@
                 "1+2"
             ],
             "command_string": "f, n, d, d/f, 4, 1+2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Low",
                 "Mid"
@@ -1895,7 +1895,7 @@
                 "1+2"
             ],
             "command_string": "f, n, d, d/f, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1921,7 +1921,7 @@
                 "3"
             ],
             "command_string": "f, f, f, 3",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1947,7 +1947,7 @@
                 "3+4"
             ],
             "command_string": "f, f, f, 3+4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -1973,7 +1973,7 @@
                 "2"
             ],
             "command_string": "While rising 1, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "High"
@@ -2000,7 +2000,7 @@
                 "3"
             ],
             "command_string": "While rising 1, 3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -2027,7 +2027,7 @@
                 "1"
             ],
             "command_string": "While rising 2, 1",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -2054,7 +2054,7 @@
                 "2"
             ],
             "command_string": "While rising 2, 2",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "Mid",
                 "Mid"
@@ -2081,7 +2081,7 @@
                 "3+4"
             ],
             "command_string": "While rising 3, 3+4",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High",
                 "Mid"
@@ -2107,7 +2107,7 @@
                 "1+2"
             ],
             "command_string": "While rising 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -2135,7 +2135,7 @@
                 "1+2"
             ],
             "command_string": "While crouching d/f, 2, 1, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -2165,7 +2165,7 @@
                 "1+2"
             ],
             "command_string": "While crouching d/f, 2, 4, 1+2",
-            "n_hits": 0,
+            "n_hits": 3,
             "hit_levels": [
                 "Mid",
                 "Low",
@@ -2192,7 +2192,7 @@
                 "1+2"
             ],
             "command_string": "During sidestep 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -2219,7 +2219,7 @@
                 "2"
             ],
             "command_string": "Back towards enemy d, 2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "Mid"
             ],
@@ -2243,7 +2243,7 @@
                 "4"
             ],
             "command_string": "1+2+3+4, 4",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "NOBLK"
             ],
@@ -2276,7 +2276,7 @@
                 "3+4"
             ],
             "command_string": "u/f, 2, 1, 2, 2, 1, 1+2, 3, 1, 2, 3+4",
-            "n_hits": 0,
+            "n_hits": 10,
             "hit_levels": [
                 "High",
                 "High",
@@ -2312,7 +2312,7 @@
                 "4"
             ],
             "command_string": "u/f, 2, 3, 3+4, 4",
-            "n_hits": 0,
+            "n_hits": 5,
             "hit_levels": [
                 "High",
                 "Low",
@@ -2341,7 +2341,7 @@
                 "1+3"
             ],
             "command_string": "Approach enemy 1+3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2368,7 +2368,7 @@
                 "1+3"
             ],
             "command_string": "Approach enemy f, 1+3",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2394,7 +2394,7 @@
                 "2+4"
             ],
             "command_string": "Approach enemy 2+4",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2421,7 +2421,7 @@
                 "2+4"
             ],
             "command_string": "Approach enemy f, 2+4",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2452,7 +2452,7 @@
                 ")"
             ],
             "command_string": "Approach from left side 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 2,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2483,7 +2483,7 @@
                 ")"
             ],
             "command_string": "Approach from right side 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 4,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2513,7 +2513,7 @@
                 ")"
             ],
             "command_string": "Approach from behind 1+3, (or 2+4, )",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2540,7 +2540,7 @@
                 "1+2"
             ],
             "command_string": "Approach enemy f, F, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2569,7 +2569,7 @@
                 "1+2"
             ],
             "command_string": "While crouching d/f, d, D/F, 1+2",
-            "n_hits": 0,
+            "n_hits": 1,
             "hit_levels": [
                 "High Throw"
             ],
@@ -2601,7 +2601,7 @@
                 "1+2"
             ],
             "command_string": "u/f, 3, >, b, 4, 4, >, 1+2, 1+2",
-            "n_hits": 0,
+            "n_hits": 5,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -2644,7 +2644,7 @@
                 "1+2"
             ],
             "command_string": "b, 3, (Counter Hit) >, b, 2, 2, 4, 4, >, f, n, d, d/f, 4, 1+2",
-            "n_hits": 0,
+            "n_hits": 7,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -2688,7 +2688,7 @@
                 "3"
             ],
             "command_string": "d/b, 1+2, >, f, 4, >, f, F, 3, >, d, 2, 3, >, b, 3",
-            "n_hits": 0,
+            "n_hits": 6,
             "hit_levels": [
                 "Mid",
                 "High",
@@ -2734,7 +2734,7 @@
                 "1+2"
             ],
             "command_string": "While rising 2, 1, >, d/b, 2, >, d/f, 1, >, d, 3, 4, >, During Rage d/f, 1+2",
-            "n_hits": 0,
+            "n_hits": 13,
             "hit_levels": [
                 "Mid",
                 "Mid",
@@ -2788,7 +2788,7 @@
                 "Hold"
             ],
             "command_string": "f, n, d, d/f, 2, >, f, F, 3, >, d/b, 2, >, 1, >, u/f, 1+2, 4, >, During Rage f, f, f, 3+4, Hold ",
-            "n_hits": 0,
+            "n_hits": 9,
             "hit_levels": [
                 "Mid",
                 "Mid",

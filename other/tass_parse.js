@@ -59,7 +59,7 @@ for( let f=0; f<movelists.length; f++){
 				name: info.moves[m].name[1],
 				command: [],
 				command_string: undefined,
-				n_hits: 0,
+				n_hits: info.moves[m].ds.length,
 				hit_levels: [],
 				damage: 0,
 				damage_per_hit: undefined,

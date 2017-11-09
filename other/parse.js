@@ -66,11 +66,11 @@ let char_data_pms = new Promise(function(resolve, reject){
 });
 
 function process_move_command(move_string) {
-	console.log("Start --> "+move_string);
+	//console.log("Start --> "+move_string);
 	let splits = splitMove(move_string);
 	let words = [],
 		inputs = [];
-	console.log(splits);
+	//console.log(splits);
 	return;
 	for(let i=0; i<splits.length; i++)
 		if(isLetterString(splits[i]))
@@ -85,6 +85,83 @@ function process_move_command(move_string) {
 		inputs: inputs
 	});
 	console.log("==========");
+}
+
+
+function process_move_hitlvls(hitlvls_string){
+	const hit_map = {
+		h: 'high',
+		m: 'mid',
+		l: 'low',
+		sm: 'smid',
+		tj: 'toggle jump',
+		tc: 'toggle crouch',
+		special: 'special',
+		dflip: 'demon flip',
+		throw: 'throw',
+		tport: 'teleport',
+		knd: 'knock down',
+		cs: 'crumble state',
+		jg: 'juggle',
+		ss: 'side step',
+		ws: 'while standing/rising',
+		qcf: 'quarter circle forward',
+		hcb: 'half circle backward',
+		fc: 'full crouch',
+		'!': 'noblk',
+		lct: 'leg cutter',
+		tclct: 'toggle crouch, leg cutter'
+	};
+
+	let spc_split = hitlvls_string.split(' ');
+	let hit_level_arr = [];
+	let info = [];
+	let in_braces = false;
+	spc_split.forEach(function(elem){
+		let val = elem;
+		if ( elem.indexOf('?') >= 0 ) {
+			val = val.replace(/\?/g, '');
+		}
+		if ( elem.indexOf(',') >= 0 ) {
+			val = val.replace(/,/g, '');
+		}
+		if( elem.match(/\(|\)/g ) || in_braces ) {
+			if( elem.match(/\(/g) ){
+				 in_braces = true;
+				 let brace_split = val.split('(').filter(entry => /\S/.test(entry));;
+				if( brace_split.length > 1 ) {
+					if ( hit_map[brace_split[0].toLowerCase()] ) 
+					{
+						hit_level_arr.push(hit_map[brace_split[0].toLowerCase()]);
+						val = brace_split[1]; 
+					} else
+						console.log('FAIL -> Just Before Braces: ' + brace_split[0]);
+				} else 
+					val = brace_split[0];
+			}
+			else if( elem.match(/\)/g) ) in_braces = false;
+
+			val = val.replace(/\(|\)/g, ' ').trim();
+
+			hit_map[val.toLowerCase()] ?
+				info.push(hit_map[val.toLowerCase()]) :
+				console.log('FAIL -> Between braces: ' + val + ' ' + hit_map[val]);
+		}
+		else if( hit_map[val.toLowerCase()] ) {
+			hit_level_arr.push(hit_map[val.toLowerCase()]);
+		} else if ( val.length === 2 ){
+			hit_map[val.charAt(0).toLowerCase()] ?
+				hit_level_arr.push(hit_map[val.charAt(0).toLowerCase()]) :
+				console.log('FAIL -> L=2: ' + val.charAt(0));
+
+			hit_map[val.charAt(1).toLowerCase()] ?
+				hit_level_arr.push(hit_map[val.charAt(1).toLowerCase()]) :
+				console.log('FAIL -> L=2: ' + val.charAt(1));
+		} else 
+			console.log(val);
+	});
+	//return hit_level_arr;
+	return { hits: hit_level_arr, info: info };
 }
 
 Promise.all([char_data_pms]).then(function(values){
@@ -116,11 +193,21 @@ Promise.all([char_data_pms]).then(function(values){
 				for(let i=1; i<array_src.length; i++){
 					let move = {id: move_counter, number: ++move_counter};
 					for( let j=0; j<array_src[i].td.length; j++){
-						if( fields[j] === "Command" ){
-							console.log("move id: "+move.id);
-							process_move_command(array_src[i].td[j]);
+						switch( fields[j] ){
+							case "Command":
+								console.log("move id: "+move.id);
+								process_move_command(array_src[i].td[j]);
+								move.command = array_src[i].td[j];
+								break;
+							case "Hit level":
+								let res_obj = process_move_hitlvls(array_src[i].td[j]);
+								move.hit_levels = res_obj.hits;
+								move.hints = res_obj.info;
+								break;
+							default:
+								move[fields[j]] = array_src[i].td[j];
 						}
-						move[fields[j]] = array_src[i].td[j];
+						
 					}
 					array_dest.push(move);
 				}
