@@ -19,6 +19,6 @@ This is not possible without the help of very generous people within our Tekken 
 
 ### New version in the works
 
-This website was a fun experience from a 'just out of college' fun project, but given the potencial for the website and it's impact on learning, I've decided to remake this in a proper fashion, easier to maintain and also to actually be collaborative.
+This website was a fun experience from a 'just out of college' fun project, but given the potencial for the website with its impact on learning the game, I've decided to remake this in a proper fashion, easier to maintain, up-to-date information and also to actually be collaborative.
 
 Stay tuned! This WILL HAPPEN! :D
